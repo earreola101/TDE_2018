@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"Failure string value not the same."
+Headers=Extension code,Result code,Average offset,Max +ve,Max -ve,Drift rate50us,Average drift,Max Drift,Number fail,Number tested,Result
+Values=LEICD0,FALSE,0.000e+000,0.000e+000,0.000e+000,0,0.0e+000,0.0e+000,0,0,FAIL
+LowLimit=LEICD0,TRUE,-75000.0,-75000.0,-75000.0,-10000.0,-100000.0,-100000.0,-100000.0,-100000.0,PASS
+UpLimit=LEICD0,TRUE,75000.0,75000.0,75000.0,10000.0,100000.0,100000.0,100000.0,100000.0,PASS
+TargetLimit=LEICD0,TRUE,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,PASS
+VarResultSummary=
+LogFile=C:\Users\TE\Desktop\Meridian_audioandbtble_PB3\UltimateScpiCmd.log
+InputFile=

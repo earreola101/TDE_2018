@@ -1,0 +1,21 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"Failure string value not the same."
+Headers=Audioversion
+Values=8.0.73
+LowLimit=8.0.63
+UpLimit=8.0.63
+TargetLimit=8.0.63
+VarResultSummary=8.0.73
+LogFile=test.log
+InputFile=
+[E]: cannot read firmware version!
+Headers=Audioversion
+Values=8.0.31
+LowLimit=8.0.26
+UpLimit=8.0.26
+TargetLimit=8.0.26
+VarResultSummary=8.0.31
+LogFile=test.log
+InputFile=

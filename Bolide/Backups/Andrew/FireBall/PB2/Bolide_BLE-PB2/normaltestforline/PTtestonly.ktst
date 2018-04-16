@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [100.0.1861] 6cb5e5da3c384bc0a47881faab9ed615_20:17:38.2289829_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <Test id="run(PTcode.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=ptcode.out;" />
+        <InputFile id="InputFile=ptcode.in;              //Input" />
+        <Name id="Name=ptcode;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="DisplayPicture(button.bmp);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.DisplayPicture" Enable="True">
+      <DisplayPicture id="Type">
+        <DisplayPictureDirVal id="Mode(0)" />
+      </DisplayPicture>
+    </Test>
+    <Test id="run(btn_test.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=FWVer.out;         " />
+        <InputFile id="InputFile=FWVer.in;            " />
+        <Name id="Name=button;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunTestTracking_OnLog.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=tracking.txt;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=testtrackinglog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(taken.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=sn.out;" />
+        <InputFile id="InputFile=sn.in;" />
+        <Name id="Name=snlog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:1/17/2017 8:17:58 PM-->
+<!--CHANGELOG:1/17/2017 8:18:00 PM1/17/2017 8:17:38 PM: refreshing...
+1/17/2017 8:17:38 PM: 1/17/2017 8:17:38 PM
+1/17/2017 8:17:58 PM: saving...
+-->
+<!--CHANGELOG:1/17/2017 8:24:38 PM1/17/2017 8:20:00 PM: refreshing...
+1/17/2017 8:20:00 PM: 1/17/2017 8:20:00 PM
+-->
+<!--CHANGELOG:1/18/2017 9:50:41 AM1/18/2017 9:46:35 AM: refreshing...
+1/18/2017 9:46:35 AM: 1/18/2017 9:46:35 AM
+1/18/2017 9:46:44 AM: Right Click Edit on item run(PTcode.bat); 
+-->
+<!--CHANGELOG:1/18/2017 9:50:43 AM1/18/2017 9:46:35 AM: refreshing...
+1/18/2017 9:46:35 AM: 1/18/2017 9:46:35 AM
+1/18/2017 9:46:44 AM: Right Click Edit on item run(PTcode.bat); 
+1/18/2017 9:50:41 AM: saving...
+-->
+<!--CHANGELOG:1/18/2017 9:55:21 AM1/18/2017 9:53:08 AM: refreshing...
+1/18/2017 9:53:08 AM: 1/18/2017 9:53:08 AM
+1/18/2017 9:53:16 AM: Right Click Edit on item run(PTcode.bat); 
+-->
+<!--CHANGELOG:1/18/2017 11:23:35 AM1/18/2017 11:23:04 AM: refreshing...
+1/18/2017 11:23:04 AM: 1/18/2017 11:23:04 AM
+-->
+<!--CHANGELOG:1/18/2017 11:23:36 AM1/18/2017 11:23:04 AM: refreshing...
+1/18/2017 11:23:04 AM: 1/18/2017 11:23:04 AM
+1/18/2017 11:23:35 AM: saving...
+-->
+<!--CHANGELOG:1/18/2017 2:30:33 PM1/18/2017 2:29:51 PM: refreshing...
+1/18/2017 2:29:51 PM: 1/18/2017 2:29:51 PM
+-->
+<!--CHANGELOG:1/18/2017 2:30:33 PM1/18/2017 2:29:51 PM: refreshing...
+1/18/2017 2:29:51 PM: 1/18/2017 2:29:51 PM
+1/18/2017 2:30:33 PM: saving...
+-->
+<!--CHANGELOG:1/18/2017 2:30:34 PM1/18/2017 2:29:51 PM: refreshing...
+1/18/2017 2:29:51 PM: 1/18/2017 2:29:51 PM
+1/18/2017 2:30:33 PM: saving...
+1/18/2017 2:30:34 PM: saving...
+-->
+<!--CHANGELOG:1/18/2017 2:30:34 PM1/18/2017 2:29:51 PM: refreshing...
+1/18/2017 2:29:51 PM: 1/18/2017 2:29:51 PM
+1/18/2017 2:30:33 PM: saving...
+1/18/2017 2:30:34 PM: saving...
+1/18/2017 2:30:34 PM: saving...
+-->
+<!--CHANGELOG:1/18/2017 2:30:36 PM1/18/2017 2:29:51 PM: refreshing...
+1/18/2017 2:29:51 PM: 1/18/2017 2:29:51 PM
+1/18/2017 2:30:33 PM: saving...
+1/18/2017 2:30:34 PM: saving...
+1/18/2017 2:30:34 PM: saving...
+1/18/2017 2:30:34 PM: saving...
+-->
+<!--CHANGELOG:1/18/2017 2:33:17 PM-->
+<!--CHANGELOG:1/18/2017 2:33:19 PM1/18/2017 2:32:53 PM: refreshing...
+1/18/2017 2:32:53 PM: 1/18/2017 2:32:53 PM
+1/18/2017 2:33:17 PM: moving test item Uprun(RunTestTracking_OnLog.bat); 
+-->
+<!--CHANGELOG:1/18/2017 2:33:23 PM1/18/2017 2:32:53 PM: refreshing...
+1/18/2017 2:32:53 PM: 1/18/2017 2:32:53 PM
+1/18/2017 2:33:17 PM: moving test item Uprun(RunTestTracking_OnLog.bat); 
+1/18/2017 2:33:19 PM: saving...
+-->

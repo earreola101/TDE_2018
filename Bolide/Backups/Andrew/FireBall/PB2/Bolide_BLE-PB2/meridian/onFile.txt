@@ -1,0 +1,24 @@
+STARTTIME: 16:58:52.56 
+ENDTIME: 16:58:52.95 
+STARTTIME: 6113256 centiseconds 
+ENDTIME: 6113295 centiseconds 
+DURATION: 39 in centiseconds 
+00:00:00,39 
+STARTTIME: 17:00:06.10 
+ENDTIME: 17:00:08.01 
+STARTTIME: 6120610 centiseconds 
+ENDTIME: 6120801 centiseconds 
+DURATION: 191 in centiseconds 
+00:00:01,91 
+STARTTIME: 17:04:39.18 
+ENDTIME: 17:04:41.13 
+STARTTIME: 6147918 centiseconds 
+ENDTIME: 6148113 centiseconds 
+DURATION: 195 in centiseconds 
+00:00:01,95 
+STARTTIME: 17:10:35.73 
+ENDTIME: 17:10:37.68 
+STARTTIME: 6183573 centiseconds 
+ENDTIME: 6183768 centiseconds 
+DURATION: 195 in centiseconds 
+00:00:01,95 

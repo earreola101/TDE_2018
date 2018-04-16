@@ -1,0 +1,8 @@
+[Outputs]
+Status=1
+ReturnCode=-2147024890
+Message="Invalid device. ERROR"
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\TE\Desktop\Meridian_boardcamera\Meridianaudiobt\stimulus\SweepTone SPKR THD R&B _6000Hz_100Hz_-3dBFS_5s.wav"
+PCMFileOut="C:\Users\TE\Desktop\Meridian_boardcamera\Meridianaudiobt\recorded\Meridian_SPK_8L_RB.wav"

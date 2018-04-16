@@ -1,0 +1,15 @@
+[inputs]
+Option=wifimac
+MovingDelay=4000
+outputFile=wifimac.out
+byte1=01
+
+Headers=eepromversion
+LowLimit=1.6
+UpLimit=1.6
+TargetLimit=1.6
+LogFile=test.log
+VarResultSummary=
+
+
+

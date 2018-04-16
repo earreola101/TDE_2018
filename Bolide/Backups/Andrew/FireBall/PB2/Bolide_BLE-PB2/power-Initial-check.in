@@ -1,0 +1,19 @@
+[inputs]
+; Get output currct
+; SCPICmd="MEASure:CURRent?"
+Option=Send
+SCPICmd="MEASure:CURRent?"
+COMPort=4
+ShowCFG=0
+avoidreturn=false
+outputFile=.\power-Initial-check.OUT
+;logfile=c:\UltimateScpiCmd.log
+
+ExitPause=False
+;
+Headers=Power_Curr
+UpLimit=0.5
+LowLimit=0.1
+TargetLimit=1.0
+
+

@@ -1,0 +1,66 @@
+	VERSION #: 
+	19.21.16.201
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+	Modules Components:
+1.  TestTrackingConsoleApp.exe
+2.  TestTracking.dll
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+	USE CASES: 
+1.  TestTrackingConsoleApp -config <script filename>
+     Purpose: Interactive mode for engineering.
+2.  TestTrackingConsoleApp -config <script filename> -onFileOfHistory <log filename>
+     Purpose: Pull off test record from DUT to a text file.
+3.  TestTrackingConsoleApp -config <script filename> -onStartOfTestCycle <testorder> [-station <id>]
+     Purpose: Check clearance at the start of test cycle; text message in "TestrackingConsoleApp.out" for Kinetic to display. 
+4.  TestTrackingConsoleApp -config <script filename> -onEndOfTestCycle <testorder>,<1:pass,0:fail>,[errcode]
+     Purpose: Update DUT with PASS/FAIL; error code only if provided.
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+	Command for USE CASE #1: 
+1.  get_DigitalTag
+2.  get_Clearance
+3.  get_TestBlock
+4.  put_TestRecord
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+	PROCEDURE for USE CASE #2: 
+Save digital tag and test history to a designated file.
+return code: 
+	4= file I/O (error writing test log file)
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+	PROCEDURE for USE CASE #3: 
+1.  If the main hardware module is running its very first test station, put a digital tag on it.
+2.  Check clearance across all hardware test modules in connection to this test station.
+3.  If all preceding test stations are cleared, raise up a OK flag to proceed test on this station.
+return code: 
+	0= success
+	1= emumeration issue (either VID&PID not correct or device not able to enumerate)
+	2= device R/W (fail R/W device via TDEToolBox library)
+	3= invalid argument (parsing error or invalid config file content)
+	6= exceed test spec: test node (0~3) or test station (0~15).
+	7= software issue (modules not initialized before use)
+	8= undefined (something not catching)
+	0x40~0x4F= test flow error. (See format/pattern below.)
+
+Test flow error code pattern: (A total of 1 byte; max return code 127.)
+	0x80: reserved.
+	0x40: flow error.
+	0x30: node ID, each node represents a hardware module at the test station. (Max 4 modules at one test PC, 0~3.)
+	0x0F: a test that did not pass or was skipped. (Max 16 tests, 0~15.)
+	(NOTE: For failure, output text message to a file for Kinetic to display. Filename: TestTrackingConsoleApp.out)
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+	PROCEDURE for USE CASE #4: 
+1.  If pass, set bit across all modules.
+2.  If fail, reset bit but log error severity level to main module only if provided. May return error code 5 to indicate test log full.
+	(See format/pattern below.)
+
+	Error severity level pattern: (A total of two bytes)
+	0x8000: reserved.
+	0x7F00: test that failed.
+	0x00FF: severity level input from Kinetic, representing a percentage; maximum 100.
+
+E.O.F.

@@ -1,0 +1,8 @@
+SCMBranch=Box_101
+SCMRepository=HWQA/audiosw/Installer components/audio quality/FR
+SCMMainlineUUID=
+SCMBranchRepositoryID=4294967295
+12th&3rd Oct Sweep scaled 3.80641E+0  V FSD_cut3dB.wav;900371854;1;1425079275;
+run_AudioCalc_FR.bat;919426539;1;1474497425;
+testheader_AudioCalc_FR.csv;3912671833;1;1425079274;
+testlimit_AudioCalc_FR.txt;1925283527;1;1474496978;

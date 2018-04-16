@@ -1,0 +1,15 @@
+[inputs]
+Option=MCU1Version
+ShowCFG=0
+ExitPause=False
+outputFile=.\MCU1FW.OUt
+Headers=MCU1FW
+Values=
+LowLimit=1.0.133
+UpLimit=1.0.133
+TargetLimit=1.0.133
+LogFile=test.log
+VarResultSummary=
+
+
+

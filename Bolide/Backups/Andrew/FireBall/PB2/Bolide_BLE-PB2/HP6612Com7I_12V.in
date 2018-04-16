@@ -1,0 +1,20 @@
+[inputs]
+; Get output currct
+; SCPICmd="MEASure:CURRent?"
+Option=Send
+Delay=10000
+SCPICmd="MEASure:CURRent?"
+COMPort=4
+ShowCFG=0
+avoidreturn=false
+outputFile=.\HP6612Com7I_12V.OUT
+;logfile=c:\UltimateScpiCmd.log
+
+ExitPause=False
+;
+Headers=I_PowerON
+UpLimit=0.5
+LowLimit=0.08
+TargetLimit=0.5
+
+

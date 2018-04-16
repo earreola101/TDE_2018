@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=There is no SCPI instrument.
+Headers=I_PowerON
+Values=
+LowLimit=-0.05
+UpLimit=0.05
+TargetLimit=0.08
+LogFile=D:\Bolide_BLE-PB1\UltimateScpiCmd.log
+VarResultSummary=
+

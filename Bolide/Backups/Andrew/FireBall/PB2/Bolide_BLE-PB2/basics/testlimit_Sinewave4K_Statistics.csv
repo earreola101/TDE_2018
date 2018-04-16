@@ -1,0 +1,5 @@
+[INPUTS],,,,,,,
+Headers=minSample,maxSample,peakAmp,DC-offset,minRMS,maxRMS,avgRMS,totalRMS
+Unit=-,-,dB,%,dB,dB,dB,dB
+UpLimit=-300,30000,0,1,0,0,0,0
+LowLimit=-30000,300,0,-1,0,0,0,0

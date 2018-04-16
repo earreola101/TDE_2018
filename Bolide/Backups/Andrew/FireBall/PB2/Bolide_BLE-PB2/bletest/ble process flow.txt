@@ -1,0 +1,5 @@
+The DTM function has been integrated to Meridian firmware. There're 3 attachments, 2 for firmware update and the other one is a video clip that demonstrated how Meridian works DTM with Anritsu MT8852B. Please follow the steps as below, and feel free to let me know if you have any question.
+1. Updating Meridian firmware to 1.0.69 by "FWUpdateMeridian-DEV.exe".
+2. Unzip "Meridian_BLE_fw_update.zip", and updating Meridian BLE firmware through instruction " ndfwupt.exe -p 2151 -c fw_upt_app meridian_fw.bin ".
+3. Checking Meridian BLE firmware version by " ndfwupt.exe -p 2151 -c get_fw_ver ", it should return "1000070".
+4. Disable uart and enable DTM function by instruction " tdebt.exe -s bt_uartdisable ".

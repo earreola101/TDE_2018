@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"Failure string value not the same."
+Headers=Extension code,Result code,Average power,Max avg power,Min avg power,Peak to avg power,Number fail,Number tested,Result
+Values=LEOP0,FALSE,0.00,0.00,0.00,0.00,0,0,FAIL
+LowLimit=LEOP0,TRUE,-100.0,-100.0,-100.0,-100.0,-100.0,-100.0,PASS
+UpLimit=LEOP0,TRUE,100.0,100.0,100.0,100.0,100.0,100.0,PASS
+TargetLimit=LEOP0,TRUE,100.0,100.0,100.0,100.0,100.0,100.0,PASS
+VarResultSummary=
+LogFile=C:\Users\TE\Desktop\Meridian_audiobt_PB3\bletest\UltimateScpiCmd.log
+InputFile=

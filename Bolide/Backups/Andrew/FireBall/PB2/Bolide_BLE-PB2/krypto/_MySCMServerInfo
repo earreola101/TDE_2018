@@ -1,0 +1,11 @@
+SCMBranch=Box_101
+SCMRepository=HWQA/audiosw/Installer components/test tracking/krypto
+SCMMainlineUUID=
+SCMBranchRepositoryID=4294967295
+LVREG.exe;2602031467;1;1266622844;
+krypto.ini;1732636374;1;1471544520;
+onEnd.bat;4248633103;1;1472160586;
+onFile.bat;128451977;1;1472160514;
+onStart.bat;2313074087;1;1472160452;
+read_0856.bat;3604760050;1;1472150404;
+reset_0856.bat;1940224859;1;1472150494;

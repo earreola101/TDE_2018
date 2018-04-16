@@ -1,0 +1,13 @@
+[OUTPUTS]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+Headers=FRRange 1,FR1,FRRange 2,FR2,FRRange 3,FR3,FRRange 4,FR4,FRRange 5,FR5,FRRange 6,FR6,FRRange 7,FR7,FRRange 8,FR8,FRRange 9,FR9,FRRange 10,FR10,THDRange 1,THD1,THDRange 2,THD2,THDRange 3,THD3,THDRange 4,THD4,THDRange 5,THD5,THDRange 6,THD6,THDRange 7,THD7,THDRange 8,THD8,THDRange 9,THD9,THDRange 10,THD10,R&BRange 1,R&B1,R&BRange 2,R&B2,R&BRange 3,R&B3,R&BRange 4,R&B4,R&BRange 5,R&B5,R&BRange 6,R&B6,R&BRange 7,R&B7,R&BRange 8,R&B8,R&BRange 9,R&B9,R&BRange 10,R&B10
+UpLimit=1570,12,1750,-57,3620,0,3690,-65,6227,0,6229,-45,6550,0,6800,-52,6926,-55,17000,0,690,5,693,5,1501,5,2001,5,2501,5,3001,5,3501,5,4001,5,5001,5,10000,5,201,.5,401,.5,690,.5,692,.2,1001,.5,1201,.5,1401,.5,1601,.5,1801,.5,2000,.5
+LowLimit=100,-90,1570,-110,1750,-110,3620,-110,3690,-110,6227,-110,6229,-110,6550,-110,6800,-110,6926,-110,100,0,690,0,693,0,1501,0,2001,0,2501,0,3001,0,3501,0,4001,0,5001,0,100,0,201,0,401,0,690,0,692,0,1001,0,1201,0,1401,0,1601,0,1801,0
+Values=0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+TestLimits="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_0111201711\limits\testlimit_AudioCalc_SPK_8L_RB_692Hz.txt"
+PCMFileIn="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_0111201711\recorded\Meridian_SPK_8L_RB_692Hz.wav"
+TestHeaders="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_0111201711\limits\testheader_AudioCalc_SPK_8L_RB_692Hz.csv"
+FFT size=8192
+calc time=1.64 sec

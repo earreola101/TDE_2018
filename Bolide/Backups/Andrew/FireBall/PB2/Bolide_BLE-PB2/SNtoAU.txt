@@ -1,0 +1,24 @@
+[TestTracking]
+VendorID,0x046d
+ProductID,0x0866
+BOMVersion,0.99
+NumberOfTest,9
+SerialNumber,0x046527b8
+UTC Date: 01/18/2017
+UTC Time: 18:30:56
+Machine#: 0
+
+test results:
+station 0,PASS
+station 1,PASS
+station 2,PASS
+station 3,PASS
+station 4,PASS
+station 5,PASS
+station 6,PASS
+station 7,PASS
+station 8,(blank)
+
+most recent history
+,test ID,severity level
+(blank)

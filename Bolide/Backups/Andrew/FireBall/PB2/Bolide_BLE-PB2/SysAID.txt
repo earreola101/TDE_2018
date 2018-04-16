@@ -1,0 +1,6 @@
+Echo Cancelling Speakerphone (2,46d,867,0.75=3:4
+EasyAudioSTDWaveGenerator,N/A,N/A,0.00=0:1
+EasyAudioNetSource,N/A,N/A,0.00=0:1
+EasyAudioSource4Aachen,N/A,N/A,0.00=0:1
+
+AID,0

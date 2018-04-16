@@ -1,0 +1,9 @@
+SCMBranch=Box_101
+SCMRepository=HWQA/audiosw/Installer components/audio quality/basics
+SCMMainlineUUID=
+SCMBranchRepositoryID=4294967295
+SingleTone_48k_16_1_TcLw_4kHz_-3dBFS_2s.wav;3798732337;1;1432882784;
+run_AudioCalc_4KBasics.bat;1717536378;1;1474420667;
+run_AudioCalc_4KStatistics.bat;3201227057;1;1474420470;
+testlimit_Sinewave4K_Basics.csv;3274109816;1;1453247576;
+testlimit_Sinewave4K_Statistics.csv;3040902099;1;1453245506;

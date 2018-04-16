@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [100.0.1857] 69f725907e74476d9b1b99a74b82d17e_17:47:51.3011097_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <SCRIPT_COMMENT id="// Kinetic Module Example" />
+    <SCRIPT_COMMENT id="// Date-12-19-2016" />
+    <Test id="KineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KineticTstEngineCmd" Enable="True">
+      <Options id="MODE">
+        <OptionsVal id="0" />
+      </Options>
+    </Test>
+    <Test id="run(RunTestTracking_OnStart.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=NULL;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=testtracking1;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Input_MessageBox(please enter 3 numbers,SerialNum,***);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.Input_MessageBox" Enable="True">
+      <NumRetry id="Retry(10);" />
+    </Test>
+    <Test id="Sleep(3000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(Check_VIDPID.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;" />
+        <InputFile id="InputFile=;" />
+        <Name id="Name=Wait_PIDVID;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(CheckFW.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=FWVer.out;         " />
+        <InputFile id="InputFile=FWVer.in;            " />
+        <Name id="Name=GetFWVerD;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(Motortiltcheck.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=tilt.out" />
+        <InputFile id="InputFile=tilt.in;              //Input" />
+        <Name id="Name=tilt;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(Motorpancheck.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=pan.out" />
+        <InputFile id="InputFile=pan.in;              //Input" />
+        <Name id="Name=pan;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,A9);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X22 ) THEN  PASS ) );" />
+      <TestName id="PTcode" />
+    </Test>
+    <Test id="MessageBox(prees button);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="run(btn_test.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=FWVer.out;         " />
+        <InputFile id="InputFile=FWVer.in;            " />
+        <Name id="Name=button;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunTestTracking_OnEnd.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=NULL;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=testtracking2;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunTestTracking_OnLog.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=tracking.txt;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=testtrackinglog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(taken.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=sn.out;" />
+        <InputFile id="InputFile=sn.in;" />
+        <Name id="Name=snlog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:12/16/2016 5:49:08 PM-->
+<!--CHANGELOG:12/16/2016 5:49:10 PM12/16/2016 5:47:51 PM: refreshing...
+12/16/2016 5:47:51 PM: 12/16/2016 5:47:51 PM
+12/16/2016 5:49:08 PM: saving...
+-->
+<!--CHANGELOG:12/18/2016 12:13:55 AM12/18/2016 12:13:13 AM: refreshing...
+12/18/2016 12:13:13 AM: 12/18/2016 12:13:13 AM
+12/18/2016 12:13:23 AM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/18/2016 12:13:43 AM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+-->
+<!--CHANGELOG:12/19/2016 10:29:18 AM12/19/2016 10:28:20 AM: refreshing...
+12/19/2016 10:28:20 AM: 12/19/2016 10:28:20 AM
+12/19/2016 10:28:30 AM: Right Click Edit on item Name=cap_SPK_8L_FR;                //This is the name of the module
+12/19/2016 10:28:38 AM: Right Click Edit on item Name=cap_SPK_8L_FR;                //This is the name of the module
+12/19/2016 10:28:47 AM: Right Click Edit on item run(Motorcheck.bat); 
+-->
+<!--CHANGELOG:12/19/2016 10:30:16 AM12/19/2016 10:29:49 AM: refreshing...
+12/19/2016 10:29:49 AM: 12/19/2016 10:29:49 AM
+12/19/2016 10:29:54 AM: Right Click Edit on item run(Motorcheck.bat); 
+-->
+<!--CHANGELOG:12/19/2016 10:49:28 AM12/19/2016 10:48:57 AM: refreshing...
+12/19/2016 10:48:57 AM: 12/19/2016 10:48:57 AM
+12/19/2016 10:49:01 AM: Right Click Edit on item run(Motorcheck.bat); 
+-->
+<!--CHANGELOG:12/19/2016 10:57:46 AM12/19/2016 10:49:38 AM: refreshing...
+12/19/2016 10:49:38 AM: 12/19/2016 10:49:38 AM
+12/19/2016 10:49:44 AM: Right Click Edit on item run(Motorcheck.bat); 
+12/19/2016 10:51:58 AM: Right Click Edit on item run(Motorcheck.bat); 
+-->
+<!--CHANGELOG:12/19/2016 10:59:35 AM12/19/2016 10:59:16 AM: refreshing...
+12/19/2016 10:59:16 AM: 12/19/2016 10:59:16 AM
+-->
+<!--CHANGELOG:12/19/2016 10:59:36 AM12/19/2016 10:59:16 AM: refreshing...
+12/19/2016 10:59:16 AM: 12/19/2016 10:59:16 AM
+12/19/2016 10:59:35 AM: saving...
+-->
+<!--CHANGELOG:12/19/2016 11:02:41 AM12/19/2016 11:01:51 AM: refreshing...
+12/19/2016 11:01:51 AM: 12/19/2016 11:01:51 AM
+12/19/2016 11:02:02 AM: Right Click Edit on item OutputFile=testOutput_AudioCap_SPK_8L_FR.txt;          //Output
+-->
+<!--CHANGELOG:12/19/2016 11:02:42 AM12/19/2016 11:01:51 AM: refreshing...
+12/19/2016 11:01:51 AM: 12/19/2016 11:01:51 AM
+12/19/2016 11:02:02 AM: Right Click Edit on item OutputFile=testOutput_AudioCap_SPK_8L_FR.txt;          //Output
+12/19/2016 11:02:41 AM: saving...
+-->
+<!--CHANGELOG:12/19/2016 11:05:35 AM12/19/2016 11:03:27 AM: refreshing...
+12/19/2016 11:03:27 AM: 12/19/2016 11:03:27 AM
+12/19/2016 11:04:37 AM: Right Click Edit on item run(Motorcheck.bat); 
+12/19/2016 11:04:47 AM: Right Click Edit on item VerifyRegister(lvreg,infoxu,read,0x01);
+12/19/2016 11:05:14 AM: Right Click Edit on item Limit( IF ( RESULT == 0X0001F000 ) THEN  PASS ) );
+12/19/2016 11:05:26 AM: Right Click Edit on item FW_Ver
+-->
+<!--CHANGELOG:12/19/2016 11:06:26 AM12/19/2016 11:06:02 AM: refreshing...
+12/19/2016 11:06:02 AM: 12/19/2016 11:06:02 AM
+12/19/2016 11:06:18 AM: Right Click Edit on item VerifyRegister(lvregeeprom,read,A9);
+-->
+<!--CHANGELOG:12/20/2016 4:37:35 PM12/20/2016 4:35:39 PM: refreshing...
+12/20/2016 4:35:39 PM: 12/20/2016 4:35:39 PM
+12/20/2016 4:35:52 PM: Right Click Edit on item run(Motorcheck.bat); 
+12/20/2016 4:36:12 PM: Right Click Edit on item run(Motorcheck.bat); 
+12/20/2016 4:36:58 PM: Right Click Edit on item InputFile=null;              //Input
+12/20/2016 4:37:07 PM: Right Click Edit on item OutputFile=PT.txt
+12/20/2016 4:37:24 PM: Right Click Edit on item Name=PT;                //This is the name of the module
+-->
+<!--CHANGELOG:12/20/2016 4:44:50 PM12/20/2016 4:40:37 PM: refreshing...
+12/20/2016 4:40:37 PM: 12/20/2016 4:40:37 PM
+-->
+<!--CHANGELOG:12/20/2016 4:56:01 PM12/20/2016 4:55:47 PM: refreshing...
+12/20/2016 4:55:47 PM: 12/20/2016 4:55:47 PM
+-->
+<!--CHANGELOG:12/20/2016 4:56:04 PM-->
+<!--CHANGELOG:12/20/2016 4:56:46 PM12/20/2016 4:55:47 PM: refreshing...
+12/20/2016 4:55:47 PM: 12/20/2016 4:55:47 PM
+12/20/2016 4:56:01 PM: saving...
+12/20/2016 4:56:04 PM: moving test item Uprun(Motortiltcheck.bat); 
+12/20/2016 4:56:08 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/20/2016 4:56:19 PM: Right Click Edit on item InputFile=tilt.in;              //Input
+12/20/2016 4:56:28 PM: Right Click Edit on item Name=tilt;                //This is the name of the module
+12/20/2016 4:56:35 PM: Right Click Edit on item OutputFile=tilt.out
+-->
+<!--CHANGELOG:12/20/2016 4:56:47 PM12/20/2016 4:55:47 PM: refreshing...
+12/20/2016 4:55:47 PM: 12/20/2016 4:55:47 PM
+12/20/2016 4:56:01 PM: saving...
+12/20/2016 4:56:04 PM: moving test item Uprun(Motortiltcheck.bat); 
+12/20/2016 4:56:08 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/20/2016 4:56:19 PM: Right Click Edit on item InputFile=tilt.in;              //Input
+12/20/2016 4:56:28 PM: Right Click Edit on item Name=tilt;                //This is the name of the module
+12/20/2016 4:56:35 PM: Right Click Edit on item OutputFile=tilt.out
+12/20/2016 4:56:46 PM: saving...
+-->
+<!--CHANGELOG:12/20/2016 5:07:07 PM12/20/2016 5:05:00 PM: refreshing...
+12/20/2016 5:05:00 PM: 12/20/2016 5:05:00 PM
+12/20/2016 5:05:06 PM: Right Click Edit on item run(Motorpancheck.bat); 
+-->
+<!--CHANGELOG:12/20/2016 5:11:55 PM12/20/2016 5:09:39 PM: refreshing...
+12/20/2016 5:09:39 PM: 12/20/2016 5:09:39 PM
+12/20/2016 5:09:50 PM: Right Click Edit on item run(Motorpancheck.bat); 
+-->
+<!--CHANGELOG:12/20/2016 5:12:29 PM12/20/2016 5:12:11 PM: refreshing...
+12/20/2016 5:12:11 PM: 12/20/2016 5:12:11 PM
+-->
+<!--CHANGELOG:12/20/2016 5:24:21 PM12/20/2016 5:19:46 PM: refreshing...
+12/20/2016 5:19:46 PM: 12/20/2016 5:19:46 PM
+12/20/2016 5:19:51 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/20/2016 5:20:32 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+-->
+<!--CHANGELOG:12/20/2016 5:27:38 PM-->
+<!--CHANGELOG:12/20/2016 5:27:38 PM-->
+<!--CHANGELOG:12/20/2016 5:27:39 PM-->
+<!--CHANGELOG:12/20/2016 5:27:50 PM-->
+<!--CHANGELOG:12/20/2016 5:27:50 PM-->
+<!--CHANGELOG:12/20/2016 5:27:50 PM-->
+<!--CHANGELOG:12/20/2016 5:28:01 PM-->
+<!--CHANGELOG:12/20/2016 5:28:01 PM-->
+<!--CHANGELOG:12/20/2016 5:28:03 PM-->
+<!--CHANGELOG:12/20/2016 5:29:06 PM-->
+<!--CHANGELOG:12/20/2016 5:29:06 PM-->
+<!--CHANGELOG:12/20/2016 5:29:07 PM-->
+<!--CHANGELOG:12/20/2016 5:29:10 PM12/20/2016 5:27:06 PM: refreshing...
+12/20/2016 5:27:06 PM: 12/20/2016 5:27:06 PM
+12/20/2016 5:27:38 PM: moving test item UpInput_MessageBox(please enter 3 numbers,SerialNum,***);
+12/20/2016 5:27:39 PM: moving test item UpInput_MessageBox(please enter 3 numbers,SerialNum,***);
+12/20/2016 5:27:39 PM: moving test item UpInput_MessageBox(please enter 3 numbers,SerialNum,***);
+12/20/2016 5:27:50 PM: moving test item UpSleep(3000);
+12/20/2016 5:27:50 PM: moving test item UpSleep(3000);
+12/20/2016 5:27:51 PM: moving test item UpSleep(3000);
+12/20/2016 5:28:01 PM: moving test item Uprun(Check_VIDPID.bat); 
+12/20/2016 5:28:01 PM: moving test item Uprun(Check_VIDPID.bat); 
+12/20/2016 5:28:04 PM: moving test item Uprun(Check_VIDPID.bat); 
+12/20/2016 5:28:06 PM: Right Click Edit on item // Date-09-19-2014
+12/20/2016 5:28:26 PM: Right Click Edit on item run(Check_VIDPID.bat); 
+12/20/2016 5:29:06 PM: moving test item Uprun(CheckFW.bat); 
+12/20/2016 5:29:06 PM: moving test item Uprun(CheckFW.bat); 
+12/20/2016 5:29:07 PM: moving test item Uprun(CheckFW.bat); 
+-->
+<!--CHANGELOG:12/20/2016 5:30:15 PM12/20/2016 5:27:06 PM: refreshing...
+12/20/2016 5:27:06 PM: 12/20/2016 5:27:06 PM
+12/20/2016 5:27:38 PM: moving test item UpInput_MessageBox(please enter 3 numbers,SerialNum,***);
+12/20/2016 5:27:39 PM: moving test item UpInput_MessageBox(please enter 3 numbers,SerialNum,***);
+12/20/2016 5:27:39 PM: moving test item UpInput_MessageBox(please enter 3 numbers,SerialNum,***);
+12/20/2016 5:27:50 PM: moving test item UpSleep(3000);
+12/20/2016 5:27:50 PM: moving test item UpSleep(3000);
+12/20/2016 5:27:51 PM: moving test item UpSleep(3000);
+12/20/2016 5:28:01 PM: moving test item Uprun(Check_VIDPID.bat); 
+12/20/2016 5:28:01 PM: moving test item Uprun(Check_VIDPID.bat); 
+12/20/2016 5:28:04 PM: moving test item Uprun(Check_VIDPID.bat); 
+12/20/2016 5:28:06 PM: Right Click Edit on item // Date-09-19-2014
+12/20/2016 5:28:26 PM: Right Click Edit on item run(Check_VIDPID.bat); 
+12/20/2016 5:29:06 PM: moving test item Uprun(CheckFW.bat); 
+12/20/2016 5:29:06 PM: moving test item Uprun(CheckFW.bat); 
+12/20/2016 5:29:07 PM: moving test item Uprun(CheckFW.bat); 
+12/20/2016 5:29:11 PM: saving...
+12/20/2016 5:29:12 PM: Right Click Edit on item run(CheckFW.bat); 
+-->
+<!--CHANGELOG:12/20/2016 5:35:46 PM12/20/2016 5:31:38 PM: refreshing...
+12/20/2016 5:31:38 PM: 12/20/2016 5:31:38 PM
+12/20/2016 5:32:00 PM: Right Click Edit on item run(CheckFW.bat); 
+-->
+<!--CHANGELOG:12/20/2016 5:40:40 PM12/20/2016 5:37:04 PM: refreshing...
+12/20/2016 5:37:04 PM: 12/20/2016 5:37:04 PM
+12/20/2016 5:37:10 PM: Right Click Edit on item run(CheckFW.bat); 
+-->
+<!--CHANGELOG:12/20/2016 8:46:18 PM12/20/2016 5:48:32 PM: refreshing...
+12/20/2016 5:48:32 PM: 12/20/2016 5:48:32 PM
+12/20/2016 5:48:40 PM: Right Click Edit on item run(CheckFW.bat); 
+12/20/2016 5:57:29 PM: Right Click Edit on item run(Motorpancheck.bat); 
+12/20/2016 8:45:32 PM: Right Click Edit on item run(CheckFW.bat); 
+12/20/2016 8:45:45 PM: Right Click Edit on item Name=GetFWVerD;                //This is the name of the module
+-->
+<!--CHANGELOG:12/20/2016 8:47:02 PM12/20/2016 5:48:32 PM: refreshing...
+12/20/2016 5:48:32 PM: 12/20/2016 5:48:32 PM
+12/20/2016 5:48:40 PM: Right Click Edit on item run(CheckFW.bat); 
+12/20/2016 5:57:29 PM: Right Click Edit on item run(Motorpancheck.bat); 
+12/20/2016 8:45:32 PM: Right Click Edit on item run(CheckFW.bat); 
+12/20/2016 8:45:45 PM: Right Click Edit on item Name=GetFWVerD;                //This is the name of the module
+12/20/2016 8:46:18 PM: saving...
+12/20/2016 8:46:27 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/20/2016 8:46:36 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/20/2016 8:46:50 PM: Right Click Edit on item run(Motorpancheck.bat); 
+-->
+<!--CHANGELOG:12/20/2016 8:49:43 PM12/20/2016 8:48:44 PM: refreshing...
+12/20/2016 8:48:44 PM: 12/20/2016 8:48:44 PM
+12/20/2016 8:48:49 PM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/20/2016 8:48:52 PM: Right Click Edit on item Limit( IF ( RESULT == 0X02 ) THEN  PASS ) );
+12/20/2016 8:49:00 PM: Right Click Edit on item run(Motorpancheck.bat); 
+12/20/2016 8:49:33 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+-->
+<!--CHANGELOG:12/20/2016 8:51:23 PM-->
+<!--CHANGELOG:12/20/2016 8:51:46 PM12/20/2016 8:50:23 PM: refreshing...
+12/20/2016 8:50:23 PM: 12/20/2016 8:50:23 PM
+12/20/2016 8:51:23 PM: moving test item UpMessageBox(右旋到稍微失焦);
+12/20/2016 8:51:25 PM: Right Click Edit on item MessageBox(右旋到稍微失焦);
+-->
+<!--CHANGELOG:12/20/2016 9:01:23 PM12/20/2016 8:52:22 PM: refreshing...
+12/20/2016 8:52:22 PM: 12/20/2016 8:52:22 PM
+-->
+<!--CHANGELOG:12/21/2016 11:05:10 AM12/20/2016 9:16:25 PM: refreshing...
+12/20/2016 9:16:25 PM: 12/20/2016 9:16:25 PM
+12/20/2016 9:16:31 PM: Right Click Edit on item run(btn_test.bat); 
+12/20/2016 9:16:37 PM: Right Click Edit on item run(btn_test.bat); 
+12/20/2016 9:18:43 PM: Right Click Edit on item run(btn_test.bat); 
+12/20/2016 9:20:15 PM: Right Click Edit on item run(btn_test.bat); 
+-->
+<!--CHANGELOG:12/21/2016 11:09:31 AM12/21/2016 11:07:26 AM: refreshing...
+12/21/2016 11:07:27 AM: 12/21/2016 11:07:27 AM
+12/21/2016 11:07:32 AM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/21/2016 11:07:44 AM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/21/2016 11:08:09 AM: Right Click Edit on item run(Motorpancheck.bat); 
+12/21/2016 11:08:47 AM: Right Click Edit on item run(Motorpancheck.bat); 
+-->
+<!--CHANGELOG:12/21/2016 11:11:05 AM12/21/2016 11:10:20 AM: refreshing...
+12/21/2016 11:10:20 AM: 12/21/2016 11:10:20 AM
+12/21/2016 11:10:28 AM: Right Click Edit on item run(btn_test.bat); 
+-->
+<!--CHANGELOG:12/21/2016 11:11:06 AM12/21/2016 11:10:20 AM: refreshing...
+12/21/2016 11:10:20 AM: 12/21/2016 11:10:20 AM
+12/21/2016 11:10:28 AM: Right Click Edit on item run(btn_test.bat); 
+12/21/2016 11:11:05 AM: saving...
+-->
+<!--CHANGELOG:12/21/2016 11:40:02 AM12/21/2016 11:11:29 AM: refreshing...
+12/21/2016 11:11:29 AM: 12/21/2016 11:11:29 AM
+12/21/2016 11:11:34 AM: Right Click Edit on item run(btn_test.bat); 
+-->
+<!--CHANGELOG:12/21/2016 11:58:41 AM12/21/2016 11:40:51 AM: refreshing...
+12/21/2016 11:40:51 AM: 12/21/2016 11:40:51 AM
+12/21/2016 11:41:01 AM: Right Click Edit on item run(CheckFW.bat); 
+12/21/2016 11:41:50 AM: Right Click Edit on item run(btn_test.bat); 
+12/21/2016 11:57:36 AM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/21/2016 11:57:49 AM: Right Click Edit on item run(CheckFW.bat); 
+12/21/2016 11:57:59 AM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/21/2016 11:58:17 AM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/21/2016 11:58:27 AM: Right Click Edit on item VerifyRegister(lvreg.exe infoxu read 01);
+12/21/2016 11:58:29 AM: Right Click Edit on item Limit( IF ( RESULT == 0X33 ) THEN  PASS ) );
+12/21/2016 11:58:33 AM: Right Click Edit on item PTcode
+-->
+<!--CHANGELOG:12/21/2016 11:58:43 AM12/21/2016 11:40:51 AM: refreshing...
+12/21/2016 11:40:51 AM: 12/21/2016 11:40:51 AM
+12/21/2016 11:41:01 AM: Right Click Edit on item run(CheckFW.bat); 
+12/21/2016 11:41:50 AM: Right Click Edit on item run(btn_test.bat); 
+12/21/2016 11:57:36 AM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/21/2016 11:57:49 AM: Right Click Edit on item run(CheckFW.bat); 
+12/21/2016 11:57:59 AM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/21/2016 11:58:17 AM: Right Click Edit on item VerifyRegister(lvreg,eeprom,read,A9);
+12/21/2016 11:58:27 AM: Right Click Edit on item VerifyRegister(lvreg.exe infoxu read 01);
+12/21/2016 11:58:29 AM: Right Click Edit on item Limit( IF ( RESULT == 0X33 ) THEN  PASS ) );
+12/21/2016 11:58:33 AM: Right Click Edit on item PTcode
+12/21/2016 11:58:41 AM: saving...
+-->
+<!--CHANGELOG:12/21/2016 12:02:01 PM12/21/2016 12:01:23 PM: refreshing...
+12/21/2016 12:01:23 PM: 12/21/2016 12:01:23 PM
+12/21/2016 12:01:29 PM: Right Click Edit on item Limit( IF ( RESULT == 0X33 ) THEN  PASS ) );
+12/21/2016 12:01:43 PM: Right Click Edit on item Limit( IF ( RESULT == 0X33 ) THEN  PASS ) );
+12/21/2016 12:01:52 PM: Right Click Edit on item Limit( IF ( RESULT == 0X33 ) THEN  PASS ) );
+-->
+<!--CHANGELOG:12/21/2016 12:04:17 PM12/21/2016 12:02:43 PM: refreshing...
+12/21/2016 12:02:43 PM: 12/21/2016 12:02:43 PM
+12/21/2016 12:03:19 PM: Right Click Edit on item Limit( IF ( RESULT == 0X00017600) THEN  PASS ) );
+12/21/2016 12:03:42 PM: Right Click Edit on item Limit( IF ( RESULT == 0X00017600) THEN  PASS ) );
+12/21/2016 12:03:51 PM: Right Click Edit on item Limit( IF ( RESULT == 0X00017600) THEN  PASS ) );
+-->
+<!--CHANGELOG:12/21/2016 12:04:29 PM12/21/2016 12:04:23 PM: refreshing...
+12/21/2016 12:04:23 PM: 12/21/2016 12:04:23 PM
+-->
+<!--CHANGELOG:12/21/2016 12:04:30 PM12/21/2016 12:04:23 PM: refreshing...
+12/21/2016 12:04:23 PM: 12/21/2016 12:04:23 PM
+12/21/2016 12:04:29 PM: saving...
+-->
+<!--CHANGELOG:12/21/2016 12:08:59 PM12/21/2016 12:05:31 PM: refreshing...
+12/21/2016 12:05:31 PM: 12/21/2016 12:05:31 PM
+12/21/2016 12:05:36 PM: Right Click Edit on item run(CheckFW.bat); 
+12/21/2016 12:06:26 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+-->
+<!--CHANGELOG:12/21/2016 12:09:01 PM12/21/2016 12:05:31 PM: refreshing...
+12/21/2016 12:05:31 PM: 12/21/2016 12:05:31 PM
+12/21/2016 12:05:36 PM: Right Click Edit on item run(CheckFW.bat); 
+12/21/2016 12:06:26 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+12/21/2016 12:08:59 PM: saving...
+-->
+<!--CHANGELOG:12/21/2016 12:12:46 PM12/21/2016 12:11:13 PM: refreshing...
+12/21/2016 12:11:13 PM: 12/21/2016 12:11:13 PM
+-->
+<!--CHANGELOG:12/22/2016 4:48:12 PM-->
+<!--CHANGELOG:12/22/2016 4:48:12 PM-->
+<!--CHANGELOG:12/22/2016 4:48:12 PM-->
+<!--CHANGELOG:12/22/2016 4:48:13 PM-->
+<!--CHANGELOG:12/22/2016 4:48:13 PM-->
+<!--CHANGELOG:12/22/2016 4:48:13 PM-->
+<!--CHANGELOG:12/22/2016 4:48:13 PM-->
+<!--CHANGELOG:12/22/2016 4:48:13 PM-->
+<!--CHANGELOG:12/22/2016 4:48:13 PM-->
+<!--CHANGELOG:12/22/2016 4:48:17 PM12/22/2016 4:47:56 PM: refreshing...
+12/22/2016 4:47:56 PM: 12/22/2016 4:47:56 PM
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:14 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+-->
+<!--CHANGELOG:12/22/2016 4:48:47 PM12/22/2016 4:47:56 PM: refreshing...
+12/22/2016 4:47:56 PM: 12/22/2016 4:47:56 PM
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:14 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:17 PM: saving...
+-->
+<!--CHANGELOG:12/22/2016 4:48:51 PM-->
+<!--CHANGELOG:12/22/2016 4:48:51 PM-->
+<!--CHANGELOG:12/22/2016 4:48:51 PM-->
+<!--CHANGELOG:12/22/2016 4:48:51 PM-->
+<!--CHANGELOG:12/22/2016 4:48:51 PM-->
+<!--CHANGELOG:12/22/2016 4:48:52 PM-->
+<!--CHANGELOG:12/22/2016 4:48:52 PM-->
+<!--CHANGELOG:12/22/2016 4:48:52 PM-->
+<!--CHANGELOG:12/22/2016 4:48:52 PM-->
+<!--CHANGELOG:12/22/2016 4:49:14 PM12/22/2016 4:47:56 PM: refreshing...
+12/22/2016 4:47:56 PM: 12/22/2016 4:47:56 PM
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:14 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:17 PM: saving...
+12/22/2016 4:48:48 PM: saving...
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+-->
+<!--CHANGELOG:12/22/2016 4:50:27 PM12/22/2016 4:47:56 PM: refreshing...
+12/22/2016 4:47:56 PM: 12/22/2016 4:47:56 PM
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:14 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:17 PM: saving...
+12/22/2016 4:48:48 PM: saving...
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:49:15 PM: saving...
+12/22/2016 4:49:55 PM: Right Click Edit on item run(RunTestTracking_OnStart.bat); 
+12/22/2016 4:50:07 PM: Right Click Edit on item run(RunTestTracking_OnEnd.bat); 
+-->
+<!--CHANGELOG:12/22/2016 4:50:55 PM12/22/2016 4:47:56 PM: refreshing...
+12/22/2016 4:47:56 PM: 12/22/2016 4:47:56 PM
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:12 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:13 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:14 PM: moving test item UpKineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)
+12/22/2016 4:48:17 PM: saving...
+12/22/2016 4:48:48 PM: saving...
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:51 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:48:52 PM: moving test item Uprun(RunTestTracking_OnStart.bat); 
+12/22/2016 4:49:15 PM: saving...
+12/22/2016 4:49:55 PM: Right Click Edit on item run(RunTestTracking_OnStart.bat); 
+12/22/2016 4:50:07 PM: Right Click Edit on item run(RunTestTracking_OnEnd.bat); 
+12/22/2016 4:50:28 PM: saving...
+-->
+<!--CHANGELOG:1/10/2017 10:03:22 AM1/10/2017 10:02:07 AM: refreshing...
+1/10/2017 10:02:07 AM: 1/10/2017 10:02:07 AM
+1/10/2017 10:02:39 AM: Right Click Edit on item run(Motortiltcheck.bat); 
+1/10/2017 10:02:51 AM: Right Click Edit on item run(Motorpancheck.bat); 
+1/10/2017 10:03:14 AM: Right Click Edit on item Limit( IF ( RESULT == 0X33 ) THEN  PASS ) );
+-->

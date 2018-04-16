@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=Field count not the same.
+Headers=USBVoltage
+Values=RANRITSU,MT8852B,6K00005621,4.18.000
+LowLimit=0.0
+UpLimit=5.0
+TargetLimit=5.0
+VarResultSummary=
+LogFile=C:\Users\TE\Desktop\Meridian_audiobt_PB3\bletest\UltimateScpiCmd.log
+InputFile=

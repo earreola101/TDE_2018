@@ -1,0 +1,2 @@
+
+[E]:the Cmd id return from GetReport is(0) not the same as we assign(24)![E]:Fail to set Radio Tx Data!

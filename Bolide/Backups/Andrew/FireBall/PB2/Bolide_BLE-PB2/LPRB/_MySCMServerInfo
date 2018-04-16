@@ -1,0 +1,9 @@
+SCMBranch=Box_101
+SCMRepository=HWQA/audiosw/Installer components/audio quality/LPRB
+SCMMainlineUUID=
+SCMBranchRepositoryID=4294967295
+4k-50-4k_LogSweep_1_16_48k_centerRemoved.wav;1904246927;1;1441231710;
+run_AudioCalc_BuzzNoise.bat;3863507485;1;1453333130;
+run_AudioCalc_RubNoise.bat;4117281123;1;1453333722;
+testlimit_SPKR_BuzzNoise.csv;2069908778;1;1452645456;
+testlimit_SPKR_RubNoise.csv;646940603;1;1450476962;

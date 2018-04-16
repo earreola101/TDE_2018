@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=Field count not the same.
+Headers=Extension code,Result code,Average power,Max avg power,Min avg power,Peak to avg power,Number fail,Number tested,Result
+Values=0.000000
+LowLimit=LEOP0,TRUE,-20.0,-20.0,-20.0,-20.0,-100.0,-100.0,PASS
+UpLimit=LEOP0,TRUE,10.0,10.0,10.0,3.0,100.0,100.0,PASS
+TargetLimit=LEOP0,TRUE,100.0,100.0,100.0,100.0,100.0,100.0,PASS
+VarResultSummary=
+LogFile=C:\Users\tsoperator\Desktop\Meridian_BT_PB4\UltimateScpiCmd.log
+InputFile=

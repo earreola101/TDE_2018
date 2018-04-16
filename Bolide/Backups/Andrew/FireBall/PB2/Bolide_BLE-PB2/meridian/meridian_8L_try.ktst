@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [1.0.1474] 1ce78b7fa1b24a64b94e661b170d8a97_11:33:50.9063016_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <SCRIPT_COMMENT id="// Kinetic Module Example" />
+    <SCRIPT_COMMENT id="// Date-09-19-2014" />
+    <SCRIPT_COMMENT id="// product speaker FR, THD" />
+    <Test id="run(RunAudioCap_SPK_8L_FR.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCap_SPK_8L_FR.txt;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=cap_SPK_8L_FR;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_SPK_8L_FR.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_SPK_8L_FR.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_SPK_8L_FR.csv;              //Input" />
+        <Name id="Name=SPKR_FR;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="// product speaker Rub and Buzz, THD" />
+    <Test id="run(RunAudioCap_SPK_8L_RB.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCap_SPK_8L_RB.txt;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=cap_SPK_8L_RB;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_SPK_8L_RB.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_SPK_8L_RB.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_SPK_8L_RB.csv;              //Input" />
+        <Name id="Name=RB;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="// product microphone" />
+    <SCRIPT_COMMENT id="// product coupling" />
+    <Test id="run(RunAudioCap_Coupling_8L.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCap_Coupling_8L.txt;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=cap_Coupling_8L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_Coupling_8L_L.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_Coupling_8L_L.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_Coupling_8L_L.csv;              //Input" />
+        <Name id="Name=MIC_L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_Coupling_8L_R.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_Coupling_8L_R.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_Coupling_8L_R.csv;              //Input" />
+        <Name id="Name=MIC_R;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCap_Coupling_8L_MIC1.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCap_Coupling_8L.txt;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=cap_Coupling_8L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_Coupling_8L_LMIC1.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_Coupling_8L_L.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_Coupling_8L_L.csv;              //Input" />
+        <Name id="Name=MIC_L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCap_Coupling_8L_MIC2.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCap_Coupling_8L.txt;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=cap_Coupling_8L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_Coupling_8L_LMIC2.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_Coupling_8L_L.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_Coupling_8L_L.csv;              //Input" />
+        <Name id="Name=MIC_L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCap_Coupling_8L_MIC3.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCap_Coupling_8L.txt;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=cap_Coupling_8L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunAudioCalc_Coupling_8L_LMIC3.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=false;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=testOutput_AudioCalc_Coupling_8L_L.txt;          //Output" />
+        <InputFile id="InputFile=.\limits\testheader_AudioCalc_Coupling_8L_L.csv;              //Input" />
+        <Name id="Name=MIC_L;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="// store away data for backup" />
+    <Test id="run(Run_HouseKeeping_posttest.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=false;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=false;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=false;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=false;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=null;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=POST_Teslogt;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:12/12/2016 3:07:29 PM12/12/2016 3:03:11 PM: refreshing...
+12/12/2016 3:03:11 PM: 12/12/2016 3:03:11 PM
+-->
+<!--CHANGELOG:12/12/2016 3:10:03 PM12/12/2016 3:03:11 PM: refreshing...
+12/12/2016 3:03:11 PM: 12/12/2016 3:03:11 PM
+12/12/2016 3:07:30 PM: saving...
+12/12/2016 3:07:32 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+-->
+<!--CHANGELOG:12/12/2016 3:13:20 PM12/12/2016 3:12:52 PM: refreshing...
+12/12/2016 3:12:52 PM: 12/12/2016 3:12:52 PM
+-->
+<!--CHANGELOG:12/15/2016 3:25:34 PM12/15/2016 3:25:04 PM: refreshing...
+12/15/2016 3:25:04 PM: 12/15/2016 3:25:04 PM
+12/15/2016 3:25:27 PM: Right Click Edit on item run(Run_HouseKeeping_posttest.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:30:27 PM12/15/2016 3:29:17 PM: refreshing...
+12/15/2016 3:29:17 PM: 12/15/2016 3:29:17 PM
+12/15/2016 3:29:40 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:19 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+-->
+<!--CHANGELOG:12/15/2016 3:31:15 PM-->
+<!--CHANGELOG:12/15/2016 3:31:16 PM-->
+<!--CHANGELOG:12/15/2016 3:31:16 PM-->
+<!--CHANGELOG:12/15/2016 3:31:16 PM-->
+<!--CHANGELOG:12/15/2016 3:31:17 PM-->
+<!--CHANGELOG:12/15/2016 3:31:17 PM-->
+<!--CHANGELOG:12/15/2016 3:31:37 PM-->
+<!--CHANGELOG:12/15/2016 3:31:37 PM-->
+<!--CHANGELOG:12/15/2016 3:32:24 PM-->
+<!--CHANGELOG:12/15/2016 3:32:24 PM-->
+<!--CHANGELOG:12/15/2016 3:32:25 PM-->
+<!--CHANGELOG:12/15/2016 3:32:27 PM-->
+<!--CHANGELOG:12/15/2016 3:32:27 PM-->
+<!--CHANGELOG:12/15/2016 3:32:30 PM-->
+<!--CHANGELOG:12/15/2016 3:32:30 PM-->
+<!--CHANGELOG:12/15/2016 3:33:29 PM12/15/2016 3:29:17 PM: refreshing...
+12/15/2016 3:29:17 PM: 12/15/2016 3:29:17 PM
+12/15/2016 3:29:40 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:19 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:27 PM: saving...
+12/15/2016 3:30:36 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:37 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:31:37 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:31:45 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:24 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:24 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:25 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:27 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:27 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:30 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:31 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:37 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_RB.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:34:43 PM12/15/2016 3:29:17 PM: refreshing...
+12/15/2016 3:29:17 PM: 12/15/2016 3:29:17 PM
+12/15/2016 3:29:40 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:19 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:27 PM: saving...
+12/15/2016 3:30:36 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:37 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:31:37 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:31:45 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:24 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:24 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:25 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:27 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:27 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:30 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:31 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:37 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:33:29 PM: saving...
+12/15/2016 3:33:32 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:33:47 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:34:07 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:34:21 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_RB.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:34:46 PM12/15/2016 3:29:17 PM: refreshing...
+12/15/2016 3:29:17 PM: 12/15/2016 3:29:17 PM
+12/15/2016 3:29:40 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:19 PM: Right Click Edit on item Name=POST_Test;                //This is the name of the module
+12/15/2016 3:30:27 PM: saving...
+12/15/2016 3:30:36 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:16 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:17 PM: moving test item Uprun(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:31:37 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:31:37 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:31:45 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:24 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:24 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:25 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:27 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:27 PM: moving test item Uprun(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:32:30 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:31 PM: moving test item Uprun(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:32:37 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:33:29 PM: saving...
+12/15/2016 3:33:32 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:33:47 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_FR.bat); 
+12/15/2016 3:34:07 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_RB.bat); 
+12/15/2016 3:34:21 PM: Right Click Edit on item run(RunAudioCalc_SPK_8L_RB.bat); 
+12/15/2016 3:34:43 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 3:38:30 PM12/15/2016 3:35:36 PM: refreshing...
+12/15/2016 3:35:36 PM: 12/15/2016 3:35:36 PM
+12/15/2016 3:35:41 PM: Right Click Edit on item run(Run_HouseKeeping_posttest.bat); 
+12/15/2016 3:37:03 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:37:59 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:41:55 PM-->
+<!--CHANGELOG:12/15/2016 3:41:56 PM-->
+<!--CHANGELOG:12/15/2016 3:41:57 PM-->
+<!--CHANGELOG:12/15/2016 3:42:11 PM-->
+<!--CHANGELOG:12/15/2016 3:42:12 PM-->
+<!--CHANGELOG:12/15/2016 3:42:12 PM-->
+<!--CHANGELOG:12/15/2016 3:42:17 PM-->
+<!--CHANGELOG:12/15/2016 3:42:18 PM-->
+<!--CHANGELOG:12/15/2016 3:42:27 PM-->
+<!--CHANGELOG:12/15/2016 3:42:28 PM-->
+<!--CHANGELOG:12/15/2016 3:42:37 PM12/15/2016 3:40:24 PM: refreshing...
+12/15/2016 3:40:24 PM: 12/15/2016 3:40:24 PM
+12/15/2016 3:41:55 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:56 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:57 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:42:11 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:17 PM: moving test item Up// product coupling
+12/15/2016 3:42:18 PM: moving test item Up// product coupling
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:45:00 PM12/15/2016 3:40:24 PM: refreshing...
+12/15/2016 3:40:24 PM: 12/15/2016 3:40:24 PM
+12/15/2016 3:41:55 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:56 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:57 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:42:11 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:17 PM: moving test item Up// product coupling
+12/15/2016 3:42:18 PM: moving test item Up// product coupling
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:37 PM: saving...
+12/15/2016 3:42:40 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:43:07 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:43:55 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_R.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:45:01 PM12/15/2016 3:40:24 PM: refreshing...
+12/15/2016 3:40:24 PM: 12/15/2016 3:40:24 PM
+12/15/2016 3:41:55 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:56 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:57 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:42:11 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:17 PM: moving test item Up// product coupling
+12/15/2016 3:42:18 PM: moving test item Up// product coupling
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:37 PM: saving...
+12/15/2016 3:42:40 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:43:07 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:43:55 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:45:01 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 3:45:01 PM12/15/2016 3:40:24 PM: refreshing...
+12/15/2016 3:40:24 PM: 12/15/2016 3:40:24 PM
+12/15/2016 3:41:55 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:56 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:57 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:42:11 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:17 PM: moving test item Up// product coupling
+12/15/2016 3:42:18 PM: moving test item Up// product coupling
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:37 PM: saving...
+12/15/2016 3:42:40 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:43:07 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:43:55 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:45:01 PM: saving...
+12/15/2016 3:45:01 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 3:45:02 PM12/15/2016 3:40:24 PM: refreshing...
+12/15/2016 3:40:24 PM: 12/15/2016 3:40:24 PM
+12/15/2016 3:41:55 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:56 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:57 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:42:11 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:17 PM: moving test item Up// product coupling
+12/15/2016 3:42:18 PM: moving test item Up// product coupling
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:37 PM: saving...
+12/15/2016 3:42:40 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:43:07 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:43:55 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:45:01 PM: saving...
+12/15/2016 3:45:01 PM: saving...
+12/15/2016 3:45:02 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 3:45:03 PM12/15/2016 3:40:24 PM: refreshing...
+12/15/2016 3:40:24 PM: 12/15/2016 3:40:24 PM
+12/15/2016 3:41:55 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:56 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:41:57 PM: moving test item Uprun(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:42:11 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:12 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:42:17 PM: moving test item Up// product coupling
+12/15/2016 3:42:18 PM: moving test item Up// product coupling
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:28 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:42:37 PM: saving...
+12/15/2016 3:42:40 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:43:07 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 3:43:55 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_R.bat); 
+12/15/2016 3:45:01 PM: saving...
+12/15/2016 3:45:01 PM: saving...
+12/15/2016 3:45:02 PM: saving...
+12/15/2016 3:45:02 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 3:46:17 PM12/15/2016 3:45:43 PM: refreshing...
+12/15/2016 3:45:43 PM: 12/15/2016 3:45:43 PM
+12/15/2016 3:45:50 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:45:57 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+-->
+<!--CHANGELOG:12/15/2016 3:46:18 PM12/15/2016 3:45:43 PM: refreshing...
+12/15/2016 3:45:43 PM: 12/15/2016 3:45:43 PM
+12/15/2016 3:45:50 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 3:45:57 PM: Right Click Edit on item run(RunAudioCap_SPK_8L_FR.bat); 
+12/15/2016 3:46:18 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 3:48:01 PM12/15/2016 3:47:07 PM: refreshing...
+12/15/2016 3:47:07 PM: 12/15/2016 3:47:07 PM
+12/15/2016 3:47:17 PM: Right Click Edit on item Name=cap_Coupling_8L;                //This is the name of the module
+12/15/2016 3:47:30 PM: Right Click Edit on item Name=TcLw_L;                //This is the name of the module
+12/15/2016 3:47:51 PM: Right Click Edit on item Name=TcLw_R;                //This is the name of the module
+-->
+<!--CHANGELOG:12/15/2016 3:48:07 PM12/15/2016 3:47:07 PM: refreshing...
+12/15/2016 3:47:07 PM: 12/15/2016 3:47:07 PM
+12/15/2016 3:47:17 PM: Right Click Edit on item Name=cap_Coupling_8L;                //This is the name of the module
+12/15/2016 3:47:30 PM: Right Click Edit on item Name=TcLw_L;                //This is the name of the module
+12/15/2016 3:47:51 PM: Right Click Edit on item Name=TcLw_R;                //This is the name of the module
+12/15/2016 3:48:01 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 7:55:45 PM12/15/2016 5:42:12 PM: refreshing...
+12/15/2016 5:42:12 PM: 12/15/2016 5:42:12 PM
+12/15/2016 7:48:39 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:53:38 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:55:02 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+-->
+<!--CHANGELOG:12/15/2016 7:55:47 PM-->
+<!--CHANGELOG:12/15/2016 7:55:50 PM-->
+<!--CHANGELOG:12/15/2016 7:55:53 PM-->
+<!--CHANGELOG:12/15/2016 7:55:54 PM-->
+<!--CHANGELOG:12/15/2016 7:56:15 PM12/15/2016 5:42:12 PM: refreshing...
+12/15/2016 5:42:12 PM: 12/15/2016 5:42:12 PM
+12/15/2016 7:48:39 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:53:38 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:55:02 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:45 PM: saving...
+12/15/2016 7:55:47 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:50 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:00 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+-->
+<!--CHANGELOG:12/15/2016 7:56:55 PM12/15/2016 5:42:12 PM: refreshing...
+12/15/2016 5:42:12 PM: 12/15/2016 5:42:12 PM
+12/15/2016 7:48:39 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:53:38 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:55:02 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:45 PM: saving...
+12/15/2016 7:55:47 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:50 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:00 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:15 PM: saving...
+12/15/2016 7:56:31 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:56:45 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_LMIC1.bat); 
+-->
+<!--CHANGELOG:12/15/2016 7:56:57 PM-->
+<!--CHANGELOG:12/15/2016 7:56:58 PM-->
+<!--CHANGELOG:12/15/2016 7:57:00 PM-->
+<!--CHANGELOG:12/15/2016 7:57:00 PM-->
+<!--CHANGELOG:12/15/2016 7:57:35 PM-->
+<!--CHANGELOG:12/15/2016 7:57:36 PM-->
+<!--CHANGELOG:12/15/2016 7:57:38 PM-->
+<!--CHANGELOG:12/15/2016 7:57:38 PM-->
+<!--CHANGELOG:12/15/2016 7:57:39 PM-->
+<!--CHANGELOG:12/15/2016 7:57:42 PM-->
+<!--CHANGELOG:12/15/2016 7:57:51 PM12/15/2016 5:42:12 PM: refreshing...
+12/15/2016 5:42:12 PM: 12/15/2016 5:42:12 PM
+12/15/2016 7:48:39 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:53:38 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:55:02 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:45 PM: saving...
+12/15/2016 7:55:47 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:50 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:00 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:15 PM: saving...
+12/15/2016 7:56:31 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:56:45 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_LMIC1.bat); 
+12/15/2016 7:56:55 PM: saving...
+12/15/2016 7:56:58 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC2.bat); 
+12/15/2016 7:56:58 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC2.bat); 
+12/15/2016 7:57:00 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC2.bat); 
+12/15/2016 7:57:00 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC2.bat); 
+12/15/2016 7:57:15 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L_MIC2.bat); 
+12/15/2016 7:57:27 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_LMIC2.bat); 
+12/15/2016 7:57:35 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC3.bat); 
+12/15/2016 7:57:36 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC3.bat); 
+12/15/2016 7:57:38 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:39 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:39 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:42 PM: moving test item downrun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+-->
+<!--CHANGELOG:12/15/2016 7:57:57 PM12/15/2016 5:42:12 PM: refreshing...
+12/15/2016 5:42:12 PM: 12/15/2016 5:42:12 PM
+12/15/2016 7:48:39 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:53:38 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L.bat); 
+12/15/2016 7:55:02 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:45 PM: saving...
+12/15/2016 7:55:47 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:50 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:55:54 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:00 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_L.bat); 
+12/15/2016 7:56:15 PM: saving...
+12/15/2016 7:56:31 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L_MIC1.bat); 
+12/15/2016 7:56:45 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_LMIC1.bat); 
+12/15/2016 7:56:55 PM: saving...
+12/15/2016 7:56:58 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC2.bat); 
+12/15/2016 7:56:58 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC2.bat); 
+12/15/2016 7:57:00 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC2.bat); 
+12/15/2016 7:57:00 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC2.bat); 
+12/15/2016 7:57:15 PM: Right Click Edit on item run(RunAudioCap_Coupling_8L_MIC2.bat); 
+12/15/2016 7:57:27 PM: Right Click Edit on item run(RunAudioCalc_Coupling_8L_LMIC2.bat); 
+12/15/2016 7:57:35 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC3.bat); 
+12/15/2016 7:57:36 PM: moving test item Uprun(RunAudioCap_Coupling_8L_MIC3.bat); 
+12/15/2016 7:57:38 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:39 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:39 PM: moving test item Uprun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:42 PM: moving test item downrun(RunAudioCalc_Coupling_8L_LMIC3.bat); 
+12/15/2016 7:57:51 PM: saving...
+-->
+<!--CHANGELOG:12/15/2016 8:03:46 PM12/15/2016 8:02:55 PM: refreshing...
+12/15/2016 8:02:55 PM: 12/15/2016 8:02:55 PM
+-->

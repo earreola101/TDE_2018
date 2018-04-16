@@ -1,0 +1,10 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\TE\Desktop\Meridian_audioandbtble_PB3\stimulus\SweepTone SPKR FR THD_18000Hz_100Hz_-3dBFS_5s.wav"
+PCMFileOut="C:\Users\TE\Desktop\Meridian_audioandbtble_PB3\recorded\Meridian_Coupling_8L_MIC4.wav"
+
+conclusion=AudioCap: OK

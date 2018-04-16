@@ -1,0 +1,11 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:Cannot connect to device.
+Headers=MCU1FW
+Values=
+LowLimit=8.5.555
+UpLimit=8.5.750
+TargetLimit=8.5.602
+LogFile=test.log
+VarResultSummary=

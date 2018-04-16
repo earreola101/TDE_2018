@@ -1,0 +1,11 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"USB Curr, Failure up limit! (Up=0.15) >= (Value=2.34210E-1) >= (Low=0.005)"
+Headers=USB Curr
+Values=2.34210E-1
+LowLimit=0.005
+UpLimit=0.15
+TargetLimit=0.25
+LogFile=E:\C2 BT\UltimateScpiCmd.log
+VarResultSummary=

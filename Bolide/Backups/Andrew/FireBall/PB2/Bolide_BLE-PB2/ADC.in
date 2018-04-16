@@ -1,0 +1,17 @@
+[inputs]
+Option=ADC
+MovingDelay=4000
+outputFile="ADC.out"
+Device="USB Video Device"
+
+
+;______________________________________________________________________
+;
+
+
+Headers=ADC
+LowLimit=1850
+UpLimit=3000
+TargetLimit=2000
+LogFile=test.log
+VarResultSummary=

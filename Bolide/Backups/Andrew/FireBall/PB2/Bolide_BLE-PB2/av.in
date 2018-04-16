@@ -1,0 +1,15 @@
+[inputs]
+Option=AudioVersion
+MovingDelay=4000
+outputFile=av.out
+byte1=01
+
+Headers=Audioversion
+LowLimit=8.0.63
+UpLimit=8.0.63
+TargetLimit=8.0.63 
+LogFile=test.log
+VarResultSummary=
+
+
+

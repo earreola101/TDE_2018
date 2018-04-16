@@ -1,0 +1,15 @@
+[inputs]
+Option=Send
+SCPICmd="ORESULT TEST,0,LEICD"
+COMPort="7"
+ShowCFG=0
+LtrimPrefix=1
+outputFile=.\BTRemoteOFF.out
+PreviewReadyDelay=1000
+ExitPause=False
+Headers=Extension code,Result code,Average offset,Max +ve,Max -ve,Drift rate50us,Average drift,Max Drift,Number fail,Number tested,Result
+UpLimit=LEICD0,TRUE,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,PASS
+LowLimit=LEICD0,TRUE,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,PASS
+TargetLimit=LEICD0,TRUE,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,PASS
+
+

@@ -1,0 +1,13 @@
+[inputs]
+Option=Send
+SCPICmd="CWRESULT POWER"
+COMPort="7"
+ShowCFG=0
+LtrimPrefix=1
+ExitPause=False
+Headers=powerBT
+UpLimit=-16
+LowLimit=-31
+TargetLimit=-60
+
+

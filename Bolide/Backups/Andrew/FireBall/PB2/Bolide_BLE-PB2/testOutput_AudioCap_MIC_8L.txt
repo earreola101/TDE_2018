@@ -1,0 +1,8 @@
+[Outputs]
+Status=1
+ReturnCode=-2147024809
+Message="missing or invalid argument. ERROR"
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_01112017\stimulus\SweepTone MIC FR THD_10000Hz_100Hz_-3dBFS_3s.wav"
+PCMFileOut="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_01112017\recorded\Mariner_MIC_8L.wav"

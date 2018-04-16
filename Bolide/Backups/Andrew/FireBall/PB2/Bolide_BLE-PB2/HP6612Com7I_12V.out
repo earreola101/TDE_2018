@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=I_PowerON
+Values=0.097235
+LowLimit=0.08
+UpLimit=0.5
+TargetLimit=0.5
+VarResultSummary=
+LogFile=E:\BON1_TEST _V4\BON1_TEST _V4\Meridian_BT_Triming_PQR_V4\UltimateScpiCmd.log
+InputFile=

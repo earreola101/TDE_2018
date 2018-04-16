@@ -1,0 +1,12 @@
+[inputs]
+
+
+;______________________________________________________________________
+;
+
+
+Headers=Tracking
+LowLimit=00
+UpLimit=FF
+TargetLimit=7A
+

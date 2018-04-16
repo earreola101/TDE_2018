@@ -1,0 +1,13 @@
+[inputs]
+Option=Send
+SCPICmd="CWRESULT FREQOFF"
+COMPort="7"
+ShowCFG=0
+LtrimPrefix=1
+ExitPause=False
+Headers=BTFREQOffset
+UpLimit=10000
+LowLimit=-10000
+TargetLimit=3000
+
+

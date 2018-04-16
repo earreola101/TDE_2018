@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=MCU1FW
+Values=1.0.135
+LowLimit=1.0.135
+UpLimit=1.0.135
+TargetLimit=1.0.135
+VarResultSummary=1.0.135
+LogFile=test.log
+InputFile=

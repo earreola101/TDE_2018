@@ -1,0 +1,8 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\tsoperator\Desktop\sept-18_8L\stimulus\SweepTone SPKR THD R&B _6000Hz_100Hz_-3dBFS_5s.wav"
+PCMFileOut="C:\Users\tsoperator\Desktop\sept-18_8L\recorded\Mariner_SPK_8L.wav"

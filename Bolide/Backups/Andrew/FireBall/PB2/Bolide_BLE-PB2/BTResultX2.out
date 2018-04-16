@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=BTFREQOffset
+Values=
+LowLimit=-100000
+UpLimit=100000
+TargetLimit=3000
+LogFile=D:\Bolide_BLE-PB1\UltimateScpiCmd.log
+VarResultSummary=
+

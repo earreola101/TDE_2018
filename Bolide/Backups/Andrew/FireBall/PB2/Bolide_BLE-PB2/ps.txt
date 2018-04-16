@@ -1,0 +1,6 @@
+[outputs]
+Message=Ok
+Headers=pskey
+Values=[E
+LowLimit=
+UpLimit= 

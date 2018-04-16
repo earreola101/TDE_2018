@@ -1,0 +1,15 @@
+[inputs]
+Option=AudioVersion
+ShowCFG=0
+ExitPause=False
+
+Headers=DSPFW
+Values=
+LowLimit=8.5.618
+UpLimit=8.5.618
+TargetLimit=8.5.618
+;LogFile=test.log
+;VarResultSummary=
+
+
+

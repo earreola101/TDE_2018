@@ -1,0 +1,11 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=USB Curr
+Values=-7.70012E-4
+LowLimit=-0.05
+UpLimit=0.65
+TargetLimit=0.25
+LogFile=D:\krypto\4-LED test\TDE_IR_LED_SHUTTER_Fail_Abort_All\UltimateScpiCmd.log
+VarResultSummary=

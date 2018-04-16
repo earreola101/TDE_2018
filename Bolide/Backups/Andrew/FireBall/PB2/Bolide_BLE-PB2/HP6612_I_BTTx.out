@@ -1,0 +1,11 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=I_BTTx
+Values=3.87085E-1
+LowLimit=0.15
+UpLimit=0.6
+TargetLimit=0.3
+LogFile=E:\pre pb3\C2 BT - Auto\UltimateScpiCmd.log
+VarResultSummary=

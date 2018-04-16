@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=powerBLE
+Values=-14.300000
+LowLimit=-45
+UpLimit=-10
+TargetLimit=-33
+VarResultSummary=
+LogFile=D:\Bolide_BLE-PB2\UltimateScpiCmd.log
+InputFile=

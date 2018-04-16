@@ -1,0 +1,1546 @@
+@echo off 
+rem Created by: Eduardo Arreola 
+cd /d %~dp0
+Set PATH=%PATH%;%~dp0
+set lastResult=0
+setLocal EnableDelayedExpansion
+for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
+  set "DEL=%%a"
+)
+COLOR 0B
+
+
+ 
+
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=battery_voltage
+set VALUE=0
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [X].fwversion             -gets/Sets the firmware version          Usage: tdebt.exe -g fwversion
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0C  "[FAILED]"
+) else (
+set lastResult=0
+call :ColorText 0a "[OK]"
+)
+echo  %CMDNAME% IS NOT %VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+echo .....................................................................................................................................................................................................
+
+
+
+
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=fwversion
+set VALUE=255
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [X].fwversion             -gets/Sets the firmware version          Usage: tdebt.exe -g fwversion
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+
+
+
+
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=btusbpidvid
+set VALUE=[M]:VID=0x46d, PID=0x84c
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [O].btusbpidvid           -gets the usb pid vid,              Usage: tdebt.exe -g btusbpidvid
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem )
+rem ===========================================================================================
+
+
+
+ 
+REM DEVICE NAME
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=devicename
+set VALUE=TDE_TESTING_BT
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+ rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem  [O].devicename            -sets or gets the device name       Usage: tdebt.exe -s devicename SL_BT_TST1 ,tdebt.exe -g devicename
+echo TESTING  %CMDNAME%
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME% %VALUE%
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem )
+ rem ===========================================================================================
+
+ 
+  REM MACADDRESS
+ set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=macaddress 
+set macAddress=112233445566
+set VALUE=%macAddress%
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+ rem ===========================================================================================
+ rem if "%lastResult%"=="1" ( 
+rem [O].macaddress            -sets or gets the macaddress        Usage: tdebt.exe -g macAddress, tdebt.exe -s macAddress
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME% %macAddress%>>%fileVar%
+if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" (
+set lastResult=1 
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem )
+rem ===========================================================================================
+
+
+
+
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [O].bt_nfcstatus          -gets the NFC status,               Usage: tdebt.exe -g bt_nfcstatus
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+echo .....................................................................................................................................................................................................
+echo USER INPUT: engaded NFC trag  and then press spacebar
+echo .....................................................................................................................................................................................................
+pause
+
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=1
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [O].bt_nfcstatus          -gets the NFC status,               Usage: tdebt.exe -g bt_nfcstatus
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+pause
+
+
+
+rem TDE_CMD_GET_BATTERY_STATUS
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=battery_voltage
+set VALUE=0
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].battery_status           -gets the battery Status              Usage: tdebt.exe -s battery_status
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0C  "[FAILED]"
+) else (
+set lastResult=0
+call :ColorText 0a "[OK]"
+
+)
+echo  %CMDNAME% EXPECTED is not "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+ 
+echo Test Device Modes, press any key to continue
+pause
+
+
+rem   DEVICE_MODE_NONE = 0, SET 0 1 usb on
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=0 1
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_USB ON
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+
+					tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%exp%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+pause
+rem   DEVICE_MODE_NONE = 0, SET 0 0 usb off
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=0 0
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_NONE OFF
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+
+				tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+				echo.
+				set /p readval=<%fileVar%
+				if "%readval%"=="%exp%" ( 
+				set lastResult=1
+				call :ColorText 0a "[OK]"
+				) else (
+				set lastResult=0
+				call :ColorText 0C  "[FAILED]"
+				)
+				echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+rem ===========================================================================================
+rem )
+
+pause
+ 
+rem DEVICE_MODE_USB = 1, SET 1 1 usb on
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=1 1
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_USB ON
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+
+					tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%exp%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+pause
+rem DEVICE_MODE_USB = 1, SET 1 0 usb off
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=1 0
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_USB OFF
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+
+				tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+				echo.
+				set /p readval=<%fileVar%
+				if "%readval%"=="%exp%" ( 
+				set lastResult=1
+				call :ColorText 0a "[OK]"
+				) else (
+				set lastResult=0
+				call :ColorText 0C  "[FAILED]"
+				)
+				echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+rem ===========================================================================================
+rem )
+
+pause
+
+rem DEVICE_MODE_BT = 2  SET 2 1 usb on
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=2 1
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_BT ON
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+
+					tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%exp%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+pause
+rem DEVICE_MODE_BT = 2  SET 2 0 usb off
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=2 0
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_BT OFF
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+
+				tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+				echo.
+				set /p readval=<%fileVar%
+				if "%readval%"=="%exp%" ( 
+				set lastResult=1
+				call :ColorText 0a "[OK]"
+				) else (
+				set lastResult=0
+				call :ColorText 0C  "[FAILED]"
+				)
+				echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+rem ===========================================================================================
+rem )
+
+pause
+
+ 
+rem DEVICE_MODE_MIRACAST = 4, SET 4 1 usb on
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=4 1
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_MIRACAST ON
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+
+					tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%exp%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+pause
+rem DEVICE_MODE_MIRACAST = 4, SET 4 0 usb off
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=4 0
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_MIRACAST OFF
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+
+				tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+				echo.
+				set /p readval=<%fileVar%
+				if "%readval%"=="%exp%" ( 
+				set lastResult=1
+				call :ColorText 0a "[OK]"
+				) else (
+				set lastResult=0
+				call :ColorText 0C  "[FAILED]"
+				)
+				echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+rem ===========================================================================================
+rem )
+
+pause
+
+echo GOING INTO SHIP MODE
+rem SHIP_MODE  
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=device_mode
+set VALUE=4 0
+set exp=[OK]
+echo .....................................................................................................................................................................................................
+echo DEVICE_MODE_USB
+echo TESTING %CMDNAME% %VALUE%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+
+				tdebt.exe -s %CMDNAME% %VALUE% >>%fileVar% 
+
+				echo.
+				set /p readval=<%fileVar%
+				if "%readval%"=="%exp%" ( 
+				set lastResult=1
+				call :ColorText 0a "[OK]"
+				) else (
+				set lastResult=0
+				call :ColorText 0C  "[FAILED]"
+				)
+				echo  %CMDNAME% EXPECTED "%exp%" == "%readval%"
+				 if exist "%fileVar%" (
+				del %fileVar%
+				)
+rem ===========================================================================================
+rem )
+
+pause
+
+echo pskey burn process
+rem ===========================================================================================
+set READBACKNAME=0
+set fileVar=READBACKNAMEPSKEY.txt
+set CMDNAME=pskey
+set VALUE=7 48060 43707 43690 43690 43690
+echo %VALUE%
+rem [Reference]:
+rem 0x0007 0xbbbc 0xaabb 0xaaaa 0xaaaa 0xaaaa 0xaaaa
+rem 0x0007 48060  43707  4369   43690  43690  43690
+rem
+rem This is how you clear the PSkey
+rem tdebt.exe -s pskey 0 00000 00000 00000 00000 00000
+rem
+rem this is the defualt value that will go into the eeprom
+rem tdebt.exe -s pskey 7 48060 43707 43690 43690 43690
+rem PSKey_Format:uMixerCTrimChan0 uTxMixerCTrimOffset[0] uTxMixerCTrimOffset[1] uTxMixerCTrimOffset[2]  uTxMixerCTrimOffset[3] uTxMixerCTrimOffset[4]
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem  [O].devicename            -sets or gets the device name       Usage: tdebt.exe -s devicename SL_BT_TST1 ,tdebt.exe -g devicename
+echo TESTING  %CMDNAME%
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME% %VALUE%
+
+tdebt.exe -g %CMDNAME%>>%fileVar%
+
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=0
+ call :ColorText 0a "[OK]"
+(ECHO 0)>pskeyout.txt
+) else (
+set lastResult=1
+call :ColorText 0C  "[FAILED]"
+(ECHO 1)>pskeyout.txt
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem )
+rem ===========================================================================================
+
+
+pause
+
+
+rem TDE_CMD_GET_BATTERY_TEMP
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=battery_temp
+set VALUE=0x00: normal
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+ 
+						 if exist "%fileVar%" (
+						del %fileVar%
+						)
+						tdebt.exe -g %CMDNAME%>>%fileVar%
+						echo.
+						set /p readval=<%fileVar%
+						if "%readval%"=="%VALUE%" ( 
+						set lastResult=1
+						call :ColorText 0a "[OK]"
+						) else (
+						set lastResult=0
+						call :ColorText 0C  "[FAILED]"
+						)
+						echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+						 if exist "%fileVar%" (
+						del %fileVar%
+						)
+rem ===========================================================================================
+rem )
+
+
+pause
+
+
+
+echo LED CONTROL TESTS
+rem param1: uint8_t LED Device
+rem  LED_DEV_CALL=0,
+rem   LED_DEV_PWR=1,
+rem  printf("param2: uint8_t LED State
+rem  LED_DEV_CALL
+rem     0: Off
+rem      1: Mic Mute(Solid Red)
+rem      2: Off Hook(Solid Blue)
+rem      3: BT Pairing(Blinking Blue)
+rem  LED_DEV_PWR
+rem      0: Off
+rem      1: Full Batt (Solid Green)
+rem      2: Low Batt (Solid Red
+rem )     3: Very Low Batt (Blinking Red)
+rem      4: Charging (Solid Amber)
+
+
+echo CALL LED TESTS
+rem  LED_DEV_CALL
+rem     0: Off
+echo CALL LED OFF
+tdebt.exe -s led_colors 0 0
+pause	 
+rem      1: Mic Mute(Solid Red)
+echo CALL LED OFF
+tdebt.exe -s led_colors 0 1
+pause
+
+rem      2: Off Hook(Solid Blue)
+echo CALL LED OFF
+tdebt.exe -s led_colors 0 2
+pause
+
+rem      3: BT Pairing(Blinking Blue)
+echo CALL LED OFF
+tdebt.exe -s led_colors 0 3
+pause
+
+
+rem  LED_DEV_PWR
+rem      0: Off
+echo POWER LED OFF
+tdebt.exe -s led_colors 1 0
+pause
+
+rem turn off for now
+tdebt.exe -s led_colors 0 0
+
+
+
+rem      1: Full Batt (Solid Green)
+echo POWER LED Full Batt (Solid Green)
+tdebt.exe -s led_colors 1 1
+pause	
+
+rem      2: Low Batt (Solid Red)
+echo POWER LED Low Batt (Solid Red)
+tdebt.exe -s led_colors 1 2
+pause	
+
+rem )     3: Very Low Batt (Blinking Red)
+echo POWER LED Very Low Batt (Blinking Red)
+tdebt.exe -s led_colors 1 3
+pause	
+
+rem      4: Charging (Solid Amber)
+echo POWER LED Charging (Solid Amber)
+tdebt.exe -s led_colors 1 4
+pause	
+
+
+
+
+
+pause
+
+exit 0
+
+ 
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+echo end of test
+pause
+goto :eof
+
+ 
+ 
+ 
+ rem ===========================================================================================
+:ColorText
+echo off
+<nul set /p ".=%DEL%" > "%~2"
+findstr /v /a:%1 /R "^$" "%~2" nul
+del "%~2" > nul 2>&1
+goto :eof
+
+rem add to counter 
+:CNT_INC
+echo on
+set COUNTER_File=CNT.txt
+set  COUNTER_VALUE=0
+ set valadd=1
+  if not exist "%COUNTER_File%" (
+ echo %COUNTER_VALUE%>>%COUNTER_File%
+)
+
+  if  exist "%COUNTER_File%" (
+   set /p cntval=<%COUNTER_File%
+ set /a COUNTER_VALUE=%cntval%+%valadd%
+ del %COUNTER_File%
+ echo %COUNTER_VALUE%>>%COUNTER_File%
+)
+
+goto :eof
+
+rem fail counter 
+:CNT_INC_FAIL
+set COUNTER_File=CNT.txt
+set /a COUNTER_VALUE=%var1%+%var2%
+ if exist "%COUNTER_File%" (
+ set valadd=1
+ set /p cntval=<%COUNTER_File%
+del %COUNTER_File%
+
+set /a cnt_sum=%COUNTER_File%+%valadd%
+echo %cnt_sum%>>%COUNTER_File%
+)
+goto :eof
+rem ===========================================================================================
+
+
+
+
+exit 0
+
+ REM BLUETOOTH COMMANDS 
+ 
+ rem CLEAR BT KEY
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=btclear_paired_dev
+set VALUE=[OK]
+ rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [O].btclear_paired_dev    -set- clears the bluetooth key,     Usage: tdebt.exe -s btclear_paired_dev
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+REM radiotxdata
+rem ===========================================================================================
+rem [O].radiotxdata           -sets radio tx data,                Usage: tdebt.exe -s radiotxdata
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=radiotxdata
+set VALUE=[OK]
+echo TESTING  %CMDNAME%
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+ rem ===========================================================================================
+ 
+ REM UART DISABLE
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_uartdisable
+set VALUE=[OK]
+ if "0"=="1" ( 
+rem ===========================================================================================
+rem [O].bt_uartdisable        -sets the uart lines to low,        Usage: tdebt.exe -s bt_uartdisable
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" (
+set lastResult=1 
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+ )
+rem ===========================================================================================
+
+
+ REM BT Clear Signal Level
+ set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=btread_sig_level_dev
+set VALUE=[OK]
+ rem ===========================================================================================
+rem if "%lastResult%"=="1" ( 
+rem [O].btread_sig_level_dev  -get- reads the signal level(RSSI), Usage: tdebt.exe -g btread_sig_level_dev
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -s %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" (
+set lastResult=1 
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem )
+rem ===========================================================================================
+
+
+
+
+
+
+rem TDE_CMD_SET_Tx_power_level
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].tx_power_level           -gets/Sets the tx power level         Usage: tdebt.exe -s tx_power_level
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+rem TDE_CMD_SET_Tx_CARRIER_ON_OFF
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].tx_carrier               -gets/Sets the tx carrier             Usage: tdebt.exe -s tx_carrier
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+rem TDE_CMD_SET_HDCP_Key 
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].hdcp_key                 -gets/Sets the hdcp key               Usage: tdebt.exe -s hdcp_key
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+
+
+
+rem Set_HDCP_Key 
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].battery_temp             -gets the battery temp                Usage: tdebt.exe -s battery_temp
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+rem Get_HDCP_Key 
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].device_powermode         -gets reads the device powermode      Usage: tdebt.exe -s device_powermode
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+rem Get_Tx_CARRIER_ON_OFF
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].adapter_power_state      -gets the device adapter state        Usage: tdebt.exe -s adapter_power_state
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+rem Set_Tx_CARRIER_ON_OFF
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=bt_nfcstatus
+set VALUE=0
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].usb_power_mode           -gets the device usb powermode        Usage: tdebt.exe -s usb_power_mode
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+
+
+
+
+rem still working on these 
+
+pause
+
+ 
+
+ 
+
+
+rem TDE_CMD_SET_TestStationN_PASS
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=tstStationPass
+set VALUE=0
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].tstStationPass           -gets/Sets the station pass status    Usage: tdebt.exe -s tstStationPass
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+
+rem TDE_CMD_SET_TestStationN_FAIL
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=tstStationFail
+set VALUE=0
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+rem [_].tstStationFail           -gets/Sets the station fail status    Usage: tdebt.exe -s tstStationFail
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+
+
+rem TDE_CMD_Get_TestStationN_Flag
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=tstStationFlag
+set VALUE=0
+echo TDE_CMD_Get_TestStationN_Flag
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+ 
+ if exist "%fileVar%" (
+del %fileVar%
+)
+tdebt.exe -g %CMDNAME%>>%fileVar%
+echo.
+set /p readval=<%fileVar%
+if "%readval%"=="%VALUE%" ( 
+set lastResult=1
+call :ColorText 0a "[OK]"
+) else (
+set lastResult=0
+call :ColorText 0C  "[FAILED]"
+)
+echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+ if exist "%fileVar%" (
+del %fileVar%
+)
+rem ===========================================================================================
+rem )
+
+
+
+rem TDE_CMD_SET_Video_USB_SerialNum
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=vidUSBSerNum
+set VALUE=0
+echo TDE_CMD_SET_Video_USB_SerialNum
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+ 
+						 if exist "%fileVar%" (
+						del %fileVar%
+						)
+						tdebt.exe -g %CMDNAME%>>%fileVar%
+						echo.
+						set /p readval=<%fileVar%
+						if "%readval%"=="%VALUE%" ( 
+						set lastResult=1
+						call :ColorText 0a "[OK]"
+						) else (
+						set lastResult=0
+						call :ColorText 0C  "[FAILED]"
+						)
+						echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+						 if exist "%fileVar%" (
+						del %fileVar%
+						)
+rem ===========================================================================================
+rem )
+
+rem Get_Audio_USB_SerialNum 
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=audUSBSerNum
+set VALUE=0
+echo Get_Audio_USB_SerialNum
+echo .....................................................................................................................................................................................................
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+					 
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+					tdebt.exe -g %CMDNAME%>>%fileVar%
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%VALUE%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+
+
+rem TDE_CMD_WiFi_GET_MACADDRESS    	            = 59,	// for mariner 
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=wifimac
+set VALUE=0
+rem tdebt.exe -g wifimac
+echo .....................................................................................................................................................................................................
+echo TDE_CMD_WiFi_GET_MACADDRESS
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+					 
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+					tdebt.exe -g %CMDNAME%>>%fileVar%
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%VALUE%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+
+  
+rem TDE_CMD_MIRACAST_UPDATE_SWITCH_MODE	        = 60,	// for marine
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=wifimac
+set VALUE=0
+rem tdebt.exe -s miracast_updateSwitch
+echo .....................................................................................................................................................................................................
+echo TDE_CMD_MIRACAST_UPDATE_SWITCH_MODE
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+					 
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+					tdebt.exe -g %CMDNAME%>>%fileVar%
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%VALUE%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+
+
+
+rem TDE_CMD_MIRACAST_USB_SWITCH_MODE	        = 61,	// for mariner
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=miracast_usb_switch
+set VALUE=0
+rem tdebt.exe -s miracast_usb_switch
+echo .....................................................................................................................................................................................................
+echo TDE_CMD_MIRACAST_USB_SWITCH_MODE
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+					 
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+					tdebt.exe -g %CMDNAME%>>%fileVar%
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%VALUE%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+
+
+
+rem 	TDE_CMD_GET_RemoteControl_Proximity_STATUS	= 62,       // for mariner
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=remote_sensor
+set VALUE=0
+rem tdebt.exe -g remote_sensor
+echo .....................................................................................................................................................................................................
+echo TDE_CMD_GET_RemoteControl_Proximity_STATUS
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+					 
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+					tdebt.exe -g %CMDNAME%>>%fileVar%
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%VALUE%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+
+
+rem 	TDE_CMD_SET_AUDIO_DSP_OFF					= 63,       // for mariner
+set READBACKNAME=0
+set fileVar=READBACKNAME.txt
+set CMDNAME=audio_dsp
+set VALUE=0
+rem tdebt.exe -s audio_dsp
+echo .....................................................................................................................................................................................................
+echo TDE_CMD_SET_AUDIO_DSP_OFF
+echo TESTING %CMDNAME%
+rem if "%lastResult%"=="1" ( 
+rem ===========================================================================================
+					 
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+					tdebt.exe -g %CMDNAME%>>%fileVar%
+					echo.
+					set /p readval=<%fileVar%
+					if "%readval%"=="%VALUE%" ( 
+					set lastResult=1
+					call :ColorText 0a "[OK]"
+					) else (
+					set lastResult=0
+					call :ColorText 0C  "[FAILED]"
+					)
+					echo  %CMDNAME% EXPECTED "%VALUE%" == "%readval%"
+					 if exist "%fileVar%" (
+					del %fileVar%
+					)
+rem ===========================================================================================
+rem )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Tilt range  
+0X14 
+0X00 
+pan range
+0X1C 
+0X1E
+test count 
+0X02 
+0X00

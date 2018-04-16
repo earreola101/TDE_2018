@@ -1,0 +1,1 @@
+USBDevCmd.exe --PID 0869 --TargetVersion 0017

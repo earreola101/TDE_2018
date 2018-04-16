@@ -1,0 +1,19 @@
+[inputs]
+; Get output currct
+; SCPICmd="MEASure:CURRent?"
+Option=Send
+SCPICmd="MEASure:CURRent?"
+COMPort=7
+ShowCFG=0
+avoidreturn=false
+;outputFile=c:\Working.out
+;logfile=c:\UltimateScpiCmd.log
+
+ExitPause=False
+;
+Headers=I_BTTx
+UpLimit=0.6
+LowLimit=0.15
+TargetLimit=0.3
+
+

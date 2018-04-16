@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [100.0.1861] 1071aeaab0464d008f41fa214fb6d451_12:46:09.7340079_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <Test id="run(MCUVERSION.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=MCU1FW.out;         " />
+        <InputFile id="InputFile=MCU1FW.in;            " />
+        <Name id="Name=MCUversion;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(AudioVersion.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=audioversion.out;         " />
+        <InputFile id="InputFile=audioversion.in;            " />
+        <Name id="Name=audioversion;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:1/10/2017 12:46:30 PM-->
+<!--CHANGELOG:1/10/2017 12:46:33 PM1/10/2017 12:46:09 PM: refreshing...
+1/10/2017 12:46:09 PM: 1/10/2017 12:46:09 PM
+1/10/2017 12:46:30 PM: saving...
+-->
+<!--CHANGELOG:1/10/2017 12:46:34 PM1/10/2017 12:46:09 PM: refreshing...
+1/10/2017 12:46:09 PM: 1/10/2017 12:46:09 PM
+1/10/2017 12:46:30 PM: saving...
+1/10/2017 12:46:33 PM: saving...
+-->
+<!--CHANGELOG:1/10/2017 12:47:13 PM1/10/2017 12:46:44 PM: refreshing...
+1/10/2017 12:46:44 PM: 1/10/2017 12:46:44 PM
+1/10/2017 12:46:47 PM: Right Click Edit on item run(Motortiltcheck.bat); 
+-->
+<!--CHANGELOG:1/10/2017 2:53:33 PM1/10/2017 2:53:24 PM: refreshing...
+1/10/2017 2:53:24 PM: 1/10/2017 2:53:24 PM
+-->
+<!--CHANGELOG:1/10/2017 2:53:35 PM1/10/2017 2:53:24 PM: refreshing...
+1/10/2017 2:53:24 PM: 1/10/2017 2:53:24 PM
+1/10/2017 2:53:33 PM: saving...
+-->
+<!--CHANGELOG:1/10/2017 2:56:07 PM1/10/2017 2:55:27 PM: refreshing...
+1/10/2017 2:55:27 PM: 1/10/2017 2:55:27 PM
+-->
+<!--CHANGELOG:1/10/2017 3:08:38 PM1/10/2017 3:08:14 PM: refreshing...
+1/10/2017 3:08:14 PM: 1/10/2017 3:08:14 PM
+-->
+<!--CHANGELOG:1/10/2017 3:09:19 PM1/10/2017 3:08:14 PM: refreshing...
+1/10/2017 3:08:14 PM: 1/10/2017 3:08:14 PM
+1/10/2017 3:08:38 PM: saving...
+1/10/2017 3:08:44 PM: Right Click Edit on item Name=MCUversion;                //This is the name of the module
+1/10/2017 3:09:05 PM: Right Click Edit on item Name=vedioversion;                //This is the name of the module
+-->
+<!--CHANGELOG:1/10/2017 3:09:21 PM1/10/2017 3:08:14 PM: refreshing...
+1/10/2017 3:08:14 PM: 1/10/2017 3:08:14 PM
+1/10/2017 3:08:38 PM: saving...
+1/10/2017 3:08:44 PM: Right Click Edit on item Name=MCUversion;                //This is the name of the module
+1/10/2017 3:09:05 PM: Right Click Edit on item Name=vedioversion;                //This is the name of the module
+1/10/2017 3:09:19 PM: saving...
+-->

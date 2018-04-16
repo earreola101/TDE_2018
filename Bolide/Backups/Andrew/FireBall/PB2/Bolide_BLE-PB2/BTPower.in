@@ -1,0 +1,18 @@
+[inputs]
+Option=TiltT
+MovingDelay=4000
+outputFile="NA"
+Device="USB Video Device"
+exposure=-6
+
+
+;______________________________________________________________________
+;
+
+
+Headers=Power
+LowLimit=38
+UpLimit=120
+TargetLimit=100
+LogFile=test.log
+VarResultSummary=

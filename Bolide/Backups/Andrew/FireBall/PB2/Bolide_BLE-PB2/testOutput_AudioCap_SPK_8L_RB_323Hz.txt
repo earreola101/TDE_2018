@@ -1,0 +1,8 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\tsoperator\Desktop\Jan-27\stimulus\Tone SPKR R&B 323Hz 0dBFS 3sec.wav"
+PCMFileOut="C:\Users\tsoperator\Desktop\Jan-27\recorded\Mariner_SPK_8L_RB_323Hz.wav"

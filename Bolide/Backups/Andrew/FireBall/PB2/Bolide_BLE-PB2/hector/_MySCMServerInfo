@@ -1,0 +1,11 @@
+SCMBranch=Box_101
+SCMRepository=HWQA/audiosw/Installer components/test tracking/hector
+SCMMainlineUUID=
+SCMBranchRepositoryID=4294967295
+LVREG.exe;2602031467;1;1266622844;
+hector.ini;449847993;1;1472149952;
+onEnd.bat;1426485668;1;1472766607;
+onFile.bat;1746609168;1;1472160384;
+onStart.bat;4194570587;1;1472160380;
+read_0821.bat;1791276455;1;1472149316;
+reset_0821.bat;350736774;1;1321480866;

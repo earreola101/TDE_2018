@@ -1,0 +1,1 @@
+"btcli.exe","4788","Console","1","4,504 K","Running","TDE11\tsoperator","0:00:00","A2A"

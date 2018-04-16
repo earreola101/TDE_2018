@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"powerBT, Failure up limit! (Up=-50) >= (Value=) >= (Low=-82)"
+Headers=powerBT
+Values=
+LowLimit=-82
+UpLimit=-50
+TargetLimit=-60
+LogFile=D:\Bolide_BLE-PB1\UltimateScpiCmd.log
+VarResultSummary=
+

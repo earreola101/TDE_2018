@@ -1,0 +1,15 @@
+[inputs]
+Option=Send
+SCPICmd="ORESULT TEST,1,LEOP"
+COMPort="7"
+ShowCFG=0
+LtrimPrefix=1
+outputFile=.\BTRemote.out
+PreviewReadyDelay=1000
+ExitPause=False
+Headers=Extension code,Result code,Average power,Max avg power,Min avg power,Peak to avg power,Number fail,Number tested,Result
+UpLimit=LEOP0,TRUE,10.0,10.0,10.0,3.0,100.0,100.0,PASS
+LowLimit=LEOP0,TRUE,-20.0,-20.0,-20.0,-20.0,-100.0,-100.0,PASS
+TargetLimit=LEOP0,TRUE,100.0,100.0,100.0,100.0,100.0,100.0,PASS
+
+

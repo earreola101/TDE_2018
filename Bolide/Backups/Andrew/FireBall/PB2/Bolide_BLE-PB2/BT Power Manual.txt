@@ -1,0 +1,10 @@
+Dos Coomandlines -- Run under CSR BlueSuite2.5 Folder C:\Program Files\CSR\BlueSuite 2.5.0 where BTCli.exe exists
+
+1. btcli USB -l -t
+2. rt rxstart2 2441
+3. rt pause
+4. quit
+
+
+Log:
+C:\Program Files\CSR\BlueSuite 2.5.0 btcli.log

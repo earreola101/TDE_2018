@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"powerBT, Failure low limit! (Up=-50) >= (Value=-81.800000) >= (Low=-80)"
+Headers=powerBT
+Values=-81.800000
+LowLimit=-80
+UpLimit=-50
+TargetLimit=-60
+VarResultSummary=
+LogFile=C:\Users\TE\Desktop\Meridian_audioandbtble_PB3\BLE_NOR_MT\UltimateScpiCmd.log
+InputFile=

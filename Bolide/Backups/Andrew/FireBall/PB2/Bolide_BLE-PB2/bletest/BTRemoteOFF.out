@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=Extension code,Result code,Average offset,Max +ve,Max -ve,Drift rate50us,Average drift,Max Drift,Number fail,Number tested,Result
+Values=LEICD0,TRUE,-1.020e+004,-7.100e+003,-1.520e+004,6382,1.0e+003,7.0e+003,0,10,PASS
+LowLimit=LEICD0,TRUE,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,-100000.0,PASS
+UpLimit=LEICD0,TRUE,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,PASS
+TargetLimit=LEICD0,TRUE,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,100000.0,PASS
+VarResultSummary=
+LogFile=C:\Users\TE\Desktop\Meridian_audiobt_PB3\bletest\UltimateScpiCmd.log
+InputFile=

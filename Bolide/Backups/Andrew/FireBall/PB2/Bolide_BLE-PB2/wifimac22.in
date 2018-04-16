@@ -1,0 +1,15 @@
+[inputs]
+Option=wifimac
+MovingDelay=4000
+outputFile=.\wifimac.out
+byte1=01
+
+Headers=BDaddr
+LowLimit=10000
+UpLimit=25000
+TargetLimit= 
+LogFile=test.log
+VarResultSummary=
+
+
+

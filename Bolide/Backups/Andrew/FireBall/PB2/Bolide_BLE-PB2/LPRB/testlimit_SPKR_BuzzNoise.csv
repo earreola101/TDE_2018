@@ -1,0 +1,5 @@
+[INPUTS]
+Headers=tm[0],snr[0],tm[1],snr[1],tm[2],snr[2],tm[3],snr[3],tm[4],snr[4]
+Unit=sec,dB,sec,dB,sec,dB,sec,dB,sec,dB
+UpLimit=1.20,5,2,5,4.6,5,5.4,5,6.2,5
+LowLimit=0.0,0,1.2,0,2,0,4.6,0,5.4,0

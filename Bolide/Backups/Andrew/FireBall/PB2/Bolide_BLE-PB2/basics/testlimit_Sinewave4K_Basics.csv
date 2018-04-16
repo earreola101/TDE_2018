@@ -1,0 +1,5 @@
+[INPUTS]
+Headers=AC,DC,THD,SNR,freq[0],Amp[0],freq[1],Amp[1],freq[2],Amp[2],freq[3],Amp[3],freq[4],Amp[4],freq[5],Amp[5]
+Unit=dB,%,%,dB,hz,dB,hz,dB,hz,dB,hz,dB,hz,dB,hz,dB
+UpLimit=-3,1,1,90,4001,-3,8001,-3,12001,-3,16001,-3,20002,-3,240001,0
+LowLimit=-90,0,0,3,3999,-90,7999,-90,11999,-120,15999,-120,19998,-130,0,-120

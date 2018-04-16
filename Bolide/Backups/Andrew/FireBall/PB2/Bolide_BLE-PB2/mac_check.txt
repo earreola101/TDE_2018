@@ -1,0 +1,5 @@
+ macaddress  EXPECTED "4473d6084bc1" == "4473d6084bc1"
+"[OK]"
+PASS Label Addr=="4473d6084bc1", EEPROM value="4473d6084bc1"
+ macaddress  EXPECTED "4473d6084bc1" == "4473d6084bc1"
+test return code 0 

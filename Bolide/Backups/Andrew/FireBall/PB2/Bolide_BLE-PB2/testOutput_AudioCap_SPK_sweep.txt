@@ -1,0 +1,8 @@
+[Outputs]
+Status=1
+ReturnCode=-2147467259
+Message="EasyAudio calls fail. ERROR"
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\tsoperator\Desktop\Sep-21_8L\stimulus\12th&3rd Oct Sweep scaled 3.80641E+0  V FSD_cut3dB.wav"
+PCMFileOut="C:\Users\tsoperator\Desktop\Sep-21_8L\recorded\SPK_12th&3rd Oct Sweep scaled 3.80641E+0  V FSD.wav"

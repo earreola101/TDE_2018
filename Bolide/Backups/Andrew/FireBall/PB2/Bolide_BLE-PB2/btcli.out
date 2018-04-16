@@ -1,0 +1,9 @@
+[Outputs]
+Status=1
+ReturnCode=0
+Message=Low Power
+Headers=Power
+Values=0
+LowLimit=38
+UpLimit=120
+TargetLimit=120

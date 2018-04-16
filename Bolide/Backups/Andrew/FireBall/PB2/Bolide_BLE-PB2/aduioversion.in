@@ -1,0 +1,15 @@
+[inputs]
+Option=MCU1version
+MovingDelay=4000
+outputFile=audioversion.out
+byte1=01
+
+Headers=Audioversion
+LowLimit=1.0.0
+UpLimit=1.0.1
+TargetLimit= 
+LogFile=test.log
+VarResultSummary=
+
+
+

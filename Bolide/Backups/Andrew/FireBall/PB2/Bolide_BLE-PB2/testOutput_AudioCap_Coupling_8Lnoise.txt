@@ -1,0 +1,8 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+LogFile=(null)
+TestSettings=(null)
+SoundSource="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_0111201711\stimulus\Sweep_3s_96k_-90dB_24bit_White.wav"
+PCMFileOut="C:\Users\achen9\Desktop\Meridian_audio_test_PB1_0111201711\recorded\Meridian_Motor_noise.wav"
