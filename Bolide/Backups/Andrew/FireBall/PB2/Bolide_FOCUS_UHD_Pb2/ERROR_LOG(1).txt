@@ -1,0 +1,425 @@
+11/13/2015 6:50:49 PM: kinetic started ok - 272 total dlls
+11/13/2015 6:52:50 PM: kinetic started ok - 272 total dlls
+11/16/2015 11:57:01 AM: kinetic started ok - 272 total dlls
+11/16/2015 12:02:46 PM: kinetic started ok - 272 total dlls
+11/17/2015 2:34:57 PM: kinetic started ok - 91 total dlls
+11/17/2015 2:35:28 PM: kinetic started ok - 91 total dlls
+11/17/2015 3:22:35 PM: kinetic started ok - 91 total dlls
+11/17/2015 3:25:21 PM: kinetic started ok - 92 total dlls
+11/17/2015 3:34:19 PM: kinetic started ok - 92 total dlls
+11/17/2015 3:44:21 PM: kinetic started ok - 92 total dlls
+11/17/2015 3:52:15 PM: kinetic started ok - 92 total dlls
+11/17/2015 5:20:20 PM: kinetic started ok - 92 total dlls
+11/18/2015 4:20:31 PM: kinetic started ok - 92 total dlls
+11/18/2015 4:41:17 PM: kinetic started ok - 92 total dlls
+11/18/2015 4:48:27 PM: kinetic started ok - 92 total dlls
+11/18/2015 4:58:44 PM: kinetic started ok - 92 total dlls
+11/18/2015 5:22:19 PM: kinetic started ok - 92 total dlls
+11/18/2015 5:30:18 PM: kinetic started ok - 92 total dlls
+11/18/2015 6:15:41 PM: kinetic started ok - 92 total dlls
+11/18/2015 6:17:15 PM: kinetic started ok - 92 total dlls
+11/18/2015 6:53:33 PM: kinetic started ok - 92 total dlls
+11/18/2015 7:20:08 PM: kinetic started ok - 92 total dlls
+11/18/2015 7:24:25 PM: kinetic started ok - 92 total dlls
+11/18/2015 7:50:49 PM: kinetic started ok - 92 total dlls
+11/18/2015 7:56:13 PM: kinetic started ok - 92 total dlls
+11/18/2015 8:41:54 PM: kinetic started ok - 92 total dlls
+11/18/2015 8:53:52 PM: kinetic started ok - 92 total dlls
+11/18/2015 9:16:15 PM: kinetic started ok - 92 total dlls
+11/18/2015 9:24:22 PM: kinetic started ok - 92 total dlls
+11/18/2015 9:29:37 PM: kinetic started ok - 92 total dlls
+11/18/2015 9:34:56 PM: kinetic started ok - 92 total dlls
+11/18/2015 9:40:39 PM: kinetic started ok - 92 total dlls
+11/18/2015 9:45:28 PM: kinetic started ok - 92 total dlls
+11/19/2015 1:33:55 AM: kinetic started ok - 92 total dlls
+11/19/2015 1:38:20 AM: kinetic started ok - 92 total dlls
+11/19/2015 10:45:57 AM: kinetic started ok - 84 total dlls
+11/19/2015 10:46:53 AM: kinetic started ok - 84 total dlls
+11/19/2015 11:33:03 AM: kinetic started ok - 84 total dlls
+11/19/2015 3:03:28 PM: kinetic started ok - 84 total dlls
+11/19/2015 3:13:26 PM: kinetic started ok - 84 total dlls
+11/19/2015 3:14:04 PM: kinetic started ok - 84 total dlls
+11/19/2015 3:15:46 PM: kinetic started ok - 84 total dlls
+11/19/2015 5:35:35 PM: kinetic started ok - 84 total dlls
+11/19/2015 5:35:58 PM: kinetic started ok - 84 total dlls
+11/19/2015 5:37:25 PM: kinetic started ok - 84 total dlls
+11/20/2015 1:16:37 PM: kinetic started ok - 84 total dlls
+11/20/2015 2:09:46 PM: kinetic started ok - 84 total dlls
+11/20/2015 2:22:11 PM: kinetic started ok - 84 total dlls
+11/20/2015 2:32:52 PM: kinetic started ok - 84 total dlls
+11/23/2015 11:00:48 AM: kinetic started ok - 84 total dlls
+11/23/2015 12:37:11 PM: kinetic started ok - 84 total dlls
+11/23/2015 12:37:43 PM: kinetic started ok - 84 total dlls
+11/23/2015 5:33:16 PM: kinetic started ok - 84 total dlls
+11/24/2015 9:14:54 AM: kinetic started ok - 84 total dlls
+11/24/2015 9:15:35 AM: kinetic started ok - 84 total dlls
+11/24/2015 9:21:54 AM: kinetic started ok - 84 total dlls
+11/24/2015 4:04:13 PM: kinetic started ok - 84 total dlls
+11/25/2015 9:52:23 AM: kinetic started ok - 84 total dlls
+11/25/2015 10:18:17 AM: kinetic started ok - 84 total dlls
+11/25/2015 2:27:07 PM: kinetic started ok - 84 total dlls
+11/25/2015 2:31:38 PM: kinetic started ok - 84 total dlls
+11/25/2015 2:32:37 PM: kinetic started ok - 84 total dlls
+11/25/2015 2:32:46 PM: kinetic started ok - 84 total dlls
+11/25/2015 2:40:03 PM: kinetic started ok - 84 total dlls
+11/25/2015 2:40:48 PM: kinetic started ok - 84 total dlls
+11/25/2015 2:59:59 PM: kinetic started ok - 84 total dlls
+11/25/2015 3:12:06 PM: kinetic started ok - 84 total dlls
+11/25/2015 3:21:09 PM: kinetic started ok - 84 total dlls
+11/25/2015 4:08:36 PM: kinetic started ok - 84 total dlls
+11/25/2015 4:48:05 PM: kinetic started ok - 84 total dlls
+11/25/2015 4:55:37 PM: kinetic started ok - 84 total dlls
+11/25/2015 6:42:36 PM: kinetic started ok - 84 total dlls
+11/25/2015 7:33:17 PM: kinetic started ok - 84 total dlls
+11/26/2015 11:37:00 AM: kinetic started ok - 84 total dlls
+11/26/2015 11:40:18 AM: kinetic started ok - 84 total dlls
+11/26/2015 11:46:44 AM: kinetic started ok - 84 total dlls
+11/26/2015 4:49:03 PM: kinetic started ok - 84 total dlls
+11/27/2015 6:10:52 AM: kinetic started ok - 84 total dlls
+11/27/2015 6:50:02 AM: kinetic started ok - 84 total dlls
+11/27/2015 6:55:56 AM: kinetic started ok - 84 total dlls
+11/27/2015 9:19:30 AM: kinetic started ok - 84 total dlls
+11/27/2015 9:21:02 AM: kinetic started ok - 84 total dlls
+11/27/2015 9:45:51 AM: kinetic started ok - 84 total dlls
+11/27/2015 11:17:15 AM: kinetic started ok - 84 total dlls
+11/27/2015 1:37:29 PM: kinetic started ok - 84 total dlls
+11/27/2015 3:25:18 PM: kinetic started ok - 84 total dlls
+11/27/2015 4:02:08 PM: kinetic started ok - 84 total dlls
+11/27/2015 4:03:29 PM: kinetic started ok - 84 total dlls
+11/27/2015 5:14:57 PM: kinetic started ok - 84 total dlls
+11/27/2015 5:19:30 PM: kinetic started ok - 84 total dlls
+11/27/2015 5:46:12 PM: kinetic started ok - 84 total dlls
+11/27/2015 6:00:48 PM: kinetic started ok - 84 total dlls
+11/27/2015 6:45:00 PM: kinetic started ok - 84 total dlls
+11/27/2015 6:49:31 PM: kinetic started ok - 84 total dlls
+11/27/2015 7:28:56 PM: kinetic started ok - 84 total dlls
+11/27/2015 7:32:30 PM: kinetic started ok - 84 total dlls
+11/30/2015 9:47:08 AM: kinetic started ok - 84 total dlls
+11/30/2015 10:06:24 AM: kinetic started ok - 84 total dlls
+11/30/2015 3:40:38 PM: kinetic started ok - 84 total dlls
+11/30/2015 4:53:22 PM: kinetic started ok - 84 total dlls
+11/30/2015 4:56:06 PM: kinetic started ok - 84 total dlls
+11/30/2015 4:59:38 PM: kinetic started ok - 84 total dlls
+12/1/2015 6:19:55 AM: kinetic started ok - 92 total dlls
+12/1/2015 6:58:03 AM: kinetic started ok - 85 total dlls
+12/1/2015 7:02:10 AM: kinetic started ok - 85 total dlls
+12/1/2015 10:19:52 AM: kinetic started ok - 85 total dlls
+12/1/2015 1:08:01 PM: kinetic started ok - 93 total dlls
+12/1/2015 4:59:58 PM: kinetic started ok - 93 total dlls
+12/2/2015 3:53:42 AM: kinetic started ok - 93 total dlls
+12/2/2015 12:16:42 PM: kinetic started ok - 88 total dlls
+12/2/2015 12:18:43 PM: kinetic started ok - 88 total dlls
+2015/12/2 13:02:50: kinetic started ok - 92 total dlls
+2015/12/2 13:17:43: kinetic started ok - 92 total dlls
+2015/12/2 13:53:47: kinetic started ok - 92 total dlls
+2015/12/2 14:54:19: kinetic started ok - 92 total dlls
+2015/12/2 14:55:01: kinetic started ok - 92 total dlls
+2015/12/2 15:19:58: kinetic started ok - 92 total dlls
+2015/12/2 16:54:34: kinetic started ok - 92 total dlls
+12/4/2015 10:59:15 AM: kinetic started ok - 93 total dlls
+12/4/2015 4:49:29 PM: kinetic started ok - 93 total dlls
+12/4/2015 4:50:02 PM: kinetic started ok - 93 total dlls
+12/9/2015 9:40:31 AM: kinetic started ok - 93 total dlls
+12/9/2015 10:16:34 AM: kinetic started ok - 93 total dlls
+12/9/2015 10:49:09 AM: kinetic started ok - 93 total dlls
+12/9/2015 11:00:54 AM: kinetic started ok - 93 total dlls
+12/9/2015 11:21:30 AM: kinetic started ok - 93 total dlls
+12/9/2015 11:24:51 AM: kinetic started ok - 93 total dlls
+12/9/2015 11:34:51 AM: kinetic started ok - 93 total dlls
+12/9/2015 1:34:53 PM: kinetic started ok - 93 total dlls
+12/9/2015 1:44:45 PM: kinetic started ok - 93 total dlls
+12/10/2015 4:53:17 PM: kinetic started ok - 93 total dlls
+2015/12/11 9:22:42: kinetic started ok - 92 total dlls
+2015/12/15 19:25:36: kinetic started ok - 92 total dlls
+2015/12/22 10:21:25: kinetic started ok - 92 total dlls
+2015/12/23 7:45:26: kinetic started ok - 92 total dlls
+2015/12/29 13:41:13: kinetic started ok - 92 total dlls
+2015/12/30 10:39:22: kinetic started ok - 92 total dlls
+2015/12/31 8:21:42: kinetic started ok - 92 total dlls
+2015/12/31 11:40:48: kinetic started ok - 92 total dlls
+2015/12/31 18:25:55: kinetic started ok - 92 total dlls
+2015/12/31 18:38:51: kinetic started ok - 92 total dlls
+2015/12/31 18:40:19: kinetic started ok - 92 total dlls
+2015/12/31 19:08:24: kinetic started ok - 92 total dlls
+2016/1/2 20:40:42: kinetic started ok - 92 total dlls
+2016/1/4 17:55:48: kinetic started ok - 92 total dlls
+2016/1/4 20:36:34: kinetic started ok - 92 total dlls
+2016/1/5 0:56:18: kinetic started ok - 92 total dlls
+2016/1/5 8:20:30: kinetic started ok - 92 total dlls
+1/4/2016 6:19:03 PM: kinetic started ok - 95 total dlls
+2016/1/13 15:48:26: kinetic started ok - 93 total dlls
+2016/1/16 8:04:19: kinetic started ok - 93 total dlls
+2016/1/16 8:34:06: kinetic started ok - 93 total dlls
+2016/1/16 8:59:40: kinetic started ok - 93 total dlls
+2016/1/16 9:10:03: kinetic started ok - 93 total dlls
+2016/1/16 11:16:43: kinetic started ok - 93 total dlls
+2016/1/16 11:58:34: kinetic started ok - 93 total dlls
+2016/1/17 3:09:14: kinetic started ok - 93 total dlls
+2016/1/18 8:00:23: kinetic started ok - 93 total dlls
+2016/1/18 13:22:51: kinetic started ok - 93 total dlls
+2016/1/22 15:25:26: kinetic started ok - 93 total dlls
+2016/1/22 15:25:57: kinetic started ok - 93 total dlls
+1/22/2016 4:36:27 PM: kinetic started ok - 92 total dlls
+1/23/2016 5:11:04 AM: kinetic started ok - 88 total dlls
+1/23/2016 5:13:37 AM: kinetic started ok - 89 total dlls
+1/23/2016 5:27:26 AM: kinetic started ok - 89 total dlls
+1/23/2016 6:18:35 AM: kinetic started ok - 92 total dlls
+1/27/2016 4:05:06 AM: kinetic started ok - 92 total dlls
+1/27/2016 4:07:44 AM: kinetic started ok - 92 total dlls
+1/27/2016 6:51:03 AM: kinetic started ok - 92 total dlls
+1/27/2016 6:54:19 AM: kinetic started ok - 92 total dlls
+1/27/2016 6:57:19 AM: kinetic started ok - 92 total dlls
+1/27/2016 6:59:31 AM: kinetic started ok - 92 total dlls
+1/27/2016 7:06:50 AM: kinetic started ok - 92 total dlls
+1/27/2016 7:12:10 AM: kinetic started ok - 92 total dlls
+1/28/2016 4:05:12 AM: kinetic started ok - 92 total dlls
+1/28/2016 6:18:34 AM: kinetic started ok - 92 total dlls
+1/28/2016 11:06:10 AM: kinetic started ok - 92 total dlls
+1/29/2016 4:16:58 AM: kinetic started ok - 92 total dlls
+1/29/2016 4:17:50 AM: kinetic started ok - 92 total dlls
+1/29/2016 12:55:27 PM: kinetic started ok - 92 total dlls
+1/29/2016 12:56:11 PM: kinetic started ok - 92 total dlls
+1/30/2016 4:03:08 AM: kinetic started ok - 92 total dlls
+1/30/2016 5:46:38 AM: kinetic started ok - 92 total dlls
+1/30/2016 6:18:59 AM: kinetic started ok - 92 total dlls
+1/30/2016 8:21:46 AM: kinetic started ok - 92 total dlls
+1/30/2016 8:36:28 AM: kinetic started ok - 92 total dlls
+2/17/2016 6:32:22 AM: kinetic started ok - 92 total dlls
+2/17/2016 6:42:29 AM: kinetic started ok - 92 total dlls
+2/19/2016 9:54:33 AM: kinetic started ok - 92 total dlls
+2/19/2016 9:56:17 AM: kinetic started ok - 92 total dlls
+2/19/2016 10:54:59 AM: kinetic started ok - 92 total dlls
+2/19/2016 12:02:50 PM: kinetic started ok - 92 total dlls
+2/22/2016 10:00:48 AM: kinetic started ok - 92 total dlls
+3/17/2016 8:39:25 PM: kinetic started ok - 92 total dlls
+3/17/2016 8:44:27 PM: kinetic started ok - 92 total dlls
+3/17/2016 8:49:04 PM: kinetic started ok - 92 total dlls
+3/21/2016 10:58:13 AM: kinetic started ok - 92 total dlls
+3/21/2016 5:40:59 PM: kinetic started ok - 92 total dlls
+3/25/2016 8:09:31 AM: kinetic started ok - 92 total dlls
+3/26/2016 2:31:57 AM: kinetic started ok - 92 total dlls
+3/26/2016 8:01:18 AM: kinetic started ok - 92 total dlls
+3/28/2016 8:07:44 AM: kinetic started ok - 92 total dlls
+3/28/2016 9:25:50 AM: kinetic started ok - 92 total dlls
+3/28/2016 10:22:39 AM: kinetic started ok - 92 total dlls
+3/28/2016 10:29:41 AM: kinetic started ok - 92 total dlls
+3/31/2016 8:50:01 PM: kinetic started ok - 92 total dlls
+4/5/2016 3:43:49 PM: kinetic started ok - 92 total dlls
+4/6/2016 8:06:15 AM: kinetic started ok - 92 total dlls
+4/7/2016 8:07:14 AM: kinetic started ok - 92 total dlls
+4/7/2016 3:17:10 PM: kinetic started ok - 92 total dlls
+4/7/2016 3:24:17 PM: kinetic started ok - 92 total dlls
+4/7/2016 3:37:13 PM: kinetic started ok - 92 total dlls
+4/7/2016 4:19:11 PM: kinetic started ok - 92 total dlls
+4/8/2016 8:03:45 AM: kinetic started ok - 92 total dlls
+4/8/2016 8:07:35 AM: kinetic started ok - 92 total dlls
+4/8/2016 8:14:53 AM: kinetic started ok - 92 total dlls
+4/9/2016 7:58:24 AM: kinetic started ok - 92 total dlls
+4/9/2016 7:59:48 AM: kinetic started ok - 92 total dlls
+4/11/2016 8:02:05 AM: kinetic started ok - 92 total dlls
+4/11/2016 8:13:36 AM: kinetic started ok - 92 total dlls
+4/11/2016 9:53:04 AM: kinetic started ok - 92 total dlls
+4/11/2016 10:29:46 AM: kinetic started ok - 92 total dlls
+4/12/2016 2:48:13 PM: kinetic started ok - 92 total dlls
+4/12/2016 7:05:23 PM: kinetic started ok - 92 total dlls
+4/12/2016 7:14:16 PM: kinetic started ok - 92 total dlls
+4/13/2016 8:15:04 AM: kinetic started ok - 92 total dlls
+4/13/2016 10:18:40 AM: kinetic started ok - 92 total dlls
+4/14/2016 7:58:47 AM: kinetic started ok - 92 total dlls
+4/14/2016 6:25:26 PM: kinetic started ok - 92 total dlls
+4/14/2016 6:30:45 PM: kinetic started ok - 92 total dlls
+4/15/2016 8:01:18 AM: kinetic started ok - 92 total dlls
+4/15/2016 3:25:54 PM: kinetic started ok - 92 total dlls
+4/16/2016 8:01:06 AM: kinetic started ok - 92 total dlls
+4/16/2016 11:47:14 AM: kinetic started ok - 92 total dlls
+4/16/2016 4:27:10 PM: kinetic started ok - 92 total dlls
+4/16/2016 6:41:32 PM: kinetic started ok - 92 total dlls
+4/16/2016 6:46:46 PM: kinetic started ok - 92 total dlls
+4/18/2016 8:06:39 AM: kinetic started ok - 92 total dlls
+4/19/2016 3:30:25 PM: kinetic started ok - 92 total dlls
+4/30/2016 11:15:04 AM: kinetic started ok - 88 total dlls
+4/30/2016 11:18:28 AM: kinetic started ok - 89 total dlls
+5/4/2016 9:19:20 AM: kinetic started ok - 91 total dlls
+5/4/2016 11:33:21 AM: kinetic started ok - 91 total dlls
+5/4/2016 11:54:13 AM: kinetic started ok - 91 total dlls
+5/17/2016 3:08:16 PM: kinetic started ok - 92 total dlls
+5/18/2016 9:06:46 AM: kinetic started ok - 92 total dlls
+5/18/2016 9:10:16 AM: kinetic started ok - 92 total dlls
+5/18/2016 9:43:42 AM: kinetic started ok - 92 total dlls
+5/18/2016 1:33:23 PM: kinetic started ok - 92 total dlls
+5/18/2016 1:36:59 PM: kinetic started ok - 92 total dlls
+5/24/2016 9:08:41 AM: kinetic started ok - 92 total dlls
+5/24/2016 12:21:20 PM: kinetic started ok - 92 total dlls
+5/24/2016 3:25:58 PM: kinetic started ok - 92 total dlls
+5/24/2016 5:11:54 PM: kinetic started ok - 92 total dlls
+5/25/2016 9:04:38 AM: kinetic started ok - 92 total dlls
+5/25/2016 9:55:15 AM: kinetic started ok - 92 total dlls
+5/25/2016 2:53:52 PM: kinetic started ok - 92 total dlls
+5/26/2016 9:12:28 AM: kinetic started ok - 92 total dlls
+5/26/2016 9:43:59 AM: kinetic started ok - 92 total dlls
+5/26/2016 9:53:21 AM: kinetic started ok - 92 total dlls
+5/28/2016 12:12:08 PM: kinetic started ok - 90 total dlls
+6/14/2016 9:06:00 AM: kinetic started ok - 84 total dlls
+6/14/2016 9:21:49 AM: kinetic started ok - 84 total dlls
+6/14/2016 9:29:27 AM: kinetic started ok - 92 total dlls
+6/14/2016 9:56:01 AM: kinetic started ok - 84 total dlls
+6/14/2016 9:57:46 AM: kinetic started ok - 92 total dlls
+6/14/2016 10:23:01 AM: kinetic started ok - 92 total dlls
+6/14/2016 10:37:14 AM: kinetic started ok - 92 total dlls
+6/15/2016 8:58:03 PM: kinetic started ok - 84 total dlls
+6/16/2016 12:31:09 AM: kinetic started ok - 92 total dlls
+6/16/2016 1:07:50 AM: kinetic started ok - 92 total dlls
+6/16/2016 1:26:37 AM: kinetic started ok - 92 total dlls
+6/16/2016 1:31:11 AM: kinetic started ok - 92 total dlls
+6/16/2016 2:27:16 AM: kinetic started ok - 92 total dlls
+6/16/2016 2:35:37 AM: kinetic started ok - 92 total dlls
+6/16/2016 3:28:00 AM: kinetic started ok - 92 total dlls
+6/16/2016 4:21:47 AM: kinetic started ok - 92 total dlls
+6/16/2016 5:39:22 AM: kinetic started ok - 92 total dlls
+6/16/2016 6:02:48 AM: kinetic started ok - 92 total dlls
+6/16/2016 7:24:12 PM: kinetic started ok - 92 total dlls
+6/17/2016 1:23:28 PM: kinetic started ok - 92 total dlls
+6/17/2016 1:24:08 PM: kinetic started ok - 92 total dlls
+6/18/2016 2:29:12 AM: kinetic started ok - 92 total dlls
+6/18/2016 2:40:21 AM: kinetic started ok - 92 total dlls
+6/18/2016 2:45:46 AM: kinetic started ok - 92 total dlls
+6/18/2016 3:24:48 AM: kinetic started ok - 92 total dlls
+6/18/2016 3:28:45 AM: kinetic started ok - 92 total dlls
+6/18/2016 4:16:34 AM: kinetic started ok - 92 total dlls
+6/18/2016 5:21:26 AM: kinetic started ok - 92 total dlls
+6/18/2016 6:06:49 AM: kinetic started ok - 92 total dlls
+6/18/2016 8:22:39 PM: kinetic started ok - 92 total dlls
+6/18/2016 8:27:58 PM: kinetic started ok - 92 total dlls
+6/18/2016 9:17:03 PM: kinetic started ok - 92 total dlls
+6/18/2016 9:22:08 PM: kinetic started ok - 92 total dlls
+6/18/2016 9:39:30 PM: kinetic started ok - 92 total dlls
+6/18/2016 10:12:10 PM: kinetic started ok - 92 total dlls
+6/18/2016 11:08:53 PM: kinetic started ok - 92 total dlls
+6/19/2016 1:09:54 AM: kinetic started ok - 92 total dlls
+6/21/2016 10:30:27 AM: kinetic started ok - 89 total dlls
+6/21/2016 10:34:47 AM: kinetic started ok - 89 total dlls
+6/21/2016 2:19:16 PM: kinetic started ok - 92 total dlls
+6/22/2016 4:13:21 PM: kinetic started ok - 92 total dlls
+6/22/2016 8:02:07 PM: kinetic started ok - 92 total dlls
+6/22/2016 8:10:40 PM: kinetic started ok - 92 total dlls
+6/22/2016 8:48:41 PM: kinetic started ok - 92 total dlls
+6/22/2016 9:05:03 PM: kinetic started ok - 92 total dlls
+6/22/2016 9:09:04 PM: kinetic started ok - 92 total dlls
+6/22/2016 10:18:37 PM: kinetic started ok - 92 total dlls
+6/22/2016 11:21:34 PM: kinetic started ok - 92 total dlls
+6/23/2016 12:37:38 AM: kinetic started ok - 92 total dlls
+6/23/2016 1:41:31 AM: kinetic started ok - 90 total dlls
+6/23/2016 1:42:20 AM: kinetic started ok - 92 total dlls
+6/23/2016 1:44:01 AM: kinetic started ok - 92 total dlls
+6/23/2016 3:04:24 AM: kinetic started ok - 92 total dlls
+6/23/2016 4:05:50 AM: kinetic started ok - 92 total dlls
+6/23/2016 5:02:03 AM: kinetic started ok - 92 total dlls
+6/23/2016 6:03:47 AM: kinetic started ok - 92 total dlls
+6/23/2016 8:33:19 PM: kinetic started ok - 92 total dlls
+6/24/2016 2:05:06 AM: kinetic started ok - 92 total dlls
+6/29/2016 12:01:16 PM: kinetic started ok - 92 total dlls
+7/2/2016 10:04:16 AM: kinetic started ok - 92 total dlls
+7/7/2016 12:53:12 PM: kinetic started ok - 92 total dlls
+7/7/2016 6:41:54 PM: kinetic started ok - 92 total dlls
+7/8/2016 6:24:31 AM: kinetic started ok - 92 total dlls
+7/8/2016 8:08:46 AM: kinetic started ok - 92 total dlls
+7/8/2016 9:20:42 AM: kinetic started ok - 92 total dlls
+7/9/2016 2:07:20 AM: kinetic started ok - 92 total dlls
+7/9/2016 8:13:25 AM: kinetic started ok - 92 total dlls
+7/9/2016 12:38:28 PM: kinetic started ok - 92 total dlls
+7/9/2016 1:55:08 PM: kinetic started ok - 92 total dlls
+7/11/2016 8:11:15 AM: kinetic started ok - 92 total dlls
+7/11/2016 8:39:49 AM: kinetic started ok - 92 total dlls
+7/11/2016 3:26:54 PM: kinetic started ok - 92 total dlls
+7/12/2016 8:02:31 AM: kinetic started ok - 92 total dlls
+7/12/2016 9:22:16 PM: kinetic started ok - 92 total dlls
+7/13/2016 7:17:06 AM: kinetic started ok - 92 total dlls
+7/16/2016 6:06:04 AM: kinetic started ok - 92 total dlls
+7/17/2016 12:54:36 AM: kinetic started ok - 92 total dlls
+7/18/2016 8:00:27 AM: kinetic started ok - 92 total dlls
+7/19/2016 9:13:34 AM: kinetic started ok - 92 total dlls
+7/20/2016 8:16:04 AM: kinetic started ok - 92 total dlls
+7/21/2016 8:11:14 PM: kinetic started ok - 92 total dlls
+7/22/2016 12:09:50 AM: kinetic started ok - 92 total dlls
+7/22/2016 12:13:02 AM: kinetic started ok - 92 total dlls
+7/22/2016 12:19:51 AM: kinetic started ok - 92 total dlls
+7/22/2016 8:41:51 AM: kinetic started ok - 92 total dlls
+7/31/2016 12:41:31 AM: kinetic started ok - 92 total dlls
+7/31/2016 6:52:06 AM: kinetic started ok - 92 total dlls
+8/2/2016 12:11:37 AM: kinetic started ok - 92 total dlls
+8/2/2016 1:42:37 AM: kinetic started ok - 92 total dlls
+8/2/2016 3:16:49 AM: kinetic started ok - 92 total dlls
+8/2/2016 8:01:31 AM: kinetic started ok - 92 total dlls
+8/2/2016 9:01:14 AM: kinetic started ok - 92 total dlls
+8/5/2016 10:25:43 AM: kinetic started ok - 92 total dlls
+8/6/2016 12:22:10 AM: kinetic started ok - 92 total dlls
+8/6/2016 12:43:37 AM: kinetic started ok - 92 total dlls
+8/6/2016 4:49:10 AM: kinetic started ok - 92 total dlls
+8/6/2016 8:48:08 PM: kinetic started ok - 92 total dlls
+8/6/2016 10:12:21 PM: kinetic started ok - 92 total dlls
+8/8/2016 8:04:44 AM: kinetic started ok - 92 total dlls
+8/8/2016 10:36:24 PM: kinetic started ok - 92 total dlls
+8/11/2016 1:16:08 AM: kinetic started ok - 92 total dlls
+8/11/2016 3:52:48 AM: kinetic started ok - 92 total dlls
+8/11/2016 10:24:35 PM: kinetic started ok - 92 total dlls
+8/11/2016 11:22:28 PM: kinetic started ok - 92 total dlls
+8/12/2016 12:26:37 AM: kinetic started ok - 92 total dlls
+8/13/2016 10:35:22 PM: kinetic started ok - 92 total dlls
+8/16/2016 2:20:43 AM: kinetic started ok - 92 total dlls
+8/16/2016 7:07:40 PM: kinetic started ok - 92 total dlls
+8/16/2016 7:12:21 PM: kinetic started ok - 92 total dlls
+8/16/2016 8:02:01 PM: kinetic started ok - 92 total dlls
+8/16/2016 8:42:48 PM: kinetic started ok - 92 total dlls
+8/17/2016 7:42:54 PM: kinetic started ok - 92 total dlls
+8/17/2016 8:01:51 PM: kinetic started ok - 92 total dlls
+8/18/2016 2:16:40 AM: kinetic started ok - 92 total dlls
+8/18/2016 9:03:37 AM: kinetic started ok - 92 total dlls
+8/18/2016 9:47:19 AM: kinetic started ok - 92 total dlls
+2016/8/18 10:47:45: kinetic started ok - 83 total dlls
+2016/8/18 18:27:36: kinetic started ok - 83 total dlls
+2016/8/18 21:49:10: kinetic started ok - 83 total dlls
+2016/8/18 23:05:33: kinetic started ok - 83 total dlls
+2016/8/19 5:57:46: kinetic started ok - 83 total dlls
+2016/8/19 9:54:02: kinetic started ok - 83 total dlls
+2016/8/19 12:37:43: kinetic started ok - 83 total dlls
+2016/8/19 13:47:15: kinetic started ok - 83 total dlls
+2016/8/19 15:08:28: kinetic started ok - 83 total dlls
+2016/8/19 16:43:36: kinetic started ok - 83 total dlls
+2016/8/19 17:56:22: kinetic started ok - 83 total dlls
+2016/8/19 17:58:13: kinetic started ok - 83 total dlls
+2016/8/19 18:28:12: kinetic started ok - 83 total dlls
+2016/8/19 19:44:05: kinetic started ok - 83 total dlls
+2016/8/19 20:20:38: kinetic started ok - 83 total dlls
+2016/8/20 1:48:04: kinetic started ok - 83 total dlls
+2016/8/20 8:03:52: kinetic started ok - 83 total dlls
+2016/8/20 10:56:49: kinetic started ok - 83 total dlls
+2016/8/20 19:45:27: kinetic started ok - 83 total dlls
+2016/8/20 23:56:09: kinetic started ok - 83 total dlls
+2016/8/21 4:52:27: kinetic started ok - 83 total dlls
+2016/8/22 8:02:53: kinetic started ok - 83 total dlls
+2016/8/23 8:03:08: kinetic started ok - 83 total dlls
+2016/8/23 8:50:55: kinetic started ok - 83 total dlls
+2016/8/23 11:59:05: kinetic started ok - 83 total dlls
+2016/8/23 13:00:04: kinetic started ok - 83 total dlls
+2016/8/23 17:10:07: kinetic started ok - 83 total dlls
+2016/8/23 17:17:21: kinetic started ok - 83 total dlls
+2016/8/23 20:02:54: kinetic started ok - 83 total dlls
+2016/8/23 21:10:16: kinetic started ok - 83 total dlls
+2016/8/24 2:41:21: kinetic started ok - 83 total dlls
+2016/8/25 8:01:05: kinetic started ok - 83 total dlls
+2016/8/25 11:58:40: kinetic started ok - 83 total dlls
+2016/8/25 14:26:21: kinetic started ok - 83 total dlls
+2016/8/25 16:23:10: kinetic started ok - 83 total dlls
+2016/8/26 8:10:46: kinetic started ok - 83 total dlls
+2016/8/26 11:42:39: kinetic started ok - 83 total dlls
+2016/8/26 12:30:23: kinetic started ok - 83 total dlls
+2016/8/26 15:30:47: kinetic started ok - 83 total dlls
+2016/8/26 20:14:43: kinetic started ok - 83 total dlls
+2016/8/27 0:36:29: kinetic started ok - 83 total dlls
+2016/8/27 0:37:03: kinetic started ok - 83 total dlls
+2016/8/27 3:13:47: kinetic started ok - 83 total dlls
+2016/8/27 8:00:45: kinetic started ok - 83 total dlls
+2016/8/29 8:00:16: kinetic started ok - 83 total dlls
+2016/8/29 9:14:18: kinetic started ok - 83 total dlls
+2016/8/29 11:34:55: kinetic started ok - 83 total dlls
+2016/8/29 14:56:13: kinetic star

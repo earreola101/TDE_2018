@@ -1,0 +1,2930 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [1.0.1474] 1ce78b7fa1b24a64b94e661b170d8a97_11:33:50.9063016_-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <SCRIPT_COMMENT id="// Kinetic Module Example" />
+    <SCRIPT_COMMENT id="// Date-03-25-2013" />
+    <SCRIPT_COMMENT id="// " />
+    <SCRIPT_COMMENT id="// This example shares the same input limit file " />
+    <SCRIPT_COMMENT id="// But you can change how ever , by adding new input files " />
+    <SCRIPT_COMMENT id="// This is instance one" />
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[R]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(12V05A.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=UltimateScpiCmd.out;         " />
+        <InputFile id="InputFile=UltimateScpiCmd.in;            " />
+        <Name id="Name=[A]Power on;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(6000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(reg.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[C]Audio_Reg;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="KineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KineticTstEngineCmd" Enable="True">
+      <Options id="MODE">
+        <OptionsVal id="0" />
+      </Options>
+    </Test>
+    <Test id="VerifyRegister(lvreg,testxu,write,0x0a,0x08);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="TestTracking(0x085F,0x046d,OPEN);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.TestTrackingTestModule" Enable="True">
+      <TestName id="(TT1) Test Tracking" />
+      <resultsource id="resultsource ">
+        <resultsourceVal id="INTERNAL" />
+      </resultsource>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="TRUE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="2" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="4" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0x0b" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0x8C" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0x6E" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="eeprom" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,1);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X00029E00 ) THEN  PASS ) );" />
+      <TestName id="[FW]fw version check" />
+    </Test>
+    <Test id="  MTFRecheckTest      //Applys MTF Corner Checking MTF_FourCorner" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.MTFCheck" Enable="True">
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFRecheckTestSettings id="MTFRecheckTestSettings">
+        <TimeIn_ms id="TimeIn_ms">
+          <TimeIn_msVal id="5000" />
+        </TimeIn_ms>
+        <Timeout_ms id="Timeout_ms  //this will abort the test after N ms">
+          <TimeoutVal_ms id="300" />
+        </Timeout_ms>
+      </MTFRecheckTestSettings>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="TRUE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="TRUE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="1" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="2" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x085F" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="1920" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="1080" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="1000" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="MJPG " />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="480" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+      </CameraImageProperties>
+      <testName id="TestName">
+        <testNameVal id="[L]4Corner 4.8X" />
+      </testName>
+      <Measure_MTF id="#1_MEASURE_CENTER_MTF_FAR          //MTF Measurement settings">
+        <SCRIPT_COMMENT id="" />
+        <PointName id="PointName                        //This is the name of the measurement">
+          <PointNameVal id="MTF_FAR_CENTER" />
+        </PointName>
+        <ROI_Width id="ROI_Width                        //This controls the veritical width of ROI">
+          <ROI_Width id="20" />
+        </ROI_Width>
+        <ROI_TxtShift id="ROI_TxtShift                     //This controls the distance from the labels to the roi">
+          <ROI_TxtShift id="165" />
+        </ROI_TxtShift>
+        <ROI_FontSize id="ROI_FontSize                     //This controls the font size that is displayed">
+          <ROI_FontSize id="25" />
+        </ROI_FontSize>
+        <ROI_MSGBXEnable id="ROI_MSGBX_Enable                 //This enables or disables the blocking messagebox">
+          <ROI_MSGBXEnable id="TRUE" />
+        </ROI_MSGBXEnable>
+        <OUTPUT_IMAGE_DIR id="OUTPUT_IMAGE_DIR                 //This defines the output path of the images">
+          <OUTPUT_IMAGE_DIR id="C:\tstPlan\MTF\MTF.bmp" />
+        </OUTPUT_IMAGE_DIR>
+        <SCRIPT_COMMENT id="" />
+        <UpperLeftCornerProps id="UpperLeftCornerProps             //All control paramters for Upper Left corner">
+          <SCRIPT_COMMENT id="" />
+          <upperLeftEnable id="UpperLeftEnable     //Enable or disable UpperLeftEnable">
+            <upperLeftEnable id="TRUE" />
+          </upperLeftEnable>
+          <iLength_upperLeft id="iLength_upperLeft   //The length of the ROI ">
+            <iLength_upperLeft id="170" />
+          </iLength_upperLeft>
+          <upperLeftX id="upperLeftX          //The X coordnate">
+            <upperLeftX id="180" />
+          </upperLeftX>
+          <upperLeftY id="upperLeftY          //The Y coordnate">
+            <upperLeftYv id="150" />
+          </upperLeftY>
+          <higherlimit_UL id="higherlimit_UL      //The Higher Limit">
+            <higherlimit_UL id="100" />
+          </higherlimit_UL>
+          <lowerlimitmtf_UL id="lowerlimitmtf_UL    //The Lower Limit">
+            <lowerlimitmtf_UL id="43" />
+          </lowerlimitmtf_UL>
+        </UpperLeftCornerProps>
+        <LowerLeftCornerProps id="LowerLeftCornerProps             //All control parameters for Lower left corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerLeftEnable id="LowerLeftEnable     //Enable or disable LowerLeftEnable">
+            <lowerLeftEnable id="TRUE" />
+          </lowerLeftEnable>
+          <iLength_lowerLeft id="iLength_lowerLeft   //The length of the ROI">
+            <iLength_lowerLeft id="170" />
+          </iLength_lowerLeft>
+          <lowerLeftX id="lowerLeftX          //The X coordnate ">
+            <lowerLeftX id="180" />
+          </lowerLeftX>
+          <lowerLeftY id="lowerLeftY          //The Y coordnate">
+            <lowerLeftY id="950" />
+          </lowerLeftY>
+          <higherlimit_LL id="higherlimit_LL      //The Higher Limit ">
+            <higherlimit_LL id="100" />
+          </higherlimit_LL>
+          <lowerlimitmtf_LL id="lowerlimitmtf_LL    //The Lower Limit">
+            <lowerlimitmtf_LL id="43" />
+          </lowerlimitmtf_LL>
+          <Delta_UL id="Delta_UL            //The upper delta limit ">
+            <Delta_UL id="100" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LL            //The lower delta limit">
+            <Delta_LL id="-100" />
+          </Delta_LL>
+        </LowerLeftCornerProps>
+        <UpperRightCornerProps id="UpperRightCornerProps            //All control paramters for Upper Right corner">
+          <SCRIPT_COMMENT id="" />
+          <upperRightEnable id="UpperRightEnable    //Enable or disable UpperRightEnable">
+            <upperRightEnable id="TRUE" />
+          </upperRightEnable>
+          <iLength_upperRight id="iLength_upperRight  //The lengh of the ROI">
+            <iLength_upperRight id="170" />
+          </iLength_upperRight>
+          <upperRightX id="upperRightX         //The X coordnate">
+            <upperRightX id="1590" />
+          </upperRightX>
+          <upperRightY id="upperRightY         //The Y coordnate">
+            <upperRightY id="950" />
+          </upperRightY>
+          <higherlimit_UR id="higherlimit_UR      //The Higher limit">
+            <higherlimit_UR id="100" />
+          </higherlimit_UR>
+          <lowerlimitmtf_UR id="lowerlimitmtf_UR    //The Lower limit ">
+            <lowerlimitmtf_UR id="43" />
+          </lowerlimitmtf_UR>
+        </UpperRightCornerProps>
+        <LowerRightCornerProps id="LowerRightCornerProps            //All control paramters for Lower Righter corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerRightEnable id="LowerRightEnable    //Enable or disable LowerRightEnable">
+            <lowerRightEnable id="TRUE" />
+          </lowerRightEnable>
+          <iLength_lowerRight id="iLength_lowerRight  //The length of the ROI">
+            <iLength_lowerRight id="170" />
+          </iLength_lowerRight>
+          <lowerRightX id="lowerRightX         //The X coordnate">
+            <lowerRightX id="1590" />
+          </lowerRightX>
+          <lowerRightY id="lowerRightY         //The Y coordnate">
+            <lowerRightY id="150" />
+          </lowerRightY>
+          <higherlimit_LR id="higherlimit_LR      //The Higher limit ">
+            <higherlimit_UR id="100" />
+          </higherlimit_LR>
+          <lowerlimitmtf_LR id="lowerlimitmtf_LR    //The Lower limit">
+            <lowerlimitmtf_LR id="43" />
+          </lowerlimitmtf_LR>
+          <Delta_UL id="Delta_UR            //The upper delta limit ">
+            <Delta_UL id="100" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LR            //The lower delta limit">
+            <Delta_LL id="-100" />
+          </Delta_LL>
+        </LowerRightCornerProps>
+        <UpperCenterProps id="UpperCenterProps                 //All control parameters for Upper Center ">
+          <SCRIPT_COMMENT id="" />
+          <upperCenterEnable id="UpperCenterEnable   //Enable or disable UpperCenterEnable">
+            <upperCenterEnable id="TRUE" />
+          </upperCenterEnable>
+          <iLength_upperCENTER id="iLength_upperCENTER //The length of the ROI">
+            <iLength_upperCENTER id="150" />
+          </iLength_upperCENTER>
+          <upperCENTERX id="upperCENTERX        //The X coordnate">
+            <upperCENTERX id="850" />
+          </upperCENTERX>
+          <upperCENTERY id="upperCENTERY        //The Y coordnate">
+            <upperCENTERY id="530" />
+          </upperCENTERY>
+          <higherlimit_UC id="higherlimit_UC      //The Higher Limit ">
+            <higherlimit_UC id="100" />
+          </higherlimit_UC>
+          <lowerlimitmtf_UC id="lowerlimitmtf_LC    //The Lower Limit">
+            <lowerlimitmtf_UC id="43" />
+          </lowerlimitmtf_UC>
+        </UpperCenterProps>
+        <LowerCenterProps id="LowerCenterProps                      //All control paramters for lower center">
+          <SCRIPT_COMMENT id="" />
+          <iLength_lowerCENTER id="iLength_lowerCENTER //">
+            <iLength_lowerCENTER id="150" />
+          </iLength_lowerCENTER>
+          <lowerCENTERX id="lowerCENTERX //">
+            <lowerCENTERX id="900" />
+          </lowerCENTERX>
+          <lowerCENTERY id="lowerCENTERY //">
+            <lowerCENTERY id="450" />
+          </lowerCENTERY>
+          <higherlimit_LC id="higherlimit_LC //">
+            <higherlimit_LC id="100" />
+          </higherlimit_LC>
+          <lowerlimitmtf_LC id="lowerlimitmtf_LC //">
+            <lowerlimitmtf_LC id="-50" />
+          </lowerlimitmtf_LC>
+          <Delta_UL id="Delta_UC            //The upper delta limit ">
+            <Delta_UL id="100" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LC            //The lower delta limit">
+            <Delta_LL id="-100" />
+          </Delta_LL>
+          <lowerCenterEnable id="LowerCenterEnable     //Enable or disable LowerCenterEnable">
+            <lowerCenterEnable id="FALSE" />
+          </lowerCenterEnable>
+        </LowerCenterProps>
+        <SCRIPT_COMMENT id="" />
+        <MTFController id="MTFController">
+          <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+            <MTFScanDirectionVal id="VLINES" />
+          </MTFScanDirection>
+          <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+            <LockPointTendencyVal id="TRUE" />
+          </LockPointTendency>
+          <MinPixelDelta id="MinPixelDelta //">
+            <MinPixelDeltaVal id="7" />
+          </MinPixelDelta>
+          <ZScoreDelta id="ZScoreDelta //">
+            <ZScoreDeltaVal id="1.2" />
+          </ZScoreDelta>
+          <MinimumLines id="MinimumLines //">
+            <MinimumLinesVal id="1" />
+          </MinimumLines>
+        </MTFController>
+      </Measure_MTF>
+    </Test>
+    <Test id="  MTFRecheckTest      //Applys MTF Corner Checking MTF_FourCorner" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.MTFCheck" Enable="True">
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFRecheckTestSettings id="MTFRecheckTestSettings">
+        <TimeIn_ms id="TimeIn_ms">
+          <TimeIn_msVal id="3000" />
+        </TimeIn_ms>
+        <Timeout_ms id="Timeout_ms  //this will abort the test after N ms">
+          <TimeoutVal_ms id="300" />
+        </Timeout_ms>
+      </MTFRecheckTestSettings>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="TRUE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="TRUE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="1" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="2" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x085F" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="1920" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="1080" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="500" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="100" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="MJPG " />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="128" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+      </CameraImageProperties>
+      <testName id="TestName">
+        <testNameVal id="[M]4Corner 1X" />
+      </testName>
+      <Measure_MTF id="#1_MEASURE_CENTER_MTF_FAR          //MTF Measurement settings">
+        <SCRIPT_COMMENT id="" />
+        <PointName id="PointName                        //This is the name of the measurement">
+          <PointNameVal id="MTF_FAR_CENTER" />
+        </PointName>
+        <ROI_Width id="ROI_Width                        //This controls the veritical width of ROI">
+          <ROI_Width id="20" />
+        </ROI_Width>
+        <ROI_TxtShift id="ROI_TxtShift                     //This controls the distance from the labels to the roi">
+          <ROI_TxtShift id="165" />
+        </ROI_TxtShift>
+        <ROI_FontSize id="ROI_FontSize                     //This controls the font size that is displayed">
+          <ROI_FontSize id="25" />
+        </ROI_FontSize>
+        <ROI_MSGBXEnable id="ROI_MSGBX_Enable                 //This enables or disables the blocking messagebox">
+          <ROI_MSGBXEnable id="TRUE" />
+        </ROI_MSGBXEnable>
+        <OUTPUT_IMAGE_DIR id="OUTPUT_IMAGE_DIR                 //This defines the output path of the images">
+          <OUTPUT_IMAGE_DIR id="C:\tstPlan\MTF\MTF.bmp" />
+        </OUTPUT_IMAGE_DIR>
+        <SCRIPT_COMMENT id="" />
+        <UpperLeftCornerProps id="UpperLeftCornerProps             //All control paramters for Upper Left corner">
+          <SCRIPT_COMMENT id="" />
+          <upperLeftEnable id="UpperLeftEnable     //Enable or disable UpperLeftEnable">
+            <upperLeftEnable id="TRUE" />
+          </upperLeftEnable>
+          <iLength_upperLeft id="iLength_upperLeft   //The length of the ROI ">
+            <iLength_upperLeft id="150" />
+          </iLength_upperLeft>
+          <upperLeftX id="upperLeftX          //The X coordnate">
+            <upperLeftX id="220" />
+          </upperLeftX>
+          <upperLeftY id="upperLeftY          //The Y coordnate">
+            <upperLeftYv id="250" />
+          </upperLeftY>
+          <higherlimit_UL id="higherlimit_UL      //The Higher Limit">
+            <higherlimit_UL id="100" />
+          </higherlimit_UL>
+          <lowerlimitmtf_UL id="lowerlimitmtf_UL    //The Lower Limit">
+            <lowerlimitmtf_UL id="60" />
+          </lowerlimitmtf_UL>
+        </UpperLeftCornerProps>
+        <LowerLeftCornerProps id="LowerLeftCornerProps             //All control parameters for Lower left corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerLeftEnable id="LowerLeftEnable     //Enable or disable LowerLeftEnable">
+            <lowerLeftEnable id="TRUE" />
+          </lowerLeftEnable>
+          <iLength_lowerLeft id="iLength_lowerLeft   //The length of the ROI">
+            <iLength_lowerLeft id="150" />
+          </iLength_lowerLeft>
+          <lowerLeftX id="lowerLeftX          //The X coordnate ">
+            <lowerLeftX id="200" />
+          </lowerLeftX>
+          <lowerLeftY id="lowerLeftY          //The Y coordnate">
+            <lowerLeftY id="850" />
+          </lowerLeftY>
+          <higherlimit_LL id="higherlimit_LL      //The Higher Limit ">
+            <higherlimit_LL id="100" />
+          </higherlimit_LL>
+          <lowerlimitmtf_LL id="lowerlimitmtf_LL    //The Lower Limit">
+            <lowerlimitmtf_LL id="60" />
+          </lowerlimitmtf_LL>
+          <Delta_UL id="Delta_UL            //The upper delta limit ">
+            <Delta_UL id="100" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LL            //The lower delta limit">
+            <Delta_LL id="-100" />
+          </Delta_LL>
+        </LowerLeftCornerProps>
+        <UpperRightCornerProps id="UpperRightCornerProps            //All control paramters for Upper Right corner">
+          <SCRIPT_COMMENT id="" />
+          <upperRightEnable id="UpperRightEnable    //Enable or disable UpperRightEnable">
+            <upperRightEnable id="TRUE" />
+          </upperRightEnable>
+          <iLength_upperRight id="iLength_upperRight  //The lengh of the ROI">
+            <iLength_upperRight id="150" />
+          </iLength_upperRight>
+          <upperRightX id="upperRightX         //The X coordnate">
+            <upperRightX id="1500" />
+          </upperRightX>
+          <upperRightY id="upperRightY         //The Y coordnate">
+            <upperRightY id="850" />
+          </upperRightY>
+          <higherlimit_UR id="higherlimit_UR      //The Higher limit">
+            <higherlimit_UR id="100" />
+          </higherlimit_UR>
+          <lowerlimitmtf_UR id="lowerlimitmtf_UR    //The Lower limit ">
+            <lowerlimitmtf_UR id="60" />
+          </lowerlimitmtf_UR>
+        </UpperRightCornerProps>
+        <LowerRightCornerProps id="LowerRightCornerProps            //All control paramters for Lower Righter corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerRightEnable id="LowerRightEnable    //Enable or disable LowerRightEnable">
+            <lowerRightEnable id="TRUE" />
+          </lowerRightEnable>
+          <iLength_lowerRight id="iLength_lowerRight  //The length of the ROI">
+            <iLength_lowerRight id="150" />
+          </iLength_lowerRight>
+          <lowerRightX id="lowerRightX         //The X coordnate">
+            <lowerRightX id="1500" />
+          </lowerRightX>
+          <lowerRightY id="lowerRightY         //The Y coordnate">
+            <lowerRightY id="250" />
+          </lowerRightY>
+          <higherlimit_LR id="higherlimit_LR      //The Higher limit ">
+            <higherlimit_UR id="100" />
+          </higherlimit_LR>
+          <lowerlimitmtf_LR id="lowerlimitmtf_LR    //The Lower limit">
+            <lowerlimitmtf_LR id="60" />
+          </lowerlimitmtf_LR>
+          <Delta_UL id="Delta_UR            //The upper delta limit ">
+            <Delta_UL id="100" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LR            //The lower delta limit">
+            <Delta_LL id="-100" />
+          </Delta_LL>
+        </LowerRightCornerProps>
+        <UpperCenterProps id="UpperCenterProps                 //All control parameters for Upper Center ">
+          <SCRIPT_COMMENT id="" />
+          <upperCenterEnable id="UpperCenterEnable   //Enable or disable UpperCenterEnable">
+            <upperCenterEnable id="TRUE" />
+          </upperCenterEnable>
+          <iLength_upperCENTER id="iLength_upperCENTER //The length of the ROI">
+            <iLength_upperCENTER id="150" />
+          </iLength_upperCENTER>
+          <upperCENTERX id="upperCENTERX        //The X coordnate">
+            <upperCENTERX id="900" />
+          </upperCENTERX>
+          <upperCENTERY id="upperCENTERY        //The Y coordnate">
+            <upperCENTERY id="350" />
+          </upperCENTERY>
+          <higherlimit_UC id="higherlimit_UC      //The Higher Limit ">
+            <higherlimit_UC id="100" />
+          </higherlimit_UC>
+          <lowerlimitmtf_UC id="lowerlimitmtf_LC    //The Lower Limit">
+            <lowerlimitmtf_UC id="70" />
+          </lowerlimitmtf_UC>
+        </UpperCenterProps>
+        <LowerCenterProps id="LowerCenterProps                      //All control paramters for lower center">
+          <SCRIPT_COMMENT id="" />
+          <iLength_lowerCENTER id="iLength_lowerCENTER //">
+            <iLength_lowerCENTER id="150" />
+          </iLength_lowerCENTER>
+          <lowerCENTERX id="lowerCENTERX //">
+            <lowerCENTERX id="900" />
+          </lowerCENTERX>
+          <lowerCENTERY id="lowerCENTERY //">
+            <lowerCENTERY id="400" />
+          </lowerCENTERY>
+          <higherlimit_LC id="higherlimit_LC //">
+            <higherlimit_LC id="100" />
+          </higherlimit_LC>
+          <lowerlimitmtf_LC id="lowerlimitmtf_LC //">
+            <lowerlimitmtf_LC id="-50" />
+          </lowerlimitmtf_LC>
+          <Delta_UL id="Delta_UC            //The upper delta limit ">
+            <Delta_UL id="100" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LC            //The lower delta limit">
+            <Delta_LL id="-100" />
+          </Delta_LL>
+          <lowerCenterEnable id="LowerCenterEnable     //Enable or disable LowerCenterEnable">
+            <lowerCenterEnable id="FALSE" />
+          </lowerCenterEnable>
+        </LowerCenterProps>
+        <SCRIPT_COMMENT id="" />
+        <MTFController id="MTFController">
+          <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+            <MTFScanDirectionVal id="VLINES" />
+          </MTFScanDirection>
+          <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+            <LockPointTendencyVal id="TRUE" />
+          </LockPointTendency>
+          <MinPixelDelta id="MinPixelDelta //">
+            <MinPixelDeltaVal id="7" />
+          </MinPixelDelta>
+          <ZScoreDelta id="ZScoreDelta //">
+            <ZScoreDeltaVal id="1.2" />
+          </ZScoreDelta>
+          <MinimumLines id="MinimumLines //">
+            <MinimumLinesVal id="1" />
+          </MinimumLines>
+        </MTFController>
+      </Measure_MTF>
+    </Test>
+    <Test id="run(12Vcoloron.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=UltimateScpiCmd.out;         " />
+        <InputFile id="InputFile=UltimateScpiCmd.in;            " />
+        <Name id="Name=[A]Power on;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="FourCornerTest" Assembly="..\TestModules\FourCornerTestModule\FourCornerTestModule.dll" Type="SystemTests.TestModules.FourCornerTestModule" Enable="True">
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <FourCornerTestSettings id="FourCornerTestSettings">
+        <LeftTop id="LeftTop">
+          <ROISetting id="ROISetting">
+            <Size id="Size">
+              <width id="width">
+                <widthVal id="100" />
+              </width>
+              <height id="height">
+                <heightVal id="20" />
+              </height>
+            </Size>
+            <Point id="Point">
+              <x id="x">
+                <xVal id="0" />
+              </x>
+              <y id="y">
+                <yVal id="0" />
+              </y>
+            </Point>
+          </ROISetting>
+        </LeftTop>
+        <LeftBottom id="LeftBottom">
+          <ROISetting id="ROISetting">
+            <Size id="Size">
+              <width id="width">
+                <widthVal id="100" />
+              </width>
+              <height id="height">
+                <heightVal id="20" />
+              </height>
+            </Size>
+            <Point id="Point">
+              <x id="x">
+                <xVal id="0" />
+              </x>
+              <y id="y">
+                <yVal id="0" />
+              </y>
+            </Point>
+          </ROISetting>
+        </LeftBottom>
+        <RightTop id="RightTop">
+          <ROISetting id="ROISetting">
+            <Size id="Size">
+              <width id="width">
+                <widthVal id="100" />
+              </width>
+              <height id="height">
+                <heightVal id="20" />
+              </height>
+            </Size>
+            <Point id="Point">
+              <x id="x">
+                <xVal id="0" />
+              </x>
+              <y id="y">
+                <yVal id="0" />
+              </y>
+            </Point>
+          </ROISetting>
+        </RightTop>
+        <RightBottom id="RightBottom">
+          <ROISetting id="ROISetting">
+            <Size id="Size">
+              <width id="width">
+                <widthVal id="100" />
+              </width>
+              <height id="height">
+                <heightVal id="20" />
+              </height>
+            </Size>
+            <Point id="Point">
+              <x id="x">
+                <xVal id="0" />
+              </x>
+              <y id="y">
+                <yVal id="0" />
+              </y>
+            </Point>
+          </ROISetting>
+        </RightBottom>
+        <Center id="Center">
+          <ROISetting id="ROISetting">
+            <Size id="Size">
+              <width id="width">
+                <widthVal id="100" />
+              </width>
+              <height id="height">
+                <heightVal id="20" />
+              </height>
+            </Size>
+            <Point id="Point">
+              <x id="width">
+                <xVal id="0" />
+              </x>
+              <y id="height">
+                <yVal id="0" />
+              </y>
+            </Point>
+          </ROISetting>
+        </Center>
+      </FourCornerTestSettings>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="FALSE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\tstPlan\Test\images\FourCornerImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <CIELabTest id="CIELab_Test">
+        <EnableAutoFrameSearch id="EnableAutoFrameSearch">
+          <EnableAutoFrameSearchVal id="TRUE" />
+        </EnableAutoFrameSearch>
+        <FrameEdgeThreshold id="FrameEdgeThreshold">
+          <FrameEdgeThresholdVal id="0.35" />
+        </FrameEdgeThreshold>
+        <FrameEdgeOutlier id="FrameEdgeOutlier">
+          <FrameEdgeOutlierVal id="0.020" />
+        </FrameEdgeOutlier>
+        <Zone1 id="DarkSkin">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="815" />
+              </x>
+              <y id="y">
+                <yVal id="978" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="38.0213" />
+          </L>
+          <a id="a*">
+            <a_Val id="14.7622" />
+          </a>
+          <b id="b*">
+            <b_Val id="12.2097" />
+          </b>
+        </Zone1>
+        <Zone2 id="LightSkin">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="982" />
+              </x>
+              <y id="y">
+                <yVal id="975" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="66.3668" />
+          </L>
+          <a id="a*">
+            <a_Val id="16.9078" />
+          </a>
+          <b id="b*">
+            <b_Val id="13.5571" />
+          </b>
+        </Zone2>
+        <Zone3 id="BlueSky">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1147" />
+              </x>
+              <y id="y">
+                <yVal id="972" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="51.0364" />
+          </L>
+          <a id="a*">
+            <a_Val id="3.3719" />
+          </a>
+          <b id="b*">
+            <b_Val id="-25.97" />
+          </b>
+        </Zone3>
+        <Zone4 id="Foliage">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1321" />
+              </x>
+              <y id="y">
+                <yVal id="965" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="42.2118" />
+          </L>
+          <a id="a*">
+            <a_Val id="-14.3858" />
+          </a>
+          <b id="b*">
+            <b_Val id="19.7579" />
+          </b>
+        </Zone4>
+        <Zone5 id="BlueFlower">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1509" />
+              </x>
+              <y id="y">
+                <yVal id="975" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="56.3869" />
+          </L>
+          <a id="a*">
+            <a_Val id="15.9934" />
+          </a>
+          <b id="b*">
+            <b_Val id="-29.6186" />
+          </b>
+        </Zone5>
+        <Zone6 id="BluishGreen">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1674" />
+              </x>
+              <y id="y">
+                <yVal id="973" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="71.6228" />
+          </L>
+          <a id="a*">
+            <a_Val id="-26.9791" />
+          </a>
+          <b id="b*">
+            <b_Val id="-2.9804" />
+          </b>
+        </Zone6>
+        <Zone7 id="Orange">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="784" />
+              </x>
+              <y id="y">
+                <yVal id="1135" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="61.7404" />
+          </L>
+          <a id="a*">
+            <a_Val id="31.385" />
+          </a>
+          <b id="b*">
+            <b_Val id="56.1337" />
+          </b>
+        </Zone7>
+        <Zone8 id="PurplishBlue">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="960" />
+              </x>
+              <y id="y">
+                <yVal id="1130" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="41.2161" />
+          </L>
+          <a id="a*">
+            <a_Val id="20.3573" />
+          </a>
+          <b id="b*">
+            <b_Val id="-47.0599" />
+          </b>
+        </Zone8>
+        <Zone9 id="ModerateRed">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1143" />
+              </x>
+              <y id="y">
+                <yVal id="1129" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="51.6103" />
+          </L>
+          <a id="a*">
+            <a_Val id="46.3936" />
+          </a>
+          <b id="b*">
+            <b_Val id="11.9288" />
+          </b>
+        </Zone9>
+        <Zone10 id="Purple">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1316" />
+              </x>
+              <y id="y">
+                <yVal id="1135" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="30.8784" />
+          </L>
+          <a id="a*">
+            <a_Val id="28.4431" />
+          </a>
+          <b id="b*">
+            <b_Val id="-26.3643" />
+          </b>
+        </Zone10>
+        <Zone11 id="YellowGreen">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1491" />
+              </x>
+              <y id="y">
+                <yVal id="1138" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="72.4286" />
+          </L>
+          <a id="a*">
+            <a_Val id="-24.7386" />
+          </a>
+          <b id="b*">
+            <b_Val id="56.9265" />
+          </b>
+        </Zone11>
+        <Zone12 id="OrangeYellow">
+          <Enable id="Enable">
+            <L_Val id="FALSE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="1666" />
+              </x>
+              <y id="y">
+                <yVal id="1134" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="50" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="71.6228" />
+          </L>
+          <a id="a*">
+            <a_Val id="16.4304" />
+          </a>
+          <b id="b*">
+            <b_Val id="64.7404" />
+          </b>
+        </Zone12>
+        <Zone13 id="Blue">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="36" />
+              </x>
+              <y id="y">
+                <yVal id="57" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="27.88" />
+          </L>
+          <a id="a*">
+            <a_Val id="27.955" />
+          </a>
+          <b id="b*">
+            <b_Val id="-57.986" />
+          </b>
+        </Zone13>
+        <Zone14 id="Green">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="41" />
+              </x>
+              <y id="y">
+                <yVal id="57" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="5003" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="61.19" />
+          </L>
+          <a id="a*">
+            <a_Val id="-43.922" />
+          </a>
+          <b id="b*">
+            <b_Val id="48.152" />
+          </b>
+        </Zone14>
+        <Zone15 id="Red">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="46" />
+              </x>
+              <y id="y">
+                <yVal id="57" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="38.831" />
+          </L>
+          <a id="a*">
+            <a_Val id="59.61" />
+          </a>
+          <b id="b*">
+            <b_Val id="40.026" />
+          </b>
+        </Zone15>
+        <Zone16 id="Yellow">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="51" />
+              </x>
+              <y id="y">
+                <yVal id="57" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="83.984" />
+          </L>
+          <a id="a*">
+            <a_Val id="-10.012" />
+          </a>
+          <b id="b*">
+            <b_Val id="84" />
+          </b>
+        </Zone16>
+        <Zone17 id="Magenta">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="56" />
+              </x>
+              <y id="y">
+                <yVal id="57" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="52.585" />
+          </L>
+          <a id="a*">
+            <a_Val id="52.48" />
+          </a>
+          <b id="b*">
+            <b_Val id="-21.024" />
+          </b>
+        </Zone17>
+        <Zone18 id="Cyan">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="61" />
+              </x>
+              <y id="y">
+                <yVal id="57" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="58.941" />
+          </L>
+          <a id="a*">
+            <a_Val id="-17.48" />
+          </a>
+          <b id="b*">
+            <b_Val id="-31.123" />
+          </b>
+        </Zone18>
+        <Zone19 id="White">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="36" />
+              </x>
+              <y id="y">
+                <yVal id="66" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="93.914" />
+          </L>
+          <a id="a*">
+            <a_Val id="-2.072" />
+          </a>
+          <b id="b*">
+            <b_Val id="3.799" />
+          </b>
+        </Zone19>
+        <Zone20 id="Neutral8">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="41" />
+              </x>
+              <y id="y">
+                <yVal id="66" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="83.223" />
+          </L>
+          <a id="a*">
+            <a_Val id="-2.763" />
+          </a>
+          <b id="b*">
+            <b_Val id="1.645" />
+          </b>
+        </Zone20>
+        <Zone21 id="Neutral6.5">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="46" />
+              </x>
+              <y id="y">
+                <yVal id="66" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="69.151" />
+          </L>
+          <a id="a*">
+            <a_Val id="-2.741" />
+          </a>
+          <b id="b*">
+            <b_Val id="1.252" />
+          </b>
+        </Zone21>
+        <Zone22 id="Neutral5">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="51" />
+              </x>
+              <y id="y">
+                <yVal id="66" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="54.603" />
+          </L>
+          <a id="a*">
+            <a_Val id="-2.574" />
+          </a>
+          <b id="b*">
+            <b_Val id="1.467" />
+          </b>
+        </Zone22>
+        <Zone23 id="Neutral3.5">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="56" />
+              </x>
+              <y id="y">
+                <yVal id="66" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="34.227" />
+          </L>
+          <a id="a*">
+            <a_Val id="-2.247" />
+          </a>
+          <b id="b*">
+            <b_Val id="-0.109" />
+          </b>
+        </Zone23>
+        <Zone24 id="Black">
+          <Enable id="Enable">
+            <L_Val id="TRUE" />
+          </Enable>
+          <LocationXY id="XY_Location">
+            <Point id="Point">
+              <x id="x">
+                <xVal id="61" />
+              </x>
+              <y id="y">
+                <yVal id="66" />
+              </y>
+            </Point>
+          </LocationXY>
+          <Options id="Options">
+            <DebugOptions id="DebugOptions">
+              <DebugOptionsVal id="0x0000" />
+            </DebugOptions>
+            <ZoneNumber id="ZoneNumber">
+              <ZoneNumberVal id="1" />
+            </ZoneNumber>
+            <ZoneOffset id="ZoneOffset">
+              <ZoneOffsetVal id="(0.0, 0.0, 0.0, 0.0)" />
+            </ZoneOffset>
+            <TestSize id="TestSize">
+              <TestSize id="20,20" />
+            </TestSize>
+            <SNRAvgRed id="SNRAvgRed">
+              <SNRAvgRedVal id="48.15" />
+            </SNRAvgRed>
+            <SNRAvgGreen id="SNRAvgGreen">
+              <SNRAvgGreenVal id="48.15" />
+            </SNRAvgGreen>
+            <SNRAvgBlue id="SNRAvgBlue">
+              <SNRAvgBlueVal id="48.15" />
+            </SNRAvgBlue>
+            <ColorDifferenceLum id="ColorDifference_Lum">
+              <ColorDifferenceLumVal id="35" />
+            </ColorDifferenceLum>
+            <ColorDifferenceab id="ColorDifference_ab">
+              <ColorDifferenceabVal id="503" />
+            </ColorDifferenceab>
+          </Options>
+          <L id="L*">
+            <L_Val id="16.414" />
+          </L>
+          <a id="a*">
+            <a_Val id="-1.612" />
+          </a>
+          <b id="b*">
+            <b_Val id="-1.338" />
+          </b>
+        </Zone24>
+      </CIELabTest>
+      <TestLimits id="TestLimits">
+        <LeftTop id="LeftTop">
+          <LeftTopVal id="-50" />
+        </LeftTop>
+        <LeftBottom id="LeftBottom">
+          <LeftBottomVal id="-50" />
+        </LeftBottom>
+        <RightBottom id="RightBottom">
+          <RightBottomVal id="-50" />
+        </RightBottom>
+        <Center id="Center">
+          <Center id="-50" />
+        </Center>
+        <RightTop id="RightTop">
+          <RightTopVal id="-50" />
+        </RightTop>
+      </TestLimits>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="FALSE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="FALSE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="1" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="5" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0x2F" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0x07" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0x13b" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="eeprom" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="AUDIOMIC:AUDIO:Val1, AUDIOMIC:AUDIO:Val2, AUDIOMIC:AUDIO:Val3" />
+        </OutputHeader>
+      </ReportingController>
+      <MTFController id="MTFController">
+        <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+          <MTFScanDirectionVal id="VLINES" />
+        </MTFScanDirection>
+        <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+          <LockPointTendencyVal id="TRUE" />
+        </LockPointTendency>
+        <MinPixelDelta id="MinPixelDelta //">
+          <MinPixelDeltaVal id="7" />
+        </MinPixelDelta>
+        <ZScoreDelta id="ZScoreDelta //">
+          <ZScoreDeltaVal id="1.2" />
+        </ZScoreDelta>
+        <MinimumLines id="MinimumLines //">
+          <MinimumLinesVal id="1" />
+        </MinimumLines>
+      </MTFController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x085F" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="1920" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="1080" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="50" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="FALSE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="TRUE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="FALSE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="128" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="TRUE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="128" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="FALSE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="0" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="FALSE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-5" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="FALSE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="128" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="128" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="FALSE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="2000" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="FALSE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="FALSE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.066" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="FALSE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="1" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="FALSE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="200" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="FALSE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="TRUE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="mjpg" />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <AutoFocus id="AutoFocus">
+          <AutoFocusEnable id="Enable">
+            <AutoFocusEnableVal id="TRUE" />
+          </AutoFocusEnable>
+          <AutoFocusProp id="SetAutoFocus">
+            <AutoFocusVal id="0" />
+          </AutoFocusProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </AutoFocus>
+      </CameraImageProperties>
+    </Test>
+    <Test id="run(MCU2FWVerastra2.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=MCU2FWVer.out;         " />
+        <InputFile id="InputFile=MCU2FWVer.in;            " />
+        <Name id="Name=[FW2]MCU2FW;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,testxu,write,0x0a,0x08);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0xde,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0xdf,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,0x03);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X0601 ) THEN  PASS ) );" />
+      <TestName id="SensorFW" />
+    </Test>
+    <Test id="TestTracking(0x085F,0x046d,CLOSE);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.TestTrackingTestModule" Enable="True">
+      <TestName id="[ 0xff ]GO_TO_PanTilt_STATION" />
+      <resultsource id="resultsource //this is the source of the pass result options are GLOBAL and INTERNAL">
+        <resultsourceVal id="INTERNAL" />
+      </resultsource>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="TRUE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="2" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="4" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0x0b" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0x8C" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0x6E" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="eeprom" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+    </Test>
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[R]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>

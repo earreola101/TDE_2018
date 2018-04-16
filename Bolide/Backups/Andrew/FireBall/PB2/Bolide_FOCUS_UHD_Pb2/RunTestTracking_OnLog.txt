@@ -1,0 +1,4230 @@
+STARTTIME: 10:40:11.70 
+ENDTIME: 10:40:11.98 
+STARTTIME: 3841170 centiseconds 
+ENDTIME: 3841198 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:44:58.49 
+ENDTIME: 10:44:58.78 
+STARTTIME: 3869849 centiseconds 
+ENDTIME: 3869878 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:45:24.36 
+ENDTIME: 10:45:24.65 
+STARTTIME: 3872436 centiseconds 
+ENDTIME: 3872465 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:16:53.41 
+ENDTIME: 10:16:53.69 
+STARTTIME: 3701341 centiseconds 
+ENDTIME: 3701369 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:16:55.64 
+ENDTIME: 10:16:55.93 
+STARTTIME: 3701564 centiseconds 
+ENDTIME: 3701593 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:24:53.51 
+ENDTIME: 10:24:53.80 
+STARTTIME: 3749351 centiseconds 
+ENDTIME: 3749380 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:24:55.66 
+ENDTIME: 10:24:55.95 
+STARTTIME: 3749566 centiseconds 
+ENDTIME: 3749595 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:25:23.86 
+ENDTIME: 10:25:24.15 
+STARTTIME: 3752386 centiseconds 
+ENDTIME: 3752415 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:25:26.00 
+ENDTIME: 10:25:26.29 
+STARTTIME: 3752600 centiseconds 
+ENDTIME: 3752629 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:26:18.44 
+ENDTIME: 10:26:18.73 
+STARTTIME: 3757844 centiseconds 
+ENDTIME: 3757873 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:26:20.58 
+ENDTIME: 10:26:20.87 
+STARTTIME: 3758058 centiseconds 
+ENDTIME: 3758087 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:26:56.60 
+ENDTIME: 10:26:56.89 
+STARTTIME: 3761660 centiseconds 
+ENDTIME: 3761689 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:26:58.74 
+ENDTIME: 10:26:59.03 
+STARTTIME: 3761874 centiseconds 
+ENDTIME: 3761903 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:28:34.45 
+ENDTIME: 10:28:34.74 
+STARTTIME: 3771445 centiseconds 
+ENDTIME: 3771474 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:28:36.60 
+ENDTIME: 10:28:36.88 
+STARTTIME: 3771660 centiseconds 
+ENDTIME: 3771688 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:28:45.72 
+ENDTIME: 10:28:46.01 
+STARTTIME: 3772572 centiseconds 
+ENDTIME: 3772601 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:28:47.86 
+ENDTIME: 10:28:48.15 
+STARTTIME: 3772786 centiseconds 
+ENDTIME: 3772815 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:29:31.25 
+ENDTIME: 10:29:31.53 
+STARTTIME: 3777125 centiseconds 
+ENDTIME: 3777153 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:29:33.55 
+ENDTIME: 10:29:33.84 
+STARTTIME: 3777355 centiseconds 
+ENDTIME: 3777384 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:49:20.84 
+ENDTIME: 10:49:21.13 
+STARTTIME: 3896084 centiseconds 
+ENDTIME: 3896113 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:49:22.31 
+ENDTIME: 10:49:22.59 
+STARTTIME: 3896231 centiseconds 
+ENDTIME: 3896259 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:50:03.67 
+ENDTIME: 10:50:03.95 
+STARTTIME: 3900367 centiseconds 
+ENDTIME: 3900395 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:50:05.44 
+ENDTIME: 10:50:05.73 
+STARTTIME: 3900544 centiseconds 
+ENDTIME: 3900573 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:53:05.59 
+ENDTIME: 10:53:05.87 
+STARTTIME: 3918559 centiseconds 
+ENDTIME: 3918587 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:53:07.13 
+ENDTIME: 10:53:07.41 
+STARTTIME: 3918713 centiseconds 
+ENDTIME: 3918741 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:53:50.00 
+ENDTIME: 10:53:50.28 
+STARTTIME: 3923000 centiseconds 
+ENDTIME: 3923028 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:53:51.45 
+ENDTIME: 10:53:51.74 
+STARTTIME: 3923145 centiseconds 
+ENDTIME: 3923174 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:54:00.14 
+ENDTIME: 10:54:00.43 
+STARTTIME: 3924014 centiseconds 
+ENDTIME: 3924043 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:54:01.64 
+ENDTIME: 10:54:01.92 
+STARTTIME: 3924164 centiseconds 
+ENDTIME: 3924192 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:54:42.20 
+ENDTIME: 10:54:42.48 
+STARTTIME: 3928220 centiseconds 
+ENDTIME: 3928248 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:54:43.64 
+ENDTIME: 10:54:43.92 
+STARTTIME: 3928364 centiseconds 
+ENDTIME: 3928392 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:57:09.00 
+ENDTIME: 10:57:09.28 
+STARTTIME: 3942900 centiseconds 
+ENDTIME: 3942928 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:57:10.45 
+ENDTIME: 10:57:10.74 
+STARTTIME: 3943045 centiseconds 
+ENDTIME: 3943074 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:57:33.82 
+ENDTIME: 10:57:34.11 
+STARTTIME: 3945382 centiseconds 
+ENDTIME: 3945411 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:57:35.28 
+ENDTIME: 10:57:35.56 
+STARTTIME: 3945528 centiseconds 
+ENDTIME: 3945556 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:59:36.27 
+ENDTIME: 10:59:36.55 
+STARTTIME: 3957627 centiseconds 
+ENDTIME: 3957655 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:59:37.74 
+ENDTIME: 10:59:38.02 
+STARTTIME: 3957774 centiseconds 
+ENDTIME: 3957802 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:03:25.88 
+ENDTIME: 11:03:26.18 
+STARTTIME: 3980588 centiseconds 
+ENDTIME: 3980618 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:03:27.35 
+ENDTIME: 11:03:27.65 
+STARTTIME: 3980735 centiseconds 
+ENDTIME: 3980765 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:06:03.38 
+ENDTIME: 11:06:03.66 
+STARTTIME: 3996338 centiseconds 
+ENDTIME: 3996366 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:06:04.84 
+ENDTIME: 11:06:05.12 
+STARTTIME: 3996484 centiseconds 
+ENDTIME: 3996512 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:08:46.09 
+ENDTIME: 11:08:46.39 
+STARTTIME: 4012609 centiseconds 
+ENDTIME: 4012639 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:08:47.59 
+ENDTIME: 11:08:47.89 
+STARTTIME: 4012759 centiseconds 
+ENDTIME: 4012789 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:09:20.23 
+ENDTIME: 11:09:20.53 
+STARTTIME: 4016023 centiseconds 
+ENDTIME: 4016053 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:09:21.70 
+ENDTIME: 11:09:22.00 
+STARTTIME: 4016170 centiseconds 
+ENDTIME: 4016200 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:10:26.85 
+ENDTIME: 11:10:27.13 
+STARTTIME: 4022685 centiseconds 
+ENDTIME: 4022713 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:10:28.30 
+ENDTIME: 11:10:28.58 
+STARTTIME: 4022830 centiseconds 
+ENDTIME: 4022858 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:10:35.69 
+ENDTIME: 11:10:35.97 
+STARTTIME: 4023569 centiseconds 
+ENDTIME: 4023597 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:10:37.14 
+ENDTIME: 11:10:37.42 
+STARTTIME: 4023714 centiseconds 
+ENDTIME: 4023742 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:11:46.23 
+ENDTIME: 11:11:46.51 
+STARTTIME: 4030623 centiseconds 
+ENDTIME: 4030651 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:11:47.68 
+ENDTIME: 11:11:47.96 
+STARTTIME: 4030768 centiseconds 
+ENDTIME: 4030796 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:16:56.12 
+ENDTIME: 11:16:56.41 
+STARTTIME: 4061612 centiseconds 
+ENDTIME: 4061641 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:16:57.60 
+ENDTIME: 11:16:57.88 
+STARTTIME: 4061760 centiseconds 
+ENDTIME: 4061788 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:17:06.39 
+ENDTIME: 11:17:06.67 
+STARTTIME: 4062639 centiseconds 
+ENDTIME: 4062667 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:17:07.84 
+ENDTIME: 11:17:08.13 
+STARTTIME: 4062784 centiseconds 
+ENDTIME: 4062813 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:17:17.87 
+ENDTIME: 11:17:18.15 
+STARTTIME: 4063787 centiseconds 
+ENDTIME: 4063815 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:17:19.31 
+ENDTIME: 11:17:19.59 
+STARTTIME: 4063931 centiseconds 
+ENDTIME: 4063959 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:23:46.78 
+ENDTIME: 11:23:47.07 
+STARTTIME: 4102678 centiseconds 
+ENDTIME: 4102707 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:23:48.92 
+ENDTIME: 11:23:49.21 
+STARTTIME: 4102892 centiseconds 
+ENDTIME: 4102921 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:23:59.39 
+ENDTIME: 11:23:59.68 
+STARTTIME: 4103939 centiseconds 
+ENDTIME: 4103968 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:24:01.53 
+ENDTIME: 11:24:01.82 
+STARTTIME: 4104153 centiseconds 
+ENDTIME: 4104182 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:24:47.47 
+ENDTIME: 11:24:47.76 
+STARTTIME: 4108747 centiseconds 
+ENDTIME: 4108776 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:24:49.61 
+ENDTIME: 11:24:49.90 
+STARTTIME: 4108961 centiseconds 
+ENDTIME: 4108990 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:25:19.75 
+ENDTIME: 11:25:20.04 
+STARTTIME: 4111975 centiseconds 
+ENDTIME: 4112004 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:25:21.21 
+ENDTIME: 11:25:21.49 
+STARTTIME: 4112121 centiseconds 
+ENDTIME: 4112149 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:27:17.66 
+ENDTIME: 11:27:17.96 
+STARTTIME: 4123766 centiseconds 
+ENDTIME: 4123796 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:27:19.13 
+ENDTIME: 11:27:19.43 
+STARTTIME: 4123913 centiseconds 
+ENDTIME: 4123943 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:29:20.08 
+ENDTIME: 11:29:20.39 
+STARTTIME: 4136008 centiseconds 
+ENDTIME: 4136039 centiseconds 
+DURATION: 31 in centiseconds 
+00:00:00,31 
+STARTTIME: 11:29:22.51 
+ENDTIME: 11:29:22.82 
+STARTTIME: 4136251 centiseconds 
+ENDTIME: 4136282 centiseconds 
+DURATION: 31 in centiseconds 
+00:00:00,31 
+STARTTIME: 11:38:47.82 
+ENDTIME: 11:38:48.12 
+STARTTIME: 4192782 centiseconds 
+ENDTIME: 4192812 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:38:50.44 
+ENDTIME: 11:38:50.75 
+STARTTIME: 4193044 centiseconds 
+ENDTIME: 4193075 centiseconds 
+DURATION: 31 in centiseconds 
+00:00:00,31 
+STARTTIME: 11:39:22.25 
+ENDTIME: 11:39:22.56 
+STARTTIME: 4196225 centiseconds 
+ENDTIME: 4196256 centiseconds 
+DURATION: 31 in centiseconds 
+00:00:00,31 
+STARTTIME: 11:39:24.47 
+ENDTIME: 11:39:24.77 
+STARTTIME: 4196447 centiseconds 
+ENDTIME: 4196477 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:40:51.35 
+ENDTIME: 11:40:51.66 
+STARTTIME: 4205135 centiseconds 
+ENDTIME: 4205166 centiseconds 
+DURATION: 31 in centiseconds 
+00:00:00,31 
+STARTTIME: 11:40:53.74 
+ENDTIME: 11:40:54.06 
+STARTTIME: 4205374 centiseconds 
+ENDTIME: 4205406 centiseconds 
+DURATION: 32 in centiseconds 
+00:00:00,32 
+STARTTIME: 11:41:19.40 
+ENDTIME: 11:41:19.68 
+STARTTIME: 4207940 centiseconds 
+ENDTIME: 4207968 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:41:21.72 
+ENDTIME: 11:41:22.00 
+STARTTIME: 4208172 centiseconds 
+ENDTIME: 4208200 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:42:41.96 
+ENDTIME: 11:42:42.24 
+STARTTIME: 4216196 centiseconds 
+ENDTIME: 4216224 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:42:44.44 
+ENDTIME: 11:42:44.73 
+STARTTIME: 4216444 centiseconds 
+ENDTIME: 4216473 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:48:23.27 
+ENDTIME: 11:48:23.56 
+STARTTIME: 4250327 centiseconds 
+ENDTIME: 4250356 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:48:25.41 
+ENDTIME: 11:48:25.70 
+STARTTIME: 4250541 centiseconds 
+ENDTIME: 4250570 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:48:32.08 
+ENDTIME: 11:48:32.37 
+STARTTIME: 4251208 centiseconds 
+ENDTIME: 4251237 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:48:34.21 
+ENDTIME: 11:48:34.49 
+STARTTIME: 4251421 centiseconds 
+ENDTIME: 4251449 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:49:26.67 
+ENDTIME: 11:49:26.96 
+STARTTIME: 4256667 centiseconds 
+ENDTIME: 4256696 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:49:28.81 
+ENDTIME: 11:49:29.09 
+STARTTIME: 4256881 centiseconds 
+ENDTIME: 4256909 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:50:06.66 
+ENDTIME: 11:50:06.95 
+STARTTIME: 4260666 centiseconds 
+ENDTIME: 4260695 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:50:08.79 
+ENDTIME: 11:50:09.07 
+STARTTIME: 4260879 centiseconds 
+ENDTIME: 4260907 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:51:17.51 
+ENDTIME: 11:51:17.79 
+STARTTIME: 4267751 centiseconds 
+ENDTIME: 4267779 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:51:19.63 
+ENDTIME: 11:51:19.92 
+STARTTIME: 4267963 centiseconds 
+ENDTIME: 4267992 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:52:03.03 
+ENDTIME: 11:52:03.31 
+STARTTIME: 4272303 centiseconds 
+ENDTIME: 4272331 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:52:05.17 
+ENDTIME: 11:52:05.46 
+STARTTIME: 4272517 centiseconds 
+ENDTIME: 4272546 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:52:43.42 
+ENDTIME: 11:52:43.71 
+STARTTIME: 4276342 centiseconds 
+ENDTIME: 4276371 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:52:45.55 
+ENDTIME: 11:52:45.84 
+STARTTIME: 4276555 centiseconds 
+ENDTIME: 4276584 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:53:31.54 
+ENDTIME: 11:53:31.76 
+STARTTIME: 4281154 centiseconds 
+ENDTIME: 4281176 centiseconds 
+DURATION: 22 in centiseconds 
+00:00:00,22 
+STARTTIME: 11:53:33.05 
+ENDTIME: 11:53:33.28 
+STARTTIME: 4281305 centiseconds 
+ENDTIME: 4281328 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:53:40.09 
+ENDTIME: 11:53:40.32 
+STARTTIME: 4282009 centiseconds 
+ENDTIME: 4282032 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:53:41.54 
+ENDTIME: 11:53:41.77 
+STARTTIME: 4282154 centiseconds 
+ENDTIME: 4282177 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:53:46.51 
+ENDTIME: 11:53:46.73 
+STARTTIME: 4282651 centiseconds 
+ENDTIME: 4282673 centiseconds 
+DURATION: 22 in centiseconds 
+00:00:00,22 
+STARTTIME: 11:53:47.97 
+ENDTIME: 11:53:48.20 
+STARTTIME: 4282797 centiseconds 
+ENDTIME: 4282820 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:54:10.04 
+ENDTIME: 11:54:10.27 
+STARTTIME: 4285004 centiseconds 
+ENDTIME: 4285027 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:54:11.44 
+ENDTIME: 11:54:11.67 
+STARTTIME: 4285144 centiseconds 
+ENDTIME: 4285167 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:55:05.30 
+ENDTIME: 11:55:05.53 
+STARTTIME: 4290530 centiseconds 
+ENDTIME: 4290553 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 11:55:06.69 
+ENDTIME: 11:55:06.91 
+STARTTIME: 4290669 centiseconds 
+ENDTIME: 4290691 centiseconds 
+DURATION: 22 in centiseconds 
+00:00:00,22 
+STARTTIME: 12:57:53.62 
+ENDTIME: 12:57:53.85 
+STARTTIME: 4667362 centiseconds 
+ENDTIME: 4667385 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 12:57:55.00 
+ENDTIME: 12:57:55.23 
+STARTTIME: 4667500 centiseconds 
+ENDTIME: 4667523 centiseconds 
+DURATION: 23 in centiseconds 
+00:00:00,23 
+STARTTIME: 12:58:28.10 
+ENDTIME: 12:58:28.39 
+STARTTIME: 4670810 centiseconds 
+ENDTIME: 4670839 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:58:30.24 
+ENDTIME: 12:58:30.53 
+STARTTIME: 4671024 centiseconds 
+ENDTIME: 4671053 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:58:36.35 
+ENDTIME: 12:58:36.64 
+STARTTIME: 4671635 centiseconds 
+ENDTIME: 4671664 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:58:38.49 
+ENDTIME: 12:58:38.78 
+STARTTIME: 4671849 centiseconds 
+ENDTIME: 4671878 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:03:36.46 
+ENDTIME: 13:03:36.74 
+STARTTIME: 4701646 centiseconds 
+ENDTIME: 4701674 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:03:37.99 
+ENDTIME: 13:03:38.27 
+STARTTIME: 4701799 centiseconds 
+ENDTIME: 4701827 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:03:49.89 
+ENDTIME: 13:03:50.17 
+STARTTIME: 4702989 centiseconds 
+ENDTIME: 4703017 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:03:52.03 
+ENDTIME: 13:03:52.31 
+STARTTIME: 4703203 centiseconds 
+ENDTIME: 4703231 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:04:05.18 
+ENDTIME: 13:04:05.47 
+STARTTIME: 4704518 centiseconds 
+ENDTIME: 4704547 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:04:07.32 
+ENDTIME: 13:04:07.60 
+STARTTIME: 4704732 centiseconds 
+ENDTIME: 4704760 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:04:19.41 
+ENDTIME: 13:04:19.70 
+STARTTIME: 4705941 centiseconds 
+ENDTIME: 4705970 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:04:21.57 
+ENDTIME: 13:04:21.86 
+STARTTIME: 4706157 centiseconds 
+ENDTIME: 4706186 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:05:32.17 
+ENDTIME: 13:05:32.46 
+STARTTIME: 4713217 centiseconds 
+ENDTIME: 4713246 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:05:34.31 
+ENDTIME: 13:05:34.60 
+STARTTIME: 4713431 centiseconds 
+ENDTIME: 4713460 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:05:53.63 
+ENDTIME: 13:05:53.91 
+STARTTIME: 4715363 centiseconds 
+ENDTIME: 4715391 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:05:55.78 
+ENDTIME: 13:05:56.06 
+STARTTIME: 4715578 centiseconds 
+ENDTIME: 4715606 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:07:04.77 
+ENDTIME: 13:07:05.06 
+STARTTIME: 4722477 centiseconds 
+ENDTIME: 4722506 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:07:06.93 
+ENDTIME: 13:07:07.21 
+STARTTIME: 4722693 centiseconds 
+ENDTIME: 4722721 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:09:28.03 
+ENDTIME: 13:09:28.32 
+STARTTIME: 4736803 centiseconds 
+ENDTIME: 4736832 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:09:30.17 
+ENDTIME: 13:09:30.46 
+STARTTIME: 4737017 centiseconds 
+ENDTIME: 4737046 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:50:50.27 
+ENDTIME: 18:50:50.56 
+STARTTIME: 6785027 centiseconds 
+ENDTIME: 6785056 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:55:01.86 
+ENDTIME: 18:55:02.15 
+STARTTIME: 6810186 centiseconds 
+ENDTIME: 6810215 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:05:22.03 
+ENDTIME: 19:05:22.32 
+STARTTIME: 6872203 centiseconds 
+ENDTIME: 6872232 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:09:02.99 
+ENDTIME: 19:09:03.27 
+STARTTIME: 6894299 centiseconds 
+ENDTIME: 6894327 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 19:15:00.40 
+ENDTIME: 19:15:00.69 
+STARTTIME: 6930040 centiseconds 
+ENDTIME: 6930069 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:19:28.65 
+ENDTIME: 19:19:28.93 
+STARTTIME: 6956865 centiseconds 
+ENDTIME: 6956893 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 19:21:13.14 
+ENDTIME: 19:21:13.42 
+STARTTIME: 6967314 centiseconds 
+ENDTIME: 6967342 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 19:24:59.79 
+ENDTIME: 19:25:00.07 
+STARTTIME: 6989979 centiseconds 
+ENDTIME: 6990007 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 19:38:54.51 
+ENDTIME: 19:38:54.80 
+STARTTIME: 7073451 centiseconds 
+ENDTIME: 7073480 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:43:17.58 
+ENDTIME: 19:43:17.87 
+STARTTIME: 7099758 centiseconds 
+ENDTIME: 7099787 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:48:53.11 
+ENDTIME: 19:48:53.40 
+STARTTIME: 7133311 centiseconds 
+ENDTIME: 7133340 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:52:48.56 
+ENDTIME: 19:52:48.84 
+STARTTIME: 7156856 centiseconds 
+ENDTIME: 7156884 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 19:55:59.52 
+ENDTIME: 19:55:59.81 
+STARTTIME: 7175952 centiseconds 
+ENDTIME: 7175981 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 19:59:25.60 
+ENDTIME: 19:59:25.88 
+STARTTIME: 7196560 centiseconds 
+ENDTIME: 7196588 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME:  8:01:22.64 
+ENDTIME:  8:01:22.92 
+STARTTIME:  8:01:22.64 centiseconds 
+ENDTIME:  8:01:22.92 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:04:49.65 
+ENDTIME:  8:04:49.93 
+STARTTIME:  8:04:49.65 centiseconds 
+ENDTIME:  8:04:49.93 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:06:24.55 
+ENDTIME:  8:06:24.83 
+STARTTIME:  8:06:24.55 centiseconds 
+ENDTIME:  8:06:24.83 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:10:01.03 
+ENDTIME:  8:10:01.31 
+STARTTIME:  8:10:01.03 centiseconds 
+ENDTIME:  8:10:01.31 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:11:34.41 
+ENDTIME:  8:11:34.69 
+STARTTIME:  8:11:34.41 centiseconds 
+ENDTIME:  8:11:34.69 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:15:14.91 
+ENDTIME:  8:15:15.19 
+STARTTIME:  8:15:14.91 centiseconds 
+ENDTIME:  8:15:15.19 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:17:01.53 
+ENDTIME:  8:17:01.82 
+STARTTIME:  8:17:01.53 centiseconds 
+ENDTIME:  8:17:01.82 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:20:33.18 
+ENDTIME:  8:20:33.46 
+STARTTIME:  8:20:33.18 centiseconds 
+ENDTIME:  8:20:33.46 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:21:35.37 
+ENDTIME:  8:21:35.66 
+STARTTIME:  8:21:35.37 centiseconds 
+ENDTIME:  8:21:35.66 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:25:03.33 
+ENDTIME:  8:25:03.61 
+STARTTIME:  8:25:03.33 centiseconds 
+ENDTIME:  8:25:03.61 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:26:15.47 
+ENDTIME:  8:26:15.75 
+STARTTIME:  8:26:15.47 centiseconds 
+ENDTIME:  8:26:15.75 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:29:47.09 
+ENDTIME:  8:29:47.38 
+STARTTIME:  8:29:47.09 centiseconds 
+ENDTIME:  8:29:47.38 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:30:46.83 
+ENDTIME:  8:30:47.12 
+STARTTIME:  8:30:46.83 centiseconds 
+ENDTIME:  8:30:47.12 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:34:16.35 
+ENDTIME:  8:34:16.63 
+STARTTIME:  8:34:16.35 centiseconds 
+ENDTIME:  8:34:16.63 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:35:19.24 
+ENDTIME:  8:35:19.52 
+STARTTIME:  8:35:19.24 centiseconds 
+ENDTIME:  8:35:19.52 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:38:51.97 
+ENDTIME:  8:38:52.26 
+STARTTIME:  8:38:51.97 centiseconds 
+ENDTIME:  8:38:52.26 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:39:55.07 
+ENDTIME:  8:39:55.35 
+STARTTIME:  8:39:55.07 centiseconds 
+ENDTIME:  8:39:55.35 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:43:38.29 
+ENDTIME:  8:43:38.58 
+STARTTIME:  8:43:38.29 centiseconds 
+ENDTIME:  8:43:38.58 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:44:39.65 
+ENDTIME:  8:44:39.93 
+STARTTIME:  8:44:39.65 centiseconds 
+ENDTIME:  8:44:39.93 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:48:16.08 
+ENDTIME:  8:48:16.36 
+STARTTIME:  8:48:16.08 centiseconds 
+ENDTIME:  8:48:16.36 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:49:22.11 
+ENDTIME:  8:49:22.39 
+STARTTIME:  8:49:22.11 centiseconds 
+ENDTIME:  8:49:22.39 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:52:48.63 
+ENDTIME:  8:52:48.92 
+STARTTIME:  8:52:48.63 centiseconds 
+ENDTIME:  8:52:48.92 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:53:56.73 
+ENDTIME:  8:53:57.02 
+STARTTIME:  8:53:56.73 centiseconds 
+ENDTIME:  8:53:57.02 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:57:58.17 
+ENDTIME:  8:57:58.46 
+STARTTIME:  8:57:58.17 centiseconds 
+ENDTIME:  8:57:58.46 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:59:01.17 
+ENDTIME:  8:59:01.45 
+STARTTIME:  8:59:01.17 centiseconds 
+ENDTIME:  8:59:01.45 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  9:02:41.64 
+ENDTIME:  9:02:41.92 
+STARTTIME:  9:02:41.64 centiseconds 
+ENDTIME:  9:02:41.92 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:05:29.54 
+ENDTIME:  9:05:29.82 
+STARTTIME:  9:05:29.54 centiseconds 
+ENDTIME:  9:05:29.82 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:09:02.89 
+ENDTIME:  9:09:03.17 
+STARTTIME:  9:09:02.89 centiseconds 
+ENDTIME:  9:09:03.17 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:10:07.05 
+ENDTIME:  9:10:07.33 
+STARTTIME:  9:10:07.05 centiseconds 
+ENDTIME:  9:10:07.33 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:13:37.40 
+ENDTIME:  9:13:37.69 
+STARTTIME:  9:13:37.40 centiseconds 
+ENDTIME:  9:13:37.69 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:14:45.66 
+ENDTIME:  9:14:45.95 
+STARTTIME:  9:14:45.66 centiseconds 
+ENDTIME:  9:14:45.95 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:18:42.16 
+ENDTIME:  9:18:42.44 
+STARTTIME:  9:18:42.16 centiseconds 
+ENDTIME:  9:18:42.44 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:19:42.82 
+ENDTIME:  9:19:43.10 
+STARTTIME:  9:19:42.82 centiseconds 
+ENDTIME:  9:19:43.10 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:23:21.36 
+ENDTIME:  9:23:21.64 
+STARTTIME:  9:23:21.36 centiseconds 
+ENDTIME:  9:23:21.64 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:24:48.64 
+ENDTIME:  9:24:48.93 
+STARTTIME:  9:24:48.64 centiseconds 
+ENDTIME:  9:24:48.93 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:28:20.05 
+ENDTIME:  9:28:20.34 
+STARTTIME:  9:28:20.05 centiseconds 
+ENDTIME:  9:28:20.34 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:29:37.84 
+ENDTIME:  9:29:38.13 
+STARTTIME:  9:29:37.84 centiseconds 
+ENDTIME:  9:29:38.13 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:31:57.21 
+ENDTIME:  9:31:57.50 
+STARTTIME:  9:31:57.21 centiseconds 
+ENDTIME:  9:31:57.50 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:35:16.94 
+ENDTIME:  9:35:17.23 
+STARTTIME:  9:35:16.94 centiseconds 
+ENDTIME:  9:35:17.23 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:38:54.22 
+ENDTIME:  9:38:54.51 
+STARTTIME:  9:38:54.22 centiseconds 
+ENDTIME:  9:38:54.51 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:43:13.38 
+ENDTIME:  9:43:13.66 
+STARTTIME:  9:43:13.38 centiseconds 
+ENDTIME:  9:43:13.66 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:46:48.80 
+ENDTIME:  9:46:49.09 
+STARTTIME:  9:46:48.80 centiseconds 
+ENDTIME:  9:46:49.09 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:47:58.10 
+ENDTIME:  9:47:58.39 
+STARTTIME:  9:47:58.10 centiseconds 
+ENDTIME:  9:47:58.39 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:51:49.15 
+ENDTIME:  9:51:49.43 
+STARTTIME:  9:51:49.15 centiseconds 
+ENDTIME:  9:51:49.43 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:53:51.78 
+ENDTIME:  9:53:52.07 
+STARTTIME:  9:53:51.78 centiseconds 
+ENDTIME:  9:53:52.07 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:58:14.13 
+ENDTIME:  9:58:14.41 
+STARTTIME:  9:58:14.13 centiseconds 
+ENDTIME:  9:58:14.41 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME: 10:00:53.30 
+ENDTIME: 10:00:53.59 
+STARTTIME: 3605330 centiseconds 
+ENDTIME: 3605359 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:04:33.97 
+ENDTIME: 10:04:34.26 
+STARTTIME: 3627397 centiseconds 
+ENDTIME: 3627426 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:22:44.60 
+ENDTIME: 10:22:44.88 
+STARTTIME: 3736460 centiseconds 
+ENDTIME: 3736488 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:26:24.60 
+ENDTIME: 10:26:24.88 
+STARTTIME: 3758460 centiseconds 
+ENDTIME: 3758488 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:27:50.91 
+ENDTIME: 10:27:51.19 
+STARTTIME: 3767091 centiseconds 
+ENDTIME: 3767119 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:32:01.02 
+ENDTIME: 10:32:01.30 
+STARTTIME: 3792102 centiseconds 
+ENDTIME: 3792130 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:35:43.73 
+ENDTIME: 10:35:44.02 
+STARTTIME: 3814373 centiseconds 
+ENDTIME: 3814402 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:36:42.92 
+ENDTIME: 10:36:43.21 
+STARTTIME: 3820292 centiseconds 
+ENDTIME: 3820321 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:40:20.39 
+ENDTIME: 10:40:20.69 
+STARTTIME: 3842039 centiseconds 
+ENDTIME: 3842069 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 10:41:30.16 
+ENDTIME: 10:41:30.45 
+STARTTIME: 3849016 centiseconds 
+ENDTIME: 3849045 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:45:10.85 
+ENDTIME: 10:45:11.14 
+STARTTIME: 3871085 centiseconds 
+ENDTIME: 3871114 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:46:13.69 
+ENDTIME: 10:46:13.97 
+STARTTIME: 3877369 centiseconds 
+ENDTIME: 3877397 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:49:45.19 
+ENDTIME: 10:49:45.47 
+STARTTIME: 3898519 centiseconds 
+ENDTIME: 3898547 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:50:45.37 
+ENDTIME: 10:50:45.65 
+STARTTIME: 3904537 centiseconds 
+ENDTIME: 3904565 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:54:30.60 
+ENDTIME: 10:54:30.88 
+STARTTIME: 3927060 centiseconds 
+ENDTIME: 3927088 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:55:37.72 
+ENDTIME: 10:55:38.00 
+STARTTIME: 3933772 centiseconds 
+ENDTIME: 3933800 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:59:21.68 
+ENDTIME: 10:59:21.96 
+STARTTIME: 3956168 centiseconds 
+ENDTIME: 3956196 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:00:28.10 
+ENDTIME: 11:00:28.38 
+STARTTIME: 3962810 centiseconds 
+ENDTIME: 3962838 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:04:33.41 
+ENDTIME: 11:04:33.69 
+STARTTIME: 3987341 centiseconds 
+ENDTIME: 3987369 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:52:16.64 
+ENDTIME: 11:52:16.94 
+STARTTIME: 4273664 centiseconds 
+ENDTIME: 4273694 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 11:55:45.62 
+ENDTIME: 11:55:45.90 
+STARTTIME: 4294562 centiseconds 
+ENDTIME: 4294590 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:57:02.29 
+ENDTIME: 11:57:02.58 
+STARTTIME: 4302229 centiseconds 
+ENDTIME: 4302258 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:00:50.43 
+ENDTIME: 12:00:50.72 
+STARTTIME: 4325043 centiseconds 
+ENDTIME: 4325072 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:01:58.49 
+ENDTIME: 12:01:58.77 
+STARTTIME: 4331849 centiseconds 
+ENDTIME: 4331877 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:05:29.45 
+ENDTIME: 12:05:29.73 
+STARTTIME: 4352945 centiseconds 
+ENDTIME: 4352973 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:06:35.54 
+ENDTIME: 12:06:35.83 
+STARTTIME: 4359554 centiseconds 
+ENDTIME: 4359583 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:10:19.53 
+ENDTIME: 12:10:19.82 
+STARTTIME: 4381953 centiseconds 
+ENDTIME: 4381982 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:11:20.40 
+ENDTIME: 12:11:20.69 
+STARTTIME: 4388040 centiseconds 
+ENDTIME: 4388069 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:14:51.15 
+ENDTIME: 12:14:51.43 
+STARTTIME: 4409115 centiseconds 
+ENDTIME: 4409143 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:15:55.00 
+ENDTIME: 12:15:55.28 
+STARTTIME: 4415500 centiseconds 
+ENDTIME: 4415528 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:19:30.13 
+ENDTIME: 12:19:30.42 
+STARTTIME: 4437013 centiseconds 
+ENDTIME: 4437042 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:20:35.42 
+ENDTIME: 12:20:35.71 
+STARTTIME: 4443542 centiseconds 
+ENDTIME: 4443571 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:24:11.51 
+ENDTIME: 12:24:11.80 
+STARTTIME: 4465151 centiseconds 
+ENDTIME: 4465180 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:25:12.03 
+ENDTIME: 12:25:12.32 
+STARTTIME: 4471203 centiseconds 
+ENDTIME: 4471232 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:27:27.54 
+ENDTIME: 12:27:27.82 
+STARTTIME: 4484754 centiseconds 
+ENDTIME: 4484782 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:31:26.16 
+ENDTIME: 12:31:26.45 
+STARTTIME: 4508616 centiseconds 
+ENDTIME: 4508645 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:32:25.63 
+ENDTIME: 12:32:25.92 
+STARTTIME: 4514563 centiseconds 
+ENDTIME: 4514592 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:35:56.05 
+ENDTIME: 12:35:56.33 
+STARTTIME: 4535605 centiseconds 
+ENDTIME: 4535633 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:36:57.45 
+ENDTIME: 12:36:57.74 
+STARTTIME: 4541745 centiseconds 
+ENDTIME: 4541774 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:40:28.60 
+ENDTIME: 12:40:28.89 
+STARTTIME: 4562860 centiseconds 
+ENDTIME: 4562889 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:41:59.81 
+ENDTIME: 12:42:00.09 
+STARTTIME: 4571981 centiseconds 
+ENDTIME: 4572009 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:45:29.36 
+ENDTIME: 12:45:29.65 
+STARTTIME: 4592936 centiseconds 
+ENDTIME: 4592965 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:46:25.12 
+ENDTIME: 12:46:25.41 
+STARTTIME: 4598512 centiseconds 
+ENDTIME: 4598541 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:51:16.11 
+ENDTIME: 12:51:16.40 
+STARTTIME: 4627611 centiseconds 
+ENDTIME: 4627640 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:54:50.74 
+ENDTIME: 12:54:51.02 
+STARTTIME: 4649074 centiseconds 
+ENDTIME: 4649102 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:55:41.73 
+ENDTIME: 12:55:42.02 
+STARTTIME: 4654173 centiseconds 
+ENDTIME: 4654202 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:59:10.71 
+ENDTIME: 12:59:10.99 
+STARTTIME: 4675071 centiseconds 
+ENDTIME: 4675099 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:00:02.18 
+ENDTIME: 13:00:02.47 
+STARTTIME: 4680218 centiseconds 
+ENDTIME: 4680247 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:03:32.84 
+ENDTIME: 13:03:33.12 
+STARTTIME: 4701284 centiseconds 
+ENDTIME: 4701312 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:04:29.95 
+ENDTIME: 13:04:30.23 
+STARTTIME: 4706995 centiseconds 
+ENDTIME: 4707023 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:08:01.50 
+ENDTIME: 13:08:01.78 
+STARTTIME: 4728150 centiseconds 
+ENDTIME: 4728178 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:08:56.06 
+ENDTIME: 13:08:56.34 
+STARTTIME: 4733606 centiseconds 
+ENDTIME: 4733634 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:12:24.72 
+ENDTIME: 13:12:25.00 
+STARTTIME: 4754472 centiseconds 
+ENDTIME: 4754500 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:13:27.42 
+ENDTIME: 13:13:27.70 
+STARTTIME: 4760742 centiseconds 
+ENDTIME: 4760770 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:17:01.69 
+ENDTIME: 13:17:01.97 
+STARTTIME: 4782169 centiseconds 
+ENDTIME: 4782197 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:17:53.09 
+ENDTIME: 13:17:53.38 
+STARTTIME: 4787309 centiseconds 
+ENDTIME: 4787338 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:21:23.16 
+ENDTIME: 13:21:23.45 
+STARTTIME: 4808316 centiseconds 
+ENDTIME: 4808345 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:22:31.96 
+ENDTIME: 13:22:32.24 
+STARTTIME: 4815196 centiseconds 
+ENDTIME: 4815224 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:42:46.38 
+ENDTIME: 13:42:46.66 
+STARTTIME: 4936638 centiseconds 
+ENDTIME: 4936666 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:44:54.28 
+ENDTIME: 13:44:54.57 
+STARTTIME: 4949428 centiseconds 
+ENDTIME: 4949457 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:48:49.96 
+ENDTIME: 13:48:50.24 
+STARTTIME: 4972996 centiseconds 
+ENDTIME: 4973024 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:49:49.92 
+ENDTIME: 13:49:50.20 
+STARTTIME: 4978992 centiseconds 
+ENDTIME: 4979020 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:52:41.01 
+ENDTIME: 13:52:41.31 
+STARTTIME: 4996101 centiseconds 
+ENDTIME: 4996131 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 13:53:54.78 
+ENDTIME: 13:53:55.07 
+STARTTIME: 5003478 centiseconds 
+ENDTIME: 5003507 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:55:53.15 
+ENDTIME: 13:55:53.44 
+STARTTIME: 5015315 centiseconds 
+ENDTIME: 5015344 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:58:25.28 
+ENDTIME: 13:58:25.57 
+STARTTIME: 5030528 centiseconds 
+ENDTIME: 5030557 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:01:43.19 
+ENDTIME: 14:01:43.48 
+STARTTIME: 5050319 centiseconds 
+ENDTIME: 5050348 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:05:28.16 
+ENDTIME: 14:05:28.44 
+STARTTIME: 5072816 centiseconds 
+ENDTIME: 5072844 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:06:30.02 
+ENDTIME: 14:06:30.31 
+STARTTIME: 5079002 centiseconds 
+ENDTIME: 5079031 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:10:09.58 
+ENDTIME: 14:10:09.86 
+STARTTIME: 5100958 centiseconds 
+ENDTIME: 5100986 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:25:57.69 
+ENDTIME: 16:25:57.98 
+STARTTIME: 5915769 centiseconds 
+ENDTIME: 5915798 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:30:15.08 
+ENDTIME: 16:30:15.37 
+STARTTIME: 5941508 centiseconds 
+ENDTIME: 5941537 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:34:17.72 
+ENDTIME: 16:34:18.00 
+STARTTIME: 5965772 centiseconds 
+ENDTIME: 5965800 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:36:00.65 
+ENDTIME: 16:36:00.93 
+STARTTIME: 5976065 centiseconds 
+ENDTIME: 5976093 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:39:13.42 
+ENDTIME: 16:39:13.70 
+STARTTIME: 5995342 centiseconds 
+ENDTIME: 5995370 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:43:22.98 
+ENDTIME: 16:43:23.27 
+STARTTIME: 6020298 centiseconds 
+ENDTIME: 6020327 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:44:31.13 
+ENDTIME: 16:44:31.42 
+STARTTIME: 6027113 centiseconds 
+ENDTIME: 6027142 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:48:12.83 
+ENDTIME: 16:48:13.12 
+STARTTIME: 6049283 centiseconds 
+ENDTIME: 6049312 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:50:26.76 
+ENDTIME: 16:50:27.05 
+STARTTIME: 6062676 centiseconds 
+ENDTIME: 6062705 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:03:48.47 
+ENDTIME: 17:03:48.77 
+STARTTIME: 6142847 centiseconds 
+ENDTIME: 6142877 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 17:21:29.64 
+ENDTIME: 17:21:29.92 
+STARTTIME: 6248964 centiseconds 
+ENDTIME: 6248992 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:32:18.20 
+ENDTIME: 17:32:18.49 
+STARTTIME: 6313820 centiseconds 
+ENDTIME: 6313849 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:59:54.40 
+ENDTIME: 17:59:54.69 
+STARTTIME: 6479440 centiseconds 
+ENDTIME: 6479469 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:01:15.65 
+ENDTIME: 18:01:15.93 
+STARTTIME: 6487565 centiseconds 
+ENDTIME: 6487593 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:04:54.18 
+ENDTIME: 18:04:54.47 
+STARTTIME: 6509418 centiseconds 
+ENDTIME: 6509447 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:06:15.45 
+ENDTIME: 18:06:15.74 
+STARTTIME: 6517545 centiseconds 
+ENDTIME: 6517574 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:10:17.66 
+ENDTIME: 18:10:17.94 
+STARTTIME: 6541766 centiseconds 
+ENDTIME: 6541794 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:32:42.19 
+ENDTIME: 18:32:42.48 
+STARTTIME: 6676219 centiseconds 
+ENDTIME: 6676248 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:34:56.08 
+ENDTIME: 18:34:56.37 
+STARTTIME: 6689608 centiseconds 
+ENDTIME: 6689637 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:38:40.86 
+ENDTIME: 18:38:41.15 
+STARTTIME: 6712086 centiseconds 
+ENDTIME: 6712115 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:39:46.68 
+ENDTIME: 18:39:46.96 
+STARTTIME: 6718668 centiseconds 
+ENDTIME: 6718696 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:43:20.12 
+ENDTIME: 18:43:20.40 
+STARTTIME: 6740012 centiseconds 
+ENDTIME: 6740040 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME:  9:37:04.97 
+ENDTIME:  9:37:05.26 
+STARTTIME:  9:37:04.97 centiseconds 
+ENDTIME:  9:37:05.26 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:40:41.96 
+ENDTIME:  9:40:42.25 
+STARTTIME:  9:40:41.96 centiseconds 
+ENDTIME:  9:40:42.25 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:42:41.70 
+ENDTIME:  9:42:41.99 
+STARTTIME:  9:42:41.70 centiseconds 
+ENDTIME:  9:42:41.99 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:46:15.92 
+ENDTIME:  9:46:16.20 
+STARTTIME:  9:46:15.92 centiseconds 
+ENDTIME:  9:46:16.20 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME: 10:36:01.13 
+ENDTIME: 10:36:01.42 
+STARTTIME: 3816113 centiseconds 
+ENDTIME: 3816142 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:44:29.92 
+ENDTIME: 10:44:30.20 
+STARTTIME: 3866992 centiseconds 
+ENDTIME: 3867020 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:48:18.78 
+ENDTIME: 10:48:19.07 
+STARTTIME: 3889878 centiseconds 
+ENDTIME: 3889907 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:52:26.30 
+ENDTIME: 10:52:26.58 
+STARTTIME: 3914630 centiseconds 
+ENDTIME: 3914658 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:53:29.60 
+ENDTIME: 10:53:29.89 
+STARTTIME: 3920960 centiseconds 
+ENDTIME: 3920989 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:57:18.17 
+ENDTIME: 10:57:18.45 
+STARTTIME: 3943817 centiseconds 
+ENDTIME: 3943845 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:36:52.74 
+ENDTIME: 11:36:53.02 
+STARTTIME: 4181274 centiseconds 
+ENDTIME: 4181302 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:40:27.29 
+ENDTIME: 11:40:27.58 
+STARTTIME: 4202729 centiseconds 
+ENDTIME: 4202758 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:46:18.06 
+ENDTIME: 11:46:18.35 
+STARTTIME: 4237806 centiseconds 
+ENDTIME: 4237835 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:50:05.14 
+ENDTIME: 11:50:05.42 
+STARTTIME: 4260514 centiseconds 
+ENDTIME: 4260542 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:30:15.54 
+ENDTIME: 12:30:15.83 
+STARTTIME: 4501554 centiseconds 
+ENDTIME: 4501583 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:34:17.13 
+ENDTIME: 12:34:17.42 
+STARTTIME: 4525713 centiseconds 
+ENDTIME: 4525742 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:37:38.00 
+ENDTIME: 12:37:38.28 
+STARTTIME: 4545800 centiseconds 
+ENDTIME: 4545828 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:41:23.35 
+ENDTIME: 12:41:23.63 
+STARTTIME: 4568335 centiseconds 
+ENDTIME: 4568363 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:42:21.18 
+ENDTIME: 12:42:21.47 
+STARTTIME: 4574118 centiseconds 
+ENDTIME: 4574147 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:45:59.34 
+ENDTIME: 12:45:59.63 
+STARTTIME: 4595934 centiseconds 
+ENDTIME: 4595963 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:47:01.41 
+ENDTIME: 12:47:01.70 
+STARTTIME: 4602141 centiseconds 
+ENDTIME: 4602170 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:50:38.57 
+ENDTIME: 12:50:38.85 
+STARTTIME: 4623857 centiseconds 
+ENDTIME: 4623885 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:51:44.15 
+ENDTIME: 12:51:44.43 
+STARTTIME: 4630415 centiseconds 
+ENDTIME: 4630443 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:55:22.78 
+ENDTIME: 12:55:23.07 
+STARTTIME: 4652278 centiseconds 
+ENDTIME: 4652307 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:56:25.89 
+ENDTIME: 12:56:26.17 
+STARTTIME: 4658589 centiseconds 
+ENDTIME: 4658617 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:00:08.03 
+ENDTIME: 13:00:08.32 
+STARTTIME: 4680803 centiseconds 
+ENDTIME: 4680832 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:03:27.03 
+ENDTIME: 13:03:27.31 
+STARTTIME: 4700703 centiseconds 
+ENDTIME: 4700731 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:07:18.26 
+ENDTIME: 13:07:18.55 
+STARTTIME: 4723826 centiseconds 
+ENDTIME: 4723855 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:08:28.18 
+ENDTIME: 13:08:28.47 
+STARTTIME: 4730818 centiseconds 
+ENDTIME: 4730847 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:13:21.79 
+ENDTIME: 13:13:22.07 
+STARTTIME: 4760179 centiseconds 
+ENDTIME: 4760207 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:17:00.40 
+ENDTIME: 13:17:00.68 
+STARTTIME: 4782040 centiseconds 
+ENDTIME: 4782068 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:18:11.68 
+ENDTIME: 13:18:11.97 
+STARTTIME: 4789168 centiseconds 
+ENDTIME: 4789197 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:21:54.66 
+ENDTIME: 13:21:54.94 
+STARTTIME: 4811466 centiseconds 
+ENDTIME: 4811494 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:52:09.95 
+ENDTIME: 13:52:10.24 
+STARTTIME: 4992995 centiseconds 
+ENDTIME: 4993024 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:55:42.80 
+ENDTIME: 13:55:43.09 
+STARTTIME: 5014280 centiseconds 
+ENDTIME: 5014309 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:57:05.96 
+ENDTIME: 13:57:06.25 
+STARTTIME: 5022596 centiseconds 
+ENDTIME: 5022625 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:00:43.92 
+ENDTIME: 14:00:44.21 
+STARTTIME: 5044392 centiseconds 
+ENDTIME: 5044421 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:05:44.89 
+ENDTIME: 14:05:45.18 
+STARTTIME: 5074489 centiseconds 
+ENDTIME: 5074518 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:09:23.76 
+ENDTIME: 14:09:24.04 
+STARTTIME: 5096376 centiseconds 
+ENDTIME: 5096404 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:10:34.31 
+ENDTIME: 14:10:34.60 
+STARTTIME: 5103431 centiseconds 
+ENDTIME: 5103460 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:14:09.77 
+ENDTIME: 14:14:10.05 
+STARTTIME: 5124977 centiseconds 
+ENDTIME: 5125005 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:15:14.55 
+ENDTIME: 14:15:14.84 
+STARTTIME: 5131455 centiseconds 
+ENDTIME: 5131484 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:19:49.84 
+ENDTIME: 14:19:50.13 
+STARTTIME: 5158984 centiseconds 
+ENDTIME: 5159013 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:23:47.09 
+ENDTIME: 14:23:47.39 
+STARTTIME: 5182709 centiseconds 
+ENDTIME: 5182739 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 14:27:32.02 
+ENDTIME: 14:27:32.31 
+STARTTIME: 5205202 centiseconds 
+ENDTIME: 5205231 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:28:44.17 
+ENDTIME: 14:28:44.45 
+STARTTIME: 5212417 centiseconds 
+ENDTIME: 5212445 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:32:15.84 
+ENDTIME: 14:32:16.12 
+STARTTIME: 5233584 centiseconds 
+ENDTIME: 5233612 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:33:32.31 
+ENDTIME: 14:33:32.59 
+STARTTIME: 5241231 centiseconds 
+ENDTIME: 5241259 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:37:12.84 
+ENDTIME: 14:37:13.13 
+STARTTIME: 5263284 centiseconds 
+ENDTIME: 5263313 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:38:25.44 
+ENDTIME: 14:38:25.73 
+STARTTIME: 5270544 centiseconds 
+ENDTIME: 5270573 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:42:24.50 
+ENDTIME: 14:42:24.79 
+STARTTIME: 5294450 centiseconds 
+ENDTIME: 5294479 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:43:51.45 
+ENDTIME: 14:43:51.74 
+STARTTIME: 5303145 centiseconds 
+ENDTIME: 5303174 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:47:37.74 
+ENDTIME: 14:47:38.03 
+STARTTIME: 5325774 centiseconds 
+ENDTIME: 5325803 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:48:52.04 
+ENDTIME: 14:48:52.33 
+STARTTIME: 5333204 centiseconds 
+ENDTIME: 5333233 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:52:23.44 
+ENDTIME: 14:52:23.72 
+STARTTIME: 5354344 centiseconds 
+ENDTIME: 5354372 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:53:40.39 
+ENDTIME: 14:53:40.67 
+STARTTIME: 5362039 centiseconds 
+ENDTIME: 5362067 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:57:16.48 
+ENDTIME: 14:57:16.76 
+STARTTIME: 5383648 centiseconds 
+ENDTIME: 5383676 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:58:42.16 
+ENDTIME: 14:58:42.45 
+STARTTIME: 5392216 centiseconds 
+ENDTIME: 5392245 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:02:16.49 
+ENDTIME: 15:02:16.78 
+STARTTIME: 5413649 centiseconds 
+ENDTIME: 5413678 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:03:43.54 
+ENDTIME: 15:03:43.83 
+STARTTIME: 5422354 centiseconds 
+ENDTIME: 5422383 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:07:22.04 
+ENDTIME: 15:07:22.32 
+STARTTIME: 5444204 centiseconds 
+ENDTIME: 5444232 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:08:34.26 
+ENDTIME: 15:08:34.55 
+STARTTIME: 5451426 centiseconds 
+ENDTIME: 5451455 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:12:11.94 
+ENDTIME: 15:12:12.23 
+STARTTIME: 5473194 centiseconds 
+ENDTIME: 5473223 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:13:22.98 
+ENDTIME: 15:13:23.26 
+STARTTIME: 5480298 centiseconds 
+ENDTIME: 5480326 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:16:58.46 
+ENDTIME: 15:16:58.74 
+STARTTIME: 5501846 centiseconds 
+ENDTIME: 5501874 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:18:11.08 
+ENDTIME: 15:18:11.37 
+STARTTIME: 5509108 centiseconds 
+ENDTIME: 5509137 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:21:54.92 
+ENDTIME: 15:21:55.20 
+STARTTIME: 5531492 centiseconds 
+ENDTIME: 5531520 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:23:02.10 
+ENDTIME: 15:23:02.38 
+STARTTIME: 5538210 centiseconds 
+ENDTIME: 5538238 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:26:40.21 
+ENDTIME: 15:26:40.50 
+STARTTIME: 5560021 centiseconds 
+ENDTIME: 5560050 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:27:48.07 
+ENDTIME: 15:27:48.35 
+STARTTIME: 5566807 centiseconds 
+ENDTIME: 5566835 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:31:36.98 
+ENDTIME: 15:31:37.27 
+STARTTIME: 5589698 centiseconds 
+ENDTIME: 5589727 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:32:58.65 
+ENDTIME: 15:32:58.94 
+STARTTIME: 5597865 centiseconds 
+ENDTIME: 5597894 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:36:47.63 
+ENDTIME: 15:36:47.91 
+STARTTIME: 5620763 centiseconds 
+ENDTIME: 5620791 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:29:54.36 
+ENDTIME: 16:29:54.65 
+STARTTIME: 5939436 centiseconds 
+ENDTIME: 5939465 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:34:06.71 
+ENDTIME: 16:34:07.00 
+STARTTIME: 5964671 centiseconds 
+ENDTIME: 5964700 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:35:38.88 
+ENDTIME: 16:35:39.16 
+STARTTIME: 5973888 centiseconds 
+ENDTIME: 5973916 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:39:20.40 
+ENDTIME: 16:39:20.69 
+STARTTIME: 5996040 centiseconds 
+ENDTIME: 5996069 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:49:04.42 
+ENDTIME: 16:49:04.70 
+STARTTIME: 6054442 centiseconds 
+ENDTIME: 6054470 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:52:56.10 
+ENDTIME: 16:52:56.39 
+STARTTIME: 6077610 centiseconds 
+ENDTIME: 6077639 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:55:17.99 
+ENDTIME: 16:55:18.28 
+STARTTIME: 6091799 centiseconds 
+ENDTIME: 6091828 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:59:21.12 
+ENDTIME: 16:59:21.41 
+STARTTIME: 6116112 centiseconds 
+ENDTIME: 6116141 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME:  9:50:02.61 
+ENDTIME:  9:50:02.89 
+STARTTIME:  9:50:02.61 centiseconds 
+ENDTIME:  9:50:02.89 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:53:38.99 
+ENDTIME:  9:53:39.28 
+STARTTIME:  9:53:38.99 centiseconds 
+ENDTIME:  9:53:39.28 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:55:38.84 
+ENDTIME:  9:55:39.12 
+STARTTIME:  9:55:38.84 centiseconds 
+ENDTIME:  9:55:39.12 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME: 10:00:58.68 
+ENDTIME: 10:00:58.97 
+STARTTIME: 3605868 centiseconds 
+ENDTIME: 3605897 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:03:02.10 
+ENDTIME: 10:03:02.39 
+STARTTIME: 3618210 centiseconds 
+ENDTIME: 3618239 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:06:44.27 
+ENDTIME: 10:06:44.56 
+STARTTIME: 3640427 centiseconds 
+ENDTIME: 3640456 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:08:10.30 
+ENDTIME: 10:08:10.59 
+STARTTIME: 3649030 centiseconds 
+ENDTIME: 3649059 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:11:48.31 
+ENDTIME: 10:11:48.59 
+STARTTIME: 3670831 centiseconds 
+ENDTIME: 3670859 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:12:55.28 
+ENDTIME: 10:12:55.56 
+STARTTIME: 3677528 centiseconds 
+ENDTIME: 3677556 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:16:35.23 
+ENDTIME: 10:16:35.52 
+STARTTIME: 3699523 centiseconds 
+ENDTIME: 3699552 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:18:23.24 
+ENDTIME: 10:18:23.52 
+STARTTIME: 3710324 centiseconds 
+ENDTIME: 3710352 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:22:39.97 
+ENDTIME: 10:22:40.26 
+STARTTIME: 3735997 centiseconds 
+ENDTIME: 3736026 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:25:42.93 
+ENDTIME: 10:25:43.22 
+STARTTIME: 3754293 centiseconds 
+ENDTIME: 3754322 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:29:23.24 
+ENDTIME: 10:29:23.52 
+STARTTIME: 3776324 centiseconds 
+ENDTIME: 3776352 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:31:36.43 
+ENDTIME: 10:31:36.71 
+STARTTIME: 3789643 centiseconds 
+ENDTIME: 3789671 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:35:16.21 
+ENDTIME: 10:35:16.49 
+STARTTIME: 3811621 centiseconds 
+ENDTIME: 3811649 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:36:18.48 
+ENDTIME: 10:36:18.77 
+STARTTIME: 3817848 centiseconds 
+ENDTIME: 3817877 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:40:18.46 
+ENDTIME: 10:40:18.74 
+STARTTIME: 3841846 centiseconds 
+ENDTIME: 3841874 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:41:39.03 
+ENDTIME: 10:41:39.32 
+STARTTIME: 3849903 centiseconds 
+ENDTIME: 3849932 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:45:25.46 
+ENDTIME: 10:45:25.75 
+STARTTIME: 3872546 centiseconds 
+ENDTIME: 3872575 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:48:13.13 
+ENDTIME: 10:48:13.42 
+STARTTIME: 3889313 centiseconds 
+ENDTIME: 3889342 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:51:57.41 
+ENDTIME: 10:51:57.69 
+STARTTIME: 3911741 centiseconds 
+ENDTIME: 3911769 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:54:28.65 
+ENDTIME: 10:54:28.94 
+STARTTIME: 3926865 centiseconds 
+ENDTIME: 3926894 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:58:06.65 
+ENDTIME: 10:58:06.94 
+STARTTIME: 3948665 centiseconds 
+ENDTIME: 3948694 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:59:14.97 
+ENDTIME: 10:59:15.26 
+STARTTIME: 3955497 centiseconds 
+ENDTIME: 3955526 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:02:51.51 
+ENDTIME: 11:02:51.79 
+STARTTIME: 3977151 centiseconds 
+ENDTIME: 3977179 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:03:59.84 
+ENDTIME: 11:04:00.13 
+STARTTIME: 3983984 centiseconds 
+ENDTIME: 3984013 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:07:46.29 
+ENDTIME: 11:07:46.58 
+STARTTIME: 4006629 centiseconds 
+ENDTIME: 4006658 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:09:20.66 
+ENDTIME: 11:09:20.94 
+STARTTIME: 4016066 centiseconds 
+ENDTIME: 4016094 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:13:01.76 
+ENDTIME: 11:13:02.04 
+STARTTIME: 4038176 centiseconds 
+ENDTIME: 4038204 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:20:33.03 
+ENDTIME: 11:20:33.31 
+STARTTIME: 4083303 centiseconds 
+ENDTIME: 4083331 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:24:12.34 
+ENDTIME: 11:24:12.63 
+STARTTIME: 4105234 centiseconds 
+ENDTIME: 4105263 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:25:31.07 
+ENDTIME: 11:25:31.35 
+STARTTIME: 4113107 centiseconds 
+ENDTIME: 4113135 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:29:20.67 
+ENDTIME: 11:29:20.95 
+STARTTIME: 4136067 centiseconds 
+ENDTIME: 4136095 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:30:39.35 
+ENDTIME: 11:30:39.63 
+STARTTIME: 4143935 centiseconds 
+ENDTIME: 4143963 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:35:18.76 
+ENDTIME: 11:35:19.04 
+STARTTIME: 4171876 centiseconds 
+ENDTIME: 4171904 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:39:24.60 
+ENDTIME: 11:39:24.88 
+STARTTIME: 4196460 centiseconds 
+ENDTIME: 4196488 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:40:42.85 
+ENDTIME: 11:40:43.13 
+STARTTIME: 4204285 centiseconds 
+ENDTIME: 4204313 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:44:18.50 
+ENDTIME: 11:44:18.79 
+STARTTIME: 4225850 centiseconds 
+ENDTIME: 4225879 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:45:22.36 
+ENDTIME: 11:45:22.64 
+STARTTIME: 4232236 centiseconds 
+ENDTIME: 4232264 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:47:57.43 
+ENDTIME: 11:47:57.71 
+STARTTIME: 4247743 centiseconds 
+ENDTIME: 4247771 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:12:02.67 
+ENDTIME: 12:12:02.95 
+STARTTIME: 4392267 centiseconds 
+ENDTIME: 4392295 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:39:07.54 
+ENDTIME: 12:39:07.83 
+STARTTIME: 4554754 centiseconds 
+ENDTIME: 4554783 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:42:00.04 
+ENDTIME: 12:42:00.33 
+STARTTIME: 4572004 centiseconds 
+ENDTIME: 4572033 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:45:03.85 
+ENDTIME: 12:45:04.14 
+STARTTIME: 4590385 centiseconds 
+ENDTIME: 4590414 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:48:40.87 
+ENDTIME: 12:48:41.15 
+STARTTIME: 4612087 centiseconds 
+ENDTIME: 4612115 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:52:41.29 
+ENDTIME: 12:52:41.57 
+STARTTIME: 4636129 centiseconds 
+ENDTIME: 4636157 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:56:16.95 
+ENDTIME: 12:56:17.24 
+STARTTIME: 4657695 centiseconds 
+ENDTIME: 4657724 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:57:18.02 
+ENDTIME: 12:57:18.31 
+STARTTIME: 4663802 centiseconds 
+ENDTIME: 4663831 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:00:58.39 
+ENDTIME: 13:00:58.67 
+STARTTIME: 4685839 centiseconds 
+ENDTIME: 4685867 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:02:02.45 
+ENDTIME: 13:02:02.74 
+STARTTIME: 4692245 centiseconds 
+ENDTIME: 4692274 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:05:37.74 
+ENDTIME: 13:05:38.02 
+STARTTIME: 4713774 centiseconds 
+ENDTIME: 4713802 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:12:19.27 
+ENDTIME: 13:12:19.55 
+STARTTIME: 4753927 centiseconds 
+ENDTIME: 4753955 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:15:52.51 
+ENDTIME: 13:15:52.80 
+STARTTIME: 4775251 centiseconds 
+ENDTIME: 4775280 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:16:57.15 
+ENDTIME: 13:16:57.44 
+STARTTIME: 4781715 centiseconds 
+ENDTIME: 4781744 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:20:33.83 
+ENDTIME: 13:20:34.12 
+STARTTIME: 4803383 centiseconds 
+ENDTIME: 4803412 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:34:15.72 
+ENDTIME: 13:34:16.01 
+STARTTIME: 4885572 centiseconds 
+ENDTIME: 4885601 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:37:55.61 
+ENDTIME: 13:37:55.89 
+STARTTIME: 4907561 centiseconds 
+ENDTIME: 4907589 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:39:06.74 
+ENDTIME: 13:39:07.03 
+STARTTIME: 4914674 centiseconds 
+ENDTIME: 4914703 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:42:49.43 
+ENDTIME: 13:42:49.71 
+STARTTIME: 4936943 centiseconds 
+ENDTIME: 4936971 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:43:55.37 
+ENDTIME: 13:43:55.66 
+STARTTIME: 4943537 centiseconds 
+ENDTIME: 4943566 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:47:48.32 
+ENDTIME: 13:47:48.60 
+STARTTIME: 4966832 centiseconds 
+ENDTIME: 4966860 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:48:50.46 
+ENDTIME: 13:48:50.74 
+STARTTIME: 4973046 centiseconds 
+ENDTIME: 4973074 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:52:05.13 
+ENDTIME: 13:52:05.42 
+STARTTIME: 4992513 centiseconds 
+ENDTIME: 4992542 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:55:35.48 
+ENDTIME: 13:55:35.76 
+STARTTIME: 5013548 centiseconds 
+ENDTIME: 5013576 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:56:45.08 
+ENDTIME: 13:56:45.36 
+STARTTIME: 5020508 centiseconds 
+ENDTIME: 5020536 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:02:01.13 
+ENDTIME: 14:02:01.42 
+STARTTIME: 5052113 centiseconds 
+ENDTIME: 5052142 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:05:34.83 
+ENDTIME: 14:05:35.12 
+STARTTIME: 5073483 centiseconds 
+ENDTIME: 5073512 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:07:13.74 
+ENDTIME: 14:07:14.02 
+STARTTIME: 5083374 centiseconds 
+ENDTIME: 5083402 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:11:04.03 
+ENDTIME: 14:11:04.31 
+STARTTIME: 5106403 centiseconds 
+ENDTIME: 5106431 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:12:43.30 
+ENDTIME: 14:12:43.58 
+STARTTIME: 5116330 centiseconds 
+ENDTIME: 5116358 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:16:21.66 
+ENDTIME: 14:16:21.94 
+STARTTIME: 5138166 centiseconds 
+ENDTIME: 5138194 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:22:13.79 
+ENDTIME: 14:22:14.08 
+STARTTIME: 5173379 centiseconds 
+ENDTIME: 5173408 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:25:50.64 
+ENDTIME: 14:25:50.92 
+STARTTIME: 5195064 centiseconds 
+ENDTIME: 5195092 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:27:24.18 
+ENDTIME: 14:27:24.47 
+STARTTIME: 5204418 centiseconds 
+ENDTIME: 5204447 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:30:56.36 
+ENDTIME: 14:30:56.65 
+STARTTIME: 5225636 centiseconds 
+ENDTIME: 5225665 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:32:01.42 
+ENDTIME: 14:32:01.71 
+STARTTIME: 5232142 centiseconds 
+ENDTIME: 5232171 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:35:30.45 
+ENDTIME: 14:35:30.74 
+STARTTIME: 5253045 centiseconds 
+ENDTIME: 5253074 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:36:49.75 
+ENDTIME: 14:36:50.04 
+STARTTIME: 5260975 centiseconds 
+ENDTIME: 5261004 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:17:16.84 
+ENDTIME: 15:17:17.12 
+STARTTIME: 5503684 centiseconds 
+ENDTIME: 5503712 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:19:42.60 
+ENDTIME: 15:19:42.89 
+STARTTIME: 5518260 centiseconds 
+ENDTIME: 5518289 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:22:35.74 
+ENDTIME: 15:22:36.03 
+STARTTIME: 5535574 centiseconds 
+ENDTIME: 5535603 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:25:11.19 
+ENDTIME: 15:25:11.49 
+STARTTIME: 5551119 centiseconds 
+ENDTIME: 5551149 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 15:28:46.14 
+ENDTIME: 15:28:46.43 
+STARTTIME: 5572614 centiseconds 
+ENDTIME: 5572643 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:29:54.35 
+ENDTIME: 15:29:54.64 
+STARTTIME: 5579435 centiseconds 
+ENDTIME: 5579464 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:33:28.40 
+ENDTIME: 15:33:28.68 
+STARTTIME: 5600840 centiseconds 
+ENDTIME: 5600868 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:34:44.13 
+ENDTIME: 15:34:44.41 
+STARTTIME: 5608413 centiseconds 
+ENDTIME: 5608441 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:38:37.38 
+ENDTIME: 15:38:37.67 
+STARTTIME: 5631738 centiseconds 
+ENDTIME: 5631767 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:39:47.84 
+ENDTIME: 15:39:48.13 
+STARTTIME: 5638784 centiseconds 
+ENDTIME: 5638813 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:43:20.77 
+ENDTIME: 15:43:21.05 
+STARTTIME: 5660077 centiseconds 
+ENDTIME: 5660105 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:44:28.76 
+ENDTIME: 15:44:29.04 
+STARTTIME: 5666876 centiseconds 
+ENDTIME: 5666904 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:48:02.33 
+ENDTIME: 15:48:02.62 
+STARTTIME: 5688233 centiseconds 
+ENDTIME: 5688262 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:49:56.93 
+ENDTIME: 15:49:57.21 
+STARTTIME: 5699693 centiseconds 
+ENDTIME: 5699721 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:53:45.63 
+ENDTIME: 15:53:45.91 
+STARTTIME: 5722563 centiseconds 
+ENDTIME: 5722591 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:59:54.64 
+ENDTIME: 15:59:54.94 
+STARTTIME: 5759464 centiseconds 
+ENDTIME: 5759494 centiseconds 
+DURATION: 30 in centiseconds 
+00:00:00,30 
+STARTTIME: 16:39:59.07 
+ENDTIME: 16:39:59.35 
+STARTTIME: 5999907 centiseconds 
+ENDTIME: 5999935 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:43:41.24 
+ENDTIME: 16:43:41.52 
+STARTTIME: 6022124 centiseconds 
+ENDTIME: 6022152 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:45:14.95 
+ENDTIME: 16:45:15.23 
+STARTTIME: 6031495 centiseconds 
+ENDTIME: 6031523 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:50:16.94 
+ENDTIME: 16:50:17.23 
+STARTTIME: 6061694 centiseconds 
+ENDTIME: 6061723 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:55:31.54 
+ENDTIME: 16:55:31.82 
+STARTTIME: 6093154 centiseconds 
+ENDTIME: 6093182 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:59:29.02 
+ENDTIME: 16:59:29.30 
+STARTTIME: 6116902 centiseconds 
+ENDTIME: 6116930 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:03:14.91 
+ENDTIME: 17:03:15.19 
+STARTTIME: 6139491 centiseconds 
+ENDTIME: 6139519 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:06:52.65 
+ENDTIME: 17:06:52.94 
+STARTTIME: 6161265 centiseconds 
+ENDTIME: 6161294 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:10:29.75 
+ENDTIME: 17:10:30.03 
+STARTTIME: 6182975 centiseconds 
+ENDTIME: 6183003 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:11:56.31 
+ENDTIME: 17:11:56.60 
+STARTTIME: 6191631 centiseconds 
+ENDTIME: 6191660 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:15:36.71 
+ENDTIME: 17:15:37.00 
+STARTTIME: 6213671 centiseconds 
+ENDTIME: 6213700 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:16:55.13 
+ENDTIME: 17:16:55.41 
+STARTTIME: 6221513 centiseconds 
+ENDTIME: 6221541 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:21:10.29 
+ENDTIME: 17:21:10.58 
+STARTTIME: 6247029 centiseconds 
+ENDTIME: 6247058 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:23:36.62 
+ENDTIME: 17:23:36.91 
+STARTTIME: 6261662 centiseconds 
+ENDTIME: 6261691 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:27:50.96 
+ENDTIME: 17:27:51.24 
+STARTTIME: 6287096 centiseconds 
+ENDTIME: 6287124 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:47:40.42 
+ENDTIME: 17:47:40.71 
+STARTTIME: 6406042 centiseconds 
+ENDTIME: 6406071 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:58:04.88 
+ENDTIME: 17:58:05.17 
+STARTTIME: 6468488 centiseconds 
+ENDTIME: 6468517 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:11:26.69 
+ENDTIME: 18:11:26.97 
+STARTTIME: 6548669 centiseconds 
+ENDTIME: 6548697 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:14:55.74 
+ENDTIME: 18:14:56.03 
+STARTTIME: 6569574 centiseconds 
+ENDTIME: 6569603 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:18:43.74 
+ENDTIME: 18:18:44.03 
+STARTTIME: 6592374 centiseconds 
+ENDTIME: 6592403 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:22:12.36 
+ENDTIME: 18:22:12.65 
+STARTTIME: 6613236 centiseconds 
+ENDTIME: 6613265 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:25:48.58 
+ENDTIME: 18:25:48.86 
+STARTTIME: 6634858 centiseconds 
+ENDTIME: 6634886 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:27:16.93 
+ENDTIME: 18:27:17.21 
+STARTTIME: 6643693 centiseconds 
+ENDTIME: 6643721 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:30:50.74 
+ENDTIME: 18:30:51.03 
+STARTTIME: 6665074 centiseconds 
+ENDTIME: 6665103 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:33:13.18 
+ENDTIME: 18:33:13.47 
+STARTTIME: 6679318 centiseconds 
+ENDTIME: 6679347 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:36:54.67 
+ENDTIME: 18:36:54.95 
+STARTTIME: 6701467 centiseconds 
+ENDTIME: 6701495 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:38:05.87 
+ENDTIME: 18:38:06.15 
+STARTTIME: 6708587 centiseconds 
+ENDTIME: 6708615 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:41:40.92 
+ENDTIME: 18:41:41.20 
+STARTTIME: 6730092 centiseconds 
+ENDTIME: 6730120 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:42:47.84 
+ENDTIME: 18:42:48.12 
+STARTTIME: 6736784 centiseconds 
+ENDTIME: 6736812 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:46:04.88 
+ENDTIME: 18:46:05.17 
+STARTTIME: 6756488 centiseconds 
+ENDTIME: 6756517 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:49:41.64 
+ENDTIME: 18:49:41.92 
+STARTTIME: 6778164 centiseconds 
+ENDTIME: 6778192 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 18:50:48.06 
+ENDTIME: 18:50:48.35 
+STARTTIME: 6784806 centiseconds 
+ENDTIME: 6784835 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 18:54:25.63 
+ENDTIME: 18:54:25.91 
+STARTTIME: 6806563 centiseconds 
+ENDTIME: 6806591 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME:  8:20:35.86 
+ENDTIME:  8:20:36.15 
+STARTTIME:  8:20:35.86 centiseconds 
+ENDTIME:  8:20:36.15 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:24:11.02 
+ENDTIME:  8:24:11.31 
+STARTTIME:  8:24:11.02 centiseconds 
+ENDTIME:  8:24:11.31 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:28:00.28 
+ENDTIME:  8:28:00.56 
+STARTTIME:  8:28:00.28 centiseconds 
+ENDTIME:  8:28:00.56 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:31:36.77 
+ENDTIME:  8:31:37.06 
+STARTTIME:  8:31:36.77 centiseconds 
+ENDTIME:  8:31:37.06 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:32:47.82 
+ENDTIME:  8:32:48.10 
+STARTTIME:  8:32:47.82 centiseconds 
+ENDTIME:  8:32:48.10 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:36:25.71 
+ENDTIME:  8:36:25.99 
+STARTTIME:  8:36:25.71 centiseconds 
+ENDTIME:  8:36:25.99 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:37:25.93 
+ENDTIME:  8:37:26.21 
+STARTTIME:  8:37:25.93 centiseconds 
+ENDTIME:  8:37:26.21 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:41:05.34 
+ENDTIME:  8:41:05.64 
+STARTTIME:  8:41:05.34 centiseconds 
+ENDTIME:  8:41:05.64 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:42:12.42 
+ENDTIME:  8:42:12.71 
+STARTTIME:  8:42:12.42 centiseconds 
+ENDTIME:  8:42:12.71 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:45:44.58 
+ENDTIME:  8:45:44.87 
+STARTTIME:  8:45:44.58 centiseconds 
+ENDTIME:  8:45:44.87 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:47:21.04 
+ENDTIME:  8:47:21.33 
+STARTTIME:  8:47:21.04 centiseconds 
+ENDTIME:  8:47:21.33 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:50:58.65 
+ENDTIME:  8:50:58.93 
+STARTTIME:  8:50:58.65 centiseconds 
+ENDTIME:  8:50:58.93 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:52:03.81 
+ENDTIME:  8:52:04.09 
+STARTTIME:  8:52:03.81 centiseconds 
+ENDTIME:  8:52:04.09 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:55:39.65 
+ENDTIME:  8:55:39.93 
+STARTTIME:  8:55:39.65 centiseconds 
+ENDTIME:  8:55:39.93 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:58:18.92 
+ENDTIME:  8:58:19.20 
+STARTTIME:  8:58:18.92 centiseconds 
+ENDTIME:  8:58:19.20 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  9:01:54.11 
+ENDTIME:  9:01:54.40 
+STARTTIME:  9:01:54.11 centiseconds 
+ENDTIME:  9:01:54.40 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:03:01.20 
+ENDTIME:  9:03:01.48 
+STARTTIME:  9:03:01.20 centiseconds 
+ENDTIME:  9:03:01.48 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:06:37.09 
+ENDTIME:  9:06:37.37 
+STARTTIME:  9:06:37.09 centiseconds 
+ENDTIME:  9:06:37.37 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:07:43.56 
+ENDTIME:  9:07:43.84 
+STARTTIME:  9:07:43.56 centiseconds 
+ENDTIME:  9:07:43.84 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:11:12.17 
+ENDTIME:  9:11:12.46 
+STARTTIME:  9:11:12.17 centiseconds 
+ENDTIME:  9:11:12.46 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:15:51.89 
+ENDTIME:  9:15:52.18 
+STARTTIME:  9:15:51.89 centiseconds 
+ENDTIME:  9:15:52.18 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:19:29.69 
+ENDTIME:  9:19:29.98 
+STARTTIME:  9:19:29.69 centiseconds 
+ENDTIME:  9:19:29.98 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:21:51.14 
+ENDTIME:  9:21:51.43 
+STARTTIME:  9:21:51.14 centiseconds 
+ENDTIME:  9:21:51.43 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:30:23.92 
+ENDTIME:  9:30:24.21 
+STARTTIME:  9:30:23.92 centiseconds 
+ENDTIME:  9:30:24.21 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:33:31.36 
+ENDTIME:  9:33:31.65 
+STARTTIME:  9:33:31.36 centiseconds 
+ENDTIME:  9:33:31.65 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:36:50.40 
+ENDTIME:  9:36:50.69 
+STARTTIME:  9:36:50.40 centiseconds 
+ENDTIME:  9:36:50.69 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:40:21.79 
+ENDTIME:  9:40:22.08 
+STARTTIME:  9:40:21.79 centiseconds 
+ENDTIME:  9:40:22.08 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:42:23.72 
+ENDTIME:  9:42:24.00 
+STARTTIME:  9:42:23.72 centiseconds 
+ENDTIME:  9:42:24.00 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:46:03.84 
+ENDTIME:  9:46:04.13 
+STARTTIME:  9:46:03.84 centiseconds 
+ENDTIME:  9:46:04.13 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:49:39.17 
+ENDTIME:  9:49:39.46 
+STARTTIME:  9:49:39.17 centiseconds 
+ENDTIME:  9:49:39.46 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:53:11.88 
+ENDTIME:  9:53:12.17 
+STARTTIME:  9:53:11.88 centiseconds 
+ENDTIME:  9:53:12.17 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:54:14.50 
+ENDTIME:  9:54:14.79 
+STARTTIME:  9:54:14.50 centiseconds 
+ENDTIME:  9:54:14.79 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:57:42.63 
+ENDTIME:  9:57:42.91 
+STARTTIME:  9:57:42.63 centiseconds 
+ENDTIME:  9:57:42.91 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:59:44.80 
+ENDTIME:  9:59:45.09 
+STARTTIME:  9:59:44.80 centiseconds 
+ENDTIME:  9:59:45.09 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME: 10:04:38.79 
+ENDTIME: 10:04:39.07 
+STARTTIME: 3627879 centiseconds 
+ENDTIME: 3627907 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:07:13.37 
+ENDTIME: 10:07:13.66 
+STARTTIME: 3643337 centiseconds 
+ENDTIME: 3643366 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:11:19.89 
+ENDTIME: 10:11:20.18 
+STARTTIME: 3667989 centiseconds 
+ENDTIME: 3668018 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:12:23.32 
+ENDTIME: 10:12:23.60 
+STARTTIME: 3674332 centiseconds 
+ENDTIME: 3674360 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:15:30.15 
+ENDTIME: 10:15:30.44 
+STARTTIME: 3693015 centiseconds 
+ENDTIME: 3693044 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:19:07.65 
+ENDTIME: 10:19:07.93 
+STARTTIME: 3714765 centiseconds 
+ENDTIME: 3714793 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:20:18.07 
+ENDTIME: 10:20:18.36 
+STARTTIME: 3721807 centiseconds 
+ENDTIME: 3721836 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:24:20.65 
+ENDTIME: 10:24:20.93 
+STARTTIME: 3746065 centiseconds 
+ENDTIME: 3746093 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:25:22.73 
+ENDTIME: 10:25:23.02 
+STARTTIME: 3752273 centiseconds 
+ENDTIME: 3752302 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:28:55.42 
+ENDTIME: 10:28:55.71 
+STARTTIME: 3773542 centiseconds 
+ENDTIME: 3773571 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:30:05.63 
+ENDTIME: 10:30:05.91 
+STARTTIME: 3780563 centiseconds 
+ENDTIME: 3780591 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:33:40.64 
+ENDTIME: 10:33:40.92 
+STARTTIME: 3802064 centiseconds 
+ENDTIME: 3802092 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:34:53.55 
+ENDTIME: 10:34:53.83 
+STARTTIME: 3809355 centiseconds 
+ENDTIME: 3809383 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:38:29.77 
+ENDTIME: 10:38:30.06 
+STARTTIME: 3830977 centiseconds 
+ENDTIME: 3831006 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:39:34.45 
+ENDTIME: 10:39:34.74 
+STARTTIME: 3837445 centiseconds 
+ENDTIME: 3837474 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:50:54.63 
+ENDTIME: 10:50:54.92 
+STARTTIME: 3905463 centiseconds 
+ENDTIME: 3905492 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:54:28.58 
+ENDTIME: 10:54:28.86 
+STARTTIME: 3926858 centiseconds 
+ENDTIME: 3926886 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:55:54.48 
+ENDTIME: 10:55:54.77 
+STARTTIME: 3935448 centiseconds 
+ENDTIME: 3935477 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:59:28.17 
+ENDTIME: 10:59:28.45 
+STARTTIME: 3956817 centiseconds 
+ENDTIME: 3956845 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:00:44.84 
+ENDTIME: 11:00:45.12 
+STARTTIME: 3964484 centiseconds 
+ENDTIME: 3964512 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:04:24.32 
+ENDTIME: 11:04:24.60 
+STARTTIME: 3986432 centiseconds 
+ENDTIME: 3986460 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:06:03.53 
+ENDTIME: 11:06:03.82 
+STARTTIME: 3996353 centiseconds 
+ENDTIME: 3996382 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:10:02.18 
+ENDTIME: 11:10:02.46 
+STARTTIME: 4020218 centiseconds 
+ENDTIME: 4020246 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:19:06.48 
+ENDTIME: 11:19:06.76 
+STARTTIME: 4074648 centiseconds 
+ENDTIME: 4074676 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:23:44.50 
+ENDTIME: 11:23:44.78 
+STARTTIME: 4102450 centiseconds 
+ENDTIME: 4102478 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:29:35.84 
+ENDTIME: 11:29:36.12 
+STARTTIME: 4137584 centiseconds 
+ENDTIME: 4137612 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:33:07.13 
+ENDTIME: 11:33:07.41 
+STARTTIME: 4158713 centiseconds 
+ENDTIME: 4158741 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:34:14.98 
+ENDTIME: 11:34:15.27 
+STARTTIME: 4165498 centiseconds 
+ENDTIME: 4165527 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:37:52.19 
+ENDTIME: 11:37:52.48 
+STARTTIME: 4187219 centiseconds 
+ENDTIME: 4187248 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:19:03.85 
+ENDTIME: 12:19:04.14 
+STARTTIME: 4434385 centiseconds 
+ENDTIME: 4434414 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:22:37.45 
+ENDTIME: 12:22:37.74 
+STARTTIME: 4455745 centiseconds 
+ENDTIME: 4455774 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:27:57.78 
+ENDTIME: 12:27:58.07 
+STARTTIME: 4487778 centiseconds 
+ENDTIME: 4487807 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:31:41.38 
+ENDTIME: 12:31:41.67 
+STARTTIME: 4510138 centiseconds 
+ENDTIME: 4510167 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:00:25.87 
+ENDTIME: 13:00:26.16 
+STARTTIME: 4682587 centiseconds 
+ENDTIME: 4682616 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:04:13.32 
+ENDTIME: 13:04:13.60 
+STARTTIME: 4705332 centiseconds 
+ENDTIME: 4705360 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:09:16.97 
+ENDTIME: 13:09:17.26 
+STARTTIME: 4735697 centiseconds 
+ENDTIME: 4735726 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:13:08.59 
+ENDTIME: 13:13:08.87 
+STARTTIME: 4758859 centiseconds 
+ENDTIME: 4758887 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:14:57.29 
+ENDTIME: 13:14:57.57 
+STARTTIME: 4769729 centiseconds 
+ENDTIME: 4769757 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:21:12.23 
+ENDTIME: 13:21:12.52 
+STARTTIME: 4807223 centiseconds 
+ENDTIME: 4807252 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:24:56.25 
+ENDTIME: 13:24:56.54 
+STARTTIME: 4829625 centiseconds 
+ENDTIME: 4829654 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:25:54.46 
+ENDTIME: 13:25:54.74 
+STARTTIME: 4835446 centiseconds 
+ENDTIME: 4835474 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:29:26.41 
+ENDTIME: 13:29:26.69 
+STARTTIME: 4856641 centiseconds 
+ENDTIME: 4856669 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:31:45.05 
+ENDTIME: 13:31:45.33 
+STARTTIME: 4870505 centiseconds 
+ENDTIME: 4870533 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:35:33.58 
+ENDTIME: 13:35:33.87 
+STARTTIME: 4893358 centiseconds 
+ENDTIME: 4893387 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:36:43.85 
+ENDTIME: 13:36:44.13 
+STARTTIME: 4900385 centiseconds 
+ENDTIME: 4900413 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:40:24.75 
+ENDTIME: 13:40:25.04 
+STARTTIME: 4922475 centiseconds 
+ENDTIME: 4922504 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:41:32.74 
+ENDTIME: 13:41:33.03 
+STARTTIME: 4929274 centiseconds 
+ENDTIME: 4929303 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:45:20.72 
+ENDTIME: 13:45:21.00 
+STARTTIME: 4952072 centiseconds 
+ENDTIME: 4952100 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:46:24.45 
+ENDTIME: 13:46:24.73 
+STARTTIME: 4958445 centiseconds 
+ENDTIME: 4958473 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:50:06.73 
+ENDTIME: 13:50:07.01 
+STARTTIME: 4980673 centiseconds 
+ENDTIME: 4980701 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:53:17.69 
+ENDTIME: 13:53:17.98 
+STARTTIME: 4999769 centiseconds 
+ENDTIME: 4999798 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:56:53.24 
+ENDTIME: 13:56:53.52 
+STARTTIME: 5021324 centiseconds 
+ENDTIME: 5021352 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 13:58:03.61 
+ENDTIME: 13:58:03.89 
+STARTTIME: 5028361 centiseconds 
+ENDTIME: 5028389 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:02:15.46 
+ENDTIME: 14:02:15.75 
+STARTTIME: 5053546 centiseconds 
+ENDTIME: 5053575 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:03:18.18 
+ENDTIME: 14:03:18.47 
+STARTTIME: 5059818 centiseconds 
+ENDTIME: 5059847 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:06:52.34 
+ENDTIME: 14:06:52.62 
+STARTTIME: 5081234 centiseconds 
+ENDTIME: 5081262 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:08:05.82 
+ENDTIME: 14:08:06.10 
+STARTTIME: 5088582 centiseconds 
+ENDTIME: 5088610 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:11:45.34 
+ENDTIME: 14:11:45.63 
+STARTTIME: 5110534 centiseconds 
+ENDTIME: 5110563 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:12:42.92 
+ENDTIME: 14:12:43.21 
+STARTTIME: 5116292 centiseconds 
+ENDTIME: 5116321 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:14:12.41 
+ENDTIME: 14:14:12.70 
+STARTTIME: 5125241 centiseconds 
+ENDTIME: 5125270 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:17:43.15 
+ENDTIME: 14:17:43.43 
+STARTTIME: 5146315 centiseconds 
+ENDTIME: 5146343 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:05:57.67 
+ENDTIME: 15:05:57.96 
+STARTTIME: 5435767 centiseconds 
+ENDTIME: 5435796 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:09:35.56 
+ENDTIME: 15:09:35.85 
+STARTTIME: 5457556 centiseconds 
+ENDTIME: 5457585 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:10:52.08 
+ENDTIME: 15:10:52.36 
+STARTTIME: 5465208 centiseconds 
+ENDTIME: 5465236 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:14:26.83 
+ENDTIME: 15:14:27.11 
+STARTTIME: 5486683 centiseconds 
+ENDTIME: 5486711 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:15:46.01 
+ENDTIME: 15:15:46.30 
+STARTTIME: 5494601 centiseconds 
+ENDTIME: 5494630 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:19:27.75 
+ENDTIME: 15:19:28.04 
+STARTTIME: 5516775 centiseconds 
+ENDTIME: 5516804 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:20:32.92 
+ENDTIME: 15:20:33.21 
+STARTTIME: 5523292 centiseconds 
+ENDTIME: 5523321 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:24:06.46 
+ENDTIME: 15:24:06.74 
+STARTTIME: 5544646 centiseconds 
+ENDTIME: 5544674 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:25:09.94 
+ENDTIME: 15:25:10.23 
+STARTTIME: 5550994 centiseconds 
+ENDTIME: 5551023 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:28:50.27 
+ENDTIME: 15:28:50.56 
+STARTTIME: 5573027 centiseconds 
+ENDTIME: 5573056 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:30:00.10 
+ENDTIME: 15:30:00.39 
+STARTTIME: 5580010 centiseconds 
+ENDTIME: 5580039 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:33:31.75 
+ENDTIME: 15:33:32.04 
+STARTTIME: 5601175 centiseconds 
+ENDTIME: 5601204 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:36:08.35 
+ENDTIME: 15:36:08.64 
+STARTTIME: 5616835 centiseconds 
+ENDTIME: 5616864 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:39:36.08 
+ENDTIME: 15:39:36.36 
+STARTTIME: 5637608 centiseconds 
+ENDTIME: 5637636 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:45:25.41 
+ENDTIME: 15:45:25.70 
+STARTTIME: 5672541 centiseconds 
+ENDTIME: 5672570 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:49:03.03 
+ENDTIME: 15:49:03.32 
+STARTTIME: 5694303 centiseconds 
+ENDTIME: 5694332 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:58:48.03 
+ENDTIME: 15:58:48.32 
+STARTTIME: 5752803 centiseconds 
+ENDTIME: 5752832 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:02:41.19 
+ENDTIME: 16:02:41.47 
+STARTTIME: 5776119 centiseconds 
+ENDTIME: 5776147 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:03:46.64 
+ENDTIME: 16:03:46.93 
+STARTTIME: 5782664 centiseconds 
+ENDTIME: 5782693 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:09:25.32 
+ENDTIME: 16:09:25.60 
+STARTTIME: 5816532 centiseconds 
+ENDTIME: 5816560 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:13:06.55 
+ENDTIME: 16:13:06.83 
+STARTTIME: 5838655 centiseconds 
+ENDTIME: 5838683 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:14:09.75 
+ENDTIME: 16:14:10.04 
+STARTTIME: 5844975 centiseconds 
+ENDTIME: 5845004 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:17:56.16 
+ENDTIME: 16:17:56.45 
+STARTTIME: 5867616 centiseconds 
+ENDTIME: 5867645 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:19:50.70 
+ENDTIME: 16:19:50.98 
+STARTTIME: 5879070 centiseconds 
+ENDTIME: 5879098 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:23:30.74 
+ENDTIME: 16:23:31.02 
+STARTTIME: 5901074 centiseconds 
+ENDTIME: 5901102 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:24:29.08 
+ENDTIME: 16:24:29.37 
+STARTTIME: 5906908 centiseconds 
+ENDTIME: 5906937 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:28:15.58 
+ENDTIME: 16:28:15.86 
+STARTTIME: 5929558 centiseconds 
+ENDTIME: 5929586 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:30:39.55 
+ENDTIME: 16:30:39.83 
+STARTTIME: 5943955 centiseconds 
+ENDTIME: 5943983 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:42:13.52 
+ENDTIME: 16:42:13.81 
+STARTTIME: 6013352 centiseconds 
+ENDTIME: 6013381 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 16:43:14.69 
+ENDTIME: 16:43:14.97 
+STARTTIME: 6019469 centiseconds 
+ENDTIME: 6019497 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:46:49.04 
+ENDTIME: 16:46:49.32 
+STARTTIME: 6040904 centiseconds 
+ENDTIME: 6040932 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:48:05.40 
+ENDTIME: 16:48:05.68 
+STARTTIME: 6048540 centiseconds 
+ENDTIME: 6048568 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 16:51:45.27 
+ENDTIME: 16:51:45.55 
+STARTTIME: 6070527 centiseconds 
+ENDTIME: 6070555 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:10:29.17 
+ENDTIME: 17:10:29.45 
+STARTTIME: 6182917 centiseconds 
+ENDTIME: 6182945 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:14:05.01 
+ENDTIME: 17:14:05.30 
+STARTTIME: 6204501 centiseconds 
+ENDTIME: 6204530 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:35:19.41 
+ENDTIME: 17:35:19.70 
+STARTTIME: 6331941 centiseconds 
+ENDTIME: 6331970 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:48:10.72 
+ENDTIME: 17:48:11.00 
+STARTTIME: 6409072 centiseconds 
+ENDTIME: 6409100 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME:  8:54:33.94 
+ENDTIME:  8:54:34.23 
+STARTTIME:  8:54:33.94 centiseconds 
+ENDTIME:  8:54:34.23 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  8:55:29.64 
+ENDTIME:  8:55:29.93 
+STARTTIME:  8:55:29.64 centiseconds 
+ENDTIME:  8:55:29.93 centiseconds 
+DURATION: 8 in centiseconds 
+00:00:00,08 
+STARTTIME:  9:00:18.99 
+ENDTIME:  9:00:19.28 
+STARTTIME:  9:00:18.99 centiseconds 
+ENDTIME:  9:00:19.28 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:03:53.00 
+ENDTIME:  9:03:53.29 
+STARTTIME:  9:03:53.00 centiseconds 
+ENDTIME:  9:03:53.29 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:05:17.46 
+ENDTIME:  9:05:17.74 
+STARTTIME:  9:05:17.46 centiseconds 
+ENDTIME:  9:05:17.74 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:08:51.99 
+ENDTIME:  9:08:52.28 
+STARTTIME:  9:08:51.99 centiseconds 
+ENDTIME:  9:08:52.28 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:09:59.86 
+ENDTIME:  9:10:00.15 
+STARTTIME:  9:09:59.86 centiseconds 
+ENDTIME:  9:10:00.15 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:13:36.32 
+ENDTIME:  9:13:36.60 
+STARTTIME:  9:13:36.32 centiseconds 
+ENDTIME:  9:13:36.60 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:14:58.50 
+ENDTIME:  9:14:58.79 
+STARTTIME:  9:14:58.50 centiseconds 
+ENDTIME:  9:14:58.79 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:18:34.42 
+ENDTIME:  9:18:34.71 
+STARTTIME:  9:18:34.42 centiseconds 
+ENDTIME:  9:18:34.71 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:19:54.57 
+ENDTIME:  9:19:54.85 
+STARTTIME:  9:19:54.57 centiseconds 
+ENDTIME:  9:19:54.85 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:23:23.03 
+ENDTIME:  9:23:23.31 
+STARTTIME:  9:23:23.03 centiseconds 
+ENDTIME:  9:23:23.31 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:36:53.76 
+ENDTIME:  9:36:54.05 
+STARTTIME:  9:36:53.76 centiseconds 
+ENDTIME:  9:36:54.05 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:40:31.22 
+ENDTIME:  9:40:31.50 
+STARTTIME:  9:40:31.22 centiseconds 
+ENDTIME:  9:40:31.50 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:41:28.16 
+ENDTIME:  9:41:28.44 
+STARTTIME:  9:41:28.16 centiseconds 
+ENDTIME:  9:41:28.44 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:45:08.23 
+ENDTIME:  9:45:08.52 
+STARTTIME:  9:45:08.23 centiseconds 
+ENDTIME:  9:45:08.52 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:46:39.86 
+ENDTIME:  9:46:40.15 
+STARTTIME:  9:46:39.86 centiseconds 
+ENDTIME:  9:46:40.15 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:50:23.82 
+ENDTIME:  9:50:24.11 
+STARTTIME:  9:50:23.82 centiseconds 
+ENDTIME:  9:50:24.11 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:51:21.45 
+ENDTIME:  9:51:21.73 
+STARTTIME:  9:51:21.45 centiseconds 
+ENDTIME:  9:51:21.73 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:55:01.25 
+ENDTIME:  9:55:01.53 
+STARTTIME:  9:55:01.25 centiseconds 
+ENDTIME:  9:55:01.53 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME:  9:56:56.92 
+ENDTIME:  9:56:57.21 
+STARTTIME:  9:56:56.92 centiseconds 
+ENDTIME:  9:56:57.21 centiseconds 
+DURATION: 9 in centiseconds 
+00:00:00,09 
+STARTTIME: 10:00:29.04 
+ENDTIME: 10:00:29.32 
+STARTTIME: 3602904 centiseconds 
+ENDTIME: 3602932 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:01:30.52 
+ENDTIME: 10:01:30.80 
+STARTTIME: 3609052 centiseconds 
+ENDTIME: 3609080 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:05:13.30 
+ENDTIME: 10:05:13.58 
+STARTTIME: 3631330 centiseconds 
+ENDTIME: 3631358 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:06:14.16 
+ENDTIME: 10:06:14.45 
+STARTTIME: 3637416 centiseconds 
+ENDTIME: 3637445 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:09:52.62 
+ENDTIME: 10:09:52.91 
+STARTTIME: 3659262 centiseconds 
+ENDTIME: 3659291 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:11:07.34 
+ENDTIME: 10:11:07.63 
+STARTTIME: 3666734 centiseconds 
+ENDTIME: 3666763 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:14:46.15 
+ENDTIME: 10:14:46.43 
+STARTTIME: 3688615 centiseconds 
+ENDTIME: 3688643 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:16:18.68 
+ENDTIME: 10:16:18.96 
+STARTTIME: 3697868 centiseconds 
+ENDTIME: 3697896 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:20:14.25 
+ENDTIME: 10:20:14.59 
+STARTTIME: 3721425 centiseconds 
+ENDTIME: 3721459 centiseconds 
+DURATION: 34 in centiseconds 
+00:00:00,34 
+STARTTIME: 10:35:19.25 
+ENDTIME: 10:35:19.53 
+STARTTIME: 3811925 centiseconds 
+ENDTIME: 3811953 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:39:01.94 
+ENDTIME: 10:39:02.22 
+STARTTIME: 3834194 centiseconds 
+ENDTIME: 3834222 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:41:12.26 
+ENDTIME: 10:41:12.54 
+STARTTIME: 3847226 centiseconds 
+ENDTIME: 3847254 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:44:57.54 
+ENDTIME: 10:44:57.83 
+STARTTIME: 3869754 centiseconds 
+ENDTIME: 3869783 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:46:23.96 
+ENDTIME: 10:46:24.25 
+STARTTIME: 3878396 centiseconds 
+ENDTIME: 3878425 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:50:18.39 
+ENDTIME: 10:50:18.68 
+STARTTIME: 3901839 centiseconds 
+ENDTIME: 3901868 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:51:18.88 
+ENDTIME: 10:51:19.17 
+STARTTIME: 3907888 centiseconds 
+ENDTIME: 3907917 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:54:56.07 
+ENDTIME: 10:54:56.36 
+STARTTIME: 3929607 centiseconds 
+ENDTIME: 3929636 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 10:56:10.21 
+ENDTIME: 10:56:10.49 
+STARTTIME: 3937021 centiseconds 
+ENDTIME: 3937049 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 10:59:51.41 
+ENDTIME: 10:59:51.70 
+STARTTIME: 3959141 centiseconds 
+ENDTIME: 3959170 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:01:27.11 
+ENDTIME: 11:01:27.39 
+STARTTIME: 3968711 centiseconds 
+ENDTIME: 3968739 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:05:00.45 
+ENDTIME: 11:05:00.74 
+STARTTIME: 3990045 centiseconds 
+ENDTIME: 3990074 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:09:57.64 
+ENDTIME: 11:09:57.92 
+STARTTIME: 4019764 centiseconds 
+ENDTIME: 4019792 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:13:44.37 
+ENDTIME: 11:13:44.66 
+STARTTIME: 4042437 centiseconds 
+ENDTIME: 4042466 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:14:43.50 
+ENDTIME: 11:14:43.79 
+STARTTIME: 4048350 centiseconds 
+ENDTIME: 4048379 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:16:08.80 
+ENDTIME: 11:16:09.09 
+STARTTIME: 4056880 centiseconds 
+ENDTIME: 4056909 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:19:42.99 
+ENDTIME: 11:19:43.27 
+STARTTIME: 4078299 centiseconds 
+ENDTIME: 4078327 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:20:42.91 
+ENDTIME: 11:20:43.20 
+STARTTIME: 4084291 centiseconds 
+ENDTIME: 4084320 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:24:25.16 
+ENDTIME: 11:24:25.44 
+STARTTIME: 4106516 centiseconds 
+ENDTIME: 4106544 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:25:31.27 
+ENDTIME: 11:25:31.56 
+STARTTIME: 4113127 centiseconds 
+ENDTIME: 4113156 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:29:07.54 
+ENDTIME: 11:29:07.83 
+STARTTIME: 4134754 centiseconds 
+ENDTIME: 4134783 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:30:24.32 
+ENDTIME: 11:30:24.61 
+STARTTIME: 4142432 centiseconds 
+ENDTIME: 4142461 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:33:55.83 
+ENDTIME: 11:33:56.11 
+STARTTIME: 4163583 centiseconds 
+ENDTIME: 4163611 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 11:35:06.53 
+ENDTIME: 11:35:06.82 
+STARTTIME: 4170653 centiseconds 
+ENDTIME: 4170682 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 11:38:47.69 
+ENDTIME: 11:38:47.98 
+STARTTIME: 4192769 centiseconds 
+ENDTIME: 4192798 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:33:55.50 
+ENDTIME: 12:33:55.79 
+STARTTIME: 4523550 centiseconds 
+ENDTIME: 4523579 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:38:09.31 
+ENDTIME: 12:38:09.60 
+STARTTIME: 4548931 centiseconds 
+ENDTIME: 4548960 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 12:42:57.07 
+ENDTIME: 12:42:57.35 
+STARTTIME: 4577707 centiseconds 
+ENDTIME: 4577735 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 12:46:32.13 
+ENDTIME: 12:46:32.42 
+STARTTIME: 4599213 centiseconds 
+ENDTIME: 4599242 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:24:30.57 
+ENDTIME: 13:24:30.86 
+STARTTIME: 4827057 centiseconds 
+ENDTIME: 4827086 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 13:28:10.76 
+ENDTIME: 13:28:11.04 
+STARTTIME: 4849076 centiseconds 
+ENDTIME: 4849104 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:13:48.63 
+ENDTIME: 14:13:48.91 
+STARTTIME: 5122863 centiseconds 
+ENDTIME: 5122891 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:17:23.38 
+ENDTIME: 14:17:23.66 
+STARTTIME: 5144338 centiseconds 
+ENDTIME: 5144366 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:19:26.40 
+ENDTIME: 14:19:26.68 
+STARTTIME: 5156640 centiseconds 
+ENDTIME: 5156668 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 14:23:46.74 
+ENDTIME: 14:23:47.03 
+STARTTIME: 5182674 centiseconds 
+ENDTIME: 5182703 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:27:25.27 
+ENDTIME: 14:27:25.56 
+STARTTIME: 5204527 centiseconds 
+ENDTIME: 5204556 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:28:44.53 
+ENDTIME: 14:28:44.82 
+STARTTIME: 5212453 centiseconds 
+ENDTIME: 5212482 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:32:23.05 
+ENDTIME: 14:32:23.34 
+STARTTIME: 5234305 centiseconds 
+ENDTIME: 5234334 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:37:05.36 
+ENDTIME: 14:37:05.65 
+STARTTIME: 5262536 centiseconds 
+ENDTIME: 5262565 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:39:58.43 
+ENDTIME: 14:39:58.72 
+STARTTIME: 5279843 centiseconds 
+ENDTIME: 5279872 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 14:43:36.61 
+ENDTIME: 14:43:36.90 
+STARTTIME: 5301661 centiseconds 
+ENDTIME: 5301690 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:03:13.03 
+ENDTIME: 15:03:13.32 
+STARTTIME: 5419303 centiseconds 
+ENDTIME: 5419332 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:06:48.62 
+ENDTIME: 15:06:48.91 
+STARTTIME: 5440862 centiseconds 
+ENDTIME: 5440891 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:13:34.50 
+ENDTIME: 15:13:34.78 
+STARTTIME: 5481450 centiseconds 
+ENDTIME: 5481478 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:17:33.94 
+ENDTIME: 15:17:34.22 
+STARTTIME: 5505394 centiseconds 
+ENDTIME: 5505422 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:19:53.25 
+ENDTIME: 15:19:53.54 
+STARTTIME: 5519325 centiseconds 
+ENDTIME: 5519354 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:23:33.21 
+ENDTIME: 15:23:33.50 
+STARTTIME: 5541321 centiseconds 
+ENDTIME: 5541350 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:28:29.34 
+ENDTIME: 15:28:29.63 
+STARTTIME: 5570934 centiseconds 
+ENDTIME: 5570963 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:30:22.21 
+ENDTIME: 15:30:22.50 
+STARTTIME: 5582221 centiseconds 
+ENDTIME: 5582250 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:32:41.20 
+ENDTIME: 15:32:41.48 
+STARTTIME: 5596120 centiseconds 
+ENDTIME: 5596148 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:42:37.50 
+ENDTIME: 15:42:37.78 
+STARTTIME: 5655750 centiseconds 
+ENDTIME: 5655778 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:44:41.68 
+ENDTIME: 15:44:41.96 
+STARTTIME: 5668168 centiseconds 
+ENDTIME: 5668196 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:48:30.85 
+ENDTIME: 15:48:31.13 
+STARTTIME: 5691085 centiseconds 
+ENDTIME: 5691113 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 15:53:13.44 
+ENDTIME: 15:53:13.73 
+STARTTIME: 5719344 centiseconds 
+ENDTIME: 5719373 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 15:57:08.16 
+ENDTIME: 15:57:08.45 
+STARTTIME: 5742816 centiseconds 
+ENDTIME: 5742845 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 
+STARTTIME: 17:23:11.30 
+ENDTIME: 17:23:11.58 
+STARTTIME: 6259130 centiseconds 
+ENDTIME: 6259158 centiseconds 
+DURATION: 28 in centiseconds 
+00:00:00,28 
+STARTTIME: 17:27:04.94 
+ENDTIME: 17:27:05.23 
+STARTTIME: 6282494 centiseconds 
+ENDTIME: 6282523 centiseconds 
+DURATION: 29 in centiseconds 
+00:00:00,29 

@@ -1,0 +1,1832 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [0.0.0.0] b872c3f938404f9bbe5e7ec9ff544368_00:06:07.1737130_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <Test id="run(5v_ON.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[2X]SETUP_2XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(10000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(START.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[2X]SETUP_2XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VCMRangeTest //2X CAL" Assembly="..\TestModules\VCMTestModule\VCMTestModule.dll" Type="VCMTestModule.VCMTestModule" Enable="True">
+      <testName id="TestName">
+        <testNameVal id="2X_ZOOM_Calibration" />
+      </testName>
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFController id="MTFController">
+        <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+          <MTFScanDirectionVal id="VLINES_TO_SOLID" />
+        </MTFScanDirection>
+        <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+          <LockPointTendencyVal id="TRUE" />
+        </LockPointTendency>
+        <MinPixelDelta id="MinPixelDelta //">
+          <MinPixelDeltaVal id="7" />
+        </MinPixelDelta>
+        <ZScoreDelta id="ZScoreDelta //">
+          <ZScoreDeltaVal id="1.2" />
+        </ZScoreDelta>
+        <MinimumLines id="MinimumLines //">
+          <MinimumLinesVal id="1" />
+        </MinimumLines>
+      </MTFController>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <VCMRangeTestSettings id="VCMRangeSettings">"
+        <MTFStartPoinTX_1 id="MTFStartPoinTX_1"><X_POINT id="X_POINT"><XVal id="200" /></X_POINT><Y_POINT id="Y_POINT"><YVAL id="244" /></Y_POINT><SCANLENGTH id="SCAN_LENGTH"><SCANVal id="250" /></SCANLENGTH></MTFStartPoinTX_1><MTFThreshold id="MTFThreshold       // the level that the mtf peak must be above and between x1 and x2 for it to pass"><ThresholdVal id="10" /></MTFThreshold><VCMPeakSearhPoint1 id="VCMPeakSearhPoint1 // peak search point X1 start point"><VCMPeakSearhPoint1Val id="1" /></VCMPeakSearhPoint1><VCMPeakSearhPoint2 id="VCMPeakSearhPoint2 // peak search point X2 end point"><VCMPeakSearhPoint2Val id="300" /></VCMPeakSearhPoint2><VCMStepDelay id="VCMStepDelay       // this is the step rate for the vcm in ms"><VCMStepDelayVal id="250" /></VCMStepDelay><VCMStepRange id="VCMStepRange       // the max range of travel for the vcm typical value is 1 - 255 steps"><VCMStepRangeVal id="70" /></VCMStepRange><MTFLowerLimit id="MTFLowerLimit      //Must be above the lower limit to pass"><MTFLowerLimitVal id="45" /></MTFLowerLimit><MTFUpperLimit id="MTFUpperLimit      //Must be below the upper limit to pass"><MTFUpperLimitVal id="100" /></MTFUpperLimit><VCMStorageMode id="VCMStorageMode     //VCM storage modes are 0 Replace. 1 only failed test. 2 both pass and fail"><TVCMStorageModeVal id="2" /></VCMStorageMode><VCMYScanLevel id="VCMYScanLevel      //Controls the scan level on the y axis for MTF value 50% is middle"><VCMYScanLevelVal id="20" /></VCMYScanLevel><stepSize id="StepSize//"><stepSizeVal id="1" /></stepSize><mdir id="mDir// CCW or CW"><mDirVal id="CW" /></mdir><ControlModel id="ControlModel// ABSOLUTE or RELATIVE"><ControlModelVal id="ABSOLUTE" /></ControlModel>\
+		
+		<TimeIn_ms id="TimeIn_ms"><TimeIn_msVal id="5000" /></TimeIn_ms><EEPROM_WRITE_MODE id="EEPROM_WRITE_MODE  // When this mode is enabled it will write the step count to eeprom"><ENABLED id="ENABLED=TRUE;" /><ADDRESS id="ADDRESSLOW=0xc0;" /><eepromADDRESSHIGH id="ADDRESSHIGH=0xc1;" /><CalibrationValue id="CalibrationValue"><OutSideAdjustment id="OutSideAdjustment=0;" /><StepBais id="StepBais=0;" /><Direction id="Direction=1" /></CalibrationValue></EEPROM_WRITE_MODE></VCMRangeTestSettings>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="FALSE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="FALSE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="3" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="AUDIOMIC:AUDIO:Val1, AUDIOMIC:AUDIO:Val2, AUDIOMIC:AUDIO:Val3" />
+        </OutputHeader>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x0881" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="640" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="480" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="300" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="TRUE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="FALSE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="FALSE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="128" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="FALSE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="128" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <AutoFocus id="AutoFocus">
+          <AutoFocusEnable id="Enable">
+            <AutoFocusEnableVal id="TRUE" />
+          </AutoFocusEnable>
+          <AutoFocusProp id="SetAutoFocus">
+            <AutoFocusVal id="0" />
+          </AutoFocusProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </AutoFocus>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="TRUE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="0" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="128" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="FALSE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="2000" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="FALSE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="FALSE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.032" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="FALSE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="2" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="FALSE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="FALSE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="FALSE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="FALSE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="YUY2" />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="FALSE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="1" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="TRUE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-5" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="FALSE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="200" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <LVREG_CMD id="lvreg register write 0x70c6 0">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg sensor write 0x300a 0">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg sensor write 0x300b 0">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg pcxu write 12 07080102">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+      </CameraImageProperties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:11/17/2017 12:06:29 AM-->
+<!--CHANGELOG:11/17/2017 4:08:50 PM11/17/2017 4:08:20 PM: refreshing...
+11/17/2017 4:08:20 PM: 11/17/2017 4:08:20 PM
+-->
+<!--CHANGELOG:11/17/2017 4:08:51 PM11/17/2017 4:08:20 PM: refreshing...
+11/17/2017 4:08:20 PM: 11/17/2017 4:08:20 PM
+11/17/2017 4:08:50 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:09:54 PM11/17/2017 4:09:38 PM: refreshing...
+11/17/2017 4:09:38 PM: 11/17/2017 4:09:38 PM
+-->
+<!--CHANGELOG:11/17/2017 4:09:54 PM11/17/2017 4:09:38 PM: refreshing...
+11/17/2017 4:09:38 PM: 11/17/2017 4:09:38 PM
+11/17/2017 4:09:54 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:14:31 PM11/17/2017 4:11:25 PM: refreshing...
+11/17/2017 4:11:25 PM: 11/17/2017 4:11:25 PM
+-->
+<!--CHANGELOG:11/17/2017 4:14:31 PM11/17/2017 4:11:25 PM: refreshing...
+11/17/2017 4:11:25 PM: 11/17/2017 4:11:25 PM
+11/17/2017 4:14:31 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:14:32 PM11/17/2017 4:11:25 PM: refreshing...
+11/17/2017 4:11:25 PM: 11/17/2017 4:11:25 PM
+11/17/2017 4:14:31 PM: saving...
+11/17/2017 4:14:31 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:14:33 PM11/17/2017 4:11:25 PM: refreshing...
+11/17/2017 4:11:25 PM: 11/17/2017 4:11:25 PM
+11/17/2017 4:14:31 PM: saving...
+11/17/2017 4:14:31 PM: saving...
+11/17/2017 4:14:32 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:15:44 PM11/17/2017 4:15:10 PM: refreshing...
+11/17/2017 4:15:10 PM: 11/17/2017 4:15:10 PM
+-->
+<!--CHANGELOG:11/17/2017 4:15:45 PM11/17/2017 4:15:10 PM: refreshing...
+11/17/2017 4:15:10 PM: 11/17/2017 4:15:10 PM
+11/17/2017 4:15:44 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:40:39 PM11/17/2017 4:17:35 PM: refreshing...
+11/17/2017 4:17:35 PM: 11/17/2017 4:17:35 PM
+-->
+<!--CHANGELOG:11/17/2017 4:42:42 PM11/17/2017 4:41:36 PM: refreshing...
+11/17/2017 4:41:36 PM: 11/17/2017 4:41:36 PM
+11/17/2017 4:42:24 PM: Right Click Edit on item FALSE
+-->
+<!--CHANGELOG:11/17/2017 4:42:43 PM11/17/2017 4:41:36 PM: refreshing...
+11/17/2017 4:41:36 PM: 11/17/2017 4:41:36 PM
+11/17/2017 4:42:24 PM: Right Click Edit on item FALSE
+11/17/2017 4:42:42 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:45:21 PM11/17/2017 4:44:18 PM: refreshing...
+11/17/2017 4:44:18 PM: 11/17/2017 4:44:18 PM
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:26 PM: larger font...
+11/17/2017 4:45:09 PM: Right Click Edit on item AFTER
+-->
+<!--CHANGELOG:11/17/2017 4:45:22 PM11/17/2017 4:44:18 PM: refreshing...
+11/17/2017 4:44:18 PM: 11/17/2017 4:44:18 PM
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:25 PM: larger font...
+11/17/2017 4:44:26 PM: larger font...
+11/17/2017 4:45:09 PM: Right Click Edit on item AFTER
+11/17/2017 4:45:21 PM: saving...
+-->
+<!--CHANGELOG:11/17/2017 4:47:07 PM11/17/2017 4:46:16 PM: refreshing...
+11/17/2017 4:46:16 PM: 11/17/2017 4:46:16 PM
+-->
+<!--CHANGELOG:11/17/2017 4:49:04 PM11/17/2017 4:48:04 PM: refreshing...
+11/17/2017 4:48:04 PM: 11/17/2017 4:48:04 PM
+-->
+<!--CHANGELOG:11/18/2017 11:12:34 AM11/18/2017 11:12:17 AM: refreshing...
+11/18/2017 11:12:17 AM: 11/18/2017 11:12:17 AM
+-->
+<!--CHANGELOG:11/18/2017 11:12:36 AM11/18/2017 11:12:17 AM: refreshing...
+11/18/2017 11:12:17 AM: 11/18/2017 11:12:17 AM
+11/18/2017 11:12:34 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:19:11 AM11/18/2017 11:17:54 AM: refreshing...
+11/18/2017 11:17:54 AM: 11/18/2017 11:17:54 AM
+11/18/2017 11:18:07 AM: Right Click Edit on item ADDRESSLOW=0x66;
+-->
+<!--CHANGELOG:11/18/2017 11:19:12 AM11/18/2017 11:17:54 AM: refreshing...
+11/18/2017 11:17:54 AM: 11/18/2017 11:17:54 AM
+11/18/2017 11:18:07 AM: Right Click Edit on item ADDRESSLOW=0x66;
+11/18/2017 11:19:12 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:19:52 AM11/18/2017 11:19:36 AM: refreshing...
+11/18/2017 11:19:36 AM: 11/18/2017 11:19:36 AM
+-->
+<!--CHANGELOG:11/18/2017 11:19:53 AM11/18/2017 11:19:36 AM: refreshing...
+11/18/2017 11:19:36 AM: 11/18/2017 11:19:36 AM
+11/18/2017 11:19:52 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:23:12 AM11/18/2017 11:22:13 AM: refreshing...
+11/18/2017 11:22:13 AM: 11/18/2017 11:22:13 AM
+11/18/2017 11:22:27 AM: Right Click Edit on item 640
+11/18/2017 11:22:37 AM: Right Click Edit on item 480
+-->
+<!--CHANGELOG:11/18/2017 11:23:13 AM11/18/2017 11:22:13 AM: refreshing...
+11/18/2017 11:22:13 AM: 11/18/2017 11:22:13 AM
+11/18/2017 11:22:27 AM: Right Click Edit on item 640
+11/18/2017 11:22:37 AM: Right Click Edit on item 480
+11/18/2017 11:23:12 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:24:43 AM-->
+<!--CHANGELOG:11/18/2017 11:24:44 AM11/18/2017 11:23:44 AM: refreshing...
+11/18/2017 11:23:44 AM: 11/18/2017 11:23:44 AM
+11/18/2017 11:24:43 AM: moving test item downFocusTest
+-->
+<!--CHANGELOG:11/18/2017 11:25:28 AM11/18/2017 11:23:44 AM: refreshing...
+11/18/2017 11:23:44 AM: 11/18/2017 11:23:44 AM
+11/18/2017 11:24:43 AM: moving test item downFocusTest
+11/18/2017 11:24:44 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:25:29 AM11/18/2017 11:23:44 AM: refreshing...
+11/18/2017 11:23:44 AM: 11/18/2017 11:23:44 AM
+11/18/2017 11:24:43 AM: moving test item downFocusTest
+11/18/2017 11:24:44 AM: saving...
+11/18/2017 11:25:29 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:29:12 AM-->
+<!--CHANGELOG:11/18/2017 11:29:14 AM11/18/2017 11:26:01 AM: refreshing...
+11/18/2017 11:26:01 AM: 11/18/2017 11:26:01 AM
+11/18/2017 11:26:46 AM: Right Click Edit on item TRUE
+11/18/2017 11:26:52 AM: Right Click Edit on item TRUE
+11/18/2017 11:26:59 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:06 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:23 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:35 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:46 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:53 AM: Right Click Edit on item TRUE
+-->
+<!--CHANGELOG:11/18/2017 11:29:15 AM11/18/2017 11:26:01 AM: refreshing...
+11/18/2017 11:26:01 AM: 11/18/2017 11:26:01 AM
+11/18/2017 11:26:46 AM: Right Click Edit on item TRUE
+11/18/2017 11:26:52 AM: Right Click Edit on item TRUE
+11/18/2017 11:26:59 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:06 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:23 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:35 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:46 AM: Right Click Edit on item TRUE
+11/18/2017 11:27:53 AM: Right Click Edit on item TRUE
+11/18/2017 11:29:14 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:39:40 AM-->
+<!--CHANGELOG:11/18/2017 11:39:43 AM11/18/2017 11:35:47 AM: refreshing...
+11/18/2017 11:35:47 AM: 11/18/2017 11:35:47 AM
+11/18/2017 11:39:40 AM: moving test item downVCMRangeTest //2X CAL
+-->
+<!--CHANGELOG:11/18/2017 11:39:58 AM-->
+<!--CHANGELOG:11/18/2017 11:39:59 AM-->
+<!--CHANGELOG:11/18/2017 11:40:05 AM11/18/2017 11:35:47 AM: refreshing...
+11/18/2017 11:35:47 AM: 11/18/2017 11:35:47 AM
+11/18/2017 11:39:40 AM: moving test item downVCMRangeTest //2X CAL
+11/18/2017 11:39:43 AM: saving...
+11/18/2017 11:39:59 AM: moving test item UpSleep(10000);
+11/18/2017 11:39:59 AM: moving test item UpSleep(10000);
+-->
+<!--CHANGELOG:11/18/2017 11:40:06 AM11/18/2017 11:35:47 AM: refreshing...
+11/18/2017 11:35:47 AM: 11/18/2017 11:35:47 AM
+11/18/2017 11:39:40 AM: moving test item downVCMRangeTest //2X CAL
+11/18/2017 11:39:43 AM: saving...
+11/18/2017 11:39:59 AM: moving test item UpSleep(10000);
+11/18/2017 11:39:59 AM: moving test item UpSleep(10000);
+11/18/2017 11:40:05 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:42:30 AM11/18/2017 11:40:59 AM: refreshing...
+11/18/2017 11:40:59 AM: 11/18/2017 11:40:59 AM
+-->
+<!--CHANGELOG:11/18/2017 11:42:31 AM11/18/2017 11:40:59 AM: refreshing...
+11/18/2017 11:40:59 AM: 11/18/2017 11:40:59 AM
+11/18/2017 11:42:30 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:43:24 AM11/18/2017 11:43:10 AM: refreshing...
+11/18/2017 11:43:10 AM: 11/18/2017 11:43:10 AM
+-->
+<!--CHANGELOG:11/18/2017 11:43:24 AM11/18/2017 11:43:10 AM: refreshing...
+11/18/2017 11:43:10 AM: 11/18/2017 11:43:10 AM
+11/18/2017 11:43:24 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:45:47 AM11/18/2017 11:45:24 AM: refreshing...
+11/18/2017 11:45:24 AM: 11/18/2017 11:45:24 AM
+-->
+<!--CHANGELOG:11/18/2017 11:45:48 AM11/18/2017 11:45:24 AM: refreshing...
+11/18/2017 11:45:24 AM: 11/18/2017 11:45:24 AM
+11/18/2017 11:45:47 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 11:59:11 AM11/18/2017 11:48:29 AM: refreshing...
+11/18/2017 11:48:29 AM: 11/18/2017 11:48:29 AM
+11/18/2017 11:48:40 AM: Right Click Edit on item run(5v_ON.bat); 
+-->
+<!--CHANGELOG:11/18/2017 12:05:35 PM11/18/2017 11:48:29 AM: refreshing...
+11/18/2017 11:48:29 AM: 11/18/2017 11:48:29 AM
+11/18/2017 11:48:40 AM: Right Click Edit on item run(5v_ON.bat); 
+11/18/2017 11:59:11 AM: saving...
+-->
+<!--CHANGELOG:11/18/2017 12:06:11 PM11/18/2017 11:48:29 AM: refreshing...
+11/18/2017 11:48:29 AM: 11/18/2017 11:48:29 AM
+11/18/2017 11:48:40 AM: Right Click Edit on item run(5v_ON.bat); 
+11/18/2017 11:59:11 AM: saving...
+11/18/2017 12:05:36 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 12:12:14 PM11/18/2017 12:08:35 PM: refreshing...
+11/18/2017 12:08:35 PM: 11/18/2017 12:08:35 PM
+11/18/2017 12:09:03 PM: Right Click Edit on item Gain
+-->
+<!--CHANGELOG:11/18/2017 12:12:15 PM11/18/2017 12:08:35 PM: refreshing...
+11/18/2017 12:08:35 PM: 11/18/2017 12:08:35 PM
+11/18/2017 12:09:03 PM: Right Click Edit on item Gain
+11/18/2017 12:12:14 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 12:18:32 PM11/18/2017 12:14:30 PM: refreshing...
+11/18/2017 12:14:30 PM: 11/18/2017 12:14:30 PM
+-->
+<!--CHANGELOG:11/18/2017 12:18:33 PM11/18/2017 12:14:30 PM: refreshing...
+11/18/2017 12:14:30 PM: 11/18/2017 12:14:30 PM
+11/18/2017 12:18:32 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 12:28:02 PM-->
+<!--CHANGELOG:11/18/2017 12:28:02 PM-->
+<!--CHANGELOG:11/18/2017 12:28:03 PM-->
+<!--CHANGELOG:11/18/2017 12:30:28 PM-->
+<!--CHANGELOG:11/18/2017 12:30:29 PM-->
+<!--CHANGELOG:11/18/2017 12:30:29 PM-->
+<!--CHANGELOG:11/18/2017 12:30:29 PM-->
+<!--CHANGELOG:11/18/2017 12:30:31 PM11/18/2017 12:27:52 PM: refreshing...
+11/18/2017 12:27:52 PM: 11/18/2017 12:27:52 PM
+11/18/2017 12:28:02 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 12:28:03 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 12:28:03 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 12:28:12 PM: Right Click Edit on item run(START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 12:37:47 PM-->
+<!--CHANGELOG:11/18/2017 12:40:17 PM11/18/2017 12:37:26 PM: refreshing...
+11/18/2017 12:37:26 PM: 11/18/2017 12:37:26 PM
+11/18/2017 12:37:32 PM: Right Click Edit on item run(5v_ON.bat); 
+11/18/2017 12:37:35 PM: Right Click Edit on item run(START.bat); 
+11/18/2017 12:37:47 PM: moving test item UpSleep(10000);
+11/18/2017 12:37:48 PM: Right Click Edit on item run(START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 12:40:18 PM11/18/2017 12:37:26 PM: refreshing...
+11/18/2017 12:37:26 PM: 11/18/2017 12:37:26 PM
+11/18/2017 12:37:32 PM: Right Click Edit on item run(5v_ON.bat); 
+11/18/2017 12:37:35 PM: Right Click Edit on item run(START.bat); 
+11/18/2017 12:37:47 PM: moving test item UpSleep(10000);
+11/18/2017 12:37:48 PM: Right Click Edit on item run(START.bat); 
+11/18/2017 12:40:17 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 12:42:01 PM11/18/2017 12:41:28 PM: refreshing...
+11/18/2017 12:41:28 PM: 11/18/2017 12:41:28 PM
+-->
+<!--CHANGELOG:11/18/2017 12:42:02 PM11/18/2017 12:41:28 PM: refreshing...
+11/18/2017 12:41:28 PM: 11/18/2017 12:41:28 PM
+11/18/2017 12:42:01 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 12:45:58 PM11/18/2017 12:45:37 PM: refreshing...
+11/18/2017 12:45:37 PM: 11/18/2017 12:45:37 PM
+11/18/2017 12:45:43 PM: Right Click Edit on item run(5v_ON.bat); 
+11/18/2017 12:45:48 PM: Right Click Edit on item run(5v_OFF.bat); 
+-->
+<!--CHANGELOG:11/18/2017 12:50:47 PM11/18/2017 12:50:32 PM: refreshing...
+11/18/2017 12:50:32 PM: 11/18/2017 12:50:32 PM
+-->
+<!--CHANGELOG:11/18/2017 12:51:06 PM-->
+<!--CHANGELOG:11/18/2017 1:00:11 PM-->
+<!--CHANGELOG:11/18/2017 1:00:11 PM-->
+<!--CHANGELOG:11/18/2017 1:00:22 PM11/18/2017 12:50:32 PM: refreshing...
+11/18/2017 12:50:32 PM: 11/18/2017 12:50:32 PM
+11/18/2017 12:50:47 PM: saving...
+11/18/2017 12:51:06 PM: moving test item UpVCMRangeTest //3X CAL
+11/18/2017 1:00:11 PM: moving test item Uprun(START.bat); 
+11/18/2017 1:00:12 PM: moving test item Uprun(START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 1:00:40 PM11/18/2017 12:50:32 PM: refreshing...
+11/18/2017 12:50:32 PM: 11/18/2017 12:50:32 PM
+11/18/2017 12:50:47 PM: saving...
+11/18/2017 12:51:06 PM: moving test item UpVCMRangeTest //3X CAL
+11/18/2017 1:00:11 PM: moving test item Uprun(START.bat); 
+11/18/2017 1:00:12 PM: moving test item Uprun(START.bat); 
+11/18/2017 1:00:22 PM: saving...
+11/18/2017 1:00:25 PM: Right Click Edit on item run(3X_START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 1:05:03 PM-->
+<!--CHANGELOG:11/18/2017 1:05:04 PM-->
+<!--CHANGELOG:11/18/2017 1:05:11 PM-->
+<!--CHANGELOG:11/18/2017 1:05:11 PM-->
+<!--CHANGELOG:11/18/2017 1:05:18 PM-->
+<!--CHANGELOG:11/18/2017 1:05:25 PM11/18/2017 1:04:53 PM: refreshing...
+11/18/2017 1:04:53 PM: 11/18/2017 1:04:53 PM
+11/18/2017 1:05:03 PM: moving test item Uprun(5v_OFF.bat); 
+11/18/2017 1:05:04 PM: moving test item Uprun(5v_OFF.bat); 
+11/18/2017 1:05:11 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 1:05:11 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 1:05:18 PM: moving test item UpSleep(10000);
+-->
+<!--CHANGELOG:11/18/2017 1:05:26 PM11/18/2017 1:04:53 PM: refreshing...
+11/18/2017 1:04:53 PM: 11/18/2017 1:04:53 PM
+11/18/2017 1:05:03 PM: moving test item Uprun(5v_OFF.bat); 
+11/18/2017 1:05:04 PM: moving test item Uprun(5v_OFF.bat); 
+11/18/2017 1:05:11 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 1:05:11 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 1:05:18 PM: moving test item UpSleep(10000);
+11/18/2017 1:05:25 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:05:27 PM11/18/2017 1:04:53 PM: refreshing...
+11/18/2017 1:04:53 PM: 11/18/2017 1:04:53 PM
+11/18/2017 1:05:03 PM: moving test item Uprun(5v_OFF.bat); 
+11/18/2017 1:05:04 PM: moving test item Uprun(5v_OFF.bat); 
+11/18/2017 1:05:11 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 1:05:11 PM: moving test item Uprun(5v_ON.bat); 
+11/18/2017 1:05:18 PM: moving test item UpSleep(10000);
+11/18/2017 1:05:25 PM: saving...
+11/18/2017 1:05:26 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:07:36 PM-->
+<!--CHANGELOG:11/18/2017 1:07:37 PM11/18/2017 1:07:26 PM: refreshing...
+11/18/2017 1:07:26 PM: 11/18/2017 1:07:26 PM
+11/18/2017 1:07:36 PM: moving test item UpSleep(10000);
+-->
+<!--CHANGELOG:11/18/2017 1:07:38 PM11/18/2017 1:07:26 PM: refreshing...
+11/18/2017 1:07:26 PM: 11/18/2017 1:07:26 PM
+11/18/2017 1:07:36 PM: moving test item UpSleep(10000);
+11/18/2017 1:07:37 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:07:39 PM11/18/2017 1:07:26 PM: refreshing...
+11/18/2017 1:07:26 PM: 11/18/2017 1:07:26 PM
+11/18/2017 1:07:36 PM: moving test item UpSleep(10000);
+11/18/2017 1:07:37 PM: saving...
+11/18/2017 1:07:38 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:20:10 PM11/18/2017 1:19:17 PM: refreshing...
+11/18/2017 1:19:17 PM: 11/18/2017 1:19:17 PM
+-->
+<!--CHANGELOG:11/18/2017 1:24:19 PM11/18/2017 1:22:51 PM: refreshing...
+11/18/2017 1:22:51 PM: 11/18/2017 1:22:51 PM
+11/18/2017 1:23:05 PM: Right Click Edit on item run(3X_START.bat); 
+11/18/2017 1:23:56 PM: Right Click Edit on item run(3X_START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 1:24:20 PM11/18/2017 1:22:51 PM: refreshing...
+11/18/2017 1:22:51 PM: 11/18/2017 1:22:51 PM
+11/18/2017 1:23:05 PM: Right Click Edit on item run(3X_START.bat); 
+11/18/2017 1:23:56 PM: Right Click Edit on item run(3X_START.bat); 
+11/18/2017 1:24:19 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:28:05 PM11/18/2017 1:27:25 PM: refreshing...
+11/18/2017 1:27:25 PM: 11/18/2017 1:27:25 PM
+11/18/2017 1:28:01 PM: Right Click Edit on item run(3X_START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 1:30:59 PM-->
+<!--CHANGELOG:11/18/2017 1:31:00 PM11/18/2017 1:30:23 PM: refreshing...
+11/18/2017 1:30:23 PM: 11/18/2017 1:30:23 PM
+-->
+<!--CHANGELOG:11/18/2017 1:34:07 PM11/18/2017 1:33:18 PM: refreshing...
+11/18/2017 1:33:18 PM: 11/18/2017 1:33:18 PM
+-->
+<!--CHANGELOG:11/18/2017 1:34:56 PM11/18/2017 1:33:18 PM: refreshing...
+11/18/2017 1:33:18 PM: 11/18/2017 1:33:18 PM
+11/18/2017 1:34:08 PM: saving...
+11/18/2017 1:34:19 PM: Right Click Edit on item VLINES
+11/18/2017 1:34:49 PM: Right Click Edit on item VLINES
+-->
+<!--CHANGELOG:11/18/2017 1:34:56 PM11/18/2017 1:33:18 PM: refreshing...
+11/18/2017 1:33:18 PM: 11/18/2017 1:33:18 PM
+11/18/2017 1:34:08 PM: saving...
+11/18/2017 1:34:19 PM: Right Click Edit on item VLINES
+11/18/2017 1:34:49 PM: Right Click Edit on item VLINES
+11/18/2017 1:34:56 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:34:57 PM11/18/2017 1:33:18 PM: refreshing...
+11/18/2017 1:33:18 PM: 11/18/2017 1:33:18 PM
+11/18/2017 1:34:08 PM: saving...
+11/18/2017 1:34:19 PM: Right Click Edit on item VLINES
+11/18/2017 1:34:49 PM: Right Click Edit on item VLINES
+11/18/2017 1:34:56 PM: saving...
+11/18/2017 1:34:56 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:38:21 PM11/18/2017 1:37:32 PM: refreshing...
+11/18/2017 1:37:32 PM: 11/18/2017 1:37:32 PM
+-->
+<!--CHANGELOG:11/18/2017 1:38:21 PM11/18/2017 1:37:32 PM: refreshing...
+11/18/2017 1:37:32 PM: 11/18/2017 1:37:32 PM
+11/18/2017 1:38:21 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:41:24 PM11/18/2017 1:40:29 PM: refreshing...
+11/18/2017 1:40:29 PM: 11/18/2017 1:40:29 PM
+-->
+<!--CHANGELOG:11/18/2017 1:41:25 PM11/18/2017 1:40:29 PM: refreshing...
+11/18/2017 1:40:29 PM: 11/18/2017 1:40:29 PM
+11/18/2017 1:41:25 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:44:03 PM11/18/2017 1:43:33 PM: refreshing...
+11/18/2017 1:43:33 PM: 11/18/2017 1:43:33 PM
+-->
+<!--CHANGELOG:11/18/2017 1:44:06 PM11/18/2017 1:43:33 PM: refreshing...
+11/18/2017 1:43:33 PM: 11/18/2017 1:43:33 PM
+11/18/2017 1:44:03 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:46:50 PM11/18/2017 1:46:29 PM: refreshing...
+11/18/2017 1:46:29 PM: 11/18/2017 1:46:29 PM
+-->
+<!--CHANGELOG:11/18/2017 1:46:51 PM11/18/2017 1:46:29 PM: refreshing...
+11/18/2017 1:46:29 PM: 11/18/2017 1:46:29 PM
+11/18/2017 1:46:50 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:46:52 PM11/18/2017 1:46:29 PM: refreshing...
+11/18/2017 1:46:29 PM: 11/18/2017 1:46:29 PM
+11/18/2017 1:46:50 PM: saving...
+11/18/2017 1:46:51 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:50:00 PM11/18/2017 1:49:28 PM: refreshing...
+11/18/2017 1:49:28 PM: 11/18/2017 1:49:28 PM
+-->
+<!--CHANGELOG:11/18/2017 1:50:01 PM11/18/2017 1:49:28 PM: refreshing...
+11/18/2017 1:49:28 PM: 11/18/2017 1:49:28 PM
+11/18/2017 1:50:01 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:50:01 PM11/18/2017 1:49:28 PM: refreshing...
+11/18/2017 1:49:28 PM: 11/18/2017 1:49:28 PM
+11/18/2017 1:50:01 PM: saving...
+11/18/2017 1:50:01 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:50:02 PM11/18/2017 1:49:28 PM: refreshing...
+11/18/2017 1:49:28 PM: 11/18/2017 1:49:28 PM
+11/18/2017 1:50:01 PM: saving...
+11/18/2017 1:50:01 PM: saving...
+11/18/2017 1:50:02 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:50:02 PM11/18/2017 1:49:28 PM: refreshing...
+11/18/2017 1:49:28 PM: 11/18/2017 1:49:28 PM
+11/18/2017 1:50:01 PM: saving...
+11/18/2017 1:50:01 PM: saving...
+11/18/2017 1:50:02 PM: saving...
+11/18/2017 1:50:02 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:54:18 PM11/18/2017 1:52:43 PM: refreshing...
+11/18/2017 1:52:43 PM: 11/18/2017 1:52:43 PM
+-->
+<!--CHANGELOG:11/18/2017 1:54:18 PM11/18/2017 1:52:43 PM: refreshing...
+11/18/2017 1:52:43 PM: 11/18/2017 1:52:43 PM
+11/18/2017 1:54:18 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 1:54:19 PM11/18/2017 1:52:43 PM: refreshing...
+11/18/2017 1:52:43 PM: 11/18/2017 1:52:43 PM
+11/18/2017 1:54:18 PM: saving...
+11/18/2017 1:54:18 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:02:53 PM-->
+<!--CHANGELOG:11/18/2017 2:04:56 PM11/18/2017 2:02:20 PM: refreshing...
+11/18/2017 2:02:20 PM: 11/18/2017 2:02:20 PM
+11/18/2017 2:02:53 PM: moving test item UpVCMRangeTest //3X CAL
+-->
+<!--CHANGELOG:11/18/2017 2:04:57 PM11/18/2017 2:02:20 PM: refreshing...
+11/18/2017 2:02:20 PM: 11/18/2017 2:02:20 PM
+11/18/2017 2:02:53 PM: moving test item UpVCMRangeTest //3X CAL
+11/18/2017 2:04:56 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:04:57 PM11/18/2017 2:02:20 PM: refreshing...
+11/18/2017 2:02:20 PM: 11/18/2017 2:02:20 PM
+11/18/2017 2:02:53 PM: moving test item UpVCMRangeTest //3X CAL
+11/18/2017 2:04:56 PM: saving...
+11/18/2017 2:04:57 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:04:57 PM11/18/2017 2:02:20 PM: refreshing...
+11/18/2017 2:02:20 PM: 11/18/2017 2:02:20 PM
+11/18/2017 2:02:53 PM: moving test item UpVCMRangeTest //3X CAL
+11/18/2017 2:04:56 PM: saving...
+11/18/2017 2:04:57 PM: saving...
+11/18/2017 2:04:57 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:05:02 PM11/18/2017 2:02:20 PM: refreshing...
+11/18/2017 2:02:20 PM: 11/18/2017 2:02:20 PM
+11/18/2017 2:02:53 PM: moving test item UpVCMRangeTest //3X CAL
+11/18/2017 2:04:56 PM: saving...
+11/18/2017 2:04:57 PM: saving...
+11/18/2017 2:04:57 PM: saving...
+11/18/2017 2:04:58 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:09:01 PM-->
+<!--CHANGELOG:11/18/2017 2:09:03 PM-->
+<!--CHANGELOG:11/18/2017 2:09:11 PM-->
+<!--CHANGELOG:11/18/2017 2:15:36 PM11/18/2017 2:08:44 PM: refreshing...
+11/18/2017 2:08:44 PM: 11/18/2017 2:08:44 PM
+11/18/2017 2:09:02 PM: moving test item Uprun(3X_START.bat); 
+11/18/2017 2:09:03 PM: moving test item Uprun(3X_START.bat); 
+11/18/2017 2:13:45 PM: Right Click Edit on item run(48X_START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 2:15:51 PM11/18/2017 2:15:40 PM: refreshing...
+11/18/2017 2:15:40 PM: 11/18/2017 2:15:40 PM
+11/18/2017 2:15:49 PM: Right Click Edit on item run(48X_START.bat); 
+-->
+<!--CHANGELOG:11/18/2017 2:20:29 PM11/18/2017 2:20:16 PM: refreshing...
+11/18/2017 2:20:16 PM: 11/18/2017 2:20:16 PM
+-->
+<!--CHANGELOG:11/18/2017 2:29:43 PM11/18/2017 2:29:29 PM: refreshing...
+11/18/2017 2:29:29 PM: 11/18/2017 2:29:29 PM
+-->
+<!--CHANGELOG:11/18/2017 2:29:44 PM11/18/2017 2:29:29 PM: refreshing...
+11/18/2017 2:29:29 PM: 11/18/2017 2:29:29 PM
+11/18/2017 2:29:43 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:29:45 PM11/18/2017 2:29:29 PM: refreshing...
+11/18/2017 2:29:29 PM: 11/18/2017 2:29:29 PM
+11/18/2017 2:29:43 PM: saving...
+11/18/2017 2:29:44 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:34:14 PM11/18/2017 2:33:58 PM: refreshing...
+11/18/2017 2:33:58 PM: 11/18/2017 2:33:58 PM
+-->
+<!--CHANGELOG:11/18/2017 2:34:15 PM11/18/2017 2:33:58 PM: refreshing...
+11/18/2017 2:33:58 PM: 11/18/2017 2:33:58 PM
+11/18/2017 2:34:14 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:47:31 PM11/18/2017 2:46:26 PM: refreshing...
+11/18/2017 2:46:26 PM: 11/18/2017 2:46:26 PM
+-->
+<!--CHANGELOG:11/18/2017 2:47:32 PM11/18/2017 2:46:26 PM: refreshing...
+11/18/2017 2:46:26 PM: 11/18/2017 2:46:26 PM
+11/18/2017 2:47:32 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 2:47:33 PM11/18/2017 2:46:26 PM: refreshing...
+11/18/2017 2:46:26 PM: 11/18/2017 2:46:26 PM
+11/18/2017 2:47:32 PM: saving...
+11/18/2017 2:47:33 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:25:12 PM-->
+<!--CHANGELOG:11/18/2017 3:25:14 PM11/18/2017 3:20:53 PM: refreshing...
+11/18/2017 3:20:53 PM: 11/18/2017 3:20:53 PM
+-->
+<!--CHANGELOG:11/18/2017 3:25:15 PM11/18/2017 3:20:53 PM: refreshing...
+11/18/2017 3:20:53 PM: 11/18/2017 3:20:53 PM
+11/18/2017 3:25:14 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:38:01 PM11/18/2017 3:36:23 PM: refreshing...
+11/18/2017 3:36:23 PM: 11/18/2017 3:36:23 PM
+-->
+<!--CHANGELOG:11/18/2017 3:38:02 PM11/18/2017 3:36:23 PM: refreshing...
+11/18/2017 3:36:23 PM: 11/18/2017 3:36:23 PM
+11/18/2017 3:38:01 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:38:03 PM11/18/2017 3:36:23 PM: refreshing...
+11/18/2017 3:36:23 PM: 11/18/2017 3:36:23 PM
+11/18/2017 3:38:01 PM: saving...
+11/18/2017 3:38:02 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:43:43 PM11/18/2017 3:42:58 PM: refreshing...
+11/18/2017 3:42:58 PM: 11/18/2017 3:42:58 PM
+-->
+<!--CHANGELOG:11/18/2017 3:43:44 PM11/18/2017 3:42:58 PM: refreshing...
+11/18/2017 3:42:58 PM: 11/18/2017 3:42:58 PM
+11/18/2017 3:43:44 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:43:45 PM11/18/2017 3:42:58 PM: refreshing...
+11/18/2017 3:42:58 PM: 11/18/2017 3:42:58 PM
+11/18/2017 3:43:44 PM: saving...
+11/18/2017 3:43:45 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:51:01 PM11/18/2017 3:50:20 PM: refreshing...
+11/18/2017 3:50:20 PM: 11/18/2017 3:50:20 PM
+-->
+<!--CHANGELOG:11/18/2017 3:51:12 PM11/18/2017 3:50:20 PM: refreshing...
+11/18/2017 3:50:20 PM: 11/18/2017 3:50:20 PM
+11/18/2017 3:51:02 PM: saving...
+-->
+<!--CHANGELOG:11/18/2017 3:51:14 PM11/18/2017 3:50:20 PM: refreshing...
+11/18/2017 3:50:20 PM: 11/18/2017 3:50:20 PM
+11/18/2017 3:51:02 PM: saving...
+11/18/2017 3:51:13 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 10:43:37 AM-->
+<!--CHANGELOG:11/20/2017 10:43:37 AM-->
+<!--CHANGELOG:11/20/2017 10:43:37 AM-->
+<!--CHANGELOG:11/20/2017 10:43:38 AM-->
+<!--CHANGELOG:11/20/2017 10:43:38 AM-->
+<!--CHANGELOG:11/20/2017 10:43:38 AM-->
+<!--CHANGELOG:11/20/2017 10:43:39 AM-->
+<!--CHANGELOG:11/20/2017 10:43:39 AM-->
+<!--CHANGELOG:11/20/2017 10:43:39 AM-->
+<!--CHANGELOG:11/20/2017 10:43:40 AM-->
+<!--CHANGELOG:11/20/2017 10:43:40 AM-->
+<!--CHANGELOG:11/20/2017 10:43:40 AM-->
+<!--CHANGELOG:11/20/2017 10:43:41 AM-->
+<!--CHANGELOG:11/20/2017 10:43:41 AM-->
+<!--CHANGELOG:11/20/2017 10:43:41 AM-->
+<!--CHANGELOG:11/20/2017 10:43:43 AM-->
+<!--CHANGELOG:11/20/2017 10:43:44 AM-->
+<!--CHANGELOG:11/20/2017 10:43:47 AM11/20/2017 10:43:29 AM: refreshing...
+11/20/2017 10:43:29 AM: 11/20/2017 10:43:29 AM
+11/20/2017 10:43:37 AM: moving test item UpFocusTest
+11/20/2017 10:43:37 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:43 AM: moving test item downFocusTest
+11/20/2017 10:43:44 AM: moving test item downFocusTest
+-->
+<!--CHANGELOG:11/20/2017 10:44:32 AM11/20/2017 10:43:29 AM: refreshing...
+11/20/2017 10:43:29 AM: 11/20/2017 10:43:29 AM
+11/20/2017 10:43:37 AM: moving test item UpFocusTest
+11/20/2017 10:43:37 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:43 AM: moving test item downFocusTest
+11/20/2017 10:43:44 AM: moving test item downFocusTest
+11/20/2017 10:43:47 AM: saving...
+-->
+<!--CHANGELOG:11/20/2017 10:44:34 AM11/20/2017 10:43:29 AM: refreshing...
+11/20/2017 10:43:29 AM: 11/20/2017 10:43:29 AM
+11/20/2017 10:43:37 AM: moving test item UpFocusTest
+11/20/2017 10:43:37 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:38 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:39 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:40 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:41 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:42 AM: moving test item UpFocusTest
+11/20/2017 10:43:43 AM: moving test item downFocusTest
+11/20/2017 10:43:44 AM: moving test item downFocusTest
+11/20/2017 10:43:47 AM: saving...
+11/20/2017 10:44:32 AM: saving...
+-->
+<!--CHANGELOG:11/20/2017 10:44:44 AM11/20/2017 10:44:37 AM: refreshing...
+11/20/2017 10:44:37 AM: 11/20/2017 10:44:37 AM
+-->
+<!--CHANGELOG:11/20/2017 10:46:06 AM11/20/2017 10:45:37 AM: refreshing...
+11/20/2017 10:45:37 AM: 11/20/2017 10:45:37 AM
+-->
+<!--CHANGELOG:11/20/2017 10:46:36 AM11/20/2017 10:45:37 AM: refreshing...
+11/20/2017 10:45:37 AM: 11/20/2017 10:45:37 AM
+11/20/2017 10:46:06 AM: saving...
+-->
+<!--CHANGELOG:11/20/2017 10:47:51 AM-->
+<!--CHANGELOG:11/20/2017 10:47:51 AM-->
+<!--CHANGELOG:11/20/2017 10:47:52 AM-->
+<!--CHANGELOG:11/20/2017 10:47:52 AM-->
+<!--CHANGELOG:11/20/2017 10:47:52 AM-->
+<!--CHANGELOG:11/20/2017 10:47:53 AM-->
+<!--CHANGELOG:11/20/2017 10:47:53 AM-->
+<!--CHANGELOG:11/20/2017 10:47:53 AM-->
+<!--CHANGELOG:11/20/2017 10:47:54 AM-->
+<!--CHANGELOG:11/20/2017 10:47:54 AM-->
+<!--CHANGELOG:11/20/2017 10:47:55 AM-->
+<!--CHANGELOG:11/20/2017 10:47:55 AM-->
+<!--CHANGELOG:11/20/2017 10:47:55 AM-->
+<!--CHANGELOG:11/20/2017 10:47:56 AM-->
+<!--CHANGELOG:11/20/2017 10:47:56 AM-->
+<!--CHANGELOG:11/20/2017 10:47:56 AM-->
+<!--CHANGELOG:11/20/2017 10:47:57 AM-->
+<!--CHANGELOG:11/20/2017 10:47:58 AM-->
+<!--CHANGELOG:11/20/2017 10:48:34 AM11/20/2017 10:47:17 AM: refreshing...
+11/20/2017 10:47:17 AM: 11/20/2017 10:47:17 AM
+11/20/2017 10:47:51 AM: moving test item UpFocusTest
+11/20/2017 10:47:52 AM: moving test item UpFocusTest
+11/20/2017 10:47:52 AM: moving test item UpFocusTest
+11/20/2017 10:47:52 AM: moving test item UpFocusTest
+11/20/2017 10:47:53 AM: moving test item UpFocusTest
+11/20/2017 10:47:53 AM: moving test item UpFocusTest
+11/20/2017 10:47:53 AM: moving test item UpFocusTest
+11/20/2017 10:47:54 AM: moving test item UpFocusTest
+11/20/2017 10:47:54 AM: moving test item UpFocusTest
+11/20/2017 10:47:54 AM: moving test item UpFocusTest
+11/20/2017 10:47:55 AM: moving test item UpFocusTest
+11/20/2017 10:47:55 AM: moving test item UpFocusTest
+11/20/2017 10:47:56 AM: moving test item UpFocusTest
+11/20/2017 10:47:56 AM: moving test item UpFocusTest
+11/20/2017 10:47:56 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:58 AM: moving test item downFocusTest
+11/20/2017 10:47:58 AM: moving test item downFocusTest
+-->
+<!--CHANGELOG:11/20/2017 10:48:36 AM11/20/2017 10:47:17 AM: refreshing...
+11/20/2017 10:47:17 AM: 11/20/2017 10:47:17 AM
+11/20/2017 10:47:51 AM: moving test item UpFocusTest
+11/20/2017 10:47:52 AM: moving test item UpFocusTest
+11/20/2017 10:47:52 AM: moving test item UpFocusTest
+11/20/2017 10:47:52 AM: moving test item UpFocusTest
+11/20/2017 10:47:53 AM: moving test item UpFocusTest
+11/20/2017 10:47:53 AM: moving test item UpFocusTest
+11/20/2017 10:47:53 AM: moving test item UpFocusTest
+11/20/2017 10:47:54 AM: moving test item UpFocusTest
+11/20/2017 10:47:54 AM: moving test item UpFocusTest
+11/20/2017 10:47:54 AM: moving test item UpFocusTest
+11/20/2017 10:47:55 AM: moving test item UpFocusTest
+11/20/2017 10:47:55 AM: moving test item UpFocusTest
+11/20/2017 10:47:56 AM: moving test item UpFocusTest
+11/20/2017 10:47:56 AM: moving test item UpFocusTest
+11/20/2017 10:47:56 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:57 AM: moving test item UpFocusTest
+11/20/2017 10:47:58 AM: moving test item downFocusTest
+11/20/2017 10:47:58 AM: moving test item downFocusTest
+11/20/2017 10:48:35 AM: saving...
+-->
+<!--CHANGELOG:11/20/2017 11:17:35 AM11/20/2017 11:16:11 AM: refreshing...
+11/20/2017 11:16:11 AM: 11/20/2017 11:16:11 AM
+-->
+<!--CHANGELOG:11/20/2017 11:17:36 AM11/20/2017 11:16:11 AM: refreshing...
+11/20/2017 11:16:11 AM: 11/20/2017 11:16:11 AM
+11/20/2017 11:17:35 AM: saving...
+-->
+<!--CHANGELOG:11/20/2017 11:27:16 AM-->
+<!--CHANGELOG:11/20/2017 11:27:16 AM-->
+<!--CHANGELOG:11/20/2017 11:27:17 AM-->
+<!--CHANGELOG:11/20/2017 11:27:17 AM-->
+<!--CHANGELOG:11/20/2017 11:27:17 AM-->
+<!--CHANGELOG:11/20/2017 11:27:18 AM-->
+<!--CHANGELOG:11/20/2017 11:27:18 AM-->
+<!--CHANGELOG:11/20/2017 11:27:18 AM-->
+<!--CHANGELOG:11/20/2017 11:27:19 AM-->
+<!--CHANGELOG:11/20/2017 11:27:19 AM-->
+<!--CHANGELOG:11/20/2017 11:27:20 AM-->
+<!--CHANGELOG:11/20/2017 11:27:20 AM-->
+<!--CHANGELOG:11/20/2017 11:27:20 AM-->
+<!--CHANGELOG:11/20/2017 11:27:21 AM-->
+<!--CHANGELOG:11/20/2017 11:27:21 AM-->
+<!--CHANGELOG:11/20/2017 11:27:21 AM-->
+<!--CHANGELOG:11/20/2017 11:27:23 AM-->
+<!--CHANGELOG:11/20/2017 11:27:26 AM-->
+<!--CHANGELOG:11/20/2017 11:32:41 AM11/20/2017 11:27:05 AM: refreshing...
+11/20/2017 11:27:05 AM: 11/20/2017 11:27:05 AM
+11/20/2017 11:27:16 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:19 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:19 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:23 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:23 AM: moving test item downrun(START.bat); 
+11/20/2017 11:27:26 AM: moving test item downrun(START.bat); 
+11/20/2017 11:27:46 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:29:49 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:30:16 AM: Right Click Edit on item run(START.bat); 
+11/20/2017 11:30:34 AM: Right Click Edit on item run(3X_START.bat); 
+11/20/2017 11:30:48 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:30:53 AM: Right Click Edit on item run(START.bat); 
+11/20/2017 11:31:05 AM: Right Click Edit on item run(3X_START.bat); 
+11/20/2017 11:31:08 AM: Right Click Edit on item run(48X_START.bat); 
+-->
+<!--CHANGELOG:11/20/2017 11:33:18 AM11/20/2017 11:27:05 AM: refreshing...
+11/20/2017 11:27:05 AM: 11/20/2017 11:27:05 AM
+11/20/2017 11:27:16 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:19 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:19 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:23 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:23 AM: moving test item downrun(START.bat); 
+11/20/2017 11:27:26 AM: moving test item downrun(START.bat); 
+11/20/2017 11:27:46 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:29:49 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:30:16 AM: Right Click Edit on item run(START.bat); 
+11/20/2017 11:30:34 AM: Right Click Edit on item run(3X_START.bat); 
+11/20/2017 11:30:48 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:30:53 AM: Right Click Edit on item run(START.bat); 
+11/20/2017 11:31:05 AM: Right Click Edit on item run(3X_START.bat); 
+11/20/2017 11:31:08 AM: Right Click Edit on item run(48X_START.bat); 
+11/20/2017 11:32:41 AM: saving...
+11/20/2017 11:32:45 AM: Right Click Edit on item run(1X_START.bat); 
+-->
+<!--CHANGELOG:11/20/2017 11:33:19 AM11/20/2017 11:27:05 AM: refreshing...
+11/20/2017 11:27:05 AM: 11/20/2017 11:27:05 AM
+11/20/2017 11:27:16 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:17 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:18 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:19 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:19 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:20 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:21 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:22 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:23 AM: moving test item Uprun(START.bat); 
+11/20/2017 11:27:23 AM: moving test item downrun(START.bat); 
+11/20/2017 11:27:26 AM: moving test item downrun(START.bat); 
+11/20/2017 11:27:46 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:29:49 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:30:16 AM: Right Click Edit on item run(START.bat); 
+11/20/2017 11:30:34 AM: Right Click Edit on item run(3X_START.bat); 
+11/20/2017 11:30:48 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:30:53 AM: Right Click Edit on item run(START.bat); 
+11/20/2017 11:31:05 AM: Right Click Edit on item run(3X_START.bat); 
+11/20/2017 11:31:08 AM: Right Click Edit on item run(48X_START.bat); 
+11/20/2017 11:32:41 AM: saving...
+11/20/2017 11:32:45 AM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 11:33:18 AM: saving...
+-->
+<!--CHANGELOG:11/20/2017 1:43:45 PM11/20/2017 1:36:34 PM: refreshing...
+11/20/2017 1:36:34 PM: 11/20/2017 1:36:34 PM
+11/20/2017 1:38:11 PM: Right Click Edit on item run(1X_START.bat); 
+-->
+<!--CHANGELOG:11/20/2017 1:43:46 PM11/20/2017 1:36:34 PM: refreshing...
+11/20/2017 1:36:34 PM: 11/20/2017 1:36:34 PM
+11/20/2017 1:38:11 PM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 1:43:45 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 1:43:50 PM11/20/2017 1:36:34 PM: refreshing...
+11/20/2017 1:36:34 PM: 11/20/2017 1:36:34 PM
+11/20/2017 1:38:11 PM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 1:43:45 PM: saving...
+11/20/2017 1:43:46 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:00:00 PM11/20/2017 1:59:14 PM: refreshing...
+11/20/2017 1:59:14 PM: 11/20/2017 1:59:14 PM
+-->
+<!--CHANGELOG:11/20/2017 2:00:01 PM11/20/2017 1:59:14 PM: refreshing...
+11/20/2017 1:59:14 PM: 11/20/2017 1:59:14 PM
+11/20/2017 2:00:00 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:03:46 PM11/20/2017 2:02:47 PM: refreshing...
+11/20/2017 2:02:47 PM: 11/20/2017 2:02:47 PM
+-->
+<!--CHANGELOG:11/20/2017 2:03:46 PM11/20/2017 2:02:47 PM: refreshing...
+11/20/2017 2:02:47 PM: 11/20/2017 2:02:47 PM
+11/20/2017 2:03:46 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:03:47 PM11/20/2017 2:02:47 PM: refreshing...
+11/20/2017 2:02:47 PM: 11/20/2017 2:02:47 PM
+11/20/2017 2:03:46 PM: saving...
+11/20/2017 2:03:47 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:25:03 PM11/20/2017 2:22:53 PM: refreshing...
+11/20/2017 2:22:53 PM: 11/20/2017 2:22:53 PM
+-->
+<!--CHANGELOG:11/20/2017 2:25:05 PM11/20/2017 2:22:53 PM: refreshing...
+11/20/2017 2:22:53 PM: 11/20/2017 2:22:53 PM
+11/20/2017 2:25:04 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:42:40 PM11/20/2017 2:42:29 PM: refreshing...
+11/20/2017 2:42:29 PM: 11/20/2017 2:42:29 PM
+-->
+<!--CHANGELOG:11/20/2017 2:42:41 PM11/20/2017 2:42:29 PM: refreshing...
+11/20/2017 2:42:29 PM: 11/20/2017 2:42:29 PM
+11/20/2017 2:42:41 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:42:42 PM11/20/2017 2:42:29 PM: refreshing...
+11/20/2017 2:42:29 PM: 11/20/2017 2:42:29 PM
+11/20/2017 2:42:41 PM: saving...
+11/20/2017 2:42:41 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:44:45 PM11/20/2017 2:43:39 PM: refreshing...
+11/20/2017 2:43:39 PM: 11/20/2017 2:43:39 PM
+11/20/2017 2:44:07 PM: Right Click Edit on item run(1X_START.bat); 
+-->
+<!--CHANGELOG:11/20/2017 2:44:47 PM11/20/2017 2:43:39 PM: refreshing...
+11/20/2017 2:43:39 PM: 11/20/2017 2:43:39 PM
+11/20/2017 2:44:07 PM: Right Click Edit on item run(1X_START.bat); 
+11/20/2017 2:44:46 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:48:14 PM11/20/2017 2:46:07 PM: refreshing...
+11/20/2017 2:46:07 PM: 11/20/2017 2:46:07 PM
+11/20/2017 2:47:45 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:48:15 PM11/20/2017 2:46:07 PM: refreshing...
+11/20/2017 2:46:07 PM: 11/20/2017 2:46:07 PM
+11/20/2017 2:47:45 PM: saving...
+11/20/2017 2:48:15 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:50:21 PM11/20/2017 2:49:58 PM: refreshing...
+11/20/2017 2:49:58 PM: 11/20/2017 2:49:58 PM
+-->
+<!--CHANGELOG:11/20/2017 2:50:22 PM11/20/2017 2:49:58 PM: refreshing...
+11/20/2017 2:49:58 PM: 11/20/2017 2:49:58 PM
+11/20/2017 2:50:21 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:52:24 PM11/20/2017 2:52:07 PM: refreshing...
+11/20/2017 2:52:07 PM: 11/20/2017 2:52:07 PM
+11/20/2017 2:52:17 PM: Right Click Edit on item VLINES_TO_SOLID
+-->
+<!--CHANGELOG:11/20/2017 2:52:25 PM11/20/2017 2:52:07 PM: refreshing...
+11/20/2017 2:52:07 PM: 11/20/2017 2:52:07 PM
+11/20/2017 2:52:17 PM: Right Click Edit on item VLINES_TO_SOLID
+11/20/2017 2:52:24 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:55:33 PM11/20/2017 2:54:25 PM: refreshing...
+11/20/2017 2:54:25 PM: 11/20/2017 2:54:25 PM
+-->
+<!--CHANGELOG:11/20/2017 2:55:35 PM11/20/2017 2:54:25 PM: refreshing...
+11/20/2017 2:54:25 PM: 11/20/2017 2:54:25 PM
+11/20/2017 2:55:34 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:55:35 PM11/20/2017 2:54:25 PM: refreshing...
+11/20/2017 2:54:25 PM: 11/20/2017 2:54:25 PM
+11/20/2017 2:55:34 PM: saving...
+11/20/2017 2:55:35 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:55:55 PM11/20/2017 2:54:25 PM: refreshing...
+11/20/2017 2:54:25 PM: 11/20/2017 2:54:25 PM
+11/20/2017 2:55:34 PM: saving...
+11/20/2017 2:55:35 PM: saving...
+11/20/2017 2:55:36 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:55:55 PM11/20/2017 2:54:25 PM: refreshing...
+11/20/2017 2:54:25 PM: 11/20/2017 2:54:25 PM
+11/20/2017 2:55:34 PM: saving...
+11/20/2017 2:55:35 PM: saving...
+11/20/2017 2:55:36 PM: saving...
+11/20/2017 2:55:55 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 2:57:09 PM11/20/2017 2:56:55 PM: refreshing...
+11/20/2017 2:56:55 PM: 11/20/2017 2:56:55 PM
+-->
+<!--CHANGELOG:11/20/2017 2:57:10 PM11/20/2017 2:56:55 PM: refreshing...
+11/20/2017 2:56:55 PM: 11/20/2017 2:56:55 PM
+11/20/2017 2:57:09 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:00:33 PM11/20/2017 2:59:01 PM: refreshing...
+11/20/2017 2:59:01 PM: 11/20/2017 2:59:01 PM
+-->
+<!--CHANGELOG:11/20/2017 3:00:35 PM11/20/2017 2:59:01 PM: refreshing...
+11/20/2017 2:59:01 PM: 11/20/2017 2:59:01 PM
+11/20/2017 3:00:33 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:04:00 PM11/20/2017 3:03:01 PM: refreshing...
+11/20/2017 3:03:01 PM: 11/20/2017 3:03:01 PM
+11/20/2017 3:03:45 PM: Right Click Edit on item TRUE
+-->
+<!--CHANGELOG:11/20/2017 3:04:01 PM11/20/2017 3:03:01 PM: refreshing...
+11/20/2017 3:03:01 PM: 11/20/2017 3:03:01 PM
+11/20/2017 3:03:45 PM: Right Click Edit on item TRUE
+11/20/2017 3:04:00 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:06:43 PM11/20/2017 3:06:06 PM: refreshing...
+11/20/2017 3:06:06 PM: 11/20/2017 3:06:06 PM
+-->
+<!--CHANGELOG:11/20/2017 3:06:46 PM11/20/2017 3:06:06 PM: refreshing...
+11/20/2017 3:06:06 PM: 11/20/2017 3:06:06 PM
+11/20/2017 3:06:43 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:12:46 PM11/20/2017 3:12:07 PM: refreshing...
+11/20/2017 3:12:07 PM: 11/20/2017 3:12:07 PM
+11/20/2017 3:12:33 PM: Right Click Edit on item FALSE
+-->
+<!--CHANGELOG:11/20/2017 3:12:47 PM11/20/2017 3:12:07 PM: refreshing...
+11/20/2017 3:12:07 PM: 11/20/2017 3:12:07 PM
+11/20/2017 3:12:33 PM: Right Click Edit on item FALSE
+11/20/2017 3:12:46 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:14:44 PM11/20/2017 3:14:14 PM: refreshing...
+11/20/2017 3:14:14 PM: 11/20/2017 3:14:14 PM
+-->
+<!--CHANGELOG:11/20/2017 3:14:46 PM11/20/2017 3:14:14 PM: refreshing...
+11/20/2017 3:14:14 PM: 11/20/2017 3:14:14 PM
+11/20/2017 3:14:45 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:19:56 PM11/20/2017 3:17:52 PM: refreshing...
+11/20/2017 3:17:52 PM: 11/20/2017 3:17:52 PM
+-->
+<!--CHANGELOG:11/20/2017 3:19:58 PM11/20/2017 3:17:52 PM: refreshing...
+11/20/2017 3:17:52 PM: 11/20/2017 3:17:52 PM
+11/20/2017 3:19:57 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:31:07 PM11/20/2017 3:30:37 PM: refreshing...
+11/20/2017 3:30:37 PM: 11/20/2017 3:30:37 PM
+-->
+<!--CHANGELOG:11/20/2017 3:31:09 PM11/20/2017 3:30:37 PM: refreshing...
+11/20/2017 3:30:37 PM: 11/20/2017 3:30:37 PM
+11/20/2017 3:31:08 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:33:55 PM11/20/2017 3:33:18 PM: refreshing...
+11/20/2017 3:33:18 PM: 11/20/2017 3:33:18 PM
+-->
+<!--CHANGELOG:11/20/2017 3:33:56 PM11/20/2017 3:33:18 PM: refreshing...
+11/20/2017 3:33:18 PM: 11/20/2017 3:33:18 PM
+11/20/2017 3:33:55 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 3:42:02 PM11/20/2017 3:41:20 PM: refreshing...
+11/20/2017 3:41:20 PM: 11/20/2017 3:41:20 PM
+-->
+<!--CHANGELOG:11/20/2017 3:52:31 PM11/20/2017 3:51:33 PM: refreshing...
+11/20/2017 3:51:33 PM: 11/20/2017 3:51:33 PM
+-->
+<!--CHANGELOG:11/20/2017 3:52:37 PM11/20/2017 3:51:33 PM: refreshing...
+11/20/2017 3:51:33 PM: 11/20/2017 3:51:33 PM
+11/20/2017 3:52:32 PM: saving...
+-->
+<!--CHANGELOG:11/20/2017 4:17:48 PM11/20/2017 4:17:09 PM: refreshing...
+11/20/2017 4:17:09 PM: 11/20/2017 4:17:09 PM
+-->

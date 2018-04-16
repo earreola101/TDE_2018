@@ -1,0 +1,11 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:Failed! cannot connect to device!
+Headers=MyHeader
+Values=
+LowLimit=0.0
+UpLimit=5.0
+TargetLimit=5.0
+LogFile=test.log
+VarResultSummary=

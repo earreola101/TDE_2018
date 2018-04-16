@@ -1,0 +1,3414 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [1.0.1474] 3ad5ad077e394e288f4ae2a57a718b84_19:29:24.1702640_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <SCRIPT_COMMENT id="//Kinetic Script:                                                                         //" />
+    <SCRIPT_COMMENT id="//Title: 1x_2x_3x_4x Zoom Len Calibration Script" />
+    <SCRIPT_COMMENT id="//Script Version:V16" />
+    <SCRIPT_COMMENT id="//BUILD: PB3" />
+    <SCRIPT_COMMENT id="//Kinetic Version:1605" />
+    <SCRIPT_COMMENT id="//Date:12/01/2015">
+      <Test id="VerifyRegister(lvreg,infoxu,read,0x03);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+        <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X0301 ) THEN  PASS ) );" />
+        <TestName id="SensorFW" />
+      </Test>
+    </SCRIPT_COMMENT>
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Input_MessageBox(SN number,Enter here,*************);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.Input_MessageBox" Enable="True">
+      <NumRetry id="Retry(10);" />
+    </Test>
+    <Test id="Input_MessageBox(SN number,Enter here,***);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.Input_MessageBox" Enable="True">
+      <NumRetry id="Retry(10);" />
+    </Test>
+    <Test id="MessageBox(将产品放入治具);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="OK" />
+      </Message>
+    </Test>
+    <Test id="run(5V08A.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[PowerOn1]Power on;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(10000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="KineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KineticTstEngineCmd" Enable="True">
+      <Options id="MODE">
+        <OptionsVal id="0" />
+      </Options>
+    </Test>
+    <Test id="Sleep(5000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,testxu,write,0x0a,0x08);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="TestTracking(0x086E,0x046d,OPEN);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.TestTrackingTestModule" Enable="True">
+      <TestName id="(TT1) Test Tracking" />
+      <resultsource id="resultsource ">
+        <resultsourceVal id="INTERNAL" />
+      </resultsource>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="TRUE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="0" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="4" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0x0b" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0x8C" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0x6E" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="eeprom" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+    </Test>
+    <Test id="Sleep(500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <SCRIPT_COMMENT id="/////////////////////////////////////////// START OF 1x calibration" />
+    <Test id="run(findusbdevice5V.cmd); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[2X]SETUP_2XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(300);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0x65,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="Sleep(300);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0x66,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0x64,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="Sleep(300);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0x6e,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,0x01);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT ==0X01026800) THEN  PASS ) );" />
+      <TestName id="FWVersion" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,0x03);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X0602 ) THEN  PASS ) );" />
+      <TestName id="SensorFW" />
+    </Test>
+    <Test id="run(CLEAR_EEPROM.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[B]CLEAR_EEPROM;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(48XZOOM5V.BAT); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=outC.out;" />
+        <InputFile id="InputFile=inC.in;" />
+        <Name id="Name=[48X]SETUP_48XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(2000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(5V08A.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[PowerOn1]Power on;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(12000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="Sleep(2000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(findusbdevice5V.cmd); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[1X]SETUP_1XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="FocusTest" Assembly="..\TestModules\FocusTestModule\AutoFocusTestModuleC2.dll" Type="AutoFocusTestModule.AutoFocusTestModule" Enable="True">
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <DisplayProperties id="DisplayProperties">
+        <SignalView id="SignalView">
+          <SignalViewVal id="TRUE" />
+        </SignalView>
+      </DisplayProperties>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <FocusTestSettings id="FocusTestSettings">
+        <FocusControlProperties id="FocusControlProperties">
+          <DebugMessages id="DebugMessages">
+            <DebugMessagesVal id="FALSE" />
+          </DebugMessages>
+          <BackOffStepSize id="BackOffStepSize  //Back off step size">
+            <BackOffStepSizeVal id="0" />
+          </BackOffStepSize>
+          <FineStepSize id="FineStepSize     //Fine step size">
+            <FineStepSizeVal id="1" />
+          </FineStepSize>
+          <ForwardStepSize id="ForwardStepSize  //Forward step size">
+            <ForwardStepSizeVal id="1" />
+          </ForwardStepSize>
+          <MaximumStepRange id="MaximumStepRange //Maximum step range">
+            <MaximumStepRangeVal id="180" />
+          </MaximumStepRange>
+          <StepTimems id="StepTimems       //Step delay in ms">
+            <StepTimemsVal id="600" />
+          </StepTimems>
+          <FarThreshold id="MTFFarTrigger    //MTF far trigger point">
+            <FarThresholdVal id="40" />
+          </FarThreshold>
+          <NearThresholdTrigger id="MTFNearTrigger   //MTF near trigger point">
+            <NearThresholdTriggerVal id="40" />
+          </NearThresholdTrigger>
+          <SolenoidControl id="SolenoidControl  //Enable = true or Disable = false - solenoid control">
+            <SolenoidControlVal id="FALSE" />
+          </SolenoidControl>
+          <SolenoidContinuousControl id="StageOne_Solenoid //Continuous solenoid during focus">
+            <SolenoidContinuousControlVal id="FALSE" />
+          </SolenoidContinuousControl>
+          <SolenoidDelayControl id="SolenoidDelayControl //controls the amount of time the solenoid will stage on in ms">
+            <SolenoidDelayControlVal id="400" />
+          </SolenoidDelayControl>
+          <InRangeDetectionProp id="InRangeDetection     //in range detection control">
+            <InRangeDetectionVal id="FALSE" />
+          </InRangeDetectionProp>
+          <SamplingStability id="SamplingStability    //stability sample size for mtf samples ">
+            <SamplingStabilityVal id="1000" />
+          </SamplingStability>
+          <SensitivityProp id="SensitivityProp      //Sensitivity Factor ">
+            <SensitivityVal id="0.10" />
+          </SensitivityProp>
+        </FocusControlProperties>
+        <EEPROM_WRITE_MODE id="EEPROM_WRITE_MODE  // When this mode is enabled it will write the step count to eeprom">
+          <ENABLED id="Enable=True;" />
+          <ADDRESS id="ADDRESSLOW=0x66;" />
+          <CalibrationValue id="CalibrationValue">
+            <OutSideAdjustment id="OutSideAdjustment=-123;" />
+          </CalibrationValue>
+          <CalibrationLimitRules id="LIMITS //calibration data over limits steps it will prevent no calibrate in eeprom">
+            <LimitsRulesEnable id="Enable=True;     // False=no apply, True = will apply rule" />
+            <LowerLimit id="LOWERLIMIT=-127;    // must be over this amount" />
+            <HigherLimit id="UPPERLIMIT=127;  // must be under this amount" />
+          </CalibrationLimitRules>
+        </EEPROM_WRITE_MODE>
+      </FocusTestSettings>
+      <MTFController id="MTFController">
+        <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+          <MTFScanDirectionVal id="VLINES_TO_SOLID" />
+        </MTFScanDirection>
+        <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+          <LockPointTendencyVal id="TRUE" />
+        </LockPointTendency>
+        <MinPixelDelta id="MinPixelDelta //">
+          <MinPixelDeltaVal id="20" />
+        </MinPixelDelta>
+        <ZScoreDelta id="ZScoreDelta //">
+          <ZScoreDeltaVal id="1.2" />
+        </ZScoreDelta>
+        <MinimumLines id="MinimumLines //">
+          <MinimumLinesVal id="1" />
+        </MinimumLines>
+      </MTFController>
+      <TestLimits id="TestLimits">
+        <MTFDeltaHigherLimit id="MTFDeltaHigherLimit">
+          <MTFDeltaHigherLimitVal id="5" />
+        </MTFDeltaHigherLimit>
+        <MTFDeltaLowerLimit id="MTFDeltaLowerLimit">
+          <MTFDeltaLowerLimitVal id="-5" />
+        </MTFDeltaLowerLimit>
+        <MTFFarHigherLimit id="MTFFarHigherLimit">
+          <MTFFarHigherLimitVal id="100" />
+        </MTFFarHigherLimit>
+        <MTFFarLowerLimit id="MTFFarLowerLimit">
+          <MTFFarLowerLimitVal id="50" />
+        </MTFFarLowerLimit>
+        <MTFNearHigherLimit id="MTFNearHigherLimit">
+          <MTFNearHigherLimitVal id="100" />
+        </MTFNearHigherLimit>
+        <MTFNearLowerLimit id="MTFNearLowerLimit">
+          <MTFNearLowerLimitVal id="50" />
+        </MTFNearLowerLimit>
+      </TestLimits>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="TRUE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="TRUE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="AUDIOMIC:AUDIO:Val1, AUDIOMIC:AUDIO:Val2, AUDIOMIC:AUDIO:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="0" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x086E" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="640" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="480" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="200" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="TRUE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="TRUE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="TRUE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="128" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="TRUE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="200" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="TRUE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-6" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="20" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <AutoFocus id="AutoFocus">
+          <AutoFocusEnable id="Enable">
+            <AutoFocusEnableVal id="TRUE" />
+          </AutoFocusEnable>
+          <AutoFocusProp id="SetAutoFocus">
+            <AutoFocusVal id="0" />
+          </AutoFocusProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </AutoFocus>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="TRUE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="0" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="128" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="TRUE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="5800" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="TRUE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="FALSE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.032" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="FALSE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="1" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="FALSE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="FALSE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="0" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="TRUE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="TRUE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="MJPG " />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <LVREG_CMD id="lvreg testxu write e 0">
+          <LVREG_CMDVal id="Enable=True" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write 10 0">
+          <LVREG_CMDVal id="Enable=true" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write 11 300">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write a 8">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg pcxu write 12 007B0201">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="20" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+      </CameraImageProperties>
+      <Test id="VerifyRegister(lvreg,eeprom,write,0xde,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+        <VerifyRegisterCommand id="Limit(NULL);" />
+        <TestName id="VerifyRegister" />
+      </Test>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(3000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(5V08A.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;         " />
+        <InputFile id="InputFile=in.in;            " />
+        <Name id="Name=[PowerOn1]Power on;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(1500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(findusbdevice5V.cmd); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[48X]SETUP_48XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="MTFRecheckTest //1x four corner" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.MTFCheck" Enable="True">
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFRecheckTestSettings id="MTFRecheckTestSettings">
+        <TimeIn_ms id="TimeIn_ms">
+          <TimeIn_msVal id="5500" />
+        </TimeIn_ms>
+      </MTFRecheckTestSettings>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="TRUE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="TRUE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="1" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="2" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x086E" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="1920" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="1080" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="100" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="TRUE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="TRUE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="TRUE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="128" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="TRUE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="210" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="FALSE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="50" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="TRUE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-4" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="TRUE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="0" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="0" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="FALSE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="2000" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="FALSE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="TRUE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.066" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="TRUE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="2" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="FALSE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="100" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="FALSE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="FALSE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="YUY2" />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <LVREG_CMD id="lvreg testxu write e 0">
+          <LVREG_CMDVal id="Enable=True" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write 10 0">
+          <LVREG_CMDVal id="Enable=True" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write 11 300">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="0" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+      </CameraImageProperties>
+      <testName id="TestName">
+        <testNameVal id="[C]1X_4_mtf_Corner" />
+      </testName>
+      <Measure_MTF id="#1_MEASURE_CENTER_MTF_FAR          //MTF Measurement settings">
+        <SCRIPT_COMMENT id="" />
+        <PointName id="PointName                        //This is the name of the measurement">
+          <PointNameVal id="Corners" />
+        </PointName>
+        <ROI_Width id="ROI_Width                        //This controls the veritical width of ROI">
+          <ROI_Width id="25" />
+        </ROI_Width>
+        <ROI_TxtShift id="ROI_TxtShift                     //This controls the distance from the labels to the roi">
+          <ROI_TxtShift id="100" />
+        </ROI_TxtShift>
+        <ROI_FontSize id="ROI_FontSize                     //This controls the font size that is displayed">
+          <ROI_FontSize id="24" />
+        </ROI_FontSize>
+        <ROI_MSGBXEnable id="ROI_MSGBX_Enable                 //This enables or disables the blocking messagebox">
+          <ROI_MSGBXEnable id="TRUE" />
+        </ROI_MSGBXEnable>
+        <OUTPUT_IMAGE_DIR id="OUTPUT_IMAGE_DIR                 //This defines the output path of the images">
+          <OUTPUT_IMAGE_DIR id="C:\tstPlan\MTF\MTFRecheckViewPort.bmp" />
+        </OUTPUT_IMAGE_DIR>
+        <SCRIPT_COMMENT id="" />
+        <UpperLeftCornerProps id="UpperLeftCornerProps             //All control paramters for Upper Left corner">
+          <SCRIPT_COMMENT id="" />
+          <upperLeftEnable id="UpperLeftEnable     //Enable or disable UpperLeftEnable">
+            <upperLeftEnable id="TRUE" />
+          </upperLeftEnable>
+          <iLength_upperLeft id="iLength_upperLeft   //The length of the ROI ">
+            <iLength_upperLeft id="300" />
+          </iLength_upperLeft>
+          <upperLeftX id="upperLeftX          //The X coordnate">
+            <upperLeftX id="361" />
+          </upperLeftX>
+          <upperLeftY id="upperLeftY          //The Y coordnate">
+            <upperLeftYv id="247" />
+          </upperLeftY>
+          <higherlimit_UL id="higherlimit_UL      //The Higher Limit">
+            <higherlimit_UL id="100" />
+          </higherlimit_UL>
+          <lowerlimitmtf_UL id="lowerlimitmtf_UL    //The Lower Limit">
+            <lowerlimitmtf_UL id="55" />
+          </lowerlimitmtf_UL>
+        </UpperLeftCornerProps>
+        <LowerLeftCornerProps id="LowerLeftCornerProps             //All control parameters for Lower left corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerLeftEnable id="LowerLeftEnable     //Enable or disable LowerLeftEnable">
+            <lowerLeftEnable id="TRUE" />
+          </lowerLeftEnable>
+          <iLength_lowerLeft id="iLength_lowerLeft   //The length of the ROI">
+            <iLength_lowerLeft id="300" />
+          </iLength_lowerLeft>
+          <lowerLeftX id="lowerLeftX          //The X coordnate ">
+            <lowerLeftX id="1311" />
+          </lowerLeftX>
+          <lowerLeftY id="lowerLeftY          //The Y coordnate">
+            <lowerLeftY id="247" />
+          </lowerLeftY>
+          <higherlimit_LL id="higherlimit_LL      //The Higher Limit ">
+            <higherlimit_LL id="100" />
+          </higherlimit_LL>
+          <lowerlimitmtf_LL id="lowerlimitmtf_LL    //The Lower Limit">
+            <lowerlimitmtf_LL id="55" />
+          </lowerlimitmtf_LL>
+          <Delta_UL id="Delta_UL            //The upper delta limit ">
+            <Delta_UL id="18" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LL            //The lower delta limit">
+            <Delta_LL id="-18" />
+          </Delta_LL>
+        </LowerLeftCornerProps>
+        <UpperRightCornerProps id="UpperRightCornerProps            //All control paramters for Upper Right corner">
+          <SCRIPT_COMMENT id="" />
+          <upperRightEnable id="UpperRightEnable    //Enable or disable UpperRightEnable">
+            <upperRightEnable id="TRUE" />
+          </upperRightEnable>
+          <iLength_upperRight id="iLength_upperRight  //The lengh of the ROI">
+            <iLength_upperRight id="300" />
+          </iLength_upperRight>
+          <upperRightX id="upperRightX         //The X coordnate">
+            <upperRightX id="1311" />
+          </upperRightX>
+          <upperRightY id="upperRightY         //The Y coordnate">
+            <upperRightY id="889" />
+          </upperRightY>
+          <higherlimit_UR id="higherlimit_UR      //The Higher limit">
+            <higherlimit_UR id="100" />
+          </higherlimit_UR>
+          <lowerlimitmtf_UR id="lowerlimitmtf_UR    //The Lower limit ">
+            <lowerlimitmtf_UR id="55" />
+          </lowerlimitmtf_UR>
+        </UpperRightCornerProps>
+        <LowerRightCornerProps id="LowerRightCornerProps            //All control paramters for Lower Righter corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerRightEnable id="LowerRightEnable    //Enable or disable LowerRightEnable">
+            <lowerRightEnable id="TRUE" />
+          </lowerRightEnable>
+          <iLength_lowerRight id="iLength_lowerRight  //The length of the ROI">
+            <iLength_lowerRight id="300" />
+          </iLength_lowerRight>
+          <lowerRightX id="lowerRightX         //The X coordnate">
+            <lowerRightX id="361" />
+          </lowerRightX>
+          <lowerRightY id="lowerRightY         //The Y coordnate">
+            <lowerRightY id="889" />
+          </lowerRightY>
+          <higherlimit_LR id="higherlimit_LR      //The Higher limit ">
+            <higherlimit_UR id="100" />
+          </higherlimit_LR>
+          <lowerlimitmtf_LR id="lowerlimitmtf_LR    //The Lower limit">
+            <lowerlimitmtf_LR id="55" />
+          </lowerlimitmtf_LR>
+          <Delta_UL id="Delta_UR            //The upper delta limit ">
+            <Delta_UL id="18" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LR            //The lower delta limit">
+            <Delta_LL id="-18" />
+          </Delta_LL>
+        </LowerRightCornerProps>
+        <UpperCenterProps id="UpperCenterProps                 //All control parameters for Upper Center ">
+          <SCRIPT_COMMENT id="" />
+          <upperCenterEnable id="UpperCenterEnable   //Enable or disable UpperCenterEnable">
+            <upperCenterEnable id="TRUE" />
+          </upperCenterEnable>
+          <iLength_upperCENTER id="iLength_upperCENTER //The length of the ROI">
+            <iLength_upperCENTER id="300" />
+          </iLength_upperCENTER>
+          <upperCENTERX id="upperCENTERX        //The X coordnate">
+            <upperCENTERX id="791" />
+          </upperCENTERX>
+          <upperCENTERY id="upperCENTERY        //The Y coordnate">
+            <upperCENTERY id="400" />
+          </upperCENTERY>
+          <higherlimit_UC id="higherlimit_UC      //The Higher Limit ">
+            <higherlimit_UC id="100" />
+          </higherlimit_UC>
+          <lowerlimitmtf_UC id="lowerlimitmtf_LC    //The Lower Limit">
+            <lowerlimitmtf_UC id="50" />
+          </lowerlimitmtf_UC>
+        </UpperCenterProps>
+        <LowerCenterProps id="LowerCenterProps                      //All control paramters for lower center">
+          <SCRIPT_COMMENT id="" />
+          <iLength_lowerCENTER id="iLength_lowerCENTER //">
+            <iLength_lowerCENTER id="300" />
+          </iLength_lowerCENTER>
+          <lowerCENTERX id="lowerCENTERX //">
+            <lowerCENTERX id="791" />
+          </lowerCENTERX>
+          <lowerCENTERY id="lowerCENTERY //">
+            <lowerCENTERY id="720" />
+          </lowerCENTERY>
+          <higherlimit_LC id="higherlimit_LC //">
+            <higherlimit_LC id="100" />
+          </higherlimit_LC>
+          <lowerlimitmtf_LC id="lowerlimitmtf_LC //">
+            <lowerlimitmtf_LC id="50" />
+          </lowerlimitmtf_LC>
+          <Delta_UL id="Delta_UC            //The upper delta limit ">
+            <Delta_UL id="10" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LC            //The lower delta limit">
+            <Delta_LL id="-10" />
+          </Delta_LL>
+          <lowerCenterEnable id="LowerCenterEnable     //Enable or disable LowerCenterEnable">
+            <lowerCenterEnable id="TRUE" />
+          </lowerCenterEnable>
+        </LowerCenterProps>
+        <SCRIPT_COMMENT id="" />
+        <MTFController id="MTFController">
+          <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+            <MTFScanDirectionVal id="VLINES" />
+          </MTFScanDirection>
+          <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+            <LockPointTendencyVal id="TRUE" />
+          </LockPointTendency>
+          <MinPixelDelta id="MinPixelDelta //">
+            <MinPixelDeltaVal id="7" />
+          </MinPixelDelta>
+          <ZScoreDelta id="ZScoreDelta //">
+            <ZScoreDeltaVal id="1.2" />
+          </ZScoreDelta>
+          <MinimumLines id="MinimumLines //">
+            <MinimumLinesVal id="1" />
+          </MinimumLines>
+        </MTFController>
+      </Measure_MTF>
+    </Test>
+    <SCRIPT_COMMENT id="/////////////////////////////////////////// START OF 2x Calibration " />
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(4000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(5V08A.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;         " />
+        <InputFile id="InputFile=in.in;            " />
+        <Name id="Name=[PowerOn1]Power on;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(15000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="Sleep(2000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(findusbdevice5V.cmd); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[2X]SETUP_2XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VCMRangeTest //2X CAL" Assembly="..\TestModules\VCMTestModule\VCMTestModule.dll" Type="VCMTestModule.VCMTestModule" Enable="True">
+      <testName id="TestName">
+        <testNameVal id="2X_ZOOM_Calibration" />
+      </testName>
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFController id="MTFController">
+        <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+          <MTFScanDirectionVal id="VLINES" />
+        </MTFScanDirection>
+        <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+          <LockPointTendencyVal id="TRUE" />
+        </LockPointTendency>
+        <MinPixelDelta id="MinPixelDelta //">
+          <MinPixelDeltaVal id="7" />
+        </MinPixelDelta>
+        <ZScoreDelta id="ZScoreDelta //">
+          <ZScoreDeltaVal id="1.2" />
+        </ZScoreDelta>
+        <MinimumLines id="MinimumLines //">
+          <MinimumLinesVal id="1" />
+        </MinimumLines>
+      </MTFController>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <VCMRangeTestSettings id="VCMRangeSettings">"
+        <MTFStartPoinTX_1 id="MTFStartPoinTX_1"><X_POINT id="X_POINT"><XVal id="425" /></X_POINT><Y_POINT id="Y_POINT"><YVAL id="244" /></Y_POINT><SCANLENGTH id="SCAN_LENGTH"><SCANVal id="200" /></SCANLENGTH></MTFStartPoinTX_1><MTFThreshold id="MTFThreshold       // the level that the mtf peak must be above and between x1 and x2 for it to pass"><ThresholdVal id="10" /></MTFThreshold><VCMPeakSearhPoint1 id="VCMPeakSearhPoint1 // peak search point X1 start point"><VCMPeakSearhPoint1Val id="1" /></VCMPeakSearhPoint1><VCMPeakSearhPoint2 id="VCMPeakSearhPoint2 // peak search point X2 end point"><VCMPeakSearhPoint2Val id="300" /></VCMPeakSearhPoint2><VCMStepDelay id="VCMStepDelay       // this is the step rate for the vcm in ms"><VCMStepDelayVal id="250" /></VCMStepDelay><VCMStepRange id="VCMStepRange       // the max range of travel for the vcm typical value is 1 - 255 steps"><VCMStepRangeVal id="150" /></VCMStepRange><MTFLowerLimit id="MTFLowerLimit      //Must be above the lower limit to pass"><MTFLowerLimitVal id="45" /></MTFLowerLimit><MTFUpperLimit id="MTFUpperLimit      //Must be below the upper limit to pass"><MTFUpperLimitVal id="100" /></MTFUpperLimit><VCMStorageMode id="VCMStorageMode     //VCM storage modes are 0 Replace. 1 only failed test. 2 both pass and fail"><TVCMStorageModeVal id="2" /></VCMStorageMode><VCMYScanLevel id="VCMYScanLevel      //Controls the scan level on the y axis for MTF value 50% is middle"><VCMYScanLevelVal id="20" /></VCMYScanLevel><stepSize id="StepSize//"><stepSizeVal id="1" /></stepSize><mdir id="mDir// CCW or CW"><mDirVal id="CW" /></mdir><ControlModel id="ControlModel// ABSOLUTE or RELATIVE"><ControlModelVal id="ABSOLUTE" /></ControlModel>\
+		
+		<TimeIn_ms id="TimeIn_ms"><TimeIn_msVal id="5000" /></TimeIn_ms><EEPROM_WRITE_MODE id="EEPROM_WRITE_MODE  // When this mode is enabled it will write the step count to eeprom"><ENABLED id="ENABLED=TRUE;" /><ADDRESS id="ADDRESSLOW=0x101;" /><eepromADDRESSHIGH id="ADDRESSHIGH=0x102;" /><CalibrationValue id="CalibrationValue"><OutSideAdjustment id="OutSideAdjustment=-54;" /><StepBais id="StepBais=0;" /><Direction id="Direction=1" /></CalibrationValue></EEPROM_WRITE_MODE></VCMRangeTestSettings>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="FALSE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="FALSE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="3" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="AUDIOMIC:AUDIO:Val1, AUDIOMIC:AUDIO:Val2, AUDIOMIC:AUDIO:Val3" />
+        </OutputHeader>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x086E" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="640" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="480" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="300" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="TRUE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="TRUE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="TRUE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="130" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="TRUE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="190" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="TRUE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-5" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <AutoFocus id="AutoFocus">
+          <AutoFocusEnable id="Enable">
+            <AutoFocusEnableVal id="TRUE" />
+          </AutoFocusEnable>
+          <AutoFocusProp id="SetAutoFocus">
+            <AutoFocusVal id="0" />
+          </AutoFocusProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </AutoFocus>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="TRUE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="0" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="128" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="FALSE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="2000" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="FALSE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="TRUE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.032" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="TRUE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="2" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="TRUE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="200" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="FALSE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="FALSE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="YUY2" />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <LVREG_CMD id="lvreg testxu write a 8">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write e 0">
+          <LVREG_CMDVal id="Enable=True" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 11 100">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="LVREG eeprom write 0x100 0x3a">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg pcxu write 12 00320201">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="10" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="FALSE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="1" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+      </CameraImageProperties>
+    </Test>
+    <Test id="Sleep(500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <SCRIPT_COMMENT id="/////////////////////////////////////////// START OF 3X Calibration" />
+    <Test id="Sleep(2000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(findusbdevice5V.cmd); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[3X]SETUP_3XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VCMRangeTest" Assembly="..\TestModules\VCMTestModule\VCMTestModule.dll" Type="VCMTestModule.VCMTestModule" Enable="True">
+      <testName id="TestName">
+        <testNameVal id="3X_ZOOM_Calibration" />
+      </testName>
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFController id="MTFController">
+        <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+          <MTFScanDirectionVal id="VLINES" />
+        </MTFScanDirection>
+        <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+          <LockPointTendencyVal id="TRUE" />
+        </LockPointTendency>
+        <MinPixelDelta id="MinPixelDelta //">
+          <MinPixelDeltaVal id="7" />
+        </MinPixelDelta>
+        <ZScoreDelta id="ZScoreDelta //">
+          <ZScoreDeltaVal id="1.2" />
+        </ZScoreDelta>
+        <MinimumLines id="MinimumLines //">
+          <MinimumLinesVal id="1" />
+        </MinimumLines>
+      </MTFController>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <VCMRangeTestSettings id="VCMRangeSettings">"
+        <MTFStartPoinTX_1 id="MTFStartPoinTX_1"><X_POINT id="X_POINT"><XVal id="20" /></X_POINT><Y_POINT id="Y_POINT"><YVAL id="230" /></Y_POINT><SCANLENGTH id="SCAN_LENGTH"><SCANVal id="115" /></SCANLENGTH></MTFStartPoinTX_1><MTFThreshold id="MTFThreshold       // the level that the mtf peak must be above and between x1 and x2 for it to pass"><ThresholdVal id="10" /></MTFThreshold><VCMPeakSearhPoint1 id="VCMPeakSearhPoint1 // peak search point X1 start point"><VCMPeakSearhPoint1Val id="1" /></VCMPeakSearhPoint1><VCMPeakSearhPoint2 id="VCMPeakSearhPoint2 // peak search point X2 end point"><VCMPeakSearhPoint2Val id="300" /></VCMPeakSearhPoint2><VCMStepDelay id="VCMStepDelay       // this is the step rate for the vcm in ms"><VCMStepDelayVal id="250" /></VCMStepDelay><VCMStepRange id="VCMStepRange       // the max range of travel for the vcm typical value is 1 - 255 steps"><VCMStepRangeVal id="120" /></VCMStepRange><MTFLowerLimit id="MTFLowerLimit      //Must be above the lower limit to pass"><MTFLowerLimitVal id="35" /></MTFLowerLimit><MTFUpperLimit id="MTFUpperLimit      //Must be below the upper limit to pass"><MTFUpperLimitVal id="100" /></MTFUpperLimit><VCMStorageMode id="VCMStorageMode     //VCM storage modes are 0 Replace. 1 only failed test. 2 both pass and fail"><TVCMStorageModeVal id="2" /></VCMStorageMode><VCMYScanLevel id="VCMYScanLevel      //Controls the scan level on the y axis for MTF value 50% is middle"><VCMYScanLevelVal id="20" /></VCMYScanLevel><stepSize id="StepSize//"><stepSizeVal id="1" /></stepSize><mdir id="mDir// CCW or CW"><mDirVal id="CW" /></mdir><ControlModel id="ControlModel// ABSOLUTE or RELATIVE"><ControlModelVal id="ABSOLUTE" /></ControlModel>\
+		
+		<TimeIn_ms id="TimeIn_ms"><TimeIn_msVal id="5000" /></TimeIn_ms><EEPROM_WRITE_MODE id="EEPROM_WRITE_MODE  // When this mode is enabled it will write the step count to eeprom"><ENABLED id="ENABLED=TRUE;" /><ADDRESS id="ADDRESSLOW=0x103;" /><eepromADDRESSHIGH id="ADDRESSHIGH=0x104;" /><CalibrationValue id="CalibrationValue"><OutSideAdjustment id="OutSideAdjustment=-85;" /><StepBais id="StepBais=0;" /><Direction id="Direction=1" /></CalibrationValue></EEPROM_WRITE_MODE></VCMRangeTestSettings>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="FALSE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="FALSE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="3" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="AUDIOMIC:AUDIO:Val1, AUDIOMIC:AUDIO:Val2, AUDIOMIC:AUDIO:Val3" />
+        </OutputHeader>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x086E" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="640" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="480" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="300" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="TRUE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="TRUE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="TRUE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="128" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="TRUE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="128" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="TRUE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-5" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <AutoFocus id="AutoFocus">
+          <AutoFocusEnable id="Enable">
+            <AutoFocusEnableVal id="TRUE" />
+          </AutoFocusEnable>
+          <AutoFocusProp id="SetAutoFocus">
+            <AutoFocusVal id="0" />
+          </AutoFocusProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </AutoFocus>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="TRUE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="128" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="0" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="TRUE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="4000" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="FALSE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="TRUE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.032" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="TRUE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="2" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="TRUE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="300" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="FALSE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="FALSE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="YUY2" />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <LVREG_CMD id="lvreg testxu write a 8">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write e 0">
+          <LVREG_CMDVal id="Enable=True" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 11 100">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="LVREG eeprom write 0x100 0x3a">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg pcxu write 12 00460201">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="9" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="1" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+      </CameraImageProperties>
+    </Test>
+    <Test id="Sleep(500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <SCRIPT_COMMENT id="/////////////////////////////////////////// 4_8x Calibration" />
+    <Test id="Sleep(2000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(findusbdevice5V.cmd); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[48X]SETUP_48XB;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VCMRangeTest" Assembly="..\TestModules\VCMTestModule\VCMTestModule.dll" Type="VCMTestModule.VCMTestModule" Enable="True">
+      <testName id="TestName">
+        <testNameVal id="4.8X_ZOOM_Calibration" />
+      </testName>
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFController id="MTFController">
+        <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+          <MTFScanDirectionVal id="VLINES" />
+        </MTFScanDirection>
+        <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+          <LockPointTendencyVal id="TRUE" />
+        </LockPointTendency>
+        <MinPixelDelta id="MinPixelDelta //">
+          <MinPixelDeltaVal id="7" />
+        </MinPixelDelta>
+        <ZScoreDelta id="ZScoreDelta //">
+          <ZScoreDeltaVal id="1.2" />
+        </ZScoreDelta>
+        <MinimumLines id="MinimumLines //">
+          <MinimumLinesVal id="1" />
+        </MinimumLines>
+      </MTFController>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <VCMRangeTestSettings id="VCMRangeSettings">"
+        <MTFStartPoinTX_1 id="MTFStartPoinTX_1"><X_POINT id="X_POINT"><XVal id="150" /></X_POINT><Y_POINT id="Y_POINT"><YVAL id="230" /></Y_POINT><SCANLENGTH id="SCAN_LENGTH"><SCANVal id="260" /></SCANLENGTH></MTFStartPoinTX_1><MTFThreshold id="MTFThreshold       // the level that the mtf peak must be above and between x1 and x2 for it to pass"><ThresholdVal id="10" /></MTFThreshold><VCMPeakSearhPoint1 id="VCMPeakSearhPoint1 // peak search point X1 start point"><VCMPeakSearhPoint1Val id="1" /></VCMPeakSearhPoint1><VCMPeakSearhPoint2 id="VCMPeakSearhPoint2 // peak search point X2 end point"><VCMPeakSearhPoint2Val id="500" /></VCMPeakSearhPoint2><VCMStepDelay id="VCMStepDelay       // this is the step rate for the vcm in ms"><VCMStepDelayVal id="250" /></VCMStepDelay><VCMStepRange id="VCMStepRange       // the max range of travel for the vcm typical value is 1 - 255 steps"><VCMStepRangeVal id="240" /></VCMStepRange><MTFLowerLimit id="MTFLowerLimit      //Must be above the lower limit to pass"><MTFLowerLimitVal id="40" /></MTFLowerLimit><MTFUpperLimit id="MTFUpperLimit      //Must be below the upper limit to pass"><MTFUpperLimitVal id="100" /></MTFUpperLimit><VCMStorageMode id="VCMStorageMode     //VCM storage modes are 0 Replace. 1 only failed test. 2 both pass and fail"><TVCMStorageModeVal id="2" /></VCMStorageMode><VCMYScanLevel id="VCMYScanLevel      //Controls the scan level on the y axis for MTF value 50% is middle"><VCMYScanLevelVal id="20" /></VCMYScanLevel><stepSize id="StepSize//"><stepSizeVal id="1" /></stepSize><mdir id="mDir// CCW or CW"><mDirVal id="CW" /></mdir><ControlModel id="ControlModel// ABSOLUTE or RELATIVE"><ControlModelVal id="ABSOLUTE" /></ControlModel>\
+		
+		<TimeIn_ms id="TimeIn_ms"><TimeIn_msVal id="5000" /></TimeIn_ms><EEPROM_WRITE_MODE id="EEPROM_WRITE_MODE  // When this mode is enabled it will write the step count to eeprom"><ENABLED id="ENABLED=TRUE;" /><ADDRESS id="ADDRESSLOW=0x68;" /><eepromADDRESSHIGH id="ADDRESSHIGH=0x69;" /><CalibrationValue id="CalibrationValue"><OutSideAdjustment id="OutSideAdjustment=-135;" /><StepBais id="StepBais=0;" /><Direction id="Direction=1" /></CalibrationValue></EEPROM_WRITE_MODE></VCMRangeTestSettings>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="FALSE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="FALSE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="3" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="AUDIOMIC:AUDIO:Val1, AUDIOMIC:AUDIO:Val2, AUDIOMIC:AUDIO:Val3" />
+        </OutputHeader>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x086E" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="640" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="480" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="250" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <TDEMode id="TDEMode">
+          <TDEModeEnable id="Enable">
+            <TDEModeEnableVal id="TRUE" />
+          </TDEModeEnable>
+          <TDEModeProp id="SetTDEMode">
+            <TDEModePropVal id="TRUE" />
+          </TDEModeProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </TDEMode>
+        <Brightness id="Brightness">
+          <BrightnessEnable id="Enable">
+            <BrightnessEnableVal id="TRUE" />
+          </BrightnessEnable>
+          <BrightnessProp id="SetBrightness">
+            <BrightnessVal id="130" />
+          </BrightnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Brightness>
+        <Contrast id="Contrast">
+          <ContrastEnable id="Enable">
+            <ContrastEnableVal id="TRUE" />
+          </ContrastEnable>
+          <ContrastProp id="SetContrast">
+            <ContrastVal id="190" />
+          </ContrastProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Contrast>
+        <Exposure id="Exposure">
+          <ExposureEnable id="Enable">
+            <ExposureEnableVal id="TRUE" />
+          </ExposureEnable>
+          <ExposureProp id="SetExposure">
+            <ExposureVal id="-4" />
+          </ExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Exposure>
+        <AutoFocus id="AutoFocus">
+          <AutoFocusEnable id="Enable">
+            <AutoFocusEnableVal id="TRUE" />
+          </AutoFocusEnable>
+          <AutoFocusProp id="SetAutoFocus">
+            <AutoFocusVal id="0" />
+          </AutoFocusProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </AutoFocus>
+        <Saturation id="Saturation">
+          <SaturationEnable id="Enable">
+            <SaturationEnableVal id="TRUE" />
+          </SaturationEnable>
+          <SaturationProp id="SetSaturation">
+            <SaturationVal id="0" />
+          </SaturationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Saturation>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="TRUE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="0" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+        <WhiteBalance id="WhiteBalance">
+          <WhiteBalanceEnable id="Enable">
+            <WhiteBalanceVal id="FALSE" />
+          </WhiteBalanceEnable>
+          <WhiteBalanceProp id="SetWhiteBalance">
+            <WhiteBalanceVal id="2000" />
+          </WhiteBalanceProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </WhiteBalance>
+        <BackLightCompensation id="BackLightCompensation">
+          <BackLightCompensationEnable id="Enable">
+            <BackLightCompensationVal id="FALSE" />
+          </BackLightCompensationEnable>
+          <BackLightCompensationProp id="SetBackLightCompensation">
+            <BackLightCompensationVal id="0" />
+          </BackLightCompensationProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </BackLightCompensation>
+        <SetAbsoluteExposure id="SetAbsoluteExposure">
+          <SetAbsoluteExposureEnable id="Enable">
+            <SetAbsoluteExposureVal id="TRUE" />
+          </SetAbsoluteExposureEnable>
+          <SetAbsoluteExposureProp id="SetAbsoluteExposure">
+            <SetAbsoluteExposureVal id="0.032" />
+          </SetAbsoluteExposureProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteExposure>
+        <SetAbsoluteGain id="SetAbsoluteGain">
+          <SetAbsoluteGainEnable id="Enable">
+            <SetAbsoluteGainVal id="TRUE" />
+          </SetAbsoluteGainEnable>
+          <SetAbsoluteGainProp id="SetAbsoluteGain">
+            <SetAbsoluteGainVal id="2" />
+          </SetAbsoluteGainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </SetAbsoluteGain>
+        <Hue id="Hue">
+          <HueEnable id="Enable">
+            <HueEnableVal id="FALSE" />
+          </HueEnable>
+          <HueProp id="SetHue">
+            <HueVal id="0" />
+          </HueProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Hue>
+        <EnableGammaCorrection id="EnableGammaCorrection">
+          <EnableGammaCorrectionEnable id="Enable">
+            <EnableGammaCorrectionEnableVal id="FALSE" />
+          </EnableGammaCorrectionEnable>
+          <EnableGammaCorrectionProp id="SetEnableGammaCorrection">
+            <EnableGammaCorrectionVal id="FALSE" />
+          </EnableGammaCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableGammaCorrection>
+        <Gamma id="Gamma">
+          <GammaEnable id="Enable">
+            <GammaEnableVal id="FALSE" />
+          </GammaEnable>
+          <GammaProp id="SetGamma">
+            <GammaVal id="0" />
+          </GammaProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gamma>
+        <ColorEnable id="ColorEnable">
+          <ColorEnableEnable id="Enable">
+            <ColorEnableVal id="FALSE" />
+          </ColorEnableEnable>
+          <ColorEnableProp id="SetColorEnable">
+            <ColorEnableVal id="0" />
+          </ColorEnableProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ColorEnable>
+        <Pan id="Pan">
+          <PanEnable id="Enable">
+            <PanEnableVal id="FALSE" />
+          </PanEnable>
+          <PanProp id="SetPan">
+            <PanVal id="0" />
+          </PanProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Pan>
+        <Tilt id="Tilt">
+          <TiltEnable id="Enable">
+            <TiltEnableVal id="FALSE" />
+          </TiltEnable>
+          <TiltProp id="SetTilt">
+            <TiltVal id="0" />
+          </TiltProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Tilt>
+        <Roll id="Roll">
+          <RollEnable id="Enable">
+            <RollEnableVal id="FALSE" />
+          </RollEnable>
+          <RollProp id="SetRoll">
+            <RollVal id="0" />
+          </RollProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Roll>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="TRUE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="480" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <EnableLensCorrection id="EnableLensCorrection">
+          <EnableLensCorrectionEnable id="Enable">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionEnable>
+          <EnableLensCorrectionProp id="SetEnableLensCorrection">
+            <EnableLensCorrectionVal id="FALSE" />
+          </EnableLensCorrectionProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </EnableLensCorrection>
+        <ViewPort id="ViewPort">
+          <ViewPortEnable id="Enable">
+            <ViewPortVal id="FALSE" />
+          </ViewPortEnable>
+          <ViewPortProp id="SetViewPort">
+            <ViewPortVal id="FALSE" />
+          </ViewPortProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </ViewPort>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="YUY2" />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <LVREG_CMD id="lvreg testxu write a 8">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg testxu write e 0">
+          <LVREG_CMDVal id="Enable=True" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg pcxu write 12 00960201">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <LVREG_CMD id="lvreg videoxu write 11 100">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="10" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <Gain id="Gain">
+          <GainEnable id="Enable">
+            <GainEnableVal id="TRUE" />
+          </GainEnable>
+          <GainProp id="SetGain">
+            <GainVal id="1" />
+          </GainProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Gain>
+        <LVREG_CMD id="lvreg videoxu write 2 1">
+          <LVREG_CMDVal id="Enable=TRUE" />
+        </LVREG_CMD>
+      </CameraImageProperties>
+    </Test>
+    <Test id="Sleep(500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <SCRIPT_COMMENT id="///////////////////////////////////////////" />
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x66);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="1xLSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x67);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="1xLSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x68);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="48xLSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x69);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="48xMSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x101);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xLSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x102);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x103);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="3xLSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,read,0x104);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="3xLSB" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0x105,0xEE);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="2xMSB" />
+    </Test>
+    <Test id="TestTracking(0x086E,0x046d,CLOSE);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.TestTrackingTestModule" Enable="True">
+      <TestName id="[ 0xff ]GO_TO_TILT_ADJUSTMENT_STATION" />
+      <resultsource id="resultsource //this is the source of the pass result options are GLOBAL and INTERNAL">
+        <resultsourceVal id="INTERNAL" />
+      </resultsource>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="TRUE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="0" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="1" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="4" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0x0b" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0x8C" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0x6E" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="eeprom" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+    </Test>
+    <Test id="run(USBcls.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=in.in;" />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:2017/4/15 13:37:032017/4/15 13:35:53: refreshing...
+2017/4/15 13:35:53: 2017/4/15 13:35:53
+2017/4/15 13:36:49: Right Click Edit on item Limit( IF ( RESULT ==0X00028C00) THEN  PASS ) );
+-->
+<!--CHANGELOG:2017/10/30 9:36:53-->
+<!--CHANGELOG:2017/10/30 9:36:54-->
+<!--CHANGELOG:2017/10/30 9:36:54-->
+<!--CHANGELOG:2017/10/30 9:37:20-->
+<!--CHANGELOG:2017/10/30 9:37:21-->
+<!--CHANGELOG:2017/10/30 9:37:21-->
+<!--CHANGELOG:2017/10/30 9:37:22-->
+<!--CHANGELOG:2017/10/30 9:37:22-->
+<!--CHANGELOG:2017/10/30 9:39:562017/10/30 9:35:18: refreshing...
+2017/10/30 9:35:18: 2017/10/30 9:35:18
+2017/10/30 9:36:45: Right Click Edit on item 2xMSB
+2017/10/30 9:36:47: Right Click Edit on item TestTracking(0x086E,0x046d,CLOSE);
+2017/10/30 9:36:53: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:54: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:55: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:56: Right Click Edit on item VerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:37:20: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:39:14: Right Click Edit on item OutSideAdjustment=-42;
+2017/10/30 9:39:45: Right Click Edit on item OutSideAdjustment=-60;
+-->
+<!--CHANGELOG:2017/10/30 9:39:572017/10/30 9:35:18: refreshing...
+2017/10/30 9:35:18: 2017/10/30 9:35:18
+2017/10/30 9:36:45: Right Click Edit on item 2xMSB
+2017/10/30 9:36:47: Right Click Edit on item TestTracking(0x086E,0x046d,CLOSE);
+2017/10/30 9:36:53: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:54: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:55: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:56: Right Click Edit on item VerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:37:20: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:39:14: Right Click Edit on item OutSideAdjustment=-42;
+2017/10/30 9:39:45: Right Click Edit on item OutSideAdjustment=-60;
+2017/10/30 9:39:56: saving...
+-->
+<!--CHANGELOG:2017/10/30 9:40:052017/10/30 9:35:18: refreshing...
+2017/10/30 9:35:18: 2017/10/30 9:35:18
+2017/10/30 9:36:45: Right Click Edit on item 2xMSB
+2017/10/30 9:36:47: Right Click Edit on item TestTracking(0x086E,0x046d,CLOSE);
+2017/10/30 9:36:53: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:54: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:55: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:56: Right Click Edit on item VerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:37:20: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:39:14: Right Click Edit on item OutSideAdjustment=-42;
+2017/10/30 9:39:45: Right Click Edit on item OutSideAdjustment=-60;
+2017/10/30 9:39:56: saving...
+2017/10/30 9:39:57: saving...
+-->
+<!--CHANGELOG:2017/10/30 9:40:052017/10/30 9:35:18: refreshing...
+2017/10/30 9:35:18: 2017/10/30 9:35:18
+2017/10/30 9:36:45: Right Click Edit on item 2xMSB
+2017/10/30 9:36:47: Right Click Edit on item TestTracking(0x086E,0x046d,CLOSE);
+2017/10/30 9:36:53: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:54: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:55: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:56: Right Click Edit on item VerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:37:20: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:39:14: Right Click Edit on item OutSideAdjustment=-42;
+2017/10/30 9:39:45: Right Click Edit on item OutSideAdjustment=-60;
+2017/10/30 9:39:56: saving...
+2017/10/30 9:39:57: saving...
+2017/10/30 9:40:05: saving...
+-->
+<!--CHANGELOG:2017/10/30 9:40:062017/10/30 9:35:18: refreshing...
+2017/10/30 9:35:18: 2017/10/30 9:35:18
+2017/10/30 9:36:45: Right Click Edit on item 2xMSB
+2017/10/30 9:36:47: Right Click Edit on item TestTracking(0x086E,0x046d,CLOSE);
+2017/10/30 9:36:53: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:54: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:55: moving test item UpVerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:36:56: Right Click Edit on item VerifyRegister(lvreg,eeprom,write,0x64,0x00);
+2017/10/30 9:37:20: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:21: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:37:22: moving test item downVerifyRegister(lvreg,eeprom,write,0x105,0xEE);
+2017/10/30 9:39:14: Right Click Edit on item OutSideAdjustment=-42;
+2017/10/30 9:39:45: Right Click Edit on item OutSideAdjustment=-60;
+2017/10/30 9:39:56: saving...
+2017/10/30 9:39:57: saving...
+2017/10/30 9:40:05: saving...
+2017/10/30 9:40:06: saving...
+-->
