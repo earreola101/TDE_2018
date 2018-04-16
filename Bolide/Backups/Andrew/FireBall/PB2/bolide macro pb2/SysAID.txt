@@ -1,3 +1,0 @@
-Microphone (Umik-1  Gain: 12dB ,2752,7
-EasyAudioSTDWaveGenerator,N/A,N/A
-EasyAudioSource4Aachen,N/A,N/A
