@@ -1,0 +1,12 @@
+[Outputs]
+Status=1
+ReturnCode=1
+Message=[E]:"N3(1), Failure up limit! (Up=11) >= (Value=12.000000) >= (Low=-1)"
+Headers=N1(1),N1(2),N1(3),N3(1),N3(2),N3(3),Variation, VarResultSummary
+Values=10.000000 ,10.000000 ,10.000000 ,12.000000 ,12.000000 ,12.000000 , 2.000000, 10.000000
+LowLimit=-1,-1,-1,-1,-1,-1,-1,-1
+UpLimit=11,11,11,11,11,11,5,11
+TargetLimit=0,0,0,0,0,0,0,0
+VarResultSummary=0X0A
+LogFile=Bolide_Focus.log
+InputFile=

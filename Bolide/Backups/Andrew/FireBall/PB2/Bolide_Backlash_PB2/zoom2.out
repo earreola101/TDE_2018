@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=N1(1),N1(2),N1(3),N3(1),N3(2),N3(3),Variation,VarResultSummary
+Values=0.000000 ,0.000000 ,0.000000 ,0.000000 ,0.000000 ,0.000000 , 0.000000, 0.000000
+LowLimit=-1,-1,-1,-1,-1,-1,-1,-1
+UpLimit=3,3,3,3,3,3,2,3
+TargetLimit=0,0,0,0,0,0,0,0
+VarResultSummary=0X00
+LogFile=Bolide_Zoom.log
+InputFile=

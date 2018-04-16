@@ -1,0 +1,50 @@
+[inputs]
+
+Option=BacklashBolide
+LensControlFamily=Bolide
+Device="Logi Rally Camera"
+
+ShowCFG=1
+OutputFile=focus2.out
+ExitPause=FALSE
+OptionTimeout=100000
+ResultCalculate = Mode ; Median
+Cycles=3
+MotorType= Focus
+# ================================================================================
+# Bolide backlash initial conditions
+N1=395
+N1M=400 ;for Bolide N1_max = 400
+N2=385
+N2S=50
+
+N3=3880
+N3M=3928 ;for Bolide N3_max = 3928, 
+;CamTable_max = 3880 for FW128 later
+N4=3870
+N4S=50
+OneStepTime=2
+Delay=150
+LeaveOrigin=10 ; for FW home position is 0 micro-stpes
+# ==================================================================================
+# Ouput data
+LogFile = Bolide_Focus.log
+Headers=N1(1),N1(2),N1(3),N3(1),N3(2),N3(3),Variation, VarResultSummary
+UpLimit=11,11,11,11,11,11,5,11
+LowLimit=-1,-1,-1,-1,-1,-1,-1,-1
+TargetLimit=0,0,0,0,0,0,0,0
+# ===================================================================================
+PIBoundary=1
+HomeInitStep=1
+HomeSecondStart=-30
+MovingSteps=1000
+MovingStepsBack=990
+PISamplingCount=3
+PISamplingDelay=5
+HomeDelay=150
+PassCount=0
+DelayAfterBigStepsForward=1500
+DelayAfterBigStepsBackward=1500
+SmithTriggerCount=0
+
+

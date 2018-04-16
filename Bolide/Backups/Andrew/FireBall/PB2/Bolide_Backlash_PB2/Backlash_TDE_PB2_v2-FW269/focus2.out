@@ -1,0 +1,12 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message=Ok!
+Headers=N1(1),N1(2),N1(3),N3(1),N3(2),N3(3),Variation, VarResultSummary
+Values=5.000000 ,6.000000 ,6.000000 ,5.000000 ,6.000000 ,6.000000 , 1.000000, 6.000000
+LowLimit=0,0,0,0,0,0,0,0
+UpLimit=8,8,8,8,8,8,4,8
+TargetLimit=0,0,0,0,0,0,0,0
+VarResultSummary=0X06
+LogFile=Bolide_Focus.log
+InputFile=

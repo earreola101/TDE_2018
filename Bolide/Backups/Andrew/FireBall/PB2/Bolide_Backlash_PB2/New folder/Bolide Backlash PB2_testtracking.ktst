@@ -1,0 +1,1817 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [1.0.1474] 0cdd25a661df46e49586dd6ccdeb17c9_17:57:45.1437621_-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<!--NOTES:-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <Test id="Input_MessageBox(please enter title,please message here,***);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.Input_MessageBox" Enable="True">
+      <NumRetry id="Retry(10);" />
+    </Test>
+    <Test id="run(5V_OFF.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(5V_ON.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(10000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(usb3.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=FALSE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;" />
+        <InputFile id="InputFile=;" />
+        <Name id="Name=CAMERA FAILED TO ENUMERATE USB 3.0;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,0x01);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT ==0X00011B01) THEN  PASS ) );" />
+      <TestName id="FWVersion" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,0x03);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X1C01 ) THEN  PASS ) );" />
+      <TestName id="SensorFW" />
+    </Test>
+    <Test id="run(RunTestTracking_OnStart.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=NULL;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=1_misspretest1;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunTestTracking_OnLog.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=tracking.txt;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=testtrackinglog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(taken.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=sn.out;" />
+        <InputFile id="InputFile=sn.in;" />
+        <Name id="Name=snlog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(init.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial];" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(5V_OFF.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(5V_ON.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(10000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(lvcap.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VerifyRegister(lvreg,testxu,write,0x0a,0x08);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="run(zoom2.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or SYNC" />
+        <ThreadPriority id="ThreadPriority=Normal;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=zoom2.out;          //Output" />
+        <InputFile id="InputFile=zoom2.in;              //Input" />
+        <Name id="Name=[B]ZoomBacklash;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(focus2.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or SYNC" />
+        <ThreadPriority id="ThreadPriority=Normal;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=focus2.out;          //Output" />
+        <InputFile id="InputFile=focus2.in;              //Input" />
+        <Name id="Name=[A]Focusbacklash;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunTestTracking_OnEnd.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=NULL;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=20_testtracking2;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(RunTestTracking_OnLog.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=tracking.txt;" />
+        <InputFile id="InputFile=NULL;" />
+        <Name id="Name=21_testtrackinglog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(taken.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=sn.out;" />
+        <InputFile id="InputFile=sn.in;" />
+        <Name id="Name=22_snlog;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(5V_OFF.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;         " />
+        <InputFile id="InputFile=;            " />
+        <Name id="Name=[Initial]Power off;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>
+<!--CHANGELOG:2017/11/20 11:35:38-->
+<!--CHANGELOG:2017/11/20 11:35:38-->
+<!--CHANGELOG:2017/11/20 11:54:282017/11/20 11:37:01: Right Click Edit on item run(USBcls.bat); 
+2017/11/20 11:38:40: Right Click Edit on item run(12V05A.bat); 
+2017/11/20 11:41:31: Right Click Edit on item 1
+2017/11/20 11:42:12: Right Click Edit on item 1
+2017/11/20 11:42:21: Right Click Edit on item 0
+2017/11/20 11:42:32: Right Click Edit on item 0
+2017/11/20 11:47:01: Right Click Edit on item 0x6E
+2017/11/20 11:47:38: Right Click Edit on item 4
+2017/11/20 11:50:18: Right Click Edit on item [ 0xff ]GO_TO_Focus_STATION
+-->
+<!--CHANGELOG:2017/11/20 11:54:292017/11/20 11:37:01: Right Click Edit on item run(USBcls.bat); 
+2017/11/20 11:38:40: Right Click Edit on item run(12V05A.bat); 
+2017/11/20 11:41:31: Right Click Edit on item 1
+2017/11/20 11:42:12: Right Click Edit on item 1
+2017/11/20 11:42:21: Right Click Edit on item 0
+2017/11/20 11:42:32: Right Click Edit on item 0
+2017/11/20 11:47:01: Right Click Edit on item 0x6E
+2017/11/20 11:47:38: Right Click Edit on item 4
+2017/11/20 11:50:18: Right Click Edit on item [ 0xff ]GO_TO_Focus_STATION
+2017/11/20 11:54:28: saving...
+-->
+<!--CHANGELOG:2017/11/20 11:55:30-->
+<!--CHANGELOG:2017/11/20 11:55:30-->
+<!--CHANGELOG:2017/11/20 11:55:31-->
+<!--CHANGELOG:2017/11/20 11:55:31-->
+<!--CHANGELOG:2017/11/20 11:55:31-->
+<!--CHANGELOG:2017/11/20 11:55:31-->
+<!--CHANGELOG:2017/11/20 11:55:31-->
+<!--CHANGELOG:2017/11/20 11:55:32-->
+<!--CHANGELOG:2017/11/20 11:55:32-->
+<!--CHANGELOG:2017/11/20 11:55:32-->
+<!--CHANGELOG:2017/11/20 11:55:32-->
+<!--CHANGELOG:2017/11/20 11:55:522017/11/20 11:54:59: refreshing...
+2017/11/20 11:54:59: 2017/11/20 11:54:59
+2017/11/20 11:55:29: moving test item Uprun(USBcls.bat); 
+2017/11/20 11:55:29: moving test item Uprun(USBcls.bat); 
+2017/11/20 11:55:30: moving test item Uprun(USBcls.bat); 
+2017/11/20 11:55:30: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:32: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:32: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:32: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:33: moving test item downrun(USBcls.bat); 
+-->
+<!--CHANGELOG:2017/11/20 11:55:532017/11/20 11:54:59: refreshing...
+2017/11/20 11:54:59: 2017/11/20 11:54:59
+2017/11/20 11:55:29: moving test item Uprun(USBcls.bat); 
+2017/11/20 11:55:29: moving test item Uprun(USBcls.bat); 
+2017/11/20 11:55:30: moving test item Uprun(USBcls.bat); 
+2017/11/20 11:55:30: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:31: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:32: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:32: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:32: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:33: moving test item downrun(USBcls.bat); 
+2017/11/20 11:55:53: saving...
+-->
+<!--CHANGELOG:2017/11/20 11:57:362017/11/20 11:57:19: refreshing...
+2017/11/20 11:57:19: 2017/11/20 11:57:19
+-->
+<!--CHANGELOG:2017/11/20 13:30:21-->
+<!--CHANGELOG:2017/11/20 13:30:262017/11/20 13:28:21: refreshing...
+2017/11/20 13:28:21: 2017/11/20 13:28:21
+2017/11/20 13:29:14: Right Click Edit on item Module_Properties
+2017/11/20 13:29:29: Right Click Edit on item [ 0xff ]GO_TO_Focus_STATION
+2017/11/20 13:29:55: Right Click Edit on item Name=[B]ZoomBacklash;
+2017/11/20 13:30:01: Right Click Edit on item InputFile=zoom2.in;              //Input
+2017/11/20 13:30:09: Right Click Edit on item Memmory_Properties
+2017/11/20 13:30:21: moving test item Uprun(zoom2.bat); 
+-->
+<!--CHANGELOG:2017/11/20 14:33:312017/11/20 14:17:18: refreshing...
+2017/11/20 14:17:18: 2017/11/20 14:17:18
+2017/11/20 14:29:26: Right Click Edit on item run(focus2.bat); 
+2017/11/20 14:29:29: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:2017/11/20 14:44:052017/11/20 14:43:22: refreshing...
+2017/11/20 14:43:22: 2017/11/20 14:43:22
+2017/11/20 14:43:30: Right Click Edit on item run(focus2.bat); 
+2017/11/20 14:43:44: Right Click Edit on item run(zoom2.bat); 
+2017/11/20 14:43:56: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/22/2017 9:31:18 AM11/22/2017 9:30:40 AM: refreshing...
+11/22/2017 9:30:40 AM: 11/22/2017 9:30:40 AM
+-->
+<!--CHANGELOG:11/22/2017 9:46:27 AM11/22/2017 9:31:36 AM: refreshing...
+11/22/2017 9:31:36 AM: 11/22/2017 9:31:36 AM
+11/22/2017 9:31:51 AM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 1:52:07 AM11/22/2017 9:57:45 AM: refreshing...
+11/22/2017 9:57:45 AM: 11/22/2017 9:57:45 AM
+11/22/2017 9:58:18 AM: Right Click Edit on item TestTrackingMemoryMode
+-->
+<!--CHANGELOG:11/23/2017 2:53:28 AM-->
+<!--CHANGELOG:11/23/2017 2:53:29 AM-->
+<!--CHANGELOG:11/23/2017 2:53:29 AM-->
+<!--CHANGELOG:11/23/2017 2:53:29 AM-->
+<!--CHANGELOG:11/23/2017 2:53:29 AM-->
+<!--CHANGELOG:11/23/2017 2:53:30 AM-->
+<!--CHANGELOG:11/23/2017 2:53:30 AM-->
+<!--CHANGELOG:11/23/2017 2:54:29 AM-->
+<!--CHANGELOG:11/22/2017 12:05:18 PM-->
+<!--CHANGELOG:11/22/2017 12:05:18 PM-->
+<!--CHANGELOG:11/22/2017 12:05:18 PM-->
+<!--CHANGELOG:11/22/2017 12:05:19 PM-->
+<!--CHANGELOG:11/22/2017 12:05:19 PM-->
+<!--CHANGELOG:11/22/2017 12:05:19 PM-->
+<!--CHANGELOG:11/22/2017 12:05:19 PM-->
+<!--CHANGELOG:11/22/2017 12:05:19 PM-->
+<!--CHANGELOG:11/22/2017 12:05:42 PM-->
+<!--CHANGELOG:11/22/2017 12:05:42 PM-->
+<!--CHANGELOG:11/22/2017 12:05:42 PM-->
+<!--CHANGELOG:11/22/2017 12:05:42 PM-->
+<!--CHANGELOG:11/22/2017 12:05:42 PM-->
+<!--CHANGELOG:11/22/2017 12:05:43 PM-->
+<!--CHANGELOG:11/22/2017 12:05:43 PM-->
+<!--CHANGELOG:11/22/2017 12:05:43 PM-->
+<!--CHANGELOG:11/22/2017 12:06:15 PM-->
+<!--CHANGELOG:11/22/2017 12:06:15 PM-->
+<!--CHANGELOG:11/22/2017 12:06:15 PM-->
+<!--CHANGELOG:11/22/2017 12:06:16 PM-->
+<!--CHANGELOG:11/22/2017 12:06:16 PM-->
+<!--CHANGELOG:11/22/2017 12:06:16 PM-->
+<!--CHANGELOG:11/22/2017 12:06:16 PM-->
+<!--CHANGELOG:11/22/2017 12:06:17 PM-->
+<!--CHANGELOG:11/22/2017 12:06:17 PM-->
+<!--CHANGELOG:11/22/2017 12:06:17 PM-->
+<!--CHANGELOG:11/22/2017 12:07:00 PM-->
+<!--CHANGELOG:11/22/2017 12:07:00 PM-->
+<!--CHANGELOG:11/22/2017 12:07:00 PM-->
+<!--CHANGELOG:11/22/2017 12:07:00 PM-->
+<!--CHANGELOG:11/22/2017 12:07:01 PM-->
+<!--CHANGELOG:11/22/2017 12:07:01 PM-->
+<!--CHANGELOG:11/22/2017 12:07:01 PM-->
+<!--CHANGELOG:11/22/2017 12:07:01 PM-->
+<!--CHANGELOG:11/22/2017 12:07:02 PM-->
+<!--CHANGELOG:11/22/2017 12:07:03 PM-->
+<!--CHANGELOG:11/22/2017 12:07:04 PM-->
+<!--CHANGELOG:11/22/2017 12:07:07 PM-->
+<!--CHANGELOG:11/22/2017 12:07:17 PM-->
+<!--CHANGELOG:11/22/2017 12:07:18 PM-->
+<!--CHANGELOG:11/22/2017 12:07:18 PM-->
+<!--CHANGELOG:11/22/2017 12:07:18 PM-->
+<!--CHANGELOG:11/22/2017 12:07:18 PM-->
+<!--CHANGELOG:11/22/2017 12:07:19 PM-->
+<!--CHANGELOG:11/22/2017 12:07:19 PM-->
+<!--CHANGELOG:11/22/2017 12:07:19 PM-->
+<!--CHANGELOG:11/22/2017 12:07:28 PM-->
+<!--CHANGELOG:11/22/2017 12:07:28 PM-->
+<!--CHANGELOG:11/22/2017 12:07:28 PM-->
+<!--CHANGELOG:11/22/2017 12:07:28 PM-->
+<!--CHANGELOG:11/22/2017 12:07:28 PM-->
+<!--CHANGELOG:11/22/2017 12:07:30 PM-->
+<!--CHANGELOG:11/22/2017 12:07:30 PM-->
+<!--CHANGELOG:11/22/2017 12:07:30 PM-->
+<!--CHANGELOG:11/22/2017 12:07:36 PM-->
+<!--CHANGELOG:11/22/2017 12:07:36 PM-->
+<!--CHANGELOG:11/22/2017 12:07:36 PM-->
+<!--CHANGELOG:11/22/2017 12:07:36 PM-->
+<!--CHANGELOG:11/22/2017 12:07:37 PM-->
+<!--CHANGELOG:11/22/2017 12:07:37 PM-->
+<!--CHANGELOG:11/22/2017 12:07:37 PM-->
+<!--CHANGELOG:11/22/2017 12:07:37 PM-->
+<!--CHANGELOG:11/22/2017 12:07:37 PM-->
+<!--CHANGELOG:11/22/2017 12:07:38 PM-->
+<!--CHANGELOG:11/22/2017 12:09:05 PM11/22/2017 12:04:02 PM: refreshing...
+11/22/2017 12:04:02 PM: 11/22/2017 12:04:02 PM
+11/22/2017 12:05:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:30 PM: Right Click Edit on item run(5V_ON.bat); 
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:43 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:43 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:43 PM: moving test item UpSleep(1000);
+11/22/2017 12:06:15 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:15 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:17 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:17 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:18 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:26 PM: Right Click Edit on item run(zoom2.bat); 
+11/22/2017 12:07:00 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:00 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:00 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:02 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:02 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:03 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:04 PM: moving test item downrun(init.bat); 
+11/22/2017 12:07:07 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:20 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:29 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:30 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:30 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:30 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:36 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:36 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:36 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:38 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:39 PM: moving test item downSleep(10000);
+-->
+<!--CHANGELOG:11/22/2017 12:09:10 PM11/22/2017 12:04:02 PM: refreshing...
+11/22/2017 12:04:02 PM: 11/22/2017 12:04:02 PM
+11/22/2017 12:05:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:05:30 PM: Right Click Edit on item run(5V_ON.bat); 
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:42 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:43 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:43 PM: moving test item UpSleep(1000);
+11/22/2017 12:05:43 PM: moving test item UpSleep(1000);
+11/22/2017 12:06:15 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:15 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:16 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:17 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:17 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:18 PM: moving test item UpVerifyRegister(lvreg,testxu,write,0x0a,0x08);
+11/22/2017 12:06:26 PM: Right Click Edit on item run(zoom2.bat); 
+11/22/2017 12:07:00 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:00 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:00 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:01 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:02 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:02 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:03 PM: moving test item Uprun(init.bat); 
+11/22/2017 12:07:04 PM: moving test item downrun(init.bat); 
+11/22/2017 12:07:07 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:18 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:19 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:20 PM: moving test item Uprun(5V_OFF.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:28 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:29 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:30 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:30 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:30 PM: moving test item Uprun(5V_ON.bat); 
+11/22/2017 12:07:36 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:36 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:36 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:37 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:38 PM: moving test item UpSleep(10000);
+11/22/2017 12:07:39 PM: moving test item downSleep(10000);
+11/22/2017 12:09:05 PM: saving...
+-->
+<!--CHANGELOG:11/22/2017 1:31:59 PM11/22/2017 1:31:14 PM: refreshing...
+11/22/2017 1:31:14 PM: 11/22/2017 1:31:14 PM
+-->
+<!--CHANGELOG:11/22/2017 1:32:00 PM11/22/2017 1:31:14 PM: refreshing...
+11/22/2017 1:31:14 PM: 11/22/2017 1:31:14 PM
+11/22/2017 1:32:00 PM: saving...
+-->
+<!--CHANGELOG:11/22/2017 1:37:05 PM11/22/2017 1:36:38 PM: refreshing...
+11/22/2017 1:36:38 PM: 11/22/2017 1:36:38 PM
+-->
+<!--CHANGELOG:11/22/2017 1:38:12 PM11/22/2017 1:36:38 PM: refreshing...
+11/22/2017 1:36:38 PM: 11/22/2017 1:36:38 PM
+11/22/2017 1:37:05 PM: saving...
+11/22/2017 1:37:07 PM: Right Click Edit on item run(init.bat); 
+-->
+<!--CHANGELOG:11/22/2017 1:47:23 PM11/22/2017 1:42:50 PM: refreshing...
+11/22/2017 1:42:50 PM: 11/22/2017 1:42:50 PM
+11/22/2017 1:43:04 PM: Right Click Edit on item run(zoom2.bat); 
+11/22/2017 1:44:11 PM: Right Click Edit on item run(zoom2.bat); 
+11/22/2017 1:44:29 PM: Right Click Edit on item run(init.bat); 
+11/22/2017 1:44:58 PM: Right Click Edit on item run(focus2.bat); 
+11/22/2017 1:46:58 PM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 5:27:14 AM-->
+<!--CHANGELOG:11/23/2017 5:27:14 AM-->
+<!--CHANGELOG:11/23/2017 5:27:15 AM-->
+<!--CHANGELOG:11/23/2017 5:27:15 AM-->
+<!--CHANGELOG:11/23/2017 5:27:15 AM-->
+<!--CHANGELOG:11/23/2017 5:27:15 AM-->
+<!--CHANGELOG:11/23/2017 5:27:15 AM-->
+<!--CHANGELOG:11/23/2017 5:27:16 AM-->
+<!--CHANGELOG:11/23/2017 5:27:18 AM-->
+<!--CHANGELOG:11/23/2017 5:27:19 AM-->
+<!--CHANGELOG:11/23/2017 5:27:19 AM-->
+<!--CHANGELOG:11/23/2017 5:27:19 AM-->
+<!--CHANGELOG:11/23/2017 5:27:19 AM-->
+<!--CHANGELOG:11/23/2017 5:27:19 AM-->
+<!--CHANGELOG:11/23/2017 5:27:20 AM-->
+<!--CHANGELOG:11/23/2017 5:27:20 AM-->
+<!--CHANGELOG:11/23/2017 5:27:20 AM-->
+<!--CHANGELOG:11/23/2017 5:27:20 AM-->
+<!--CHANGELOG:11/23/2017 5:27:20 AM-->
+<!--CHANGELOG:11/23/2017 5:27:20 AM-->
+<!--CHANGELOG:11/23/2017 5:27:21 AM-->
+<!--CHANGELOG:11/23/2017 5:27:33 AM11/23/2017 5:25:58 AM: refreshing...
+11/23/2017 5:25:58 AM: 11/23/2017 5:25:58 AM
+11/23/2017 5:26:30 AM: Right Click Edit on item run(init.bat); 
+11/23/2017 5:27:14 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:14 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:15 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:15 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:15 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:15 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:15 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:16 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:18 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:19 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:19 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:19 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:19 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:19 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:20 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:20 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:20 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:20 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:20 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:21 AM: moving test item UpSleep(1000);
+11/23/2017 5:27:21 AM: moving test item UpSleep(1000);
+-->
+<!--CHANGELOG:11/23/2017 5:44:54 AM11/23/2017 5:33:53 AM: refreshing...
+11/23/2017 5:33:53 AM: 11/23/2017 5:33:53 AM
+11/23/2017 5:34:03 AM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 5:52:21 AM11/23/2017 5:50:15 AM: refreshing...
+11/23/2017 5:50:15 AM: 11/23/2017 5:50:15 AM
+11/23/2017 5:50:23 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 5:58:29 AM11/23/2017 5:57:56 AM: refreshing...
+11/23/2017 5:57:56 AM: 11/23/2017 5:57:56 AM
+11/23/2017 5:58:02 AM: Right Click Edit on item run(focus2.bat); 
+11/23/2017 5:58:07 AM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 6:27:21 AM11/23/2017 6:06:14 AM: refreshing...
+11/23/2017 6:06:14 AM: 11/23/2017 6:06:14 AM
+11/23/2017 6:06:28 AM: Right Click Edit on item run(focus2.bat); 
+11/23/2017 6:25:59 AM: Right Click Edit on item ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type
+11/23/2017 6:26:12 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 6:34:39 AM11/23/2017 6:33:22 AM: refreshing...
+11/23/2017 6:33:22 AM: 11/23/2017 6:33:22 AM
+11/23/2017 6:33:34 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 6:44:24 AM11/23/2017 6:40:16 AM: refreshing...
+11/23/2017 6:40:16 AM: 11/23/2017 6:40:16 AM
+11/23/2017 6:40:34 AM: Right Click Edit on item run(focus2.bat); 
+11/23/2017 6:42:43 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 6:45:50 AM11/23/2017 6:45:02 AM: refreshing...
+11/23/2017 6:45:02 AM: 11/23/2017 6:45:02 AM
+11/23/2017 6:45:11 AM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:11/23/2017 9:21:16 AM11/23/2017 9:20:25 AM: refreshing...
+11/23/2017 9:20:25 AM: 11/23/2017 9:20:25 AM
+11/23/2017 9:20:31 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/24/2017 1:16:12 AM11/24/2017 1:15:59 AM: refreshing...
+11/24/2017 1:15:59 AM: 11/24/2017 1:15:59 AM
+-->
+<!--CHANGELOG:11/24/2017 6:18:39 AM-->
+<!--CHANGELOG:11/24/2017 6:18:39 AM-->
+<!--CHANGELOG:11/24/2017 6:18:39 AM-->
+<!--CHANGELOG:11/24/2017 6:18:40 AM-->
+<!--CHANGELOG:11/24/2017 6:18:48 AM-->
+<!--CHANGELOG:11/24/2017 6:18:49 AM-->
+<!--CHANGELOG:11/24/2017 6:18:55 AM11/24/2017 6:17:49 AM: refreshing...
+11/24/2017 6:17:49 AM: 11/24/2017 6:17:49 AM
+11/24/2017 6:18:39 AM: moving test item Uprun(lvcap.exe); 
+11/24/2017 6:18:39 AM: moving test item Uprun(lvcap.exe); 
+11/24/2017 6:18:39 AM: moving test item Uprun(lvcap.exe); 
+11/24/2017 6:18:40 AM: moving test item Uprun(lvcap.exe); 
+11/24/2017 6:18:48 AM: moving test item Uprun(lvcap.exe); 
+11/24/2017 6:18:49 AM: moving test item Uprun(lvcap.exe); 
+-->
+<!--CHANGELOG:11/24/2017 6:25:10 AM11/24/2017 6:23:18 AM: refreshing...
+11/24/2017 6:23:18 AM: 11/24/2017 6:23:18 AM
+-->
+<!--CHANGELOG:11/24/2017 6:25:11 AM11/24/2017 6:23:18 AM: refreshing...
+11/24/2017 6:23:18 AM: 11/24/2017 6:23:18 AM
+11/24/2017 6:25:10 AM: saving...
+-->
+<!--CHANGELOG:11/24/2017 7:34:41 AM11/24/2017 7:34:31 AM: refreshing...
+11/24/2017 7:34:31 AM: 11/24/2017 7:34:31 AM
+-->
+<!--CHANGELOG:11/25/2017 1:14:36 AM-->
+<!--CHANGELOG:11/25/2017 1:14:36 AM-->
+<!--CHANGELOG:11/25/2017 1:14:37 AM-->
+<!--CHANGELOG:11/25/2017 1:14:37 AM-->
+<!--CHANGELOG:11/25/2017 1:14:37 AM-->
+<!--CHANGELOG:11/25/2017 1:14:37 AM-->
+<!--CHANGELOG:11/25/2017 1:14:37 AM-->
+<!--CHANGELOG:11/25/2017 1:14:37 AM-->
+<!--CHANGELOG:11/25/2017 1:14:38 AM-->
+<!--CHANGELOG:11/25/2017 1:14:38 AM-->
+<!--CHANGELOG:11/25/2017 1:14:38 AM-->
+<!--CHANGELOG:11/25/2017 1:14:40 AM11/25/2017 1:14:05 AM: refreshing...
+11/25/2017 1:14:05 AM: 11/25/2017 1:14:05 AM
+11/25/2017 1:14:36 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+-->
+<!--CHANGELOG:11/25/2017 1:15:01 AM11/25/2017 1:14:05 AM: refreshing...
+11/25/2017 1:14:05 AM: 11/25/2017 1:14:05 AM
+11/25/2017 1:14:36 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:37 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:38 AM: moving test item UpInput_MessageBox(please enter title,please message here,***);
+11/25/2017 1:14:40 AM: saving...
+-->
+<!--CHANGELOG:11/30/2017 5:45:30 AM11/29/2017 1:15:50 AM: refreshing...
+11/29/2017 1:15:50 AM: 11/29/2017 1:15:50 AM
+11/30/2017 5:38:31 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:11/30/2017 5:52:14 AM-->
+<!--CHANGELOG:11/30/2017 5:52:14 AM-->
+<!--CHANGELOG:11/30/2017 5:52:14 AM-->
+<!--CHANGELOG:11/30/2017 5:52:14 AM-->
+<!--CHANGELOG:11/30/2017 5:52:18 AM-->
+<!--CHANGELOG:11/30/2017 5:52:18 AM-->
+<!--CHANGELOG:11/30/2017 5:52:18 AM-->
+<!--CHANGELOG:11/30/2017 5:52:18 AM-->
+<!--CHANGELOG:11/30/2017 5:52:19 AM-->
+<!--CHANGELOG:11/30/2017 5:52:19 AM-->
+<!--CHANGELOG:11/30/2017 5:52:19 AM-->
+<!--CHANGELOG:11/30/2017 5:52:19 AM-->
+<!--CHANGELOG:11/30/2017 5:52:19 AM-->
+<!--CHANGELOG:11/30/2017 5:52:20 AM-->
+<!--CHANGELOG:11/30/2017 5:52:20 AM-->
+<!--CHANGELOG:11/30/2017 5:52:20 AM-->
+<!--CHANGELOG:11/30/2017 5:52:20 AM-->
+<!--CHANGELOG:11/30/2017 5:52:20 AM-->
+<!--CHANGELOG:11/30/2017 5:52:21 AM-->
+<!--CHANGELOG:11/30/2017 5:53:16 AM-->
+<!--CHANGELOG:11/30/2017 5:53:16 AM-->
+<!--CHANGELOG:11/30/2017 5:53:17 AM-->
+<!--CHANGELOG:11/30/2017 5:53:17 AM-->
+<!--CHANGELOG:11/30/2017 5:53:17 AM-->
+<!--CHANGELOG:11/30/2017 5:53:17 AM-->
+<!--CHANGELOG:11/30/2017 5:53:18 AM-->
+<!--CHANGELOG:11/30/2017 5:53:18 AM-->
+<!--CHANGELOG:11/30/2017 5:53:18 AM-->
+<!--CHANGELOG:11/30/2017 5:53:18 AM-->
+<!--CHANGELOG:11/30/2017 5:53:19 AM-->
+<!--CHANGELOG:11/30/2017 5:53:19 AM-->
+<!--CHANGELOG:11/30/2017 5:53:19 AM-->
+<!--CHANGELOG:11/30/2017 5:53:19 AM-->
+<!--CHANGELOG:11/30/2017 5:53:20 AM-->
+<!--CHANGELOG:11/30/2017 5:53:30 AM11/30/2017 5:51:44 AM: refreshing...
+11/30/2017 5:51:44 AM: 11/30/2017 5:51:44 AM
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:21 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:53:16 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:20 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+-->
+<!--CHANGELOG:11/30/2017 5:53:31 AM11/30/2017 5:51:44 AM: refreshing...
+11/30/2017 5:51:44 AM: 11/30/2017 5:51:44 AM
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:21 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:53:16 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:20 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:30 AM: saving...
+-->
+<!--CHANGELOG:11/30/2017 5:53:31 AM11/30/2017 5:51:44 AM: refreshing...
+11/30/2017 5:51:44 AM: 11/30/2017 5:51:44 AM
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:21 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:53:16 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:20 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:30 AM: saving...
+11/30/2017 5:53:31 AM: saving...
+-->
+<!--CHANGELOG:11/30/2017 5:53:32 AM11/30/2017 5:51:44 AM: refreshing...
+11/30/2017 5:51:44 AM: 11/30/2017 5:51:44 AM
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:21 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:53:16 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:20 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:30 AM: saving...
+11/30/2017 5:53:31 AM: saving...
+11/30/2017 5:53:31 AM: saving...
+-->
+<!--CHANGELOG:11/30/2017 5:53:32 AM11/30/2017 5:51:44 AM: refreshing...
+11/30/2017 5:51:44 AM: 11/30/2017 5:51:44 AM
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:14 AM: moving test item downrun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:18 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:19 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:20 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:52:21 AM: moving test item Uprun(5V_OFF.bat); 
+11/30/2017 5:53:16 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:17 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:18 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:19 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:20 AM: moving test item UpTestTracking(0x0881,0x046d,OPEN);
+11/30/2017 5:53:30 AM: saving...
+11/30/2017 5:53:31 AM: saving...
+11/30/2017 5:53:31 AM: saving...
+11/30/2017 5:53:32 AM: saving...
+-->
+<!--CHANGELOG:1/11/2018 12:10:03 PM1/11/2018 12:09:31 PM: refreshing...
+1/11/2018 12:09:31 PM: 1/11/2018 12:09:31 PM
+-->
+<!--CHANGELOG:1/11/2018 12:10:48 PM1/11/2018 12:09:31 PM: refreshing...
+1/11/2018 12:09:31 PM: 1/11/2018 12:09:31 PM
+1/11/2018 12:10:03 PM: saving...
+-->
+<!--CHANGELOG:1/11/2018 12:21:47 PM1/11/2018 12:17:19 PM: refreshing...
+1/11/2018 12:17:19 PM: 1/11/2018 12:17:19 PM
+1/11/2018 12:17:30 PM: Right Click Edit on item run(focus2.bat); 
+1/11/2018 12:17:35 PM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:1/11/2018 4:05:02 PM1/11/2018 4:04:18 PM: refreshing...
+1/11/2018 4:04:18 PM: 1/11/2018 4:04:18 PM
+1/11/2018 4:04:31 PM: Right Click Edit on item run(5V_ON.bat); 
+1/11/2018 4:04:54 PM: Right Click Edit on item run(5V_ON.bat); 
+-->
+<!--CHANGELOG:1/11/2018 4:05:03 PM1/11/2018 4:04:18 PM: refreshing...
+1/11/2018 4:04:18 PM: 1/11/2018 4:04:18 PM
+1/11/2018 4:04:31 PM: Right Click Edit on item run(5V_ON.bat); 
+1/11/2018 4:04:54 PM: Right Click Edit on item run(5V_ON.bat); 
+1/11/2018 4:05:02 PM: saving...
+-->
+<!--CHANGELOG:1/12/2018 9:26:07 AM1/12/2018 9:21:26 AM: refreshing...
+1/12/2018 9:21:26 AM: 1/12/2018 9:21:26 AM
+1/12/2018 9:22:52 AM: Right Click Edit on item run(focus2.bat); 
+1/12/2018 9:23:18 AM: Right Click Edit on item run(zoom2.bat); 
+-->
+<!--CHANGELOG:1/12/2018 9:45:57 AM1/12/2018 9:30:48 AM: refreshing...
+1/12/2018 9:30:48 AM: 1/12/2018 9:30:48 AM
+1/12/2018 9:41:20 AM: Right Click Edit on item run(focus2.bat); 
+-->
+<!--CHANGELOG:1/12/2018 9:50:38 AM1/12/2018 9:50:06 AM: refreshing...
+1/12/2018 9:50:06 AM: 1/12/2018 9:50:06 AM
+-->
+<!--CHANGELOG:1/12/2018 9:50:39 AM1/12/2018 9:50:06 AM: refreshing...
+1/12/2018 9:50:06 AM: 1/12/2018 9:50:06 AM
+1/12/2018 9:50:38 AM: saving...
+-->
+<!--CHANGELOG:1/12/2018 9:53:11 AM1/12/2018 9:52:52 AM: refreshing...
+1/12/2018 9:52:52 AM: 1/12/2018 9:52:52 AM
+-->
+<!--CHANGELOG:1/12/2018 9:54:28 AM1/12/2018 9:52:52 AM: refreshing...
+1/12/2018 9:52:52 AM: 1/12/2018 9:52:52 AM
+1/12/2018 9:53:11 AM: saving...
+-->
+<!--CHANGELOG:1/13/2018 12:39:34 PM-->
+<!--CHANGELOG:1/15/2018 9:21:54 AM1/15/2018 9:21:18 AM: refreshing...
+1/15/2018 9:21:18 AM: 1/15/2018 9:21:18 AM
+-->
+<!--CHANGELOG:2018/2/12 8:57:23-->
+<!--CHANGELOG:2018/2/12 8:57:24-->
+<!--CHANGELOG:2018/2/12 8:57:24-->
+<!--CHANGELOG:2018/2/12 8:57:35-->
+<!--CHANGELOG:2018/2/12 8:57:35-->
+<!--CHANGELOG:2018/2/12 8:57:36-->
+<!--CHANGELOG:2018/2/12 8:57:37-->
+<!--CHANGELOG:2018/2/12 8:57:43-->
+<!--CHANGELOG:2018/2/12 8:57:43-->
+<!--CHANGELOG:2018/2/12 8:57:45-->
+<!--CHANGELOG:2018/2/12 8:57:49-->
+<!--CHANGELOG:2018/2/12 8:57:49-->
+<!--CHANGELOG:2018/2/12 8:57:50-->
+<!--CHANGELOG:2018/2/12 8:57:50-->
+<!--CHANGELOG:2018/2/12 8:57:51-->
+<!--CHANGELOG:2018/2/12 8:57:51-->
+<!--CHANGELOG:2018/2/12 8:57:51-->
+<!--CHANGELOG:2018/2/12 8:57:52-->
+<!--CHANGELOG:2018/2/12 8:57:53-->
+<!--CHANGELOG:2018/2/12 8:57:53-->
+<!--CHANGELOG:2018/2/12 8:58:18-->
+<!--CHANGELOG:2018/2/12 8:58:25-->
+<!--CHANGELOG:2018/2/12 8:58:28-->
+<!--CHANGELOG:2018/2/12 8:58:29-->
+<!--CHANGELOG:2018/2/12 8:58:482018/2/12 8:51:50: refreshing...
+2018/2/12 8:51:50: 2018/2/12 8:51:50
+2018/2/12 8:57:23: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:24: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:25: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:35: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:35: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:37: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:37: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:43: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:44: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:45: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:49: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:49: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:50: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:50: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:51: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:51: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:52: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:52: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:53: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:53: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:18: moving test item Uprun(RunTestTracking_OnEnd.bat); 
+2018/2/12 8:58:25: moving test item Uprun(RunTestTracking_OnEnd.bat); 
+2018/2/12 8:58:29: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:29: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:31: Right Click Edit on item run(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:39: Right Click Edit on item run(RunTestTracking_OnEnd.bat); 
+-->
+<!--CHANGELOG:2018/2/12 8:59:14-->
+<!--CHANGELOG:2018/2/12 8:59:17-->
+<!--CHANGELOG:2018/2/12 8:59:232018/2/12 8:51:50: refreshing...
+2018/2/12 8:51:50: 2018/2/12 8:51:50
+2018/2/12 8:57:23: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:24: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:25: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:35: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:35: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:37: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:37: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:43: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:44: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:45: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:57:49: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:49: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:50: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:50: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:51: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:51: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:52: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:52: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:53: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:57:53: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:18: moving test item Uprun(RunTestTracking_OnEnd.bat); 
+2018/2/12 8:58:25: moving test item Uprun(RunTestTracking_OnEnd.bat); 
+2018/2/12 8:58:29: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:29: moving test item Uprun(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:31: Right Click Edit on item run(RunTestTracking_OnLog.bat); 
+2018/2/12 8:58:39: Right Click Edit on item run(RunTestTracking_OnEnd.bat); 
+2018/2/12 8:58:48: saving...
+2018/2/12 8:59:15: moving test item Uprun(RunTestTracking_OnStart.bat); 
+2018/2/12 8:59:17: moving test item Uprun(RunTestTracking_OnLog.bat); 
+-->
+<!--CHANGELOG:2018/3/1 10:11:28-->
+<!--CHANGELOG:2018/3/1 10:11:29-->
+<!--CHANGELOG:2018/3/1 10:11:29-->
+<!--CHANGELOG:2018/3/1 10:11:29-->
+<!--CHANGELOG:2018/3/1 10:11:30-->
+<!--CHANGELOG:2018/3/1 10:11:30-->
+<!--CHANGELOG:2018/3/1 10:11:30-->
+<!--CHANGELOG:2018/3/1 10:11:30-->
+<!--CHANGELOG:2018/3/1 10:11:31-->
+<!--CHANGELOG:2018/3/1 10:11:31-->
+<!--CHANGELOG:2018/3/1 10:11:32-->
+<!--CHANGELOG:2018/3/1 10:11:32-->
+<!--CHANGELOG:2018/3/1 10:11:33-->
+<!--CHANGELOG:2018/3/1 10:11:45-->
+<!--CHANGELOG:2018/3/1 10:11:562018/3/1 10:10:25: refreshing...
+2018/3/1 10:10:25: 2018/3/1 10:10:25
+2018/3/1 10:11:28: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:29: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:29: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:30: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:30: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:30: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:30: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:31: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:31: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:32: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:32: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:32: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:33: moving test item Uprun(taken.bat); 
+2018/3/1 10:11:46: moving test item Uprun(taken.bat); 
+-->
+<!--CHANGELOG:3/5/2018 1:16:39 PM3/5/2018 1:15:57 PM: refreshing...
+3/5/2018 1:15:57 PM: 3/5/2018 1:15:57 PM
+-->
+<!--CHANGELOG:3/15/2018 06:24:05 PM-->
+<!--CHANGELOG:3/15/2018 06:24:05 PM-->
+<!--CHANGELOG:3/15/2018 06:24:06 PM-->
+<!--CHANGELOG:3/15/2018 06:24:06 PM-->
+<!--CHANGELOG:3/15/2018 06:24:06 PM-->
+<!--CHANGELOG:3/15/2018 06:24:07 PM-->
+<!--CHANGELOG:3/15/2018 06:24:09 PM-->
+<!--CHANGELOG:3/15/2018 06:24:09 PM-->
+<!--CHANGELOG:3/15/2018 06:24:10 PM-->
+<!--CHANGELOG:3/15/2018 06:24:10 PM-->
+<!--CHANGELOG:3/15/2018 06:24:10 PM-->
+<!--CHANGELOG:3/15/2018 06:24:10 PM-->
+<!--CHANGELOG:3/15/2018 06:24:11 PM-->
+<!--CHANGELOG:3/15/2018 06:24:12 PM-->
+<!--CHANGELOG:3/15/2018 06:24:12 PM-->
+<!--CHANGELOG:3/15/2018 06:24:12 PM-->
+<!--CHANGELOG:3/15/2018 06:24:12 PM-->
+<!--CHANGELOG:3/17/2018 09:20:36 AM-->
+<!--CHANGELOG:3/17/2018 09:20:36 AM-->
+<!--CHANGELOG:3/17/2018 09:20:36 AM-->
+<!--CHANGELOG:3/17/2018 09:20:37 AM-->
+<!--CHANGELOG:3/17/2018 09:20:37 AM-->
+<!--CHANGELOG:3/17/2018 09:20:37 AM-->
+<!--CHANGELOG:3/17/2018 09:20:38 AM-->
+<!--CHANGELOG:3/17/2018 09:20:38 AM-->
+<!--CHANGELOG:3/17/2018 09:20:38 AM-->
+<!--CHANGELOG:3/17/2018 09:20:38 AM-->
+<!--CHANGELOG:3/17/2018 09:20:39 AM-->
+<!--CHANGELOG:3/17/2018 09:20:39 AM-->
+<!--CHANGELOG:3/17/2018 09:20:39 AM-->
+<!--CHANGELOG:3/17/2018 09:20:40 AM-->
+<!--CHANGELOG:3/17/2018 09:20:40 AM-->
+<!--CHANGELOG:3/17/2018 09:20:40 AM-->
+<!--CHANGELOG:3/17/2018 09:20:41 AM-->
+<!--CHANGELOG:3/17/2018 09:20:41 AM-->
+<!--CHANGELOG:3/17/2018 09:20:41 AM-->
+<!--CHANGELOG:3/17/2018 09:20:44 AM-->
+<!--CHANGELOG:3/17/2018 09:20:46 AM-->
+<!--CHANGELOG:3/17/2018 09:20:49 AM-->
+<!--CHANGELOG:3/17/2018 09:20:49 AM-->
+<!--CHANGELOG:3/17/2018 09:20:49 AM-->
+<!--CHANGELOG:3/17/2018 09:20:50 AM-->
+<!--CHANGELOG:3/17/2018 09:20:50 AM-->
+<!--CHANGELOG:3/17/2018 09:20:50 AM-->
+<!--CHANGELOG:3/17/2018 09:20:51 AM-->
+<!--CHANGELOG:3/17/2018 09:20:51 AM-->
+<!--CHANGELOG:3/17/2018 09:20:51 AM-->
+<!--CHANGELOG:3/17/2018 09:20:52 AM-->
+<!--CHANGELOG:3/17/2018 09:20:52 AM-->
+<!--CHANGELOG:3/17/2018 09:20:52 AM-->
+<!--CHANGELOG:3/17/2018 09:20:52 AM-->
+<!--CHANGELOG:3/17/2018 09:20:53 AM-->
+<!--CHANGELOG:3/17/2018 09:20:53 AM-->
+<!--CHANGELOG:3/17/2018 09:20:53 AM-->
+<!--CHANGELOG:3/17/2018 09:20:54 AM-->
+<!--CHANGELOG:3/17/2018 09:20:54 AM-->
+<!--CHANGELOG:3/17/2018 09:20:54 AM-->
+<!--CHANGELOG:3/17/2018 09:20:57 AM-->
+<!--CHANGELOG:3/17/2018 09:20:57 AM-->
+<!--CHANGELOG:3/17/2018 09:20:59 AM3/17/2018 09:20:06 AM: refreshing...
+3/17/2018 09:20:06 AM: 3/17/2018 09:20:06 AM
+3/17/2018 09:20:36 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:36 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:37 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:37 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:37 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:39 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:39 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:39 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:40 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:40 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:40 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:41 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:41 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:41 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:42 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:44 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:46 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:49 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:49 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:50 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:50 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:50 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:51 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:51 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:51 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:53 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:53 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:53 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:54 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:54 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:54 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:55 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:57 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:58 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x03);
+-->
+<!--CHANGELOG:3/17/2018 09:21:01 AM3/17/2018 09:20:06 AM: refreshing...
+3/17/2018 09:20:06 AM: 3/17/2018 09:20:06 AM
+3/17/2018 09:20:36 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:36 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:37 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:37 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:37 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:38 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:39 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:39 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:39 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:40 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:40 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:40 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:41 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:41 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:41 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:42 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:44 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:46 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x01);
+3/17/2018 09:20:49 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:49 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:50 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:50 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:50 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:51 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:51 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:51 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:52 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:53 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:53 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:53 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:54 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:54 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:54 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:55 AM: moving test item UpVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:57 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:20:58 AM: moving test item downVerifyRegister(lvreg,infoxu,read,0x03);
+3/17/2018 09:21:00 AM: saving...
+-->

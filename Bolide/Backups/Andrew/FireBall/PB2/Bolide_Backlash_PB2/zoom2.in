@@ -1,0 +1,52 @@
+[inputs]
+
+Option=BacklashBolide
+LensControlFamily=Bolide
+Device="Logi Rally Camera"
+
+ShowCFG=1
+OutputFile=zoom2.out
+ExitPause=FALSE
+OptionTimeout=100000
+ResultCalculate = Mode ; Median
+Cycles=3
+MotorType= Zoom
+# ===============================================================================
+# Bolide backlash initial conditions
+N1=20
+N1M=30 ;for Bolide N1_max = 30
+N2=10
+N2S=30
+
+N3=2870
+N3M=2910 ;for Bolide N3_max = 2910, 
+;CamTable_max = 2880 for FW258 later, 
+N4=2860
+N4S=30
+
+OneStepTime=2 
+Delay=150 
+LeaveOrigin=40 ; for FW258 home position is -30 micro-stpes
+# ================================================================================
+# Ouput data
+LogFile = Bolide_Zoom.log
+Headers=N1(1),N1(2),N1(3),N3(1),N3(2),N3(3),Variation,VarResultSummary
+UpLimit=3,3,3,3,3,3,2,3
+LowLimit=-1,-1,-1,-1,-1,-1,-1,-1
+TargetLimit=0,0,0,0,0,0,0,0
+# =================================================================================
+PIBoundary=1
+HomeInitStep=1
+HomeSecondStart=-30
+MovingSteps=1000
+MovingStepsBack=990
+PISamplingCount=3
+PISamplingDelay=5
+HomeDelay=150
+PassCount=0
+DelayAfterBigStepsForward=1500
+DelayAfterBigStepsBackward=1500
+SmithTriggerCount=0
+
+
+
