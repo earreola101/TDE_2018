@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--BUILT ON KINETIC VERSION: [1.0.1474] 1ce78b7fa1b24a64b94e661b170d8a97_11:33:50.9063016_-->
+<KineticTestPlan>
+  <TestEngine id="TestModuleList">
+    <SCRIPT_COMMENT id="// Kinetic Module Example" />
+    <SCRIPT_COMMENT id="// This example shares the same input limit file " />
+    <SCRIPT_COMMENT id="// But you can change how ever , by adding new input files " />
+    <SCRIPT_COMMENT id="// This is instance one" />
+    <SCRIPT_COMMENT id="//" />
+    <Test id="run(HP6612Com7_12VStart.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;" />
+        <InputFile id="InputFile=;" />
+        <Name id="Name=HUB Power = 12V;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="//Abort If Fail" />
+    <Test id="KineticTstEngineCmd(ABORT_ALL_IF_ONE_FAIL)" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KineticTstEngineCmd" Enable="True">
+      <Options id="MODE">
+        <OptionsVal id="0" />
+      </Options>
+    </Test>
+    <Test id="MessageBox(插好全部接口 等待開機聲和閃藍燈);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="run(Check_C2SPKR_VIDPID.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;" />
+        <InputFile id="InputFile=;" />
+        <Name id="Name=Wait_PIDVID;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="MessageBox(主機LCD面板顯示是否正常?);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="MessageBox(外接麦克风LED是否滅);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <SCRIPT_COMMENT id="//Check HUB PID VID" />
+    <Test id="run(run_device_VID_PID_check.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=HIGH;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=TRUE;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=out.out;" />
+        <InputFile id="InputFile=null;" />
+        <Name id="Name=Check_HUB PIDVID" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or  This is the module type" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="// Check PID VID" />
+    <Test id="VerifyRegister(lvreg,infoxu,read,1);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X0508E102) THEN  PASS ) );" />
+      <TestName id="[Video FW]FW Version check" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,infoxu,read,0x03);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit( IF ( RESULT == 0X0401 ) THEN  PASS ) );" />
+      <TestName id="SensorFW" />
+    </Test>
+    <SCRIPT_COMMENT id="//Check Test Tracking" />
+    <Test id="run(TesttrackUIDCChkRetry.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=false;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=false;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=false;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=false;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=wifimac.out;          //Output" />
+        <InputFile id="InputFile=wifimac.in;              //Input" />
+        <Name id="Name=Check TestTrack;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="//Check C2 Audio Base FW version" />
+    <Test id="run(Check_MCU1FW.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=MCU1FW.out;" />
+        <InputFile id="InputFile=MCU1FW.in;" />
+        <Name id="Name=MCU1 FW;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(Check_DSPFW.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=DSPFW.out;" />
+        <InputFile id="InputFile=DSPFW.in;" />
+        <Name id="Name=DSPFW;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="run(MCU2FWVer.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=MCU2FWVer.out;         " />
+        <InputFile id="InputFile=MCU2FWVer.in;            " />
+        <Name id="Name=[FW2]MCU2FW;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <SCRIPT_COMMENT id="// Audio Check" />
+    <Test id="run(RUN_C2.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=false;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=false;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=false;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=false;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=null;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=Check Audio;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(500);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="MessageBox(等待測試音 是否正常???);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="  MTFRecheckTest      //Applys MTF Corner Checking MTF_FourCorner" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.MTFCheck" Enable="True">
+      <ModuleEnable id="ModuleEnable">
+        <ModuleEnableVal id="TRUE" />
+      </ModuleEnable>
+      <MTFRecheckTestSettings id="MTFRecheckTestSettings">
+        <TimeIn_ms id="TimeIn_ms">
+          <TimeIn_msVal id="10000" />
+        </TimeIn_ms>
+        <Timeout_ms id="Timeout_ms  //this will abort the test after N ms">
+          <TimeoutVal_ms id="300" />
+        </Timeout_ms>
+      </MTFRecheckTestSettings>
+      <ImageSource id="ImageSource">
+        <FromDevice id="FromDevice">
+          <CaptureDir id="TRUE" />
+        </FromDevice>
+        <Capture id="Bitmap">
+          <CaptureDir id="C:\DefualtSourceFourCornerTestImage.bmp" />
+        </Capture>
+      </ImageSource>
+      <ProboardSettings id="ProboardSettings">
+        <Proboard_Enable id="Proboard_Enable">
+          <EnableProVal id="FALSE" />
+        </Proboard_Enable>
+        <Port_Start id="Port_Start">
+          <EnableSTRVal id="TRUE" />
+        </Port_Start>
+        <Port_Stop id="Port_Stop">
+          <EnableSTPVal id="TRUE" />
+        </Port_Stop>
+      </ProboardSettings>
+      <ReportingController id="ReportingController">
+        <CSVReportEnabled id="CSVReportEnabled">
+          <CSVReportEnabledVal id="TRUE" />
+        </CSVReportEnabled>
+        <KIneticStandard2011 id="KIneticStandard2011">
+          <KIneticStandard2011Val id="FALSE" />
+        </KIneticStandard2011>
+        <ProLineInI id="ProLineInI">
+          <TP_Revision id="TP_Revision">
+            <TP_RevisionVal id="1.0.0.1" />
+          </TP_Revision>
+          <TP_Rev_Date id="TP_Rev_Date">
+            <TP_Rev_DateVal id="yymmddss" />
+          </TP_Rev_Date>
+          <TP_Rev_Owner id="TP_Rev_Owner">
+            <TP_Rev_OwnerVal id="TDE" />
+          </TP_Rev_Owner>
+          <ConnectionStatus id="Connection">
+            <ConnectionStatusVal id="SUCCESS" />
+          </ConnectionStatus>
+          <ProductionStatus id="Production">
+            <ProlineLine id="Line">
+              <ProlineLineVal id="B5L1" />
+            </ProlineLine>
+            <Station id="Station">
+              <StationVal id="BON0" />
+            </Station>
+            <Machine_ID id="Machine_ID">
+              <Machine_IDVAl id="PC-F" />
+            </Machine_ID>
+            <e8L_Part_No id="8L_Part_No">
+              <e8L_Part_NoVal id="PC-F" />
+            </e8L_Part_No>
+            <e22L_Part_No id="22L_Part_No">
+              <e22L_Part_NoVal id="220-000670" />
+            </e22L_Part_No>
+            <Model_Name id="Model_Name">
+              <Model_NameVal id="U0006" />
+            </Model_Name>
+          </ProductionStatus>
+        </ProLineInI>
+        <OutputHeader id="Header">
+          <HeaderSTRVal id="MTF:A:Val1, MTF:B:Val2, MTF:C:Val3" />
+        </OutputHeader>
+        <TestTracking id="TestTracking">
+          <enableTstTracking id="Enable">
+            <enableTstTrackingVal id="FALSE" />
+          </enableTstTracking>
+          <TestOrder id="TestOrder">
+            <TestOrderVal id="1" />
+          </TestOrder>
+          <StationNumber id="StationNumber">
+            <StationNumberVal id="2" />
+          </StationNumber>
+          <NumberOfTests id="NumberOfTests">
+            <NumberOfTestsVal id="6" />
+          </NumberOfTests>
+          <DigitalSNoAddress id="DigitalSNoAddress">
+            <DigitalSNoAddressVal id="0xFFF00" />
+          </DigitalSNoAddress>
+          <BOMVersionAddress id="BOMVersionAddress">
+            <BOMVersionAddressVal id="0xFFF04" />
+          </BOMVersionAddress>
+          <BOMVersionMinor id="BOMVersionMinor">
+            <BOMVersionMinorVal id="99" />
+          </BOMVersionMinor>
+          <TestLogBaseAddress id="TestLogBaseAddress">
+            <TestLogBaseAddressVal id="0xFFF06" />
+          </TestLogBaseAddress>
+          <TestTrackingMemoryMode id="TestTrackingMemoryMode">
+            <TestTrackingMemoryModeVal id="flash" />
+          </TestTrackingMemoryMode>
+        </TestTracking>
+      </ReportingController>
+      <CameraImageProperties id="CameraImageProperties">
+        <friendlyName id="FriendlyName">
+          <friendlyNameVal id="USB Video Device" />
+        </friendlyName>
+        <VIDPID id="VIDPID">
+          <VID id="VID">
+            <VID_VAL id="0x046d" />
+          </VID>
+          <PID id="PID">
+            <PID_VAL id="0x0858" />
+          </PID>
+        </VIDPID>
+        <FYProduct id="FYProduct">
+          <FYProduct_Val id="FY11" />
+        </FYProduct>
+        <ImageTestResolution id="ImageTestResolution">
+          <ImageTestResolutionWidth id="width">
+            <ImageTestResolutionWidthVal id="1920" />
+          </ImageTestResolutionWidth>
+          <ImageTestResolutionHeight id="Height">
+            <ImageTestResolutionHeightVal id="1080" />
+          </ImageTestResolutionHeight>
+        </ImageTestResolution>
+        <CommandDelay_ms id="CommandDelay_ms">
+          <CommandDelay_msVal id="500" />
+        </CommandDelay_ms>
+        <setBeforeOrAfterPreview id="setBeforeOrAfterPreview">
+          <setBeforeOrAfterPreviewVal id="AFTER" />
+        </setBeforeOrAfterPreview>
+        <Zoom id="Zoom">
+          <ZoomEnable id="Enable">
+            <ZoomEnableVal id="FALSE" />
+          </ZoomEnable>
+          <ZoomProp id="SetZoom">
+            <ZoomVal id="100" />
+          </ZoomProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Zoom>
+        <FlipCameraImage id="FlipCameraImage">
+          <FlipCameraImageEnable id="Enable">
+            <FlipCameraImageVal id="TRUE" />
+          </FlipCameraImageEnable>
+          <FlipCameraImageProp id="SetFlipCameraImage">
+            <FlipCameraImageVal id="RotateNoneFlipY" />
+          </FlipCameraImageProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FlipCameraImage>
+        <VideoFormat id="VideoFormat">
+          <VideoFormatEnable id="Enable">
+            <VideoFormatVal id="TRUE" />
+          </VideoFormatEnable>
+          <VideoFormatProp id="SetVideoFormat">
+            <VideoFormatVal id="MJPG " />
+          </VideoFormatProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </VideoFormat>
+        <FrameRate id="FrameRate">
+          <FrameRateEnable id="Enable">
+            <FrameRateVal id="TRUE" />
+          </FrameRateEnable>
+          <FrameRateProp id="SetFrameRate">
+            <FrameRateVal id="30" />
+          </FrameRateProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </FrameRate>
+        <Sharpness id="Sharpness">
+          <SharpnessEnable id="Enable">
+            <SharpnessEnableVal id="FALSE" />
+          </SharpnessEnable>
+          <SharpnessProp id="SetSharpness">
+            <SharpnessVal id="128" />
+          </SharpnessProp>
+          <flag id="flag">
+            <flagVal id="MANUAL" />
+          </flag>
+        </Sharpness>
+      </CameraImageProperties>
+      <testName id="TestName">
+        <testNameVal id="MJPEG" />
+      </testName>
+      <Measure_MTF id="#1_MEASURE_CENTER_MTF_FAR          //MTF Measurement settings">
+        <SCRIPT_COMMENT id="" />
+        <PointName id="PointName                        //This is the name of the measurement">
+          <PointNameVal id="MTF_FAR_CENTER" />
+        </PointName>
+        <ROI_Width id="ROI_Width                        //This controls the veritical width of ROI">
+          <ROI_Width id="20" />
+        </ROI_Width>
+        <ROI_TxtShift id="ROI_TxtShift                     //This controls the distance from the labels to the roi">
+          <ROI_TxtShift id="165" />
+        </ROI_TxtShift>
+        <ROI_FontSize id="ROI_FontSize                     //This controls the font size that is displayed">
+          <ROI_FontSize id="25" />
+        </ROI_FontSize>
+        <ROI_MSGBXEnable id="ROI_MSGBX_Enable                 //This enables or disables the blocking messagebox">
+          <ROI_MSGBXEnable id="FALSE" />
+        </ROI_MSGBXEnable>
+        <OUTPUT_IMAGE_DIR id="OUTPUT_IMAGE_DIR                 //This defines the output path of the images">
+          <OUTPUT_IMAGE_DIR id="C:\tstPlan\MTF\MTF.bmp" />
+        </OUTPUT_IMAGE_DIR>
+        <SCRIPT_COMMENT id="" />
+        <UpperLeftCornerProps id="UpperLeftCornerProps             //All control paramters for Upper Left corner">
+          <SCRIPT_COMMENT id="" />
+          <upperLeftEnable id="UpperLeftEnable     //Enable or disable UpperLeftEnable">
+            <upperLeftEnable id="FALSE" />
+          </upperLeftEnable>
+          <iLength_upperLeft id="iLength_upperLeft   //The length of the ROI ">
+            <iLength_upperLeft id="150" />
+          </iLength_upperLeft>
+          <upperLeftX id="upperLeftX          //The X coordnate">
+            <upperLeftX id="220" />
+          </upperLeftX>
+          <upperLeftY id="upperLeftY          //The Y coordnate">
+            <upperLeftYv id="250" />
+          </upperLeftY>
+          <higherlimit_UL id="higherlimit_UL      //The Higher Limit">
+            <higherlimit_UL id="15000" />
+          </higherlimit_UL>
+          <lowerlimitmtf_UL id="lowerlimitmtf_UL    //The Lower Limit">
+            <lowerlimitmtf_UL id="-1500" />
+          </lowerlimitmtf_UL>
+        </UpperLeftCornerProps>
+        <LowerLeftCornerProps id="LowerLeftCornerProps             //All control parameters for Lower left corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerLeftEnable id="LowerLeftEnable     //Enable or disable LowerLeftEnable">
+            <lowerLeftEnable id="FALSE" />
+          </lowerLeftEnable>
+          <iLength_lowerLeft id="iLength_lowerLeft   //The length of the ROI">
+            <iLength_lowerLeft id="150" />
+          </iLength_lowerLeft>
+          <lowerLeftX id="lowerLeftX          //The X coordnate ">
+            <lowerLeftX id="200" />
+          </lowerLeftX>
+          <lowerLeftY id="lowerLeftY          //The Y coordnate">
+            <lowerLeftY id="850" />
+          </lowerLeftY>
+          <higherlimit_LL id="higherlimit_LL      //The Higher Limit ">
+            <higherlimit_LL id="1500" />
+          </higherlimit_LL>
+          <lowerlimitmtf_LL id="lowerlimitmtf_LL    //The Lower Limit">
+            <lowerlimitmtf_LL id="-1500" />
+          </lowerlimitmtf_LL>
+          <Delta_UL id="Delta_UL            //The upper delta limit ">
+            <Delta_UL id="1500" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LL            //The lower delta limit">
+            <Delta_LL id="-1500" />
+          </Delta_LL>
+        </LowerLeftCornerProps>
+        <UpperRightCornerProps id="UpperRightCornerProps            //All control paramters for Upper Right corner">
+          <SCRIPT_COMMENT id="" />
+          <upperRightEnable id="UpperRightEnable    //Enable or disable UpperRightEnable">
+            <upperRightEnable id="FALSE" />
+          </upperRightEnable>
+          <iLength_upperRight id="iLength_upperRight  //The lengh of the ROI">
+            <iLength_upperRight id="150" />
+          </iLength_upperRight>
+          <upperRightX id="upperRightX         //The X coordnate">
+            <upperRightX id="1500" />
+          </upperRightX>
+          <upperRightY id="upperRightY         //The Y coordnate">
+            <upperRightY id="850" />
+          </upperRightY>
+          <higherlimit_UR id="higherlimit_UR      //The Higher limit">
+            <higherlimit_UR id="15000" />
+          </higherlimit_UR>
+          <lowerlimitmtf_UR id="lowerlimitmtf_UR    //The Lower limit ">
+            <lowerlimitmtf_UR id="-1500" />
+          </lowerlimitmtf_UR>
+        </UpperRightCornerProps>
+        <LowerRightCornerProps id="LowerRightCornerProps            //All control paramters for Lower Righter corner">
+          <SCRIPT_COMMENT id="" />
+          <lowerRightEnable id="LowerRightEnable    //Enable or disable LowerRightEnable">
+            <lowerRightEnable id="FALSE" />
+          </lowerRightEnable>
+          <iLength_lowerRight id="iLength_lowerRight  //The length of the ROI">
+            <iLength_lowerRight id="150" />
+          </iLength_lowerRight>
+          <lowerRightX id="lowerRightX         //The X coordnate">
+            <lowerRightX id="1500" />
+          </lowerRightX>
+          <lowerRightY id="lowerRightY         //The Y coordnate">
+            <lowerRightY id="250" />
+          </lowerRightY>
+          <higherlimit_LR id="higherlimit_LR      //The Higher limit ">
+            <higherlimit_UR id="15000" />
+          </higherlimit_LR>
+          <lowerlimitmtf_LR id="lowerlimitmtf_LR    //The Lower limit">
+            <lowerlimitmtf_LR id="-1500" />
+          </lowerlimitmtf_LR>
+          <Delta_UL id="Delta_UR            //The upper delta limit ">
+            <Delta_UL id="15000" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LR            //The lower delta limit">
+            <Delta_LL id="-15000" />
+          </Delta_LL>
+        </LowerRightCornerProps>
+        <UpperCenterProps id="UpperCenterProps                 //All control parameters for Upper Center ">
+          <SCRIPT_COMMENT id="" />
+          <upperCenterEnable id="UpperCenterEnable   //Enable or disable UpperCenterEnable">
+            <upperCenterEnable id="FALSE" />
+          </upperCenterEnable>
+          <iLength_upperCENTER id="iLength_upperCENTER //The length of the ROI">
+            <iLength_upperCENTER id="150" />
+          </iLength_upperCENTER>
+          <upperCENTERX id="upperCENTERX        //The X coordnate">
+            <upperCENTERX id="900" />
+          </upperCENTERX>
+          <upperCENTERY id="upperCENTERY        //The Y coordnate">
+            <upperCENTERY id="350" />
+          </upperCENTERY>
+          <higherlimit_UC id="higherlimit_UC      //The Higher Limit ">
+            <higherlimit_UC id="15000" />
+          </higherlimit_UC>
+          <lowerlimitmtf_UC id="lowerlimitmtf_LC    //The Lower Limit">
+            <lowerlimitmtf_UC id="-1500" />
+          </lowerlimitmtf_UC>
+        </UpperCenterProps>
+        <LowerCenterProps id="LowerCenterProps                      //All control paramters for lower center">
+          <SCRIPT_COMMENT id="" />
+          <iLength_lowerCENTER id="iLength_lowerCENTER //">
+            <iLength_lowerCENTER id="150" />
+          </iLength_lowerCENTER>
+          <lowerCENTERX id="lowerCENTERX //">
+            <lowerCENTERX id="900" />
+          </lowerCENTERX>
+          <lowerCENTERY id="lowerCENTERY //">
+            <lowerCENTERY id="400" />
+          </lowerCENTERY>
+          <higherlimit_LC id="higherlimit_LC //">
+            <higherlimit_LC id="15000" />
+          </higherlimit_LC>
+          <lowerlimitmtf_LC id="lowerlimitmtf_LC //">
+            <lowerlimitmtf_LC id="-1500" />
+          </lowerlimitmtf_LC>
+          <Delta_UL id="Delta_UC            //The upper delta limit ">
+            <Delta_UL id="15000" />
+          </Delta_UL>
+          <Delta_LL id="Delta_LC            //The lower delta limit">
+            <Delta_LL id="-15000" />
+          </Delta_LL>
+          <lowerCenterEnable id="LowerCenterEnable     //Enable or disable LowerCenterEnable">
+            <lowerCenterEnable id="FALSE" />
+          </lowerCenterEnable>
+        </LowerCenterProps>
+        <SCRIPT_COMMENT id="" />
+        <MTFController id="MTFController">
+          <MTFScanDirection id="MTFScanDirection // Controls the MTF caculation approach">
+            <MTFScanDirectionVal id="VLINES" />
+          </MTFScanDirection>
+          <LockPointTendency id="LockPointTendencyControl //Will generate LockPointTendency.CSV file">
+            <LockPointTendencyVal id="TRUE" />
+          </LockPointTendency>
+          <MinPixelDelta id="MinPixelDelta //">
+            <MinPixelDeltaVal id="7" />
+          </MinPixelDelta>
+          <ZScoreDelta id="ZScoreDelta //">
+            <ZScoreDeltaVal id="1.2" />
+          </ZScoreDelta>
+          <MinimumLines id="MinimumLines //">
+            <MinimumLinesVal id="1" />
+          </MinimumLines>
+        </MTFController>
+      </Measure_MTF>
+    </Test>
+    <Test id="MessageBox(检查图像是否正常);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="MessageBox(按speaker的方向键，检查摄像头是否转动);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="DisplayPicture(resetcamera.bmp);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.DisplayPicture" Enable="True">
+      <DisplayPicture id="Type">
+        <DisplayPictureDirVal id="Mode(0)" />
+      </DisplayPicture>
+    </Test>
+    <Test id="MessageBox(点按1键，摄像头会归位);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,testxu,write,0x0a,0x08);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="run(backtodefault.BAT); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=Sync;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=UltimateScpiCmd.out;         " />
+        <InputFile id="InputFile=UltimateScpiCmd.in;            " />
+        <Name id="Name=backtodefault;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0xde,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="VerifyRegister(lvreg,eeprom,write,0xdf,0x00);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.VerifyREGTest" Enable="True">
+      <VerifyRegisterCommand id="Limit(NULL);" />
+      <TestName id="VerifyRegister" />
+    </Test>
+    <Test id="MessageBox(按Mic_1鈕 紅燈是否亮滅變化?);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="MessageBox(主機紅燈是否無暗塊?);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="MessageBox(按Mic_2鈕 紅燈是否亮滅變化?主機紅燈是否無暗塊?);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="MessageBox(按主機綠色通話鍵  主機藍燈是否無暗塊?);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <Test id="MessageBox(外接麦克风藍燈是否正常?);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.kMessageBoxTest" Enable="True">
+      <Message id="Type">
+        <MassageVal id="YESNO" />
+      </Message>
+    </Test>
+    <SCRIPT_COMMENT id="//Test Tracking" />
+    <Test id="run(TesttrackUIDCPASS.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=false;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=false;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=false;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=false;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=NORMAL;    //Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=null;          //Output" />
+        <InputFile id="InputFile=null;              //Input" />
+        <Name id="Name=Set TesTracking;                //This is the name of the module" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;" />
+      </Module_Properties>
+    </Test>
+    <Test id="Sleep(1000);" Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.SleepEx" Enable="True">
+      <SLEEP id="Mode(ms)" />
+    </Test>
+    <Test id="run(TesttrackUIDCPost_Retry.bat); " Assembly="..\TestModules\OtherTests\TestModules.dll" Type="SystemTests.TestModules.KSystemCmd" Enable="True">
+      <Memmory_Properties id="Memmory_Properties">
+        <TrackMemoryUsage id="TrackMemoryUsage=true;  //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=1000;        //This is the memory usage in bytes" />
+        <ThresholdAction id="ThresholdAction=Warn;   //Warn,Logfile" />
+        <LogMemoryUsage id="LogMemoryUsage=true;    //This will log the memory usage over time" />
+        <SCRIPT_COMMENT id="// " />
+      </Memmory_Properties>
+      <CPU_Properties id="CPU_Properties">
+        <TrackCPUUsage id="TrackCPUUsage=true;       //Enable or Disable This Feature" />
+        <UpperLimit id="UpperLimit=50%;           //This is the CPU usage in percent" />
+        <ThresholdAction id="ThresholdAction=Warn;     //Warn,Logfile" />
+        <LogCPUUsage id="LogCPUUsage=true;         //This will log the memory usage over time" />
+        <Threading id="Threading=SYNC;          //NOT SUPPORTED YET Async or Blocking" />
+        <ThreadPriority id="ThreadPriority=Normal;    //NOT SUPPORTED YET Normal,High,Low" />
+        <SCRIPT_COMMENT id="// " />
+        <ShellExecute id="ShellExecute=true;" />
+      </CPU_Properties>
+      <Module_Properties id="Module_Properties">
+        <OutputFile id="OutputFile=;" />
+        <InputFile id="InputFile=;" />
+        <Name id="Name=PostTestTrack;" />
+        <ExitCode id="ExitCode=0;" />
+        <CycleCounter id="CycleCounter=Counter.txt;     //Output" />
+        <ModuleType id="ModuleType=SIMPLIFIED;                //EXTENDED or SIMPLIFIED This is the module type" />
+      </Module_Properties>
+    </Test>
+  </TestEngine>
+</KineticTestPlan>

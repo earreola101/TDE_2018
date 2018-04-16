@@ -1,0 +1,15 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+Header="AC(L),AC(R),H(0)freq(L),H(0)amp(L),H(0)freq(R),H(0)amp(R),freqPeak(L),powerPeak(L),freqPeak(R),powerPeak(R),"
+LowLimit=-100.00,-100.00,0.00,-100.00,0.00,-100.00,400.00,-100.00,400.00,-100.00,
+Value=-35.52,-35.52,499.95,-35.19,499.95,-35.19,500.00,-35.95,500.00,-35.95,
+HighLimit=0.00,0.00,1000.00,0.00,1000.00,0.00,1000.00,0.00,1000.00,0.00,
+TestLimits="C:\Users\tsoperator\Desktop\COMBINED_UTESTS\testlimit_WideMotorNoiseFiltered.txt"
+PCMFileIn="C:\Users\tsoperator\Desktop\COMBINED_UTESTS\RecordedWide10s_Filtered.wav"
+TestSettings=(null)
+LogFile="C:\Users\tsoperator\Desktop\COMBINED_UTESTS\datalog_RecordedWide10sFiltered.csv"
+Window length=80000
+Data offset=0
+FFT size=131072

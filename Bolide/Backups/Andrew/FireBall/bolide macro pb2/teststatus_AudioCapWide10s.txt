@@ -1,0 +1,8 @@
+[Outputs]
+Status=0
+ReturnCode=0
+Message="Operation successful."
+LogFile=(null)
+TestSettings=(null)
+SourceSource=(null)
+PCMFileOut="D:\Colossus\PB3\Marco\New folder\COMBINED_UTESTS_noise_macro\RecordedWide10s.wav"
