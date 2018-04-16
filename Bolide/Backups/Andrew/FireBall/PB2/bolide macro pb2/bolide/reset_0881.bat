@@ -1,0 +1,57 @@
+rem serial number, 4 bytes reserved
+lvreg eeprom write 0b 00
+lvreg eeprom write 0c 00
+lvreg eeprom write 0d 00
+lvreg eeprom write 0e 00
+pause
+rem test log, 46 bytes
+lvreg eeprom write 4f 00
+lvreg eeprom write 50 00
+lvreg eeprom write 51 00
+lvreg eeprom write 52 00
+lvreg eeprom write 53 00
+lvreg eeprom write 54 00
+lvreg eeprom write 55 00
+lvreg eeprom write 56 00
+lvreg eeprom write 57 00
+lvreg eeprom write 58 00
+lvreg eeprom write 59 00
+lvreg eeprom write 5a 00
+lvreg eeprom write 5b 00
+lvreg eeprom write 5c 00
+lvreg eeprom write 5d 00
+lvreg eeprom write 5e 00
+lvreg eeprom write 5f 00
+lvreg eeprom write 60 00
+lvreg eeprom write 61 00
+lvreg eeprom write 62 00
+lvreg eeprom write 63 00
+lvreg eeprom write 64 00
+lvreg eeprom write 65 00
+lvreg eeprom write 66 00
+lvreg eeprom write 67 00
+lvreg eeprom write 68 00
+lvreg eeprom write 69 00
+lvreg eeprom write 6a 00
+lvreg eeprom write 6b 00
+lvreg eeprom write 6c 00
+lvreg eeprom write 6d 00
+lvreg eeprom write 6e 00
+lvreg eeprom write 6f 00
+lvreg eeprom write 70 00
+lvreg eeprom write 71 00
+lvreg eeprom write 72 00
+lvreg eeprom write 73 00
+lvreg eeprom write 74 00
+lvreg eeprom write 75 00
+lvreg eeprom write 76 00
+lvreg eeprom write 77 00
+lvreg eeprom write 78 00
+lvreg eeprom write 79 00
+lvreg eeprom write 7a 00
+lvreg eeprom write 7b 00
+lvreg eeprom write 7c 00
+rem BOM version, 2 bytes reserved
+lvreg eeprom write 8c 00
+lvreg eeprom write 8d 00
+pause
