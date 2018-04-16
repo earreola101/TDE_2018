@@ -1,6 +1,0 @@
-Speakers (6- USB Audio CODEC ),8bb,29b0
-Default DirectSound Device,N/A,N/A
-Default WaveOut Device,N/A,N/A
-DirectSound: Speakers (6- USB Audio CODEC ),N/A,N/A
-DirectSound: Speakers (High Definition Audio Device),N/A,N/A
-Speakers (High Definition Audio,N/A,N/A
