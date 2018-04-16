@@ -1,0 +1,1842 @@
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 05:58:48,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,B17F554E682802FE29DDFD450E592A38,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,Current,,Current,,Backlash(1),Backlash(2),Backlash(3),Variation, VarResultSummary,Backlash(1),Backlash(2),Backlash(3),variation, VarResultSummary,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,TEST_TRACKING:ERRORCODE,TEST_TRACKING:SERIAL,,
+,Upper_Limit,,,,,,,,,,,5.45,,5.45, ,,20,17,17,4,17,8,4,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,, ,,
+,Lower_Limit,,,,,,,,,,,-0.1,,-0.1,,,-1,-1,-1,0,-1,-1,-1,-1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+,Target_Limit,,,,,,,,,,,0.12,,0.12, ,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,, ,,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 06:01:03,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,C91BFA8318C84632CA16BD16797717E1,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,Current,,Current,,Backlash(1),Backlash(2),Backlash(3),Variation, VarResultSummary,Backlash(1),Backlash(2),Backlash(3),variation, VarResultSummary,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,TEST_TRACKING:ERRORCODE,TEST_TRACKING:SERIAL,,
+,Upper_Limit,,,,,,,,,,,5.45,,5.45, ,,20,17,17,4,17,8,4,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,, ,,
+,Lower_Limit,,,,,,,,,,,-0.1,,-0.1,,,-1,-1,-1,0,-1,-1,-1,-1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+,Target_Limit,,,,,,,,,,,0.12,,0.12, ,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,, ,,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 07:13:09,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,D67397E3A472654C069674FF95BDC5A4,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[1]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],7:13:26 ,46.2264556,3,0x00,0x00,,,,,
+1,F,->Seq[2]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],8:20:18 ,45.2977144,3,0x00,0x00,,,,,
+2,F,->Seq[3]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:05:35 ,45.914442,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 09:08:04,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,B139DF2A366E14CC8DD1CA72F70ED765,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[4]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:08:05 ,46.1121746,3,0x00,0x00,,,,,
+1,F,->Seq[5]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:09:47 ,46.0917449,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 09:11:52,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,285359A86DDA3E01B2EA8F017D9612AE,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[6]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:11:53 ,45.469294,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 09:15:31,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,B3279CCC7834D1F5420ECA7E0F6BD50C,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[7]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:15:32 ,46.9570225,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-22 09:17:23,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,B506E0B98A55E70E07A7D780496E26AE,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[8]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:17:24 ,46.7324637,3,0x00,0x00,,,,,
+1,F,->Seq[9]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:24:21 ,2.7475434,3,0x00,0x00,,,,,
+2,F,->Seq[10]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],9:24:26 ,2.7463656,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 04:50:02,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,CDE557D737CAD4969B3A3FC8237D8548,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[11]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],4:50:03 ,65.3877604,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 05:06:15,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,311031FACC332D84569384441D10A1EE,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 05:09:57,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,311031FACC332D84569384441D10A1EE,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 05:55:14,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,311031FACC332D84569384441D10A1EE,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:03:14,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,5D5D1558A89B6300C4DD41E3569DF081,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:04:02,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,5D5D1558A89B6300C4DD41E3569DF081,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[14]ID[WINDOWS-06NUO3I]tstsum[1/4 P 25.00% F 75.00%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:04:03,47.0652477,3,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:05:40,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E830702D020FA57C602918AE67097C8D,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:07:38,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,13508AD3E53DE6300453FFD56E1B0B97,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:08:54,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,13508AD3E53DE6300453FFD56E1B0B97,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:10:20,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E724A612088827BD9111FF1867037FD9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:11:05,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E724A612088827BD9111FF1867037FD9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,,,6:11:07,50.6292036,0,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:12:04,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E724A612088827BD9111FF1867037FD9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:12:59,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,014B0BE8CC5B1D07CFAE873BF5057305,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:32:33,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,0709801A17AA4AFDBD557925055DD94E,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:35:17,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,0709801A17AA4AFDBD557925055DD94E,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:35:38,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E6BE7F21317E6A77DC746CC016AE8DF6,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[18]ID[WINDOWS-06NUO3I]tstsum[7/10 P 70.0% F 30.0%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:35:39,22.5114056,3,0x00,0x00,,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:36:58,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,5B8F0587E6C254BB231D26D708289BC5,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[19]ID[WINDOWS-06NUO3I]tstsum[7/10 P 70.0% F 30.0%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:36:59,22.8368453,3,0x00,0x00,,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:40:10,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,1509922D9BF54F664706E14FD563B0E5,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[20]ID[WINDOWS-06NUO3I]tstsum[7/10 P 70.0% F 30.0%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:40:11,23.2113944,3,0x00,0x00,,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:45:51,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,266D1829F163C42E31309B125BF7EC91,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:48:42,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,827D36404F18D7B9FE09ED336EF24967,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:51:43,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,71DF64880F4633E90E66C667B7562ECF,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:53:13,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E4071111119A3CEB03DD1E77FE9CD109,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[24]ID[WINDOWS-06NUO3I]tstsum[6/9 P 66.67% F 33.33%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:53:14,85.8057022,3,0x00,0x00,,,,,,,
+1,F,->Seq[25]ID[WINDOWS-06NUO3I]tstsum[6/9 P 66.67% F 33.33%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:55:45,65.2562249,3,0x00,0x00,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 06:58:32,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,8E7B849DD65CF4BB27818710AB5BC64E,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[26]ID[WINDOWS-06NUO3I]tstsum[7/9 P 77.78% F 22.22%]<-F#[2][[I]4.5x ZOOM[POWEROFF5]POWER OFF],6:58:33,69.6333316,2,0x00,0x00,,,,,,00:00:19.5716461,0,0,,,0,0,046D,0881,0,0,38.9,0,38.9,48,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:00:44,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,4D9A8DEC6A233F620EDB0CE4F71566E2,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[27]ID[WINDOWS-06NUO3I]tstsum[6/9 P 66.67% F 33.33%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],7:00:46,69.8968339,3,0x00,0x00,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:09:31,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9CD70917082FF2B25452CF02AE15F622,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[28]ID[WINDOWS-06NUO3I]tstsum[6/9 P 66.67% F 33.33%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],7:09:32,68.5979285,3,0x00,0x00,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:11:18,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,69140EC2D1BD1E323812FC139051623F,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[29]ID[WINDOWS-06NUO3I]tstsum[6/9 P 66.67% F 33.33%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],7:11:19,68.4829076,3,0x00,0x00,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:13:17,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,D74EDAB4D4547FB6BD32F5B8860E3105,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[30]ID[WINDOWS-06NUO3I]tstsum[6/9 P 66.67% F 33.33%]<-F#[3][[F]1.0x ZOOM[I]4.5x ZOOM[POWEROFF5]POWER OFF],7:13:18,69.2666577,3,0x00,0x00,,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:16:49,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,EA7FDCA3750CCA70B2B7438F2B66CED9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:18:38,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,EA7FDCA3750CCA70B2B7438F2B66CED9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:19:42,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E237F8CBB1449180D1C2088E05E4ABAB,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[32]ID[WINDOWS-06NUO3I]tstsum[8/9 P 88.89% F 11.11%]<-F#[1][[POWEROFF5]POWER OFF],7:19:43,71.4040901,1,0x00,0x00,,,,,,00:00:19.4432361,0,0,,,0,0,046D,0881,0,0,38.7,0,38.7,49,00:00:26.5873993,0,0,,,0,0,046D,0881,0,0,95.8,0,95.8,46,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:21:47,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,FC1EC7518C4D1D27263F3763EF837953,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+0,F,->Seq[33]ID[WINDOWS-06NUO3I]tstsum[8/9 P 88.89% F 11.11%]<-F#[1][[POWEROFF5]POWER OFF],7:21:48,69.6421376,1,0x00,0x00,,,,,,00:00:19.3817021,0,0,,,0,0,046D,0881,0,0,32.9,0,32.9,49,00:00:24.6762658,0,0,,,0,0,046D,0881,0,0,94.8,0,94.8,44,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:24:07,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,743F05307A909AFF3663933313A84B40,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[34]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:24:07,69.1665806,0,0x00,0x00,,,,,,00:00:19.5767798,0,0,,,0,0,046D,0881,0,0,35.9,0,35.9,50,00:00:24.7077202,0,0,,,0,0,046D,0881,0,0,94.5,0,94.5,47,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:26:57,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,7A5D9859C0AAE5817E8A69681CE5A262,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[35]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:26:58,68.2627346,0,0x00,0x00,,,,,,00:00:19.4284416,0,0,,,0,0,046D,0881,0,0,36.7,0,36.7,42,00:00:24.8093687,0,0,,,0,0,046D,0881,0,0,34.2,0,34.2,45,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:28:45,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,713829DE3A2267774612D87C72D821B0,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:29:41,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,713829DE3A2267774612D87C72D821B0,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:30:19,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,06B3F5F8188D8AA6DB5C8D135D6C17DA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[37]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:30:20,68.8985728,0,0x00,0x00,,,,,,00:00:19.4466719,0,0,,,0,0,046D,0881,0,0,31.7,0,31.7,49,00:00:24.8784808,0,0,,,0,0,046D,0881,0,0,95,0,95,47,
+1,F,->Seq[38]ID[WINDOWS-06NUO3I]tstsum[6/8 P 75.00% F 25.00%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],7:32:10,42.6723749,2,0x00,0x00,,,,,,
+2,F,->Seq[39]ID[WINDOWS-06NUO3I]tstsum[6/8 P 75.00% F 25.00%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],7:33:05,24.4742363,2,0x00,0x00,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:36:29,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,21D928110A42299E57749A60052150A3,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[40]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:36:30,68.7475951,0,0x00,0x00,,,,,,00:00:19.3737091,0,0,,,0,0,046D,0881,0,0,39.5,0,39.5,49,00:00:24.6793155,0,0,,,0,0,046D,0881,0,0,96.1,0,96.1,48,
+1,P,->Seq[41]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:37:58,68.9292565,0,0x00,0x00,,,,,,00:00:19.3627134,0,0,,,0,0,046D,0881,0,0,35.3,0,35.3,49,00:00:25.1180483,0,0,,,0,0,046D,0881,0,0,95.4,0,95.4,43,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:39:27,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,83E265BB423D83C41D21A91341BA1E12,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[42]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:39:28,69.1384585,0,0x00,0x00,,,,,,00:00:19.3885358,0,0,,,0,0,046D,0881,0,0,34.1,0,34.1,50,00:00:24.9451639,0,0,,,0,0,046D,0881,0,0,94.7,0,94.7,47,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:41:06,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,15CFD9EB11C865A17C762F302C059F6B,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:41:57,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,15CFD9EB11C865A17C762F302C059F6B,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-23 07:42:34,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,105F8F5E7982F8E42F8C338FB02EFA2A,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[44]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],7:42:35,68.9214716,0,0x00,0x00,,,,,,00:00:19.4524384,0,0,,,0,0,046D,0881,0,0,81.3,0,81.3,49,00:00:24.8551254,0,0,,,0,0,046D,0881,0,0,91.7,0,91.7,6,
+1,P,->Seq[45]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],8:18:03,68.3523153,0,0x00,0x00,,,,,,00:00:19.3810980,0,0,,,0,0,046D,0881,0,0,33.1,0,33.1,49,00:00:24.6221532,0,0,,,0,0,046D,0881,0,0,93.9,0,93.9,44,
+2,F,->Seq[46]ID[WINDOWS-06NUO3I]tstsum[7/8 P 87.50% F 12.50%]<-F#[1][[I]4.5x ZOOM],9:08:06,68.385474,1,0x00,0x00,,,,,,00:00:19.3768590,0,0,,,0,0,046D,0881,0,0,61.3,0,61.3,49,
+3,P,->Seq[47]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],9:09:28,68.4629135,0,0x00,0x00,,,,,,00:00:19.3816508,0,0,,,0,0,046D,0881,0,0,36,0,36,49,00:00:24.8437080,0,0,,,0,0,046D,0881,0,0,94,0,94,41,
+4,P,->Seq[48]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],0:19:58,68.482131,0,0x00,0x00,,,,,,00:00:19.3992749,0,0,,,0,0,046D,0881,0,0,94.5,0,94.5,49,00:00:24.8080857,0,0,,,0,0,046D,0881,0,0,84.5,0,84.5,48,
+5,P,->Seq[49]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],0:34:28,68.4836078,0,0x00,0x00,,,,,,00:00:19.3793733,0,0,,,0,0,046D,0881,0,0,51.5,0,51.5,49,00:00:24.8465831,0,0,,,0,0,046D,0881,0,0,86.4,0,86.4,48,
+6,F,->Seq[50]ID[WINDOWS-06NUO3I]tstsum[7/8 P 87.50% F 12.50%]<-F#[1][[F]1.0x ZOOM],0:46:20,68.2653333,1,0x00,0x00,,,,,,00:00:24.6578824,0,0,,,0,0,046D,0881,0,0,81.1,0,81.1,48,
+7,P,->Seq[51]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],0:48:41,68.4517707,0,0x00,0x00,,,,,,00:00:19.3906451,0,0,,,0,0,046D,0881,0,0,33.1,0,33.1,9,00:00:24.8084085,0,0,,,0,0,046D,0881,0,0,92.3,0,92.3,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 01:02:43,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,639707D95A5604F138AA5D2F969FE177,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 01:03:40,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,639707D95A5604F138AA5D2F969FE177,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 01:04:36,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,639707D95A5604F138AA5D2F969FE177,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 01:07:30,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9B1B3FBDF1EEAFDAAFC029C4350663DA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 01:08:46,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9B1B3FBDF1EEAFDAAFC029C4350663DA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[56]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],1:08:47,69.4564644,0,0x00,0x00,,,,,00:00:19.4266151,0,0,,,0,0,046D,0881,0,0,92.3,0,92.3,49,00:00:25.0024685,0,0,,,0,0,046D,0881,0,0,95.6,0,95.6,47,
+1,P,->Seq[57]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],2:03:55,77.0370298,0,0x00,0x00,,,,,00:00:19.3672201,0,0,,,0,0,046D,0881,0,0,61.9,0,61.9,49,00:00:25.0004272,0,0,,,0,0,046D,0881,0,0,86.9,0,86.9,48,
+2,F,->Seq[58]ID[WINDOWS-06NUO3I]tstsum[7/8 P 87.50% F 12.50%]<-F#[1][[I]4.5x ZOOM],2:05:54,73.4250196,1,0x00,0x00,,,,,00:00:19.3531772,0,0,,,0,0,046D,0881,0,0,100.5,0,100.5,46,
+3,F,->Seq[59]ID[WINDOWS-06NUO3I]tstsum[7/8 P 87.50% F 12.50%]<-F#[1][[I]4.5x ZOOM],2:07:26,69.1668551,1,0x00,0x00,,,,,00:00:19.3584493,0,0,,,0,0,046D,0881,0,0,94.4,0,94.4,49,
+4,P,->Seq[60]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],2:09:03,72.200326,0,0x00,0x00,,,,,00:00:19.3601908,0,0,,,0,0,046D,0881,0,0,112.9,0,112.9,46,00:00:25.0390541,0,0,,,0,0,046D,0881,0,0,93.6,0,93.6,46,
+5,P,->Seq[61]ID[WINDOWS-06NUO3I]tstsum[8/8 P 100% F 0%]<-F#[0][],3:17:18,70.6038397,0,0x00,0x00,,,,,00:00:19.3612014,0,0,,,0,0,046D,0881,0,0,98.1,0,98.1,49,00:00:25.0161216,0,0,,,0,0,046D,0881,0,0,96.1,0,96.1,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 03:21:04,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,94D2D584A0C1D9FC731EF23F0E71B55B,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[62]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],3:29:35,67.1751955,0,0x00,0x00,,,,,00:00:19.3845574,0,0,,,0,0,046D,0881,0,0,37.5,0,37.5,49,00:00:24.8597292,0,0,,,0,0,046D,0881,0,0,40.4,0,40.4,48,
+1,P,->Seq[63]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],3:40:25,67.1864877,0,0x00,0x00,,,,,00:00:19.3873956,0,0,,,0,0,046D,0881,0,0,62.1,0,62.1,49,00:00:24.8364082,0,0,,,0,0,046D,0881,0,0,95,0,95,44,
+2,F,->Seq[64]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],3:53:06,23.1328453,2,0x00,0x00,,,,,
+3,F,->Seq[65]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],3:54:54,23.0393725,2,0x00,0x00,,,,,
+4,F,->Seq[66]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],3:55:26,23.0546765,2,0x00,0x00,,,,,
+5,P,->Seq[67]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],3:56:31,67.1106635,0,0x00,0x00,,,,,00:00:19.3727764,0,0,,,0,0,046D,0881,0,0,94.4,0,94.4,49,00:00:24.8507757,0,0,,,0,0,046D,0881,0,0,42.4,0,42.4,48,
+6,P,->Seq[68]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:25:36,67.0998835,0,0x00,0x00,,,,,00:00:19.3771360,0,0,,,0,0,046D,0881,0,0,116.1,0,116.1,49,00:00:24.8588627,0,0,,,0,0,046D,0881,0,0,37.8,0,37.8,48,
+7,F,->Seq[69]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],4:30:21,23.0704222,2,0x00,0x00,,,,,
+8,F,->Seq[70]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],4:30:55,23.0393914,2,0x00,0x00,,,,,
+9,F,->Seq[71]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],4:32:34,23.0859472,2,0x00,0x00,,,,,
+10,F,->Seq[72]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],4:34:03,23.0392597,2,0x00,0x00,,,,,
+11,P,->Seq[73]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:38:47,67.0872682,0,0x00,0x00,,,,,00:00:19.3208668,0,0,,,0,0,046D,0881,0,0,34.3,0,34.3,50,00:00:24.8662488,0,0,,,0,0,046D,0881,0,0,94.7,0,94.7,47,
+12,P,->Seq[74]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:43:17,67.1929578,0,0x00,0x00,,,,,00:00:19.3947926,0,0,,,0,0,046D,0881,0,0,74.4,0,74.4,49,00:00:24.8515647,0,0,,,0,0,046D,0881,0,0,96.5,0,96.5,47,
+13,P,->Seq[75]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:00:47,67.182731,0,0x00,0x00,,,,,00:00:19.3739666,0,0,,,0,0,046D,0881,0,0,98.1,0,98.1,49,00:00:24.8471018,0,0,,,0,0,046D,0881,0,0,40.2,0,40.2,47,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-24 06:02:17,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,67010B71EFEC701C8931D9CBAF546617,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[76]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[F]1.0x ZOOM],6:02:18,67.1227597,1,0x00,0x00,,,,,00:00:24.6801539,0,0,,,0,0,046D,0881,0,0,79.7,0,79.7,32,
+1,P,->Seq[77]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:24:48,67.271361,0,0x00,0x00,,,,,00:00:19.3893296,0,0,,,0,0,046D,0881,0,0,76.1,0,76.1,49,00:00:24.8767211,0,0,,,0,0,046D,0881,0,0,96.6,0,96.6,48,
+2,P,->Seq[78]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:27:52,67.1608883,0,0x00,0x00,,,,,00:00:19.3881008,0,0,,,0,0,046D,0881,0,0,33.5,0,33.5,50,00:00:24.6848097,0,0,,,0,0,046D,0881,0,0,78.9,0,78.9,48,
+3,P,->Seq[79]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:32:27,67.3388523,0,0x00,0x00,,,,,00:00:19.3750724,0,0,,,0,0,046D,0881,0,0,110.2,0,110.2,49,00:00:24.9124513,0,0,,,0,0,046D,0881,0,0,95.2,0,95.2,45,
+4,P,->Seq[80]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:59:35,67.2962124,0,0x00,0x00,,,,,00:00:19.3709627,0,0,,,0,0,046D,0881,0,0,45.8,0,45.8,49,00:00:24.9220670,0,0,,,0,0,046D,0881,0,0,96.2,0,96.2,44,
+5,P,->Seq[81]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],8:40:25,67.3599605,0,0x00,0x00,,,,,00:00:19.3946173,0,0,,,0,0,046D,0881,0,0,41.2,0,41.2,49,00:00:24.9256386,0,0,,,0,0,046D,0881,0,0,95.2,0,95.2,47,
+6,P,->Seq[82]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],9:04:48,67.2452051,0,0x00,0x00,,,,,00:00:19.3685139,0,0,,,0,0,046D,0881,0,0,30.8,0,30.8,48,00:00:24.8825714,0,0,,,0,0,046D,0881,0,0,95.3,0,95.3,44,
+7,F,->Seq[83]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[F]1.0x ZOOM[I]4.5x ZOOM],9:38:42,23.1483654,2,0x00,0x00,,,,,
+8,P,->Seq[84]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],9:39:12,67.2573703,0,0x00,0x00,,,,,00:00:19.3765465,0,0,,,0,0,046D,0881,0,0,55.5,0,55.5,49,00:00:24.9105238,0,0,,,0,0,046D,0881,0,0,91.7,0,91.7,47,
+9,P,->Seq[85]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],9:47:36,67.2290247,0,0x00,0x00,,,,,00:00:19.3775351,0,0,,,0,0,046D,0881,0,0,31.5,0,31.5,49,00:00:24.8888613,0,0,,,0,0,046D,0881,0,0,92.9,0,92.9,47,
+10,P,->Seq[86]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],23:53:45,67.3117182,0,0x00,0x00,,,,,00:00:19.3620855,0,0,,,0,0,046D,0881,0,0,64.7,0,64.7,49,00:00:24.9188259,0,0,,,0,0,046D,0881,0,0,94.2,0,94.2,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 06:14:16,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,A68A9E3EA30443466A26EB30EE051BA2,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[87]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:31:59,23.3511832,2,0x00,0x00,,,,,
+1,F,->Seq[88]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:32:38,67.3246411,2,0x00,0x00,,,,,
+2,F,->Seq[89]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:34:37,67.3369473,2,0x00,0x00,,,,,
+3,F,->Seq[90]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:35:47,67.3687458,2,0x00,0x00,,,,,
+4,F,->Seq[91]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:37:49,67.5692478,2,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 06:50:12,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,F0EFE3E73699264298484F64CC5AC6A8,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 06:51:11,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,A68A9E3EA30443466A26EB30EE051BA2,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[93]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:51:15,67.2312045,2,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 06:53:38,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,E5A6FEEC6F3917CC26C93431176EA834,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[94]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],6:53:39,67.1858713,2,0x00,0x00,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 06:58:17,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,74DA30D891E4ADF938B5ADA3A981628D,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[95]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[F]1.0x ZOOM],6:58:39,53.0558917,1,0x00,0x00,,,,00:00:24.6815247,0,0,,,0,0,046D,0881,0,0,31.3,0,31.3,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:00:13,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,280E8BBA521EA7DAE95CC046E943BD83,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[96]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],7:00:13,53.1356595,1,0x00,0x00,,,,00:00:19.0952460,0,0,,,0,0,046D,0881,0,0,60.3,0,60.3,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:05:26,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,953FA9B3D604452B3823E0CC0F30E316,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[97]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],7:05:27,53.4286042,1,0x00,0x00,,,,00:00:19.1302751,0,0,,,0,0,046D,0881,0,0,55.6,0,55.6,42,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:10:07,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,36092A41FF3500732B7717C5AE095EB1,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[98]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],7:10:08,53.2597838,1,0x00,0x00,,,,00:00:19.1550924,0,0,,,0,0,046D,0881,0,0,53.5,0,53.5,43,
+1,F,->Seq[99]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],7:11:14,54.5186888,1,0x00,0x00,,,,00:00:20.3897723,0,0,,,0,0,046D,0881,0,0,53.4,0,53.4,42,
+2,F,->Seq[100]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],7:13:04,53.4294086,1,0x00,0x00,,,,00:00:19.1238748,0,0,,,0,0,046D,0881,0,0,54.2,0,54.2,43,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:14:04,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9B1B3FBDF1EEAFDAAFC029C4350663DA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:14:15,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,F0EFE3E73699264298484F64CC5AC6A8,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation,
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:15:11,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,36092A41FF3500732B7717C5AE095EB1,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[102]ID[WINDOWS-06NUO3I]tstsum[3/3 P 100% F 0%]<-F#[0][],7:15:17,53.632346,0,0x00,0x00,,,,00:00:25.0785704,0,0,,,0,0,046D,0881,0,0,39.9,0,39.9,49,00:00:19.1791396,0,0,,,0,0,046D,0881,0,0,89.5,0,89.5,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-25 07:16:51,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,337018D3DA691CEE6F4F4A4C640316EA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[103]ID[WINDOWS-06NUO3I]tstsum[3/3 P 100% F 0%]<-F#[0][],7:16:52,53.2150238,0,0x00,0x00,,,,00:00:24.8547124,0,0,,,0,0,046D,0881,0,0,32.5,0,32.5,49,00:00:19.0030487,0,0,,,0,0,046D,0881,0,0,91,0,91,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-27 23:17:47,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,337018D3DA691CEE6F4F4A4C640316EA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[104]ID[WINDOWS-06NUO3I]tstsum[1/3 P 33.33% F 66.67%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],23:18:24,9.5016582,2,0x00,0x00,,,,
+1,F,->Seq[105]ID[WINDOWS-06NUO3I]tstsum[1/3 P 33.33% F 66.67%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],23:18:51,53.8304707,2,0x00,0x00,,,,
+2,F,->Seq[106]ID[WINDOWS-06NUO3I]tstsum[1/3 P 33.33% F 66.67%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],23:37:56,53.4739232,2,0x00,0x00,,,,
+3,F,->Seq[107]ID[WINDOWS-06NUO3I]tstsum[1/3 P 33.33% F 66.67%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],23:43:25,53.5270366,2,0x00,0x00,,,,
+4,F,->Seq[108]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],0:01:00,76.0466736,1,0x00,0x00,,,,00:00:19.1693412,0,0,,,0,0,046D,0881,0,0,51.4,0,51.4,49,
+5,F,->Seq[109]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],0:03:14,53.4992704,1,0x00,0x00,,,,00:00:19.1462060,0,0,,,0,0,046D,0881,0,0,54.4,0,54.4,49,
+6,F,->Seq[110]ID[WINDOWS-06NUO3I]tstsum[2/3 P 66.67% F 33.33%]<-F#[1][[I]4.5x ZOOM],0:04:34,53.6415577,1,0x00,0x00,,,,00:00:19.1585072,0,0,,,0,0,046D,0881,0,0,89,0,89,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:10:30,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,3247ABB11B514CF04683123B412ACA78,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,,,,,,
+,Upper_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,,,,,
+,Lower_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,,,,,
+,Target_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,,,,,
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:14:16,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9962F89CBF8EE1B22EDB9BC9F2C02FB0,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,
+,Upper_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, 
+,Lower_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, 
+,Target_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, 
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:20:54,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,13DCED6E9AF57CFA101E6004A9A6AED9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[111]ID[WINDOWS-06NUO3I]tstsum[3/4 P 75.00% F 25.00%]<-F#[1][[I]4.5x ZOOM],0:20:55,55.5054388,1,0x00,0x00,,,,PLEASE ENTER 3 NUMBERS,000,***,00:00:19.0342669,0,0,,,0,0,046D,0881,0,0,90.8,0,90.8,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:22:39,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,7821BEE06593030B7D22FB988E762B8E,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[112]ID[WINDOWS-06NUO3I]tstsum[4/4 P 100% F 0%]<-F#[0][],0:22:40,55.3907913,0,0x00,0x00,,,,PLEASE ENTER 3 NUMBERS,000,***,00:00:24.9046602,0,0,,,0,0,046D,0881,0,0,61.6,0,61.6,43,00:00:19.0706395,0,0,,,0,0,046D,0881,0,0,91.2,0,91.2,49,
+1,F,->Seq[113]ID[WINDOWS-06NUO3I]tstsum[3/4 P 75.00% F 25.00%]<-F#[1][[I]4.5x ZOOM],0:24:23,71.4970445,1,0x00,0x00,,,,PLEASE ENTER 3 NUMBERS,040,***,00:00:19.0108742,0,0,,,0,0,046D,0881,0,0,58.8,0,58.8,48,
+2,F,->Seq[114]ID[WINDOWS-06NUO3I]tstsum[3/4 P 75.00% F 25.00%]<-F#[1][[I]4.5x ZOOM],0:26:22,59.3038538,1,0x00,0x00,,,,PLEASE ENTER 3 NUMBERS,040,***,00:00:19.0126174,0,0,,,0,0,046D,0881,0,0,59.8,0,59.8,48,
+3,F,->Seq[115]ID[WINDOWS-06NUO3I]tstsum[3/4 P 75.00% F 25.00%]<-F#[1][[I]4.5x ZOOM],0:27:46,68.3779203,1,0x00,0x00,,,,PLEASE ENTER 3 NUMBERS,015,***,00:00:19.0213762,0,0,,,0,0,046D,0881,0,0,52.5,0,52.5,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:32:13,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,CA1582D796C34298B828B3D331EFFCFF,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:34:00,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,CA1582D796C34298B828B3D331EFFCFF,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[117]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],0:34:03,74.5047283,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,015,***,00:00:33.5008084,0,0,,,0,0,046D,0881,0,0,89,0,89,49,
+1,P,->Seq[118]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],0:35:43,61.0086798,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,015,***,00:00:25.1841126,0,0,,,0,0,046D,0881,0,0,40.8,0,40.8,46,00:00:19.1811114,0,0,,,0,0,046D,0881,0,0,42,0,42,33,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:38:25,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,CA1582D796C34298B828B3D331EFFCFF,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:40:27,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,CCDA883124A0D1CD4782BD91B6307B53,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:43:00,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,1FD3163CABD57C404C36DA20192B89AA,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 00:45:44,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,B51A1EBD687DA54A9737B45D53214064,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[122]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],0:45:45,61.3437096,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,040,***,00:00:25.2301385,0,0,,,0,0,046D,0881,0,0,37.1,0,37.1,48,00:00:19.1834420,0,0,,,0,0,046D,0881,0,0,60.3,0,60.3,47,
+1,P,->Seq[123]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],0:46:53,59.4067052,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,040,***,00:00:25.1611183,0,0,,,0,0,046D,0881,0,0,25.5,0,25.5,49,00:00:19.1892731,0,0,,,0,0,046D,0881,0,0,58.2,0,58.2,47,
+2,P,->Seq[124]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],0:48:55,92.2082711,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,034,***,00:00:25.1814298,0,0,,,0,0,046D,0881,0,0,52.4,0,52.4,45,00:00:19.2034487,0,0,,,0,0,046D,0881,0,0,60.7,0,60.7,33,
+3,F,->Seq[125]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],1:10:00,24.1780066,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,042,***,
+4,F,->Seq[126]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],1:12:03,18.4689023,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,042,***,
+5,P,->Seq[127]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],1:19:03,64.3041076,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,042,***,00:00:25.1691564,0,0,,,0,0,046D,0881,0,0,23.6,0,23.6,47,00:00:19.2209773,0,0,,,0,0,046D,0881,0,0,89.8,0,89.8,49,
+6,F,->Seq[128]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],1:20:25,18.2817953,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,029,***,
+7,P,->Seq[129]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],1:42:56,69.8197832,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,035,***,00:00:25.1736569,0,0,,,0,0,046D,0881,0,0,51.4,0,51.4,46,00:00:19.1852199,0,0,,,0,0,046D,0881,0,0,92,0,92,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 04:06:17,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9E79AA99DD7B3E433BE27AD92DB3F707,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[130]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:12:16,64.1143228,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,051,***,00:00:25.1933242,0,0,,,0,0,046D,0881,0,0,49.1,0,49.1,45,00:00:18.9838755,0,0,,,0,0,046D,0881,0,0,78.3,0,78.3,49,
+1,F,->Seq[131]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],4:15:24,67.1907805,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:18.9855563,0,0,,,0,0,046D,0881,0,0,74.3,0,74.3,48,
+2,F,->Seq[132]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],4:17:39,86.6736378,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:18.9909043,0,0,,,0,0,046D,0881,0,0,80.6,0,80.6,47,
+3,F,->Seq[133]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],4:19:59,64.8057671,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:18.9779099,0,0,,,0,0,046D,0881,0,0,85,0,85,48,
+4,P,->Seq[134]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:21:33,62.1629107,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,052,***,00:00:25.1922017,0,0,,,0,0,046D,0881,0,0,52.3,0,52.3,42,00:00:18.9851659,0,0,,,0,0,046D,0881,0,0,75.5,0,75.5,49,
+5,P,->Seq[135]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:37:46,83.8468783,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,045,***,00:00:25.1906658,0,0,,,0,0,046D,0881,0,0,20.8,0,20.8,48,00:00:19.0033273,0,0,,,0,0,046D,0881,0,0,44.9,0,44.9,37,
+6,P,->Seq[136]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:41:30,65.7433632,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,053,***,00:00:25.1901530,0,0,,,0,0,046D,0881,0,0,48,0,48,44,00:00:19.0247388,0,0,,,0,0,046D,0881,0,0,81.9,0,81.9,48,
+7,F,->Seq[137]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],4:43:58,59.8472725,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,046,***,00:00:18.9890976,0,0,,,0,0,046D,0881,0,0,74.3,0,74.3,49,
+8,F,->Seq[138]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],4:45:27,63.2650956,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,046,***,00:00:18.9986737,0,0,,,0,0,046D,0881,0,0,77,0,77,49,
+9,F,->Seq[139]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[F]1.0x ZOOM],4:46:39,66.0554564,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,046,***,00:00:25.1861347,0,0,,,0,0,046D,0881,0,0,23.8,0,23.8,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 04:53:04,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9E79AA99DD7B3E433BE27AD92DB3F707,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[140]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],4:53:05,79.2799111,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,046,***,00:00:25.2373080,0,0,,,0,0,046D,0881,0,0,22.1,0,22.1,49,00:00:19.1939579,0,0,,,0,0,046D,0881,0,0,85.8,0,85.8,49,
+1,F,->Seq[141]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],5:02:31,66.0112699,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,
+2,F,->Seq[142]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:03:51,61.1511171,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:19.1772158,0,0,,,0,0,046D,0881,0,0,85.7,0,85.7,49,
+3,F,->Seq[143]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:05:17,66.2733587,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:19.1692729,0,0,,,0,0,046D,0881,0,0,89.1,0,89.1,49,
+4,F,->Seq[144]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:06:32,64.0353242,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:19.1736371,0,0,,,0,0,046D,0881,0,0,96.9,0,96.9,48,
+5,F,->Seq[145]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:07:43,62.2085571,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:19.1883448,0,0,,,0,0,046D,0881,0,0,89.9,0,89.9,49,
+6,P,->Seq[146]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:09:09,69.4046441,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,048,***,00:00:25.1616775,0,0,,,0,0,046D,0881,0,0,59.2,0,59.2,46,00:00:19.1711689,0,0,,,0,0,046D,0881,0,0,97.8,0,97.8,49,
+7,F,->Seq[147]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],5:11:52,17.9542256,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:12:29,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9E79AA99DD7B3E433BE27AD92DB3F707,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[148]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],5:12:35,17.5657699,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,
+1,F,->Seq[149]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],5:13:17,22.9144682,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,
+2,F,->Seq[150]ID[WINDOWS-06NUO3I]tstsum[5/7 P 71.43% F 28.57%]<-F#[2][[I]4.5x ZOOM[F]1.0x ZOOM],5:14:20,17.2056412,2,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:16:41,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,A868EF34890C30B11FB1F88E8B04B279,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[152]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:16:42,60.7266665,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:19.1808770,0,0,,,0,0,046D,0881,0,0,84.8,0,84.8,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:18:48,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,98319CE2535885BB0133F5822E4215D3,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[153]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:18:50,60.1672724,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:25.0391261,0,0,,,0,0,046D,0881,0,0,25.4,0,25.4,48,00:00:18.8620175,0,0,,,0,0,046D,0881,0,0,89,0,89,49,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:21:36,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,70CB51216853D2A322D706B1C5EE0C42,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[154]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:21:37,59.8071326,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,049,***,00:00:25.0394090,0,0,,,0,0,046D,0881,0,0,30.9,0,30.9,48,00:00:18.8718743,0,0,,,0,0,046D,0881,0,0,87.2,0,87.2,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:23:14,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,9388EE38B43A62928757E4ECA75DA1E9,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:24:49,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,5CC73701F93664F65264C823F3ABBC72,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:26:00,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,8292D59FEB7F80B0F109E4D413467040,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:27:13,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,2ACE70C7787EDFB0719EAAC81F2FCD23,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:27:57,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,46BCFF0AB86C4D8A7FE3BF53D54317FB,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[158]ID[WINDOWS-06NUO3I]tstsum[3/4 P 75.00% F 25.00%]<-F#[1][[I]4.5x ZOOM],5:27:58,29.507639,1,0x00,0x00,,,,,,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:29:33,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,54BBE53366E45F4A0203676399E8DE26,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[159]ID[WINDOWS-06NUO3I]tstsum[4/4 P 100% F 0%]<-F#[0][],5:29:34,29.85525,0,0x00,0x00,,,,,,00:00:25.4020646,0,0,,,0,0,046D,0881,0,0,51,0,51,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:30:42,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,66118096D2B7AF08A90D8C01F65BD136,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[160]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:30:43,61.1349293,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,-49,***,00:00:25.3927482,0,0,,,0,0,046D,0881,0,0,34.1,0,34.1,48,00:00:19.1366364,0,0,,,0,0,046D,0881,0,0,47.2,0,47.2,49,
+1,F,->Seq[161]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:32:06,62.1091505,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:19.1004907,0,0,,,0,0,046D,0881,0,0,40.3,0,40.3,48,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:33:33,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,2D34598333277E61235BCBE4B17894AB,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,F,->Seq[162]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[I]4.5x ZOOM],5:33:34,65.2411237,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:19.1040088,0,0,,,0,0,046D,0881,0,0,47.1,0,47.1,44,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-28 05:35:21,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,122CD380B9FAB19BE3B8B00CFE718DFC,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,X86-based PC,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+0,P,->Seq[163]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:35:22,62.8919769,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:26.9851139,0,0,,,0,0,046D,0881,0,0,27.3,0,27.3,57,00:00:19.1298741,0,0,,,0,0,046D,0881,0,0,40.8,0,40.8,45,
+1,P,->Seq[164]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],5:37:29,64.1986668,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,006,***,00:00:26.9978702,0,0,,,0,0,046D,0881,0,0,24.5,0,24.5,55,00:00:19.1887408,0,0,,,0,0,046D,0881,0,0,49.3,0,49.3,45,
+2,P,->Seq[165]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:12:34,64.0848689,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,033,***,00:00:26.9857727,0,0,,,0,0,046D,0881,0,0,53.8,0,53.8,58,00:00:19.1196213,0,0,,,0,0,046D,0881,0,0,50.6,0,50.6,42,
+3,P,->Seq[166]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:24:04,64.0832082,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,007,***,00:00:26.9741454,0,0,,,0,0,046D,0881,0,0,88.6,0,88.6,55,00:00:19.1601494,0,0,,,0,0,046D,0881,0,0,49.8,0,49.8,48,
+4,P,->Seq[167]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:26:36,68.77336,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,032,***,00:00:26.9830519,0,0,,,0,0,046D,0881,0,0,33.8,0,33.8,53,00:00:19.1037738,0,0,,,0,0,046D,0881,0,0,40,0,40,43,
+5,P,->Seq[168]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:29:08,63.289166,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,015,***,00:00:26.9990255,0,0,,,0,0,046D,0881,0,0,90,0,90,58,00:00:19.1518816,0,0,,,0,0,046D,0881,0,0,38.5,0,38.5,45,
+6,P,->Seq[169]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:31:04,62.0747048,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,022,***,00:00:26.9944928,0,0,,,0,0,046D,0881,0,0,45,0,45,58,00:00:19.1402568,0,0,,,0,0,046D,0881,0,0,47.2,0,47.2,42,
+7,P,->Seq[170]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:43:32,63.7312444,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,025,***,00:00:27.0112012,0,0,,,0,0,046D,0881,0,0,91.5,0,91.5,58,00:00:19.1615090,0,0,,,0,0,046D,0881,0,0,45.1,0,45.1,42,
+8,P,->Seq[171]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],6:59:46,64.0838571,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,029,***,00:00:26.9928349,0,0,,,0,0,046D,0881,0,0,89.2,0,89.2,54,00:00:19.1518037,0,0,,,0,0,046D,0881,0,0,97.6,0,97.6,49,
+9,F,->Seq[172]ID[WINDOWS-06NUO3I]tstsum[6/7 P 85.71% F 14.29%]<-F#[1][[F]1.0x ZOOM],7:07:18,63.9195314,1,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,050,***,00:00:27.0061053,0,0,,,0,0,046D,0881,0,0,96.4,0,96.4,58,
+10,P,->Seq[173]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],7:08:29,65.38999,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,050,***,00:00:26.9954128,0,0,,,0,0,046D,0881,0,0,88.9,0,88.9,58,00:00:19.1390944,0,0,,,0,0,046D,0881,0,0,34,0,34,42,
+11,P,->Seq[174]ID[WINDOWS-06NUO3I]tstsum[7/7 P 100% F 0%]<-F#[0][],7:13:52,63.803025,0,0x00,0x00,,,,,,PLEASE ENTER 3 NUMBERS,001,***,00:00:26.9917405,0,0,,,0,0,046D,0881,0,0,81,0,81,57,00:00:19.1628000,0,0,,,0,0,046D,0881,0,0,46.6,0,46.6,44,
+,SPC_Version,2.0,
+,Time_Stamp,2017-11-30 05:00:18,
+,Model_Name,NA,
+,Test_Station,NA,
+,TP_Revision,1.0,
+,TP_Rev_Date,1.0,
+,TP_Rev_Owner,1.0,
+,TP_Checksum,122CD380B9FAB19BE3B8B00CFE718DFC,
+,TestApp_Version,100.0.1908.0,
+,Machine_Name,WINDOWS-06NUO3I,
+,Factroy_Line,,
+,PC_Config,,
+SeqNum,Status,Comment,Test_Start_Time,Test_Duration,Failed_Tests,Error_Codes,Fixture_ID,E_Serial_Num,BC_Serial_Num,BC_Serial_Num_Level,,,INPUT_BOX:INPUT_TITLE,INPUT_BOX:VALUE,INPUT_BOX:INPUT_CRITERIA,VCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocationVCM:totalsecs,VCM:failures,VCM:plugin,VCM:plugin current,VCM:Enum:current,VCM:DevInfo:current,VCM:DevInfo:speed,VCM:DevInfo:VID,VCM:DevInfo:PID,VCM:Preview+:Amp,VCM:pos,VCM:mtf,VCM:mA,VCM:PeakMTF,VCM:PeakLocation
+,Upper_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Lower_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Target_Limit,,,,,,,,,,,,PLEASE ENTER 3 NUMBERS,***, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
